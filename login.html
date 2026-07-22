@@ -13,6 +13,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Micr
 .header .icon{width:48px;height:48px;background:linear-gradient(135deg,#4f46e5,#7c3aed);border-radius:12px;display:inline-flex;align-items:center;justify-content:center;margin-bottom:12px}
 .header h1{font-size:24px;color:#1a1a2e;margin-bottom:6px;font-weight:700}
 .header .sub{font-size:13px;color:#8b8fa3}
+.tabs{display:flex;gap:0;margin-bottom:24px;background:#f3f4f6;border-radius:10px;padding:3px}
+.tab{flex:1;text-align:center;padding:10px;border-radius:8px;font-size:14px;font-weight:500;cursor:pointer;color:#6b7280;border:0;background:0;transition:.2s}
+.tab.active{background:#fff;color:#4f46e5;box-shadow:0 1px 3px rgba(0,0,0,.08)}
 .fg{margin-bottom:16px}
 .fg label{display:block;font-size:13px;color:#374151;margin-bottom:6px;font-weight:500}
 .fg input{width:100%;height:44px;padding:0 14px;border:1.5px solid #e5e7eb;border-radius:10px;font-size:14px;color:#1a1a2e;outline:0;background:#f9fafb;transition:.2s}
@@ -23,66 +26,116 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Micr
 .btn-primary{background:linear-gradient(135deg,#4f46e5,#7c3aed);color:#fff;margin-top:8px}
 .btn-primary:hover{transform:translateY(-1px);box-shadow:0 4px 15px rgba(79,70,229,.35)}
 .btn-primary:disabled{opacity:.6;cursor:not-allowed;transform:none;box-shadow:none}
-.btn-link{background:0;color:#4f46e5;font-size:13px;text-align:center;width:100%;margin-top:12px;cursor:pointer;border:0}
 .msg{display:none;padding:10px 14px;border-radius:8px;font-size:13px;margin-bottom:16px}
 .msg.err{background:#fef2f2;color:#dc2626}
 .msg.ok{background:#ecfdf5;color:#059669}
 .msg.show{display:block}
-.tip{text-align:center;margin-top:16px;font-size:12px;color:#8b8fa3}
 .spinner{display:inline-block;width:18px;height:18px;border:2px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:spin .6s linear infinite;vertical-align:middle;margin-right:8px}
 @keyframes spin{to{transform:rotate(360deg)}}
+.footer-links{display:flex;justify-content:center;gap:16px;margin-top:20px;padding-top:16px;border-top:1px solid #f3f4f6}
+.footer-links a{font-size:12px;color:#8b8fa3;text-decoration:none;transition:.2s}
+.footer-links a:hover{color:#4f46e5}
+.footer-links .admin-link{color:#f59e0b;font-weight:500}
+.footer-links .admin-link:hover{color:#d97706}
 </style>
 </head>
 <body>
 <div class="container">
-<div class="card" id="loginCard">
+<div class="card">
 <div class="header">
 <div class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707"/></svg></div>
 <h1>创品智造</h1>
-<p class="sub">AI创新产品开发系统 · 注册即登录</p>
+<p class="sub">AI创新产品开发系统</p>
 </div>
+
+<div class="tabs">
+<button class="tab active" onclick="switchMode('register')" id="tab-register">注册</button>
+<button class="tab" onclick="switchMode('login')" id="tab-login">登录</button>
+</div>
+
 <div id="msg" class="msg"></div>
-<form id="form">
-<div class="fg"><label>手机号</label><input type="tel" id="phone" placeholder="请输入手机号" maxlength="11" required/></div>
-<div class="fg"><label>用户名</label><input type="text" id="username" placeholder="请输入用户名" required/></div>
+
+<!-- Register Form -->
+<form id="form-register" style="display:block">
+<div class="fg"><label>手机号</label><input type="tel" id="r-phone" placeholder="请输入手机号" maxlength="11" required/></div>
+<div class="fg"><label>用户名</label><input type="text" id="r-username" placeholder="请输入用户名" required/></div>
 <div class="row">
-<div class="fg"><label>公司</label><input type="text" id="company" placeholder="公司名称"/></div>
-<div class="fg"><label>品类方向</label><input type="text" id="industry" placeholder="关注品类"/></div>
+<div class="fg"><label>公司</label><input type="text" id="r-company" placeholder="公司名称"/></div>
+<div class="fg"><label>品类方向</label><input type="text" id="r-industry" placeholder="关注品类"/></div>
 </div>
-<div class="fg"><label>密码</label><input type="password" id="password" placeholder="设置密码（至少6位）" minlength="6" required/></div>
-<button type="submit" class="btn btn-primary" id="submitBtn">注册并登录</button>
+<div class="fg"><label>密码</label><input type="password" id="r-password" placeholder="设置密码（至少6位）" minlength="6" required/></div>
+<button type="submit" class="btn btn-primary" id="regBtn">注册并登录</button>
 </form>
-<p class="tip">已注册用户输入手机号+密码即可登录<br>管理员账号：qaq / qaq881205</p>
+
+<!-- Login Form -->
+<form id="form-login" style="display:none">
+<div class="fg"><label>手机号</label><input type="tel" id="l-phone" placeholder="请输入手机号" maxlength="11" required/></div>
+<div class="fg"><label>用户名</label><input type="text" id="l-username" placeholder="请输入用户名" required/></div>
+<div class="fg"><label>密码</label><input type="password" id="l-password" placeholder="请输入密码" minlength="6" required/></div>
+<button type="submit" class="btn btn-primary" id="loginBtn">登录</button>
+</form>
+
+<div class="footer-links">
+<a href="/">返回首页</a>
+<a href="/admin" class="admin-link">管理后台入口</a>
+</div>
 </div>
 </div>
 <script>
-const API = '/api';
+let mode='register';
+const API='/api';
 
 function msg(t,c){const e=document.getElementById('msg');e.textContent=t;e.className='msg show '+c;setTimeout(()=>e.classList.remove('show'),5000)}
 
 async function sha256(s){const e=new TextEncoder().encode(s);const h=await crypto.subtle.digest('SHA-256',e);return Array.from(new Uint8Array(h)).map(b=>b.toString(16).padStart(2,'0')).join('')}
 
-document.getElementById('form').addEventListener('submit',async e=>{
+function switchMode(m){
+mode=m;
+document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
+document.getElementById('tab-'+m).classList.add('active');
+document.getElementById('form-register').style.display=m==='register'?'block':'none';
+document.getElementById('form-login').style.display=m==='login'?'block':'none';
+document.getElementById('msg').classList.remove('show');
+}
+
+document.getElementById('form-register').addEventListener('submit',async e=>{
 e.preventDefault();
-const p=document.getElementById('phone').value.trim();
-const u=document.getElementById('username').value.trim();
-const c=document.getElementById('company').value.trim();
-const i=document.getElementById('industry').value.trim();
-const pw=document.getElementById('password').value;
+const p=document.getElementById('r-phone').value.trim(),u=document.getElementById('r-username').value.trim();
+const c=document.getElementById('r-company').value.trim(),i=document.getElementById('r-industry').value.trim();
+const pw=document.getElementById('r-password').value;
 if(!p||!u||!pw)return msg('手机号、用户名和密码为必填项','err');
 if(!/^1[3-9]\d{9}$/.test(p))return msg('请输入有效的手机号','err');
-const btn=document.getElementById('submitBtn');
-btn.disabled=true;btn.innerHTML='<span class="spinner"></span>处理中...';
+const btn=document.getElementById('regBtn');
+btn.disabled=true;btn.innerHTML='<span class="spinner"></span>注册中...';
 try{
 const res=await fetch(API+'/auth',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({phone:p,username:u,company:c,industry:i,password:await sha256(pw)})});
 const d=await res.json();
-btn.disabled=false;btn.textContent='注册并登录';
+btn.disabled=false;btn.innerHTML='注册并登录';
 if(!res.ok||!d.success)return msg(d.error||'操作失败','err');
 localStorage.setItem('inno_token',d.token);
 localStorage.setItem('inno_user',JSON.stringify(d.user));
-msg(d.isNew?'注册成功！正在跳转...':'登录成功！正在跳转...','ok');
-setTimeout(()=>{if(d.user.phone==='qaq')location.href='/admin';else location.href='/';},800);
-}catch(err){btn.disabled=false;btn.textContent='注册并登录';msg('网络错误，请稍后重试','err')}
+msg('注册成功！正在跳转...','ok');
+setTimeout(()=>{location.href=d.user.phone==='qaq'?'/admin':'/';},800);
+}catch(err){btn.disabled=false;btn.innerHTML='注册并登录';msg('网络错误，请稍后重试','err')}
+});
+
+document.getElementById('form-login').addEventListener('submit',async e=>{
+e.preventDefault();
+const p=document.getElementById('l-phone').value.trim(),u=document.getElementById('l-username').value.trim();
+const pw=document.getElementById('l-password').value;
+if(!p||!u||!pw)return msg('手机号、用户名和密码为必填项','err');
+const btn=document.getElementById('loginBtn');
+btn.disabled=true;btn.innerHTML='<span class="spinner"></span>登录中...';
+try{
+const res=await fetch(API+'/auth',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({phone:p,username:u,password:await sha256(pw)})});
+const d=await res.json();
+btn.disabled=false;btn.innerHTML='登录';
+if(!res.ok||!d.success)return msg(d.error||'操作失败','err');
+localStorage.setItem('inno_token',d.token);
+localStorage.setItem('inno_user',JSON.stringify(d.user));
+msg('登录成功！正在跳转...','ok');
+setTimeout(()=>{location.href=d.user.phone==='qaq'?'/admin':'/';},800);
+}catch(err){btn.disabled=false;btn.innerHTML='登录';msg('网络错误，请稍后重试','err')}
 });
 </script>
 </body>
