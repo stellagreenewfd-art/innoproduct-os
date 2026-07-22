@@ -69,7 +69,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Micr
 
 <!-- Login Form -->
 <form id="form-login" style="display:none">
-<div class="fg"><label>手机号</label><input type="tel" id="l-phone" placeholder="请输入手机号" maxlength="11" required/></div>
 <div class="fg"><label>用户名</label><input type="text" id="l-username" placeholder="请输入用户名" required/></div>
 <div class="fg"><label>密码</label><input type="password" id="l-password" placeholder="请输入密码" minlength="6" required/></div>
 <button type="submit" class="btn btn-primary" id="loginBtn">登录</button>
@@ -115,26 +114,26 @@ if(!res.ok||!d.success)return msg(d.error||'操作失败','err');
 localStorage.setItem('inno_token',d.token);
 localStorage.setItem('inno_user',JSON.stringify(d.user));
 msg('注册成功！正在跳转...','ok');
-setTimeout(()=>{location.href=d.user.phone==='qaq'?'/admin':'/';},800);
+setTimeout(()=>{location.href=d.user.username==='qaq'?'/admin':'/';},800);
 }catch(err){btn.disabled=false;btn.innerHTML='注册并登录';msg('网络错误，请稍后重试','err')}
 });
 
 document.getElementById('form-login').addEventListener('submit',async e=>{
 e.preventDefault();
-const p=document.getElementById('l-phone').value.trim(),u=document.getElementById('l-username').value.trim();
+const u=document.getElementById('l-username').value.trim();
 const pw=document.getElementById('l-password').value;
-if(!p||!u||!pw)return msg('手机号、用户名和密码为必填项','err');
+if(!u||!pw)return msg('用户名和密码为必填项','err');
 const btn=document.getElementById('loginBtn');
 btn.disabled=true;btn.innerHTML='<span class="spinner"></span>登录中...';
 try{
-const res=await fetch(API+'/auth',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({phone:p,username:u,password:await sha256(pw)})});
+const res=await fetch(API+'/auth',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({username:u,password:await sha256(pw)})});
 const d=await res.json();
 btn.disabled=false;btn.innerHTML='登录';
 if(!res.ok||!d.success)return msg(d.error||'操作失败','err');
 localStorage.setItem('inno_token',d.token);
 localStorage.setItem('inno_user',JSON.stringify(d.user));
 msg('登录成功！正在跳转...','ok');
-setTimeout(()=>{location.href=d.user.phone==='qaq'?'/admin':'/';},800);
+setTimeout(()=>{location.href=d.user.username==='qaq'?'/admin':'/';},800);
 }catch(err){btn.disabled=false;btn.innerHTML='登录';msg('网络错误，请稍后重试','err')}
 });
 </script>

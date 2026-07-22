@@ -41,21 +41,34 @@ function generateToken() {
 
 const TOKENS = {};
 
+function loadTokens() {
+  try {
+    const db = readDB();
+    if (db._tokens) Object.assign(TOKENS, db._tokens);
+  } catch(e) {}
+}
+
+function saveTokens() {
+  const db = readDB();
+  db._tokens = TOKENS;
+  writeDB(db);
+}
+
 // ========== API Routes ==========
 
-// Register / Login (register if new, login if exists)
+// Register / Login (login by username+password, register needs phone)
 app.post('/api/auth', (req, res) => {
   const { phone, username, company, industry, password } = req.body;
 
-  if (!phone || !username || !password) {
-    return res.status(400).json({ error: '手机号、用户名和密码为必填项' });
+  if (!username || !password) {
+    return res.status(400).json({ error: '用户名和密码为必填项' });
   }
 
   const db = readDB();
   const pwHash = password; // Frontend already sent SHA-256 hash
 
-  // Check if user exists
-  let user = db.users.find(u => u.phone === phone);
+  // Login: find by username first
+  let user = db.users.find(u => u.username === username);
 
   if (user) {
     // Login
@@ -85,6 +98,7 @@ app.post('/api/auth', (req, res) => {
   // Generate token
   const token = generateToken();
   TOKENS[token] = user.id;
+  saveTokens();
 
   res.json({
     success: true,
@@ -163,7 +177,7 @@ app.get('/api/admin/users', (req, res) => {
 
   const db = readDB();
   const adminUser = db.users.find(u => u.id === TOKENS[token]);
-  const isAdmin = adminUser && adminUser.phone === 'qaq';
+  const isAdmin = adminUser && adminUser.username === 'qaq';
 
   if (!isAdmin) {
     return res.status(403).json({ error: '无管理员权限' });
@@ -192,7 +206,7 @@ app.get('/api/admin/records/:userId', (req, res) => {
 
   const db = readDB();
   const adminUser = db.users.find(u => u.id === TOKENS[token]);
-  const isAdmin = adminUser && adminUser.phone === 'qaq';
+  const isAdmin = adminUser && adminUser.username === 'qaq';
 
   if (!isAdmin) {
     return res.status(403).json({ error: '无管理员权限' });
@@ -214,7 +228,7 @@ app.get('/api/admin/all-records', (req, res) => {
 
   const db = readDB();
   const adminUser = db.users.find(u => u.id === TOKENS[token]);
-  const isAdmin = adminUser && adminUser.phone === 'qaq';
+  const isAdmin = adminUser && adminUser.username === 'qaq';
 
   if (!isAdmin) {
     return res.status(403).json({ error: '无管理员权限' });
@@ -260,13 +274,14 @@ app.get('*', (req, res) => {
 });
 
 app.listen(PORT, () => {
+  loadTokens();
   console.log(`创品智造 服务已启动: http://localhost:${PORT}`);
   console.log(`注册/登录: http://localhost:${PORT}/login`);
   console.log(`管理后台: http://localhost:${PORT}/admin`);
 
   // Auto-create admin account
   const db = readDB();
-  if (!db.users.find(u => u.phone === 'qaq')) {
+  if (!db.users.find(u => u.username === 'qaq')) {
     const adminPwHash = '44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d';
     db.users.push({
       id: crypto.randomUUID(),
