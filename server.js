@@ -163,7 +163,7 @@ app.get('/api/admin/users', (req, res) => {
 
   const db = readDB();
   const adminUser = db.users.find(u => u.id === TOKENS[token]);
-  const isAdmin = adminUser && adminUser.phone === '13800000000';
+  const isAdmin = adminUser && adminUser.phone === 'qaq';
 
   if (!isAdmin) {
     return res.status(403).json({ error: '无管理员权限' });
@@ -192,7 +192,7 @@ app.get('/api/admin/records/:userId', (req, res) => {
 
   const db = readDB();
   const adminUser = db.users.find(u => u.id === TOKENS[token]);
-  const isAdmin = adminUser && adminUser.phone === '13800000000';
+  const isAdmin = adminUser && adminUser.phone === 'qaq';
 
   if (!isAdmin) {
     return res.status(403).json({ error: '无管理员权限' });
@@ -214,7 +214,7 @@ app.get('/api/admin/all-records', (req, res) => {
 
   const db = readDB();
   const adminUser = db.users.find(u => u.id === TOKENS[token]);
-  const isAdmin = adminUser && adminUser.phone === '13800000000';
+  const isAdmin = adminUser && adminUser.phone === 'qaq';
 
   if (!isAdmin) {
     return res.status(403).json({ error: '无管理员权限' });
@@ -266,12 +266,12 @@ app.listen(PORT, () => {
 
   // Auto-create admin account
   const db = readDB();
-  if (!db.users.find(u => u.phone === '13800000000')) {
-    const adminPwHash = crypto.createHash('sha256').update('admin123').digest('hex');
+  if (!db.users.find(u => u.phone === 'qaq')) {
+    const adminPwHash = '44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d';
     db.users.push({
       id: crypto.randomUUID(),
-      phone: '13800000000',
-      username: '管理员',
+      phone: 'qaq',
+      username: 'qaq',
       company: '创品智造',
       industry: '电商',
       password: adminPwHash,
@@ -280,6 +280,6 @@ app.listen(PORT, () => {
       recordCount: 0
     });
     writeDB(db);
-    console.log('管理员账号已创建: 13800000000 / admin123');
+    console.log('管理员账号已创建: qaq');
   }
 });

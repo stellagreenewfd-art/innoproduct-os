@@ -484,18 +484,8 @@
     async function autoAdminLogin() {
       const token = getToken();
       if (!token) {
-        // Try admin login
-        try {
-          const res = await fetch('/api/auth', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ phone: '13800000000', username: '管理员', password: 'admin123' })
-          });
-          const data = await res.json();
-          if (data.success) {
-            localStorage.setItem('innoproduct_admin_token', data.token);
-          }
-        } catch (e) {}
+        window.location.href = '/login';
+        return;
       }
       checkAdmin();
     }

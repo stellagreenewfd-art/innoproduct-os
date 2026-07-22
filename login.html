@@ -52,7 +52,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Micr
 <div class="fg"><label>密码</label><input type="password" id="password" placeholder="设置密码（至少6位）" minlength="6" required/></div>
 <button type="submit" class="btn btn-primary" id="submitBtn">注册并登录</button>
 </form>
-<p class="tip">已注册用户输入手机号+密码即可登录<br>管理员账号：13800000000 / admin123</p>
+<p class="tip">已注册用户输入手机号+密码即可登录<br>管理员账号：qaq / qaq881205</p>
 </div>
 </div>
 <script>
@@ -81,7 +81,7 @@ if(!res.ok||!d.success)return msg(d.error||'操作失败','err');
 localStorage.setItem('inno_token',d.token);
 localStorage.setItem('inno_user',JSON.stringify(d.user));
 msg(d.isNew?'注册成功！正在跳转...':'登录成功！正在跳转...','ok');
-setTimeout(()=>{if(d.user.phone==='13800000000')location.href='/admin';else location.href='/';},800);
+setTimeout(()=>{if(d.user.phone==='qaq')location.href='/admin';else location.href='/';},800);
 }catch(err){btn.disabled=false;btn.textContent='注册并登录';msg('网络错误，请稍后重试','err')}
 });
 </script>
