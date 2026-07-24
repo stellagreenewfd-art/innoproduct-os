@@ -10,6 +10,17 @@
       "createdAt": "2026-07-24T02:21:52.652Z",
       "lastLogin": "2026-07-24T02:21:52.652Z",
       "recordCount": 0
+    },
+    {
+      "id": "250facdc-f74f-46fe-9a03-742dd258a8ff",
+      "phone": "18811098544",
+      "username": "aq",
+      "company": "个人",
+      "industry": "食品",
+      "password": "44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d",
+      "createdAt": "2026-07-24T06:55:19.113Z",
+      "lastLogin": "2026-07-24T06:55:19.113Z",
+      "recordCount": 0
     }
   ],
   "records": []
