@@ -21,6 +21,16 @@
       "createdAt": "2026-07-24T06:55:19.113Z",
       "lastLogin": "2026-07-24T06:56:08.921Z",
       "recordCount": 0
+    },
+    {
+      "id": "21b14c14-7459-4593-9533-24db0d4450d0",
+      "username": "123456@qq.com",
+      "company": "",
+      "industry": "",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "createdAt": "2026-07-24T07:49:41.115Z",
+      "lastLogin": "2026-07-24T07:49:41.115Z",
+      "recordCount": 0
     }
   ],
   "records": [],
