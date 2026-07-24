@@ -16,7 +16,7 @@ const GITHUB_RAW = process.env.GITHUB_RAW || 'https://raw.githubusercontent.com/
 const DATA_DIR = path.join(__dirname, 'data');
 const DB_PATH = path.join(DATA_DIR, 'database.json');
 let _cachedDB = null;
-let _lastSync = 0;
+let _noSync = false; // Prevent sync during initial restore
 
 function readDB() {
   try {
@@ -28,80 +28,154 @@ function readDB() {
     _cachedDB = JSON.parse(fs.readFileSync(DB_PATH, 'utf-8'));
     return _cachedDB;
   } catch (e) {
+    console.error('[DB] read error:', e.message);
     return { users: [], records: [] };
   }
 }
 
-function writeDB(data) {
+function writeDBSync(data) {
+  // Sync write to disk only (no GitHub sync) - used during startup restore
   if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
   fs.writeFileSync(DB_PATH, JSON.stringify(data, null, 2));
   _cachedDB = data;
-  syncToGitHub(data);
+}
+
+async function writeDB(data) {
+  if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
+  fs.writeFileSync(DB_PATH, JSON.stringify(data, null, 2));
+  _cachedDB = data;
+
+  if (!_noSync) {
+    await syncToGitHub(data);
+  }
 }
 
 async function pullFromGitHub() {
+  console.log('[DB] Attempting GitHub restore...');
   return new Promise((resolve) => {
-    https.get(GITHUB_RAW, res => {
+    const req = https.get(GITHUB_RAW, { timeout: 10000 }, res => {
+      if (res.statusCode !== 200) {
+        console.log('[DB] GitHub raw returned ' + res.statusCode);
+        resolve(null);
+        return;
+      }
       let d = '';
       res.on('data', c => d += c);
       res.on('end', () => {
         try {
           const data = JSON.parse(d);
-          if (data.users?.length > 0) {
-            console.log('[DB] GitHub restore: ' + data.users.length + ' users');
+          if (data && data.users) {
+            console.log('[DB] GitHub restore: ' + data.users.length + ' users, ' + (data.records?.length || 0) + ' records');
           }
           resolve(data);
-        } catch(e) { resolve(null); }
+        } catch(e) {
+          console.error('[DB] GitHub JSON parse error:', e.message);
+          resolve(null);
+        }
       });
-    }).on('error', () => resolve(null));
+    });
+    req.on('error', (e) => {
+      console.error('[DB] GitHub fetch error:', e.message);
+      resolve(null);
+    });
+    req.on('timeout', () => {
+      req.destroy();
+      console.error('[DB] GitHub fetch timeout');
+      resolve(null);
+    });
   });
 }
 
-async function syncToGitHub(data) {
-  if (!GITHUB_TOKEN) return;
-  const now = Date.now();
-  if (now - _lastSync < 10000) return;
-  _lastSync = now;
-  try {
+function syncToGitHub(data) {
+  return new Promise((resolve) => {
+    if (!GITHUB_TOKEN) {
+      console.log('[DB] ⚠️ GITHUB_TOKEN not set — data NOT synced to GitHub!');
+      console.log('[DB]   Set GITHUB_TOKEN env var in Render dashboard.');
+      resolve(false);
+      return;
+    }
+
+    const content = JSON.stringify(data, null, 2);
     const body = JSON.stringify({
       message: 'Auto-sync database',
-      content: Buffer.from(JSON.stringify(data, null, 2)).toString('base64'),
+      content: Buffer.from(content).toString('base64'),
       branch: 'render'
     });
-    // First get current file SHA
+
+    // Get current file SHA first
     const getReq = https.request({
       hostname: 'api.github.com',
       path: '/repos/stellagreenewfd-art/innoproduct-os/contents/data/database.json',
-      headers: { 'Authorization': 'Bearer ' + GITHUB_TOKEN, 'User-Agent': 'innoproduct-os', 'Accept': 'application/vnd.github.v3+json' }
+      headers: {
+        'Authorization': 'Bearer ' + GITHUB_TOKEN,
+        'User-Agent': 'innoproduct-os',
+        'Accept': 'application/vnd.github.v3+json'
+      },
+      timeout: 10000
     }, res => {
-      let d = ''; res.on('data', c => d += c);
+      let d = '';
+      res.on('data', c => d += c);
       res.on('end', () => {
         try {
           const current = JSON.parse(d);
           const putBody = JSON.parse(body);
           if (current.sha) putBody.sha = current.sha;
+
           const putReq = https.request({
             hostname: 'api.github.com',
             path: '/repos/stellagreenewfd-art/innoproduct-os/contents/data/database.json',
             method: 'PUT',
-            headers: { 'Authorization': 'Bearer ' + GITHUB_TOKEN, 'User-Agent': 'innoproduct-os', 'Content-Type': 'application/json' }
+            headers: {
+              'Authorization': 'Bearer ' + GITHUB_TOKEN,
+              'User-Agent': 'innoproduct-os',
+              'Content-Type': 'application/json'
+            },
+            timeout: 10000
           }, putRes => {
-            if (putRes.statusCode === 200 || putRes.statusCode === 201) console.log('[DB] Synced to GitHub');
-            putRes.resume();
+            let putData = '';
+            putRes.on('data', c => putData += c);
+            putRes.on('end', () => {
+              if (putRes.statusCode === 200 || putRes.statusCode === 201) {
+                console.log('[DB] ✅ Synced to GitHub — ' + data.users.length + ' users, ' + (data.records?.length || 0) + ' records');
+                resolve(true);
+              } else {
+                console.error('[DB] ❌ GitHub sync failed: HTTP ' + putRes.statusCode);
+                console.error('[DB]   Response:', putData.substring(0, 200));
+                resolve(false);
+              }
+            });
           });
-          putReq.on('error', () => {});
+          putReq.on('error', (e) => {
+            console.error('[DB] ❌ GitHub PUT error:', e.message);
+            resolve(false);
+          });
+          putReq.on('timeout', () => {
+            putReq.destroy();
+            console.error('[DB] ❌ GitHub PUT timeout');
+            resolve(false);
+          });
           putReq.write(JSON.stringify(putBody));
           putReq.end();
-        } catch(e) {}
+        } catch(e) {
+          console.error('[DB] ❌ GitHub sync parse error:', e.message);
+          resolve(false);
+        }
       });
     });
-    getReq.on('error', () => {});
+    getReq.on('error', (e) => {
+      console.error('[DB] ❌ GitHub GET error:', e.message);
+      resolve(false);
+    });
+    getReq.on('timeout', () => {
+      getReq.destroy();
+      console.error('[DB] ❌ GitHub GET timeout');
+      resolve(false);
+    });
     getReq.end();
-  } catch(e) {}
+  });
 }
 
 // Password hash
-
 function generateToken() {
   return crypto.randomBytes(32).toString('hex');
 }
@@ -118,13 +192,25 @@ function loadTokens() {
 function saveTokens() {
   const db = readDB();
   db._tokens = TOKENS;
-  writeDB(db);
+  writeDBSync(db);
 }
 
 // ========== API Routes ==========
 
-// Register / Login (login by username+password, register needs phone)
-app.post('/api/auth', (req, res) => {
+// Health check
+app.get('/api/health', (req, res) => {
+  const db = readDB();
+  res.json({
+    status: 'ok',
+    users: db.users?.length || 0,
+    records: db.records?.length || 0,
+    githubToken: !!GITHUB_TOKEN,
+    uptime: process.uptime()
+  });
+});
+
+// Register / Login
+app.post('/api/auth', async (req, res) => {
   const { phone, username, company, industry, password } = req.body;
 
   if (!username || !password) {
@@ -132,20 +218,16 @@ app.post('/api/auth', (req, res) => {
   }
 
   const db = readDB();
-  const pwHash = password; // Frontend already sent SHA-256 hash
+  const pwHash = password;
 
-  // Login: find by username first
   let user = db.users.find(u => u.username === username);
 
   if (user) {
-    // Login
     if (user.password !== pwHash) {
       return res.status(401).json({ error: '密码错误' });
     }
-    // Update login time
     user.lastLogin = new Date().toISOString();
   } else {
-    // Register
     user = {
       id: crypto.randomUUID(),
       phone,
@@ -158,11 +240,11 @@ app.post('/api/auth', (req, res) => {
       recordCount: 0
     };
     db.users.push(user);
+    console.log('[AUTH] New user registered: ' + username + ' (' + (phone || 'no phone') + ')');
   }
 
-  writeDB(db);
+  await writeDB(db);
 
-  // Generate token
   const token = generateToken();
   TOKENS[token] = user.id;
   saveTokens();
@@ -177,8 +259,7 @@ app.post('/api/auth', (req, res) => {
       company: user.company,
       industry: user.industry,
       createdAt: user.createdAt
-    },
-    isNew: !db.users.find(u => u.phone === phone && u.id !== user.id)
+    }
   });
 });
 
@@ -207,7 +288,7 @@ app.get('/api/verify', (req, res) => {
 });
 
 // Submit search record
-app.post('/api/records', (req, res) => {
+app.post('/api/records', async (req, res) => {
   const token = req.headers.authorization?.replace('Bearer ', '');
   if (!token || !TOKENS[token]) {
     return res.status(401).json({ error: '未登录' });
@@ -226,11 +307,11 @@ app.post('/api/records', (req, res) => {
   };
   db.records.push(record);
 
-  // Update user record count
   const user = db.users.find(u => u.id === userId);
   if (user) user.recordCount = (user.recordCount || 0) + 1;
 
-  writeDB(db);
+  console.log('[RECORD] ' + (user?.username || 'unknown') + ' searched: ' + category);
+  await writeDB(db);
 
   res.json({ success: true, record });
 });
@@ -286,7 +367,7 @@ app.get('/api/admin/records/:userId', (req, res) => {
   res.json({ success: true, records });
 });
 
-// Admin: Get all records (for dashboard)
+// Admin: Get all records
 app.get('/api/admin/all-records', (req, res) => {
   const token = req.headers.authorization?.replace('Bearer ', '');
   if (!token || !TOKENS[token]) {
@@ -316,20 +397,17 @@ app.get('/api/admin/all-records', (req, res) => {
   res.json({ success: true, records });
 });
 
-// Fallback: serve index.html for SPA routes
+// Fallback: serve HTML for SPA routes
 app.get('*', (req, res) => {
-  // Check if it's an API route first
   if (req.path.startsWith('/api/')) {
     return res.status(404).json({ error: 'Not found' });
   }
 
-  // For SPA routes, check if the file exists, otherwise serve index.html
   const filePath = path.join(__dirname, req.path);
   if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
     return res.sendFile(filePath);
   }
 
-  // Serve appropriate HTML
   if (req.path === '/login' || req.path === '/login.html') {
     return res.sendFile(path.join(__dirname, 'login.html'));
   }
@@ -341,21 +419,23 @@ app.get('*', (req, res) => {
 });
 
 app.listen(PORT, async () => {
-  loadTokens();
+  console.log('=== 创品智造 v2 ===');
+  console.log('GitHub sync: ' + (GITHUB_TOKEN ? '✅ ENABLED (token set)' : '⚠️ DISABLED (no GITHUB_TOKEN)'));
 
-  // Restore data from GitHub on cold start
-  if (!_cachedDB || _cachedDB.users?.length === 0) {
-    const remote = await pullFromGitHub();
-    if (remote && remote.users?.length > 0) {
-      writeDB(remote);
-    }
+  // Step 1: Try restore from GitHub
+  const remote = await pullFromGitHub();
+  if (remote && remote.users?.length > 0) {
+    _noSync = true; // Don't sync restored data back to GitHub
+    writeDBSync(remote);
+    _noSync = false;
+    console.log('[DB] Restored from GitHub: ' + remote.users.length + ' users');
+  } else {
+    console.log('[DB] No GitHub data to restore, starting fresh');
   }
 
-  console.log(`创品智造 服务已启动: http://localhost:${PORT}`);
-  console.log(`注册/登录: http://localhost:${PORT}/login`);
-  console.log(`管理后台: http://localhost:${PORT}/admin`);
+  loadTokens();
 
-  // Auto-create admin account
+  // Step 2: Ensure admin account exists
   const db = readDB();
   if (!db.users.find(u => u.username === 'qaq')) {
     const adminPwHash = '44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d';
@@ -370,7 +450,12 @@ app.listen(PORT, async () => {
       lastLogin: new Date().toISOString(),
       recordCount: 0
     });
-    writeDB(db);
-    console.log('管理员账号已创建: qaq');
+    writeDBSync(db);
+    console.log('[DB] Admin account created: qaq');
+  } else {
+    console.log('[DB] Admin account exists (qaq), total users: ' + db.users.length);
   }
+
+  console.log(`🚀 服务启动: http://localhost:${PORT}`);
+  console.log(`   登录: /login | 管理: /admin | 健康: /api/health`);
 });
