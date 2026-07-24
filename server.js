@@ -2,40 +2,105 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 const crypto = require('crypto');
+const https = require('https');
 
 const app = express();
 const PORT = process.env.PORT || 3456;
 
-// Middleware
 app.use(express.json());
 app.use(express.static(path.join(__dirname)));
 
-// Database: use Render persistent disk if available, else local file
-const RENDER_DISK = '/opt/render/project/src/data';
-const DATA_DIR = fs.existsSync(RENDER_DISK) ? RENDER_DISK : path.join(__dirname, 'data');
+// ===== GitHub-based persistent database =====
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
+const GITHUB_RAW = process.env.GITHUB_RAW || 'https://raw.githubusercontent.com/stellagreenewfd-art/innoproduct-os/render/data/database.json';
+const DATA_DIR = path.join(__dirname, 'data');
 const DB_PATH = path.join(DATA_DIR, 'database.json');
+let _cachedDB = null;
+let _lastSync = 0;
 
 function readDB() {
   try {
+    if (_cachedDB) return _cachedDB;
     if (!fs.existsSync(DB_PATH)) {
-      const dir = path.dirname(DB_PATH);
-      if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+      if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
       fs.writeFileSync(DB_PATH, JSON.stringify({ users: [], records: [] }, null, 2));
     }
-    return JSON.parse(fs.readFileSync(DB_PATH, 'utf-8'));
+    _cachedDB = JSON.parse(fs.readFileSync(DB_PATH, 'utf-8'));
+    return _cachedDB;
   } catch (e) {
     return { users: [], records: [] };
   }
 }
 
 function writeDB(data) {
-  const dir = path.dirname(DB_PATH);
-  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+  if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
   fs.writeFileSync(DB_PATH, JSON.stringify(data, null, 2));
+  _cachedDB = data;
+  syncToGitHub(data);
 }
 
-// Password: frontend sends SHA-256 hash, server stores it directly
-// Admin password hash: SHA-256("admin123") = 6c7ca345f63f835f8c508aed3cb3ed3d2a93c48cba1c956012ec1f2f8a7b2f16
+async function pullFromGitHub() {
+  return new Promise((resolve) => {
+    https.get(GITHUB_RAW, res => {
+      let d = '';
+      res.on('data', c => d += c);
+      res.on('end', () => {
+        try {
+          const data = JSON.parse(d);
+          if (data.users?.length > 0) {
+            console.log('[DB] GitHub restore: ' + data.users.length + ' users');
+          }
+          resolve(data);
+        } catch(e) { resolve(null); }
+      });
+    }).on('error', () => resolve(null));
+  });
+}
+
+async function syncToGitHub(data) {
+  if (!GITHUB_TOKEN) return;
+  const now = Date.now();
+  if (now - _lastSync < 10000) return;
+  _lastSync = now;
+  try {
+    const body = JSON.stringify({
+      message: 'Auto-sync database',
+      content: Buffer.from(JSON.stringify(data, null, 2)).toString('base64'),
+      branch: 'render'
+    });
+    // First get current file SHA
+    const getReq = https.request({
+      hostname: 'api.github.com',
+      path: '/repos/stellagreenewfd-art/innoproduct-os/contents/data/database.json',
+      headers: { 'Authorization': 'Bearer ' + GITHUB_TOKEN, 'User-Agent': 'innoproduct-os', 'Accept': 'application/vnd.github.v3+json' }
+    }, res => {
+      let d = ''; res.on('data', c => d += c);
+      res.on('end', () => {
+        try {
+          const current = JSON.parse(d);
+          const putBody = JSON.parse(body);
+          if (current.sha) putBody.sha = current.sha;
+          const putReq = https.request({
+            hostname: 'api.github.com',
+            path: '/repos/stellagreenewfd-art/innoproduct-os/contents/data/database.json',
+            method: 'PUT',
+            headers: { 'Authorization': 'Bearer ' + GITHUB_TOKEN, 'User-Agent': 'innoproduct-os', 'Content-Type': 'application/json' }
+          }, putRes => {
+            if (putRes.statusCode === 200 || putRes.statusCode === 201) console.log('[DB] Synced to GitHub');
+            putRes.resume();
+          });
+          putReq.on('error', () => {});
+          putReq.write(JSON.stringify(putBody));
+          putReq.end();
+        } catch(e) {}
+      });
+    });
+    getReq.on('error', () => {});
+    getReq.end();
+  } catch(e) {}
+}
+
+// Password hash
 
 function generateToken() {
   return crypto.randomBytes(32).toString('hex');
@@ -275,8 +340,17 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.listen(PORT, () => {
+app.listen(PORT, async () => {
   loadTokens();
+
+  // Restore data from GitHub on cold start
+  if (!_cachedDB || _cachedDB.users?.length === 0) {
+    const remote = await pullFromGitHub();
+    if (remote && remote.users?.length > 0) {
+      writeDB(remote);
+    }
+  }
+
   console.log(`创品智造 服务已启动: http://localhost:${PORT}`);
   console.log(`注册/登录: http://localhost:${PORT}/login`);
   console.log(`管理后台: http://localhost:${PORT}/admin`);
