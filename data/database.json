@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "8195f92e-7df6-4ad8-9587-5b8db7bc7348",
+      "phone": "qaq",
+      "username": "qaq",
+      "company": "创品智造",
+      "industry": "电商",
+      "password": "44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d",
+      "createdAt": "2026-07-24T02:21:52.652Z",
+      "lastLogin": "2026-07-24T02:21:52.652Z",
+      "recordCount": 0
+    }
+  ],
+  "records": []
+}
