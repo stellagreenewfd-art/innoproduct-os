@@ -10,8 +10,10 @@ const PORT = process.env.PORT || 3456;
 app.use(express.json());
 app.use(express.static(path.join(__dirname)));
 
-// SQLite-like JSON file database
-const DB_PATH = path.join(__dirname, 'data', 'database.json');
+// Database: use Render persistent disk if available, else local file
+const RENDER_DISK = '/opt/render/project/src/data';
+const DATA_DIR = fs.existsSync(RENDER_DISK) ? RENDER_DISK : path.join(__dirname, 'data');
+const DB_PATH = path.join(DATA_DIR, 'database.json');
 
 function readDB() {
   try {
