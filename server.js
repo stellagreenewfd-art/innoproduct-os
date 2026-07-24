@@ -102,10 +102,12 @@ function syncToGitHub(data) {
       branch: 'render'
     });
 
+    const apiPath = '/repos/stellagreenewfd-art/innoproduct-os/contents/data/database.json?ref=render';
+
     // Get current file SHA first
     const getReq = https.request({
       hostname: 'api.github.com',
-      path: '/repos/stellagreenewfd-art/innoproduct-os/contents/data/database.json',
+      path: apiPath,
       headers: {
         'Authorization': 'Bearer ' + GITHUB_TOKEN,
         'User-Agent': 'innoproduct-os',
@@ -113,6 +115,15 @@ function syncToGitHub(data) {
       },
       timeout: 10000
     }, res => {
+      if (res.statusCode !== 200) {
+        let errD = '';
+        res.on('data', c => errD += c);
+        res.on('end', () => {
+          console.error('[DB] ❌ GitHub GET returned HTTP ' + res.statusCode + ': ' + errD.substring(0, 200));
+          resolve(false);
+        });
+        return;
+      }
       let d = '';
       res.on('data', c => d += c);
       res.on('end', () => {
@@ -123,7 +134,7 @@ function syncToGitHub(data) {
 
           const putReq = https.request({
             hostname: 'api.github.com',
-            path: '/repos/stellagreenewfd-art/innoproduct-os/contents/data/database.json',
+            path: apiPath,
             method: 'PUT',
             headers: {
               'Authorization': 'Bearer ' + GITHUB_TOKEN,
