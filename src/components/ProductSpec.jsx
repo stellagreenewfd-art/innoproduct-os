@@ -1,7 +1,64 @@
 import { useState, useEffect } from 'react'
 import { useApp } from '../contexts/AppContext'
-import { generateSpec } from '../utils/api'
+import { generateSpec, getCategoryType } from '../utils/api'
 import { defaultSpec, createDevProject } from '../utils/defaultData'
+
+// Category-specific label sets for the formulation module
+const CATEGORY_LABEL_SETS = {
+  cosmetics: {
+    sectionTitle: '配方方案',
+    tableHeaders: ['核心成分', '添加比例', '功效作用'],
+    colKeys: ['ingredient', 'percentage', 'function'],
+    auxLabel: '辅助成分',
+    metric1: '活性物总含量',
+    metric2: '防腐体系',
+    metric3: 'pH值'
+  },
+  electronics: {
+    sectionTitle: '技术方案',
+    tableHeaders: ['核心模块', '规格占比', '功能作用'],
+    colKeys: ['ingredient', 'percentage', 'function'],
+    auxLabel: '辅助组件',
+    metric1: '关键性能指标',
+    metric2: '防护等级',
+    metric3: '工作环境'
+  },
+  food: {
+    sectionTitle: '原料配方',
+    tableHeaders: ['核心原料', '配比', '功能作用'],
+    colKeys: ['ingredient', 'percentage', 'function'],
+    auxLabel: '辅助原料',
+    metric1: '营养成分含量',
+    metric2: '防腐保鲜方案',
+    metric3: '酸碱度'
+  },
+  apparel: {
+    sectionTitle: '材质方案',
+    tableHeaders: ['核心材质', '配比', '功能作用'],
+    colKeys: ['ingredient', 'percentage', 'function'],
+    auxLabel: '辅助材质',
+    metric1: '关键成分含量',
+    metric2: '护理方式',
+    metric3: '安全等级'
+  },
+  general: {
+    sectionTitle: '组成方案',
+    tableHeaders: ['核心组成部分', '占比', '功能作用'],
+    colKeys: ['ingredient', 'percentage', 'function'],
+    auxLabel: '辅助部分',
+    metric1: '关键指标',
+    metric2: '稳定性方案',
+    metric3: '适用环境'
+  }
+}
+
+// Map data keys to display keys for row rendering
+const DATA_KEY_MAP = {
+  ingredient: true,
+  module: 'ingredient',
+  material: 'ingredient',
+  item: 'ingredient'
+}
 
 export default function ProductSpec() {
   const { category, selectedConcept, specData, setSpecData, setActiveModule, setLoading, loading, devProjects, updateDevProjects } = useApp()
@@ -9,6 +66,18 @@ export default function ProductSpec() {
 
   const concept = selectedConcept
   const data = specData || defaultSpec
+
+  // Determine category type for dynamic labels
+  const catType = data?.categoryType || getCategoryType(category || data?.category)
+  const labels = CATEGORY_LABEL_SETS[catType] || CATEGORY_LABEL_SETS.general
+
+  // Helper: get display value from a row item, handling different data keys
+  const getRowVal = (row, key) => {
+    if (row[key] !== undefined) return row[key]
+    // Try mapped alternatives
+    if (key === 'ingredient') return row.ingredient || row.module || row.material || row.item || '—'
+    return '—'
+  }
 
   useEffect(() => {
     if (concept && !specData) {
@@ -97,25 +166,25 @@ export default function ProductSpec() {
         </div>
       </div>
 
-      {/* Formulation */}
+      {/* Formulation — adaptive to category */}
       {data.formulation && (
         <div className="ip-card p-5">
-          <h3 className="text-sm font-semibold text-ip-text mb-4">配方方案</h3>
+          <h3 className="text-sm font-semibold text-ip-text mb-4">{labels.sectionTitle}</h3>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b border-ip-border">
-                  <th className="text-left py-2 px-3 text-xs text-ip-text-tertiary font-medium">核心成分</th>
-                  <th className="text-left py-2 px-3 text-xs text-ip-text-tertiary font-medium">添加比例</th>
-                  <th className="text-left py-2 px-3 text-xs text-ip-text-tertiary font-medium">功效作用</th>
+                  <th className="text-left py-2 px-3 text-xs text-ip-text-tertiary font-medium">{labels.tableHeaders[0]}</th>
+                  <th className="text-left py-2 px-3 text-xs text-ip-text-tertiary font-medium">{labels.tableHeaders[1]}</th>
+                  <th className="text-left py-2 px-3 text-xs text-ip-text-tertiary font-medium">{labels.tableHeaders[2]}</th>
                 </tr>
               </thead>
               <tbody>
                 {data.formulation.coreFormula?.map((f, i) => (
                   <tr key={i} className="border-b border-ip-border last:border-0">
-                    <td className="py-2 px-3 text-ip-text font-medium">{f.ingredient}</td>
-                    <td className="py-2 px-3 text-ip-text-secondary">{f.percentage}</td>
-                    <td className="py-2 px-3 text-ip-text-secondary">{f.function}</td>
+                    <td className="py-2 px-3 text-ip-text font-medium">{getRowVal(f, labels.colKeys[0])}</td>
+                    <td className="py-2 px-3 text-ip-text-secondary">{getRowVal(f, labels.colKeys[1])}</td>
+                    <td className="py-2 px-3 text-ip-text-secondary">{getRowVal(f, labels.colKeys[2])}</td>
                   </tr>
                 ))}
               </tbody>
@@ -123,18 +192,18 @@ export default function ProductSpec() {
           </div>
           {data.formulation.auxiliaryFormula?.length > 0 && (
             <div className="mt-3">
-              <p className="text-xs text-ip-text-tertiary mb-1">辅助成分:</p>
+              <p className="text-xs text-ip-text-tertiary mb-1">{labels.auxLabel}:</p>
               <div className="flex flex-wrap gap-1.5">
                 {data.formulation.auxiliaryFormula.map((a, i) => (
-                  <span key={i} className="ip-tag bg-ip-bg text-ip-text-secondary">{a.ingredient} ({a.function})</span>
+                  <span key={i} className="ip-tag bg-ip-bg text-ip-text-secondary">{getRowVal(a, labels.colKeys[0])} ({a.function})</span>
                 ))}
               </div>
             </div>
           )}
           <div className="mt-3 grid grid-cols-3 gap-3 text-xs">
-            <div><span className="text-ip-text-tertiary">活性物总含量:</span> <span className="font-medium text-ip-text">{data.formulation.totalActiveContent}</span></div>
-            <div><span className="text-ip-text-tertiary">防腐体系:</span> <span className="font-medium text-ip-text">{data.formulation.preservativeSystem}</span></div>
-            <div><span className="text-ip-text-tertiary">pH值:</span> <span className="font-medium text-ip-text">{data.formulation.phRange}</span></div>
+            <div><span className="text-ip-text-tertiary">{labels.metric1}:</span> <span className="font-medium text-ip-text">{data.formulation.totalActiveContent}</span></div>
+            <div><span className="text-ip-text-tertiary">{labels.metric2}:</span> <span className="font-medium text-ip-text">{data.formulation.preservativeSystem}</span></div>
+            <div><span className="text-ip-text-tertiary">{labels.metric3}:</span> <span className="font-medium text-ip-text">{data.formulation.phRange}</span></div>
           </div>
         </div>
       )}

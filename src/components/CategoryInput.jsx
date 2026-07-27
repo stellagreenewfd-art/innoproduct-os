@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useApp } from '../contexts/AppContext'
-import { analyzeTrends, generateConcepts } from '../utils/api'
+import { analyzeTrends, generateConcepts, submitRecord } from '../utils/api'
 import { defaultTrendData, defaultConcepts } from '../utils/defaultData'
 
 export default function CategoryInput() {
@@ -23,6 +23,7 @@ export default function CategoryInput() {
         setProgressText(progress)
       })
       setTrendData(data)
+      submitRecord(cat, data)
     } catch (err) {
       console.error('趋势分析失败:', err)
       setError('AI分析失败，已加载示例数据。请检查API Key配置。')
@@ -42,6 +43,14 @@ export default function CategoryInput() {
 
   return (
     <div className="max-w-2xl mx-auto pt-12">
+      {/* Login reminder: show only when no token saved */}
+      {!localStorage.getItem('inno_token') && (
+        <div className="mb-4 p-2 rounded-lg bg-ip-warning-light text-center">
+          <span className="text-xs text-ip-warning">查询记录需要登录才能保存 — </span>
+          <a href="/login" className="text-xs text-ip-primary font-semibold underline">去登录/注册</a>
+        </div>
+      )}
+
       <div className="text-center mb-10">
         <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-ip-primary-light mb-4">
           <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#4f46e5" strokeWidth="1.5">

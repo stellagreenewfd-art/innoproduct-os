@@ -18,6 +18,20 @@ export function setApiKey(key) {
   localStorage.setItem(STORAGE_KEY_API, key)
 }
 
+const CATEGORY_PATTERNS = {
+  cosmetics: ['面膜','精华','面霜','护肤','防晒','化妆','水乳','眼霜','洁面','乳液','爽肤水','粉底','口红','彩妆'],
+  electronics: ['手机','耳机','眼镜','智能','电脑','电子','笔记本','平板','手表','穿戴','音箱','机器人','无人机','AI','芯片'],
+  food: ['咖啡','饮料','食品','零食','茶','果汁','奶','酒','啤酒','巧克力','饼干','面包','燕麦','益生菌'],
+  apparel: ['服装','鞋','帽','服饰','衣','裤子','裙子','外套','内衣','袜子','面料','纺织','棉','丝']
+}
+
+export function getCategoryType(category) {
+  if (!category) return 'general'
+  for (const [type, patterns] of Object.entries(CATEGORY_PATTERNS))
+    for (const p of patterns) if (category.includes(p)) return type
+  return 'general'
+}
+
 function getDateContext() {
   const now = new Date()
   const year = now.getFullYear()
@@ -685,4 +699,21 @@ export async function chatWithAI(category, context, messages, userMessage) {
   }
 
   return result
+}
+
+/**
+ * 提交查询记录到后端
+ */
+export async function submitRecord(category, trendData) {
+  try {
+    const token = localStorage.getItem('inno_token')
+    if (!token) return false
+    const summary = { category, trends: (trendData?.trends || []).slice(0, 3).map(t => t.keyword).join('、') }
+    const res = await fetch('/api/records', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + token },
+      body: JSON.stringify({ category, result: JSON.stringify(summary) })
+    })
+    return res.ok
+  } catch { return false }
 }
