@@ -8,8 +8,8 @@
       "industry": "电商",
       "password": "44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d",
       "createdAt": "2026-07-24T02:21:52.652Z",
-      "lastLogin": "2026-07-27T10:06:00.212Z",
-      "recordCount": 1
+      "lastLogin": "2026-07-27T10:07:15.673Z",
+      "recordCount": 0
     },
     {
       "id": "250facdc-f74f-46fe-9a03-742dd258a8ff",
@@ -107,15 +107,7 @@
       "recordCount": 0
     }
   ],
-  "records": [
-    {
-      "id": "8729ab1a-1409-4089-937b-3a7db3b80969",
-      "userId": "8195f92e-7df6-4ad8-9587-5b8db7bc7348",
-      "category": "测试",
-      "result": "管理员测试提交",
-      "createdAt": "2026-07-27T10:06:01.742Z"
-    }
-  ],
+  "records": [],
   "_tokens": {
     "04a27111108739334b6b9ac6d07f2b8620e80534e0e5452af2a028adddc42ea4": "8195f92e-7df6-4ad8-9587-5b8db7bc7348",
     "dfb1fdaf0c125ef899dc1b1e1dcdce22a21a55c4919881917a43cf3f46ca85e0": "8195f92e-7df6-4ad8-9587-5b8db7bc7348",
