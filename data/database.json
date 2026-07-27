@@ -63,6 +63,17 @@
       "createdAt": "2026-07-27T07:47:21.893Z",
       "lastLogin": "2026-07-27T07:47:21.893Z",
       "recordCount": 0
+    },
+    {
+      "id": "e70d51e5-e6ea-45a3-8886-d2449f1be61b",
+      "phone": "13601201049",
+      "username": "daletao",
+      "company": "knowhow",
+      "industry": "快消",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "createdAt": "2026-07-27T08:30:54.687Z",
+      "lastLogin": "2026-07-27T08:30:54.687Z",
+      "recordCount": 0
     }
   ],
   "records": [],
