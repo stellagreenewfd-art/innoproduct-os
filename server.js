@@ -191,19 +191,28 @@ function generateToken() {
   return crypto.randomBytes(32).toString('hex');
 }
 
+// In-memory token cache (performance only, rebuilt from DB on cold start)
 const TOKENS = {};
 
+// Rebuild in-memory token map from user records (survives sleep/restart)
 function loadTokens() {
   try {
     const db = readDB();
-    if (db._tokens) Object.assign(TOKENS, db._tokens);
+    for (const u of db.users) {
+      if (u._token) TOKENS[u._token] = u.id;
+    }
   } catch(e) {}
 }
 
-function saveTokens() {
+// Save token to user record (persists to GitHub, survives sleep)
+function saveToken(token, userId) {
+  TOKENS[token] = userId;
   const db = readDB();
-  db._tokens = TOKENS;
-  writeDBSync(db);
+  const user = db.users.find(u => u.id === userId);
+  if (user) {
+    user._token = token;
+    writeDBSync(db); // write locally, will sync on next writeDB call
+  }
 }
 
 // ========== API Routes ==========
@@ -258,11 +267,12 @@ app.post('/api/auth', async (req, res) => {
     console.log('[AUTH] New user registered: ' + username + ' (' + phone + ')');
   }
 
-  await writeDB(db);
-
   const token = generateToken();
+  // Embed token in user record so it survives Render sleep/restart
+  user._token = token;
   TOKENS[token] = user.id;
-  saveTokens();
+
+  await writeDB(db);
 
   res.json({
     success: true,
@@ -437,11 +447,7 @@ app.listen(PORT, async () => {
   console.log('=== 创品智造 v2 ===');
   console.log('GitHub sync: ' + (GITHUB_TOKEN ? '✅ ENABLED (token set)' : '⚠️ DISABLED (no GITHUB_TOKEN)'));
 
-  // Load tokens from local DB FIRST (before GitHub overwrite)
-  loadTokens();
-  const savedTokens = { ...TOKENS };
-
-  // Step 1: Try restore from GitHub
+  // Step 1: Restore data from GitHub
   const remote = await pullFromGitHub();
   if (remote && remote.users?.length > 0) {
     _noSync = true;
@@ -452,12 +458,9 @@ app.listen(PORT, async () => {
     console.log('[DB] No GitHub data to restore, starting fresh');
   }
 
-  // Restore tokens after DB overwrite (tokens stay in-memory + file)
-  if (Object.keys(savedTokens).length > 0) {
-    Object.assign(TOKENS, savedTokens);
-    saveTokens();
-    console.log('[DB] Restored ' + Object.keys(savedTokens).length + ' tokens');
-  }
+  // Step 2: Rebuild in-memory tokens from user records (tokens embedded in DB, survive sleep)
+  loadTokens();
+  console.log('[DB] Loaded ' + Object.keys(TOKENS).length + ' active tokens');
 
   // Step 2: Ensure admin account exists
   const db = readDB();
