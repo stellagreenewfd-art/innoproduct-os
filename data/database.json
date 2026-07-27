@@ -84,6 +84,16 @@
       "createdAt": "2026-07-27T09:21:28.831Z",
       "lastLogin": "2026-07-27T09:21:28.831Z",
       "recordCount": 0
+    },
+    {
+      "id": "53f5a966-172d-4fd1-a3b2-8a5cb601e8b2",
+      "username": "袁帅",
+      "company": "",
+      "industry": "",
+      "password": "2e06d4d58006dd575764d8e348c653397cd2c33288d4fad146555ae04291824c",
+      "createdAt": "2026-07-27T09:22:09.406Z",
+      "lastLogin": "2026-07-27T09:22:09.406Z",
+      "recordCount": 0
     }
   ],
   "records": [],
