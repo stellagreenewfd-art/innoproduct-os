@@ -433,10 +433,14 @@ app.listen(PORT, async () => {
   console.log('=== 创品智造 v2 ===');
   console.log('GitHub sync: ' + (GITHUB_TOKEN ? '✅ ENABLED (token set)' : '⚠️ DISABLED (no GITHUB_TOKEN)'));
 
+  // Load tokens from local DB FIRST (before GitHub overwrite)
+  loadTokens();
+  const savedTokens = { ...TOKENS };
+
   // Step 1: Try restore from GitHub
   const remote = await pullFromGitHub();
   if (remote && remote.users?.length > 0) {
-    _noSync = true; // Don't sync restored data back to GitHub
+    _noSync = true;
     writeDBSync(remote);
     _noSync = false;
     console.log('[DB] Restored from GitHub: ' + remote.users.length + ' users');
@@ -444,7 +448,12 @@ app.listen(PORT, async () => {
     console.log('[DB] No GitHub data to restore, starting fresh');
   }
 
-  loadTokens();
+  // Restore tokens after DB overwrite (tokens stay in-memory + file)
+  if (Object.keys(savedTokens).length > 0) {
+    Object.assign(TOKENS, savedTokens);
+    saveTokens();
+    console.log('[DB] Restored ' + Object.keys(savedTokens).length + ' tokens');
+  }
 
   // Step 2: Ensure admin account exists
   const db = readDB();
