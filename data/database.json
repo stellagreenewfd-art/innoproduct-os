@@ -8,9 +8,9 @@
       "industry": "电商",
       "password": "44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d",
       "createdAt": "2026-07-24T02:21:52.652Z",
-      "lastLogin": "2026-07-27T11:00:39.763Z",
+      "lastLogin": "2026-07-27T10:55:30.491Z",
       "recordCount": 1,
-      "_token": "87c05748c6cef15e77b2ef691d43c2d9246dd9f726400ff7ee2d159c744c28e7"
+      "_token": "bb418ac1c0b2c71e383baafbf836c9969a50d408964b2ae271868627ba0b0b9a"
     },
     {
       "id": "250facdc-f74f-46fe-9a03-742dd258a8ff",
@@ -83,8 +83,9 @@
       "industry": "",
       "password": "44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d",
       "createdAt": "2026-07-27T09:21:28.831Z",
-      "lastLogin": "2026-07-27T09:21:28.831Z",
-      "recordCount": 0
+      "lastLogin": "2026-07-27T11:01:17.679Z",
+      "recordCount": 0,
+      "_token": "6df85e564ed478f145283209d6132593a588e8ce7d197d49e2782d6e5bbe0e09"
     },
     {
       "id": "53f5a966-172d-4fd1-a3b2-8a5cb601e8b2",
