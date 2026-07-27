@@ -31,6 +31,17 @@
       "createdAt": "2026-07-24T07:49:41.115Z",
       "lastLogin": "2026-07-24T07:49:41.115Z",
       "recordCount": 0
+    },
+    {
+      "id": "12f4caa9-cc5b-4294-9f44-67b3b231ab8c",
+      "phone": "13810526740",
+      "username": "haha123",
+      "company": "Full malt",
+      "industry": "啤酒",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "createdAt": "2026-07-27T02:22:47.346Z",
+      "lastLogin": "2026-07-27T02:22:47.346Z",
+      "recordCount": 0
     }
   ],
   "records": [],
