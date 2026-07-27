@@ -8,7 +8,7 @@ import { collectRealData, formatRealDataForPrompt, hasRealData } from './dataCol
 
 const DEEPSEEK_API_URL = 'https://api.deepseek.com/v1/chat/completions'
 const STORAGE_KEY_API = 'innoproduct:apikey'
-const DEFAULT_API_KEY = 'sk-beb0ce29e1fc4e8e883f683376910936'
+const DEFAULT_API_KEY = 'sk-dac7c21fcb434c35aa548a159de0f32d'
 
 export function getApiKey() {
   return localStorage.getItem(STORAGE_KEY_API) || DEFAULT_API_KEY
