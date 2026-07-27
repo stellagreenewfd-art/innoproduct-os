@@ -8,7 +8,7 @@
       "industry": "电商",
       "password": "44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d",
       "createdAt": "2026-07-24T02:21:52.652Z",
-      "lastLogin": "2026-07-27T09:52:01.992Z",
+      "lastLogin": "2026-07-27T09:50:14.950Z",
       "recordCount": 0
     },
     {
@@ -93,6 +93,17 @@
       "password": "2e06d4d58006dd575764d8e348c653397cd2c33288d4fad146555ae04291824c",
       "createdAt": "2026-07-27T09:22:09.406Z",
       "lastLogin": "2026-07-27T09:22:09.406Z",
+      "recordCount": 0
+    },
+    {
+      "id": "9eed5704-4b68-4e35-b9a1-0447542d527e",
+      "phone": "18345107480",
+      "username": "蒋奇超",
+      "company": "真市美供应链",
+      "industry": "乳制品",
+      "password": "29624e2e4c4ccee26ed8f3e0ca1012ea57a8f2191be6149f632250f7036119cc",
+      "createdAt": "2026-07-27T09:59:40.321Z",
+      "lastLogin": "2026-07-27T09:59:40.321Z",
       "recordCount": 0
     }
   ],
