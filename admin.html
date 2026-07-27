@@ -290,15 +290,18 @@
       return adminToken || token;
     }
 
+    let authFails = 0;
     async function api(path) {
       const token = getToken();
       const res = await fetch(path, {
         headers: token ? { 'Authorization': 'Bearer ' + token } : {}
       });
       if (res.status === 401) {
-        window.location.href = '/login';
+        authFails++;
+        if (authFails >= 3) window.location.href = '/login';
         return null;
       }
+      authFails = 0; // reset on success
       return res.json();
     }
 
