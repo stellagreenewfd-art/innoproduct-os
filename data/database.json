@@ -8,8 +8,9 @@
       "industry": "电商",
       "password": "44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d",
       "createdAt": "2026-07-24T02:21:52.652Z",
-      "lastLogin": "2026-07-27T10:21:05.341Z",
-      "recordCount": 0
+      "lastLogin": "2026-07-27T10:24:23.994Z",
+      "recordCount": 0,
+      "_token": "aa1cfc31ce21daa473ec7d0b773832cdc3fe42d7c7707730193115ec8d898c27"
     },
     {
       "id": "250facdc-f74f-46fe-9a03-742dd258a8ff",
@@ -105,17 +106,6 @@
       "createdAt": "2026-07-27T09:59:40.321Z",
       "lastLogin": "2026-07-27T09:59:40.321Z",
       "recordCount": 0
-    },
-    {
-      "id": "2920b21d-f457-4c4a-9565-f896df13d8c3",
-      "phone": "13482296499",
-      "username": "Owen",
-      "company": "步步高",
-      "industry": "快销",
-      "password": "a261778bcc44b4f3b4bee4c5e8ffc8c38e6c324b231fc72b12036bbc904412fc",
-      "createdAt": "2026-07-27T10:20:52.341Z",
-      "lastLogin": "2026-07-27T10:20:52.341Z",
-      "recordCount": 0
     }
   ],
   "records": [],
@@ -123,7 +113,6 @@
     "04a27111108739334b6b9ac6d07f2b8620e80534e0e5452af2a028adddc42ea4": "8195f92e-7df6-4ad8-9587-5b8db7bc7348",
     "dfb1fdaf0c125ef899dc1b1e1dcdce22a21a55c4919881917a43cf3f46ca85e0": "8195f92e-7df6-4ad8-9587-5b8db7bc7348",
     "b1dfaef732fe764c93ff38aac1bf3d4c208dc58eba2e91253f5810ddad1938b8": "8195f92e-7df6-4ad8-9587-5b8db7bc7348",
-    "3d142220336d1348d68d8735c167e5c5f5da4992fc721b2e1d475a2f45443449": "8195f92e-7df6-4ad8-9587-5b8db7bc7348",
-    "d2faa049755fc50e37e896ad87c97e0bac5f4baaa6d507d0eabb836ef8e99f33": "2920b21d-f457-4c4a-9565-f896df13d8c3"
+    "3d142220336d1348d68d8735c167e5c5f5da4992fc721b2e1d475a2f45443449": "8195f92e-7df6-4ad8-9587-5b8db7bc7348"
   }
 }
