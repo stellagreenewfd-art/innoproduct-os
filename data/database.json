@@ -105,6 +105,17 @@
       "createdAt": "2026-07-27T09:59:40.321Z",
       "lastLogin": "2026-07-27T09:59:40.321Z",
       "recordCount": 0
+    },
+    {
+      "id": "2920b21d-f457-4c4a-9565-f896df13d8c3",
+      "phone": "13482296499",
+      "username": "Owen",
+      "company": "步步高",
+      "industry": "快销",
+      "password": "a261778bcc44b4f3b4bee4c5e8ffc8c38e6c324b231fc72b12036bbc904412fc",
+      "createdAt": "2026-07-27T10:20:52.341Z",
+      "lastLogin": "2026-07-27T10:20:52.341Z",
+      "recordCount": 0
     }
   ],
   "records": [],
