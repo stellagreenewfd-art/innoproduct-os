@@ -8,7 +8,7 @@
       "industry": "电商",
       "password": "44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d",
       "createdAt": "2026-07-24T02:21:52.652Z",
-      "lastLogin": "2026-07-27T07:43:12.206Z",
+      "lastLogin": "2026-07-27T02:20:40.133Z",
       "recordCount": 0
     },
     {
@@ -52,6 +52,16 @@
       "password": "5143dc590bf6493f556da4449b9fb647c3cd8f586a37af39e1bf21725d6c2dab",
       "createdAt": "2026-07-27T03:54:25.588Z",
       "lastLogin": "2026-07-27T04:22:37.863Z",
+      "recordCount": 0
+    },
+    {
+      "id": "d53b05b4-38ec-4c4a-a683-40770e1dfe3f",
+      "username": "msmsq",
+      "company": "",
+      "industry": "",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "createdAt": "2026-07-27T07:47:21.893Z",
+      "lastLogin": "2026-07-27T07:47:21.893Z",
       "recordCount": 0
     }
   ],
