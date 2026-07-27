@@ -239,6 +239,10 @@ app.post('/api/auth', async (req, res) => {
     }
     user.lastLogin = new Date().toISOString();
   } else {
+    // New registration: must provide valid phone number
+    if (!phone || !/^\d{5,15}$/.test(phone)) {
+      return res.status(400).json({ error: '注册需要填写手机号。如已有账号，请切换到"登录"标签。' });
+    }
     user = {
       id: crypto.randomUUID(),
       phone,
@@ -251,7 +255,7 @@ app.post('/api/auth', async (req, res) => {
       recordCount: 0
     };
     db.users.push(user);
-    console.log('[AUTH] New user registered: ' + username + ' (' + (phone || 'no phone') + ')');
+    console.log('[AUTH] New user registered: ' + username + ' (' + phone + ')');
   }
 
   await writeDB(db);
