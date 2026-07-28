@@ -8,9 +8,9 @@
       "industry": "电商",
       "password": "44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d",
       "createdAt": "2026-07-24T02:21:52.652Z",
-      "lastLogin": "2026-07-27T13:03:35.024Z",
+      "lastLogin": "2026-07-28T08:40:17.964Z",
       "recordCount": 1,
-      "_token": "286e65f7d36d9b33e75603ae06493c6226cf82a547e6259417144b88eba00901"
+      "_token": "55f52ca5f46f825e59864c9b2ddc1f740737e3753d54ece93ace800b32d838c5"
     },
     {
       "id": "250facdc-f74f-46fe-9a03-742dd258a8ff",
@@ -74,7 +74,7 @@
       "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
       "createdAt": "2026-07-27T08:30:54.687Z",
       "lastLogin": "2026-07-28T07:24:39.548Z",
-      "recordCount": 1,
+      "recordCount": 0,
       "_token": "913e8ca4a92a0c9895698cf80dd0354c1a229d5e13b7462a33e8d60b195a4839"
     },
     {
@@ -137,13 +137,6 @@
       "category": "鸡蛋",
       "result": "{\"category\":\"鸡蛋\",\"trends\":\"可生食鸡蛋、有机鸡蛋、DHA鸡蛋\"}",
       "createdAt": "2026-07-27T12:20:19.398Z"
-    },
-    {
-      "id": "a43eb427-eda5-466c-94e6-92c3057a25e6",
-      "userId": "e70d51e5-e6ea-45a3-8886-d2449f1be61b",
-      "category": "健康代餐果昔",
-      "result": "{\"category\":\"健康代餐果昔\",\"trends\":\"\"}",
-      "createdAt": "2026-07-28T08:37:06.975Z"
     }
   ],
   "_tokens": {
