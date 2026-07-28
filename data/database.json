@@ -84,9 +84,9 @@
       "industry": "",
       "password": "44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d",
       "createdAt": "2026-07-27T09:21:28.831Z",
-      "lastLogin": "2026-07-27T12:12:42.453Z",
+      "lastLogin": "2026-07-28T22:39:13.741Z",
       "recordCount": 1,
-      "_token": "9ceed4f5be1cd31609edd966f8216f0268e14c010f379f2fb565cadd3f7547ce"
+      "_token": "571da3f7b478b53da42a21b07fd9b2cf861fc5100e2b868e433827249a237d76"
     },
     {
       "id": "53f5a966-172d-4fd1-a3b2-8a5cb601e8b2",
@@ -125,18 +125,18 @@
   ],
   "records": [
     {
-      "id": "d3957f80-9df1-4bec-a075-0cbe5c4e4115",
-      "userId": "8195f92e-7df6-4ad8-9587-5b8db7bc7348",
-      "category": "直接API测试",
-      "result": "提交测试",
-      "createdAt": "2026-07-27T10:55:32.024Z"
-    },
-    {
       "id": "58518dc1-0511-42fd-b7c1-c4d4e0015ce1",
       "userId": "1148a339-9fbf-411d-9fa1-1f7572a823f6",
       "category": "鸡蛋",
       "result": "{\"category\":\"鸡蛋\",\"trends\":\"可生食鸡蛋、有机鸡蛋、DHA鸡蛋\"}",
       "createdAt": "2026-07-27T12:20:19.398Z"
+    },
+    {
+      "id": "d3957f80-9df1-4bec-a075-0cbe5c4e4115",
+      "userId": "8195f92e-7df6-4ad8-9587-5b8db7bc7348",
+      "category": "直接API测试",
+      "result": "提交测试",
+      "createdAt": "2026-07-27T10:55:32.024Z"
     }
   ],
   "_tokens": {
