@@ -74,7 +74,7 @@
       "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
       "createdAt": "2026-07-27T08:30:54.687Z",
       "lastLogin": "2026-07-28T07:24:39.548Z",
-      "recordCount": 0,
+      "recordCount": 1,
       "_token": "913e8ca4a92a0c9895698cf80dd0354c1a229d5e13b7462a33e8d60b195a4839"
     },
     {
@@ -137,6 +137,13 @@
       "category": "鸡蛋",
       "result": "{\"category\":\"鸡蛋\",\"trends\":\"可生食鸡蛋、有机鸡蛋、DHA鸡蛋\"}",
       "createdAt": "2026-07-27T12:20:19.398Z"
+    },
+    {
+      "id": "a43eb427-eda5-466c-94e6-92c3057a25e6",
+      "userId": "e70d51e5-e6ea-45a3-8886-d2449f1be61b",
+      "category": "健康代餐果昔",
+      "result": "{\"category\":\"健康代餐果昔\",\"trends\":\"\"}",
+      "createdAt": "2026-07-28T08:37:06.975Z"
     }
   ],
   "_tokens": {
