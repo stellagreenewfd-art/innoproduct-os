@@ -121,6 +121,18 @@
       "lastLogin": "2026-07-27T11:05:45.681Z",
       "recordCount": 0,
       "_token": "041ae8371771262a5613f69e2429fa1be41daab5164e9d66593536d466df4ea4"
+    },
+    {
+      "id": "e863c586-5806-46be-ab34-bcf608e9aa32",
+      "phone": "13716061949",
+      "username": "xjw",
+      "company": "JD",
+      "industry": "生鲜",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "createdAt": "2026-07-29T11:45:02.998Z",
+      "lastLogin": "2026-07-29T11:45:02.998Z",
+      "recordCount": 0,
+      "_token": "f440373832d75b85e249037330f1430b1db79561caf7ee8f0734cf5074322a72"
     }
   ],
   "records": [
