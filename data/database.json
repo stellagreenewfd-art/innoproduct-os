@@ -123,16 +123,16 @@
       "_token": "041ae8371771262a5613f69e2429fa1be41daab5164e9d66593536d466df4ea4"
     },
     {
-      "id": "a0243857-3b02-4571-841f-827544525c5c",
+      "id": "4260391f-08d7-4f0c-ab4f-2d9cd09cef39",
       "phone": "18611866466",
       "username": "briana",
       "company": "",
       "industry": "",
       "password": "72f6e6618c0edd6c75be8c62fcbf38a148f35544efa299ad7070241221d55fc0",
-      "createdAt": "2026-07-30T00:35:05.543Z",
-      "lastLogin": "2026-07-30T00:35:05.543Z",
-      "recordCount": 1,
-      "_token": "c60e6fb3b184f89d2fb6f553226a41ee5e7e806033e52650e1136a6412754859"
+      "createdAt": "2026-07-30T00:36:14.161Z",
+      "lastLogin": "2026-07-30T00:36:14.161Z",
+      "recordCount": 0,
+      "_token": "865bf73b30f6883249aec9e3ac054f40e5639dc3ce5fdd8899049c34c91df128"
     }
   ],
   "records": [
@@ -149,13 +149,6 @@
       "category": "直接API测试",
       "result": "提交测试",
       "createdAt": "2026-07-27T10:55:32.024Z"
-    },
-    {
-      "id": "f7b17a04-8e56-4d5d-9285-7c19ffc99a82",
-      "userId": "a0243857-3b02-4571-841f-827544525c5c",
-      "category": "液体蛋白",
-      "result": "{\"category\":\"液体蛋白\",\"trends\":\"\"}",
-      "createdAt": "2026-07-30T00:35:31.880Z"
     }
   ],
   "_tokens": {
