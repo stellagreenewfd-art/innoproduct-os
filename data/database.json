@@ -145,6 +145,18 @@
       "lastLogin": "2026-07-30T01:48:10.044Z",
       "recordCount": 0,
       "_token": "6b65c24b1ae3469ce852957affd9df91815c47a925b92524ed99a1c255368cfb"
+    },
+    {
+      "id": "6187887d-6806-46b9-be73-222daeaf79ff",
+      "phone": "13720096569",
+      "username": "1111",
+      "company": "",
+      "industry": "",
+      "password": "883793c4f14dcc752baf53a27b764d14de2e7b73b8b4eb6d64f020ad62adce67",
+      "createdAt": "2026-07-30T05:48:48.926Z",
+      "lastLogin": "2026-07-30T05:48:48.926Z",
+      "recordCount": 0,
+      "_token": "4cdada2c3005e9d92f62e9fed00fb2957f96320e6ff568e018e434f54e5085ec"
     }
   ],
   "records": [
