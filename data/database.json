@@ -133,6 +133,18 @@
       "lastLogin": "2026-07-30T00:36:14.161Z",
       "recordCount": 1,
       "_token": "865bf73b30f6883249aec9e3ac054f40e5639dc3ce5fdd8899049c34c91df128"
+    },
+    {
+      "id": "0aff2c83-c891-445a-833e-7139360b63d9",
+      "phone": "13770700032",
+      "username": "雍志伟",
+      "company": "南京宸佳",
+      "industry": "消费品",
+      "password": "63d2d590395ae60f8456bf408d45b6a2e2ec277ece07695a909a2b49ba6996cf",
+      "createdAt": "2026-07-30T01:48:10.044Z",
+      "lastLogin": "2026-07-30T01:48:10.044Z",
+      "recordCount": 0,
+      "_token": "6b65c24b1ae3469ce852957affd9df91815c47a925b92524ed99a1c255368cfb"
     }
   ],
   "records": [
