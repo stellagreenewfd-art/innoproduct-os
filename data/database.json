@@ -131,7 +131,7 @@
       "password": "72f6e6618c0edd6c75be8c62fcbf38a148f35544efa299ad7070241221d55fc0",
       "createdAt": "2026-07-30T00:35:05.543Z",
       "lastLogin": "2026-07-30T00:35:05.543Z",
-      "recordCount": 0,
+      "recordCount": 1,
       "_token": "c60e6fb3b184f89d2fb6f553226a41ee5e7e806033e52650e1136a6412754859"
     }
   ],
@@ -149,6 +149,13 @@
       "category": "直接API测试",
       "result": "提交测试",
       "createdAt": "2026-07-27T10:55:32.024Z"
+    },
+    {
+      "id": "f7b17a04-8e56-4d5d-9285-7c19ffc99a82",
+      "userId": "a0243857-3b02-4571-841f-827544525c5c",
+      "category": "液体蛋白",
+      "result": "{\"category\":\"液体蛋白\",\"trends\":\"\"}",
+      "createdAt": "2026-07-30T00:35:31.880Z"
     }
   ],
   "_tokens": {
