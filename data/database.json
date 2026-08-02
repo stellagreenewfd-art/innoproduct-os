@@ -85,7 +85,7 @@
       "password": "44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d",
       "createdAt": "2026-07-27T09:21:28.831Z",
       "lastLogin": "2026-08-02T07:45:54.235Z",
-      "recordCount": 1,
+      "recordCount": 2,
       "_token": "6a657db20a568e213a278e882bf73e1e37c564225f959e306b60d62dbfcdb62b"
     },
     {
@@ -180,6 +180,13 @@
       "category": "液体蛋白",
       "result": "{\"category\":\"液体蛋白\",\"trends\":\"\"}",
       "createdAt": "2026-07-30T00:36:39.470Z"
+    },
+    {
+      "id": "b99a8223-c2bc-4c3c-8978-6947bb521005",
+      "userId": "1148a339-9fbf-411d-9fa1-1f7572a823f6",
+      "category": "面膜",
+      "result": "{\"category\":\"面膜\",\"trends\":\"医用敷料、涂抹式面膜、抗糖面膜\"}",
+      "createdAt": "2026-08-02T08:04:04.460Z"
     }
   ],
   "_tokens": {
