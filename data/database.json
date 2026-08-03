@@ -85,7 +85,7 @@
       "password": "44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d",
       "createdAt": "2026-07-27T09:21:28.831Z",
       "lastLogin": "2026-08-03T07:55:21.956Z",
-      "recordCount": 2,
+      "recordCount": 3,
       "_token": "90921a5e50cb80723f012647a3f236616dd016fc7142bf7b451f2ed975f856ca"
     },
     {
@@ -187,6 +187,13 @@
       "category": "面膜",
       "result": "{\"category\":\"面膜\",\"trends\":\"医用敷料、涂抹式面膜、抗糖面膜\"}",
       "createdAt": "2026-08-02T08:04:04.460Z"
+    },
+    {
+      "id": "15ad0c9c-1780-42ce-9578-5cce16c3f25e",
+      "userId": "1148a339-9fbf-411d-9fa1-1f7572a823f6",
+      "category": "降尿酸啤酒",
+      "result": "{\"category\":\"降尿酸啤酒\",\"trends\":\"降尿酸啤酒、无嘌呤啤酒、啤酒降尿酸效果\"}",
+      "createdAt": "2026-08-03T07:56:15.273Z"
     }
   ],
   "_tokens": {
