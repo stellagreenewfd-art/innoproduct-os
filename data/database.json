@@ -157,6 +157,18 @@
       "lastLogin": "2026-07-30T05:48:48.926Z",
       "recordCount": 0,
       "_token": "4cdada2c3005e9d92f62e9fed00fb2957f96320e6ff568e018e434f54e5085ec"
+    },
+    {
+      "id": "421d8985-13eb-45a3-9b28-9d13d27263f3",
+      "phone": "15058044444",
+      "username": "xwl",
+      "company": "",
+      "industry": "",
+      "password": "8bf5250fdc4dbed2c1b3f036613efcc90e5725da48578e25188d2414f1fa1dee",
+      "createdAt": "2026-08-04T05:24:43.467Z",
+      "lastLogin": "2026-08-04T05:24:43.467Z",
+      "recordCount": 0,
+      "_token": "e5c1ea218088d203bc15cb705ca812d69a90bcd720e22b890edf8966372d6385"
     }
   ],
   "records": [
