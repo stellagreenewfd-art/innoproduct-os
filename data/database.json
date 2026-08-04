@@ -8,9 +8,9 @@
       "industry": "电商",
       "password": "44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d",
       "createdAt": "2026-07-24T02:21:52.652Z",
-      "lastLogin": "2026-08-03T02:13:23.452Z",
+      "lastLogin": "2026-08-04T06:01:57.342Z",
       "recordCount": 1,
-      "_token": "be79873785182c37720c6d02755f4a1e5ec0dc598f1c840fa9de81e813fcc2c2"
+      "_token": "f50a35a8895364e148e972c0489664fcba1e11f50097f46cbe0fcbe5f8c5e6cf"
     },
     {
       "id": "250facdc-f74f-46fe-9a03-742dd258a8ff",
@@ -169,18 +169,6 @@
       "lastLogin": "2026-08-04T05:24:43.467Z",
       "recordCount": 0,
       "_token": "e5c1ea218088d203bc15cb705ca812d69a90bcd720e22b890edf8966372d6385"
-    },
-    {
-      "id": "f8e335d8-c31d-45de-9f1a-b1054687af8d",
-      "phone": "18615408551",
-      "username": "刘德忠",
-      "company": "地标优品",
-      "industry": "白葡萄酒",
-      "password": "7133b706d8e0b667f3ee8d7eb9a45672f5f1828c2fe894fd30ba6613299fae71",
-      "createdAt": "2026-08-04T05:43:19.815Z",
-      "lastLogin": "2026-08-04T05:43:19.815Z",
-      "recordCount": 0,
-      "_token": "a445c7f7eda4e6fa251c680f7a4b4c5253aecf216ad69651b091aa525c4737a8"
     }
   ],
   "records": [
