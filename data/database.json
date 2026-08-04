@@ -169,6 +169,18 @@
       "lastLogin": "2026-08-04T05:24:43.467Z",
       "recordCount": 0,
       "_token": "e5c1ea218088d203bc15cb705ca812d69a90bcd720e22b890edf8966372d6385"
+    },
+    {
+      "id": "f8e335d8-c31d-45de-9f1a-b1054687af8d",
+      "phone": "18615408551",
+      "username": "刘德忠",
+      "company": "地标优品",
+      "industry": "白葡萄酒",
+      "password": "7133b706d8e0b667f3ee8d7eb9a45672f5f1828c2fe894fd30ba6613299fae71",
+      "createdAt": "2026-08-04T05:43:19.815Z",
+      "lastLogin": "2026-08-04T05:43:19.815Z",
+      "recordCount": 0,
+      "_token": "a445c7f7eda4e6fa251c680f7a4b4c5253aecf216ad69651b091aa525c4737a8"
     }
   ],
   "records": [
