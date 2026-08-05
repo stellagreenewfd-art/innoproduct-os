@@ -34,8 +34,9 @@ const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY || LOCAL_CFG.DEEPSEEK_API_
 const DEEPSEEK_URL = 'https://api.deepseek.com/v1/chat/completions'
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || LOCAL_CFG.GITHUB_TOKEN || ''
 const GITHUB_REPO = process.env.GITHUB_REPO || 'stellagreenewfd-art/innoproduct-os'
-const GITHUB_BRANCH = process.env.GITHUB_BRANCH || 'render'
-const GITHUB_RAW = process.env.GITHUB_RAW || `https://raw.githubusercontent.com/${GITHUB_REPO}/${GITHUB_BRANCH}/data/database.json`
+// 数据同步到独立分支：推代码分支会触发 Render 重新部署，数据分支不会
+const GITHUB_DATA_BRANCH = process.env.GITHUB_DATA_BRANCH || 'data-backup'
+const GITHUB_RAW = process.env.GITHUB_RAW || `https://raw.githubusercontent.com/${GITHUB_REPO}/${GITHUB_DATA_BRANCH}/data/database.json`
 
 // ========== 数据库（JSON 文件 + GitHub 持久化同步，适配 Render 临时磁盘） ==========
 const DATA_DIR = path.join(__dirname, 'data')
@@ -96,7 +97,26 @@ function httpsJSON(options, body) {
   })
 }
 
-function pullFromGitHub() {
+async function pullFromGitHub() {
+  // 优先走 Contents API（实时、无 CDN 缓存）；无 token 时回退 raw
+  if (GITHUB_TOKEN) {
+    const r = await httpsJSON({
+      hostname: 'api.github.com',
+      path: `/repos/${GITHUB_REPO}/contents/data/database.json?ref=${GITHUB_DATA_BRANCH}`,
+      headers: {
+        'Authorization': 'Bearer ' + GITHUB_TOKEN,
+        'User-Agent': 'innoproduct-pro',
+        'Accept': 'application/vnd.github.v3+json'
+      }
+    })
+    if (r.status === 200 && r.body?.content) {
+      try {
+        const data = JSON.parse(Buffer.from(String(r.body.content).replace(/\n/g, ''), 'base64').toString('utf-8'))
+        if (data && Array.isArray(data.users)) return data
+      } catch {}
+    }
+    return null
+  }
   return new Promise((resolve) => {
     https.get(GITHUB_RAW, { timeout: 10000 }, res => {
       if (res.statusCode !== 200) { res.resume(); return resolve(null) }
@@ -114,7 +134,7 @@ function pullFromGitHub() {
 
 async function syncToGitHub(data) {
   if (!GITHUB_TOKEN) return false
-  const apiPath = `/repos/${GITHUB_REPO}/contents/data/database.json?ref=${GITHUB_BRANCH}`
+  const apiPath = `/repos/${GITHUB_REPO}/contents/data/database.json?ref=${GITHUB_DATA_BRANCH}`
   const headers = {
     'Authorization': 'Bearer ' + GITHUB_TOKEN,
     'User-Agent': 'innoproduct-pro',
@@ -124,7 +144,7 @@ async function syncToGitHub(data) {
   const putBody = {
     message: 'Auto-sync database',
     content: Buffer.from(JSON.stringify(data, null, 2)).toString('base64'),
-    branch: GITHUB_BRANCH
+    branch: GITHUB_DATA_BRANCH
   }
   if (cur.status === 200 && cur.body?.sha) putBody.sha = cur.body.sha
   const put = await httpsJSON({
@@ -711,12 +731,24 @@ app.listen(PORT, async () => {
   console.log('AI Key: ' + (DEEPSEEK_API_KEY ? '✅ 已配置' : '⚠️ 未配置（设置 DEEPSEEK_API_KEY 环境变量）'))
   console.log('GitHub 同步: ' + (GITHUB_TOKEN ? '✅ 启用' : '⚠️ 未启用（仅本地存储）'))
 
+  // 启动恢复：仅当远程数据比本地更新（用户数更多或本地为空）时才采用远程，避免回滚本地新数据
   const remote = await pullFromGitHub()
   if (remote && remote.users?.length) {
-    _noSync = true
-    writeDBSync(remote)
-    _noSync = false
-    console.log(`[DB] 从 GitHub 恢复: ${remote.users.length} 用户`)
+    let localCount = 0
+    try {
+      if (fs.existsSync(DB_PATH)) {
+        const local = JSON.parse(fs.readFileSync(DB_PATH, 'utf-8'))
+        localCount = Array.isArray(local.users) ? local.users.length : 0
+      }
+    } catch {}
+    if (remote.users.length > localCount) {
+      _noSync = true
+      writeDBSync(remote)
+      _noSync = false
+      console.log(`[DB] 从 GitHub 恢复: ${remote.users.length} 用户（本地 ${localCount}）`)
+    } else {
+      console.log(`[DB] 保留本地数据: ${localCount} 用户（远程 ${remote.users.length}）`)
+    }
   }
 
   const db = readDB()
