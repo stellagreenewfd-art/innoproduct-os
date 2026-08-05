@@ -202,6 +202,23 @@
           "createdAt": "2026-08-05T07:11:11.110Z"
         }
       ]
+    },
+    {
+      "id": "459bc7e1-d778-440c-b709-040aa27f9030",
+      "phone": "13900003333",
+      "username": "livetest2",
+      "company": "",
+      "industry": "",
+      "password": "scrypt$16384$8$1$ykCONAhs30Badg5MnKLKgQ==$Ax4VkgiwxHwUpzkOpOph83Cg+d7+8XV9+WLdZax3Q/JNU/OaJgXU+Rj0GFskdwLA/G90crxfyfO60nhKwintdg==",
+      "createdAt": "2026-08-05T07:22:23.386Z",
+      "lastLogin": "2026-08-05T07:22:23.386Z",
+      "recordCount": 0,
+      "_tokens": [
+        {
+          "token": "68d2335f1de383d8797bf4d1a654a83cba11a5a8f4bef28615728ed17fcb3148",
+          "createdAt": "2026-08-05T07:22:23.386Z"
+        }
+      ]
     }
   ],
   "records": [
