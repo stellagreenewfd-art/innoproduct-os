@@ -1,4 +1,5 @@
 node_modules/
+dist/
 data/
-.env.local
+server.config.local.json
 .DS_Store
