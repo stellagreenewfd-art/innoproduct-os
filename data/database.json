@@ -181,6 +181,23 @@
       "lastLogin": "2026-08-05T01:15:19.287Z",
       "recordCount": 0,
       "_token": "666abc141ab69f1c9124eb6e9c7b9bc407e4cb0f7d8c429fb07d95903f3d6188"
+    },
+    {
+      "id": "49323613-c6f4-4ff4-8952-4875920b6e5e",
+      "phone": "13900002222",
+      "username": "livetest",
+      "company": "上线验证",
+      "industry": "美妆",
+      "password": "scrypt$16384$8$1$rTgvItT5LkqAp9Luv3YMTw==$K0V8BGdD8+ys4Iv6X1G/nHEv0n2YPogHvruEoOIYT9HFs0273Wii3es7A7QzY6Pi4FsengiROY2uk739REgqbw==",
+      "createdAt": "2026-08-05T07:11:05.703Z",
+      "lastLogin": "2026-08-05T07:11:05.703Z",
+      "recordCount": 0,
+      "_tokens": [
+        {
+          "token": "fab5f74ef19035ff74db95d4b0f8b1025ab5dc9f1f4ea59b887cb946840f9cec",
+          "createdAt": "2026-08-05T07:11:05.703Z"
+        }
+      ]
     }
   ],
   "records": [
@@ -225,5 +242,6 @@
     "dfb1fdaf0c125ef899dc1b1e1dcdce22a21a55c4919881917a43cf3f46ca85e0": "8195f92e-7df6-4ad8-9587-5b8db7bc7348",
     "b1dfaef732fe764c93ff38aac1bf3d4c208dc58eba2e91253f5810ddad1938b8": "8195f92e-7df6-4ad8-9587-5b8db7bc7348",
     "3d142220336d1348d68d8735c167e5c5f5da4992fc721b2e1d475a2f45443449": "8195f92e-7df6-4ad8-9587-5b8db7bc7348"
-  }
+  },
+  "userData": {}
 }
