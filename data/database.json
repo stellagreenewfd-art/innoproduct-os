@@ -190,12 +190,16 @@
       "industry": "美妆",
       "password": "scrypt$16384$8$1$rTgvItT5LkqAp9Luv3YMTw==$K0V8BGdD8+ys4Iv6X1G/nHEv0n2YPogHvruEoOIYT9HFs0273Wii3es7A7QzY6Pi4FsengiROY2uk739REgqbw==",
       "createdAt": "2026-08-05T07:11:05.703Z",
-      "lastLogin": "2026-08-05T07:11:05.703Z",
+      "lastLogin": "2026-08-05T07:11:11.110Z",
       "recordCount": 0,
       "_tokens": [
         {
           "token": "fab5f74ef19035ff74db95d4b0f8b1025ab5dc9f1f4ea59b887cb946840f9cec",
           "createdAt": "2026-08-05T07:11:05.703Z"
+        },
+        {
+          "token": "7c7235ad8bf944f085872a5256d24487238898c96ccaaee0053a5f430ac5a1ed",
+          "createdAt": "2026-08-05T07:11:11.110Z"
         }
       ]
     }
