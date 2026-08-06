@@ -211,7 +211,7 @@
       "industry": "",
       "password": "scrypt$16384$8$1$ykCONAhs30Badg5MnKLKgQ==$Ax4VkgiwxHwUpzkOpOph83Cg+d7+8XV9+WLdZax3Q/JNU/OaJgXU+Rj0GFskdwLA/G90crxfyfO60nhKwintdg==",
       "createdAt": "2026-08-05T07:22:23.386Z",
-      "lastLogin": "2026-08-05T07:26:13.574Z",
+      "lastLogin": "2026-08-06T01:07:49.907Z",
       "recordCount": 0,
       "_tokens": [
         {
@@ -221,6 +221,10 @@
         {
           "token": "ecfdbd87d5e7df3e144d14c8a53605eb9d0e1ff83d3f92f6ad1da2133ca1d8ef",
           "createdAt": "2026-08-05T07:26:13.574Z"
+        },
+        {
+          "token": "3472b42962098d0c75aa7e4e93284c95bcad4cb542c3fd73ff7cf4f5ff31db75",
+          "createdAt": "2026-08-06T01:07:49.919Z"
         }
       ]
     }
