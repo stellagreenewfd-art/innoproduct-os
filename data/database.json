@@ -82,11 +82,17 @@
       "username": "Alex",
       "company": "",
       "industry": "",
-      "password": "44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d",
+      "password": "scrypt$16384$8$1$q2o8s/w2Hl3bjrbbRYP2Lg==$HCV61jlV3q5WNyXz+MtK+HhHClLf12X8IR2sWA1/6HwI2BZrZwVtDHaeOjklKmjIsCXPuiaLnxdQStv42SMItw==",
       "createdAt": "2026-07-27T09:21:28.831Z",
-      "lastLogin": "2026-08-04T12:04:58.550Z",
+      "lastLogin": "2026-08-06T01:12:11.909Z",
       "recordCount": 3,
-      "_token": "35d01ea331eaf12be040e6912cb7a984e8b33fed541821f875de7b4e163c0e2a"
+      "_token": "35d01ea331eaf12be040e6912cb7a984e8b33fed541821f875de7b4e163c0e2a",
+      "_tokens": [
+        {
+          "token": "f54771e776a7760e88635cbdbb8c7540156a70f0710b11657517250c1a86b2de",
+          "createdAt": "2026-08-06T01:12:11.909Z"
+        }
+      ]
     },
     {
       "id": "53f5a966-172d-4fd1-a3b2-8a5cb601e8b2",
