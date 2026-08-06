@@ -4910,7 +4910,7 @@
               "tasks": [
                 {
                   "name": "详情页",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "种草内容",
