@@ -7312,18 +7312,18 @@
                 },
                 {
                   "name": "包装材质",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "合规审核",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "终版确认",
-                  "done": false
+                  "done": true
                 }
               ],
-              "status": "in_progress",
+              "status": "completed",
               "assignee": "",
               "startDate": "2026-10-03",
               "endDate": "2026-10-18",
@@ -7341,7 +7341,7 @@
                 },
                 {
                   "name": "质检标准",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "首批生产",
@@ -7352,7 +7352,7 @@
                   "done": false
                 }
               ],
-              "status": "not_started",
+              "status": "in_progress",
               "assignee": "",
               "startDate": "2026-10-18",
               "endDate": "2026-11-07",
