@@ -4860,14 +4860,14 @@
                 },
                 {
                   "name": "合规审核",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "终版确认",
                   "done": false
                 }
               ],
-              "status": "not_started",
+              "status": "in_progress",
               "assignee": "",
               "startDate": "2026-10-03",
               "endDate": "2026-10-18",
