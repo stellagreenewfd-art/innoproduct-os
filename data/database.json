@@ -241,6 +241,23 @@
           "createdAt": "2026-08-06T01:10:11.517Z"
         }
       ]
+    },
+    {
+      "id": "86c5e12d-1cd0-43e4-b4bd-65cb4939e3c1",
+      "phone": "18666523304",
+      "username": "abc123456",
+      "company": "",
+      "industry": "",
+      "password": "scrypt$16384$8$1$K+zpWyB01B0jvks6bWCEIw==$h6BvaShhnbSdn4uWRbn+MFVnqa6KKHZWel0GA0KWogmTZis5lmjbs/B+jj26EcSU1v2kiGrnLzIt6nsPfYDjTg==",
+      "createdAt": "2026-08-06T01:19:25.811Z",
+      "lastLogin": "2026-08-06T01:19:25.811Z",
+      "recordCount": 0,
+      "_tokens": [
+        {
+          "token": "f3589288f40a2bfc20bb87f1bd35cb7a6b7f660369802550c5b8e0a82baaf526",
+          "createdAt": "2026-08-06T01:19:25.811Z"
+        }
+      ]
     }
   ],
   "records": [
