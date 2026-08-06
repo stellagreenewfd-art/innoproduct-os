@@ -4893,10 +4893,10 @@
                 },
                 {
                   "name": "入库",
-                  "done": true
+                  "done": false
                 }
               ],
-              "status": "completed",
+              "status": "in_progress",
               "assignee": "生产部",
               "startDate": "2026-10-18",
               "endDate": "2026-11-07",
