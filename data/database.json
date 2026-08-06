@@ -258,6 +258,23 @@
           "createdAt": "2026-08-06T01:19:25.811Z"
         }
       ]
+    },
+    {
+      "id": "cae6b7e3-524e-4bdc-a47e-277c43e10476",
+      "phone": "15101020710",
+      "username": "yummieyang",
+      "company": "比优特",
+      "industry": "食品",
+      "password": "scrypt$16384$8$1$p5ON4axEV9wKdLVfBv7EjA==$GmN9/2H7MARTAZKSiD4J//r/V91GzvJyp7NDcVsgrpwWyIAMSs0s5NfCGNU1OsuWQq9QCJ2fkWXubwlqsdLDpA==",
+      "createdAt": "2026-08-06T03:14:10.483Z",
+      "lastLogin": "2026-08-06T03:14:10.483Z",
+      "recordCount": 0,
+      "_tokens": [
+        {
+          "token": "443506ed2cdf8e8a06b33b66ef6ec1563efb83127aea684c9754a224515e6d79",
+          "createdAt": "2026-08-06T03:14:10.484Z"
+        }
+      ]
     }
   ],
   "records": [
