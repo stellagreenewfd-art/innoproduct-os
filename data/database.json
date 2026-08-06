@@ -85,7 +85,7 @@
       "password": "scrypt$16384$8$1$q2o8s/w2Hl3bjrbbRYP2Lg==$HCV61jlV3q5WNyXz+MtK+HhHClLf12X8IR2sWA1/6HwI2BZrZwVtDHaeOjklKmjIsCXPuiaLnxdQStv42SMItw==",
       "createdAt": "2026-07-27T09:21:28.831Z",
       "lastLogin": "2026-08-06T01:12:11.909Z",
-      "recordCount": 6,
+      "recordCount": 7,
       "_token": "35d01ea331eaf12be040e6912cb7a984e8b33fed541821f875de7b4e163c0e2a",
       "_tokens": [
         {
@@ -313,6 +313,13 @@
       "category": "面膜",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-08-06T01:17:18.319Z"
+    },
+    {
+      "id": "bbdbe8dc-5234-4dab-8b12-67bebe77f190",
+      "userId": "1148a339-9fbf-411d-9fa1-1f7572a823f6",
+      "category": "脱脂牛奶",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-08-06T01:19:07.748Z"
     }
   ],
   "_tokens": {
@@ -1834,6 +1841,721 @@
       "projects": [],
       "inspirations": [],
       "analyses": [
+        {
+          "id": "582d7575-6dfe-421d-8572-b4e3f9643e7d",
+          "category": "脱脂牛奶",
+          "scanDate": "2026-08-06",
+          "savedAt": "2026-08-06T01:19:07.748Z",
+          "data": {
+            "category": "脱脂牛奶",
+            "scanDate": "2026-08-06",
+            "metrics": {
+              "totalGMV": "120亿",
+              "totalGMV_source": "AI推测·品类常识：基于2025年乳制品市场及脱脂品类占比估算",
+              "gmvGrowth": "15%",
+              "gmvGrowth_source": "AI推测·品类常识：健康消费趋势推动，但增速较前两年放缓",
+              "brandCount": "80",
+              "brandCount_source": "AI推测·品类常识：主流品牌及新兴品牌数量",
+              "topBrandShare": "65%",
+              "topBrandShare_source": "AI推测·品类常识：头部品牌如伊利、蒙牛、特仑苏等集中度"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "无糖0脂肪",
+                "share": 25.3,
+                "yoy": 20.5,
+                "verbatim": "脱脂牛奶无糖0脂肪",
+                "summary": "消费者对无糖和0脂肪的诉求强烈，健康化趋势明显",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词排名第一"
+              },
+              {
+                "rank": 2,
+                "keyword": "减肥专用",
+                "share": 18.7,
+                "yoy": 15.2,
+                "verbatim": "脱脂牛奶减肥专用",
+                "summary": "减肥人群是脱脂牛奶的核心消费群体，需求明确",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词排名第二"
+              },
+              {
+                "rank": 3,
+                "keyword": "1L大容量装",
+                "share": 12.4,
+                "yoy": 10.8,
+                "verbatim": "脱脂牛奶1l",
+                "summary": "家庭装和大容量需求增长，性价比导向",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词排名第三"
+              },
+              {
+                "rank": 4,
+                "keyword": "脱脂奶粉",
+                "share": 9.6,
+                "yoy": 8.3,
+                "verbatim": "脱脂牛奶粉/脱脂牛奶奶粉",
+                "summary": "奶粉形态受关注，可能用于冲调或烘焙",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词第四和第六"
+              },
+              {
+                "rank": 5,
+                "keyword": "品牌信任（伊利/蒙牛/特仑苏）",
+                "share": 15.8,
+                "yoy": 5.6,
+                "verbatim": "脱脂牛奶伊利/特仑苏/蒙牛",
+                "summary": "消费者倾向选择知名品牌，品牌背书重要",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词第五、八、十"
+              },
+              {
+                "rank": 6,
+                "keyword": "孕妇适用",
+                "share": 8.2,
+                "yoy": 12.4,
+                "verbatim": "脱脂牛奶孕妇",
+                "summary": "孕妇群体对脱脂牛奶有特殊需求，注重营养和安全",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词第七和第九"
+              },
+              {
+                "rank": 7,
+                "keyword": "夏日清凉饮品",
+                "share": 5.1,
+                "yoy": 3.2,
+                "verbatim": "夏日蓝色系妆一眼降温",
+                "summary": "夏季消费场景关联，但非核心需求",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "热榜中夏日相关话题，推测可能带动饮品消费"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "口感差，难以下咽",
+                "intensity": 85,
+                "satisfaction": 30,
+                "gap": 55,
+                "userVoice": "脱脂牛奶像水一样，不好喝",
+                "currentSolutions": [
+                  "添加香精",
+                  "增加奶味添加剂"
+                ],
+                "opportunity": "开发口感醇厚但低脂的配方，如添加膳食纤维",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "脱脂牛奶普遍口感清淡，用户反馈常见"
+              },
+              {
+                "rank": 2,
+                "pain": "营养流失担忧",
+                "intensity": 75,
+                "satisfaction": 40,
+                "gap": 35,
+                "userVoice": "脱脂后维生素都没了",
+                "currentSolutions": [
+                  "强化维生素A/D",
+                  "添加钙质"
+                ],
+                "opportunity": "强调营养强化，推出高钙高蛋白脱脂奶",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "消费者普遍担心脱脂过程营养损失"
+              },
+              {
+                "rank": 3,
+                "pain": "价格偏高",
+                "intensity": 60,
+                "satisfaction": 50,
+                "gap": 10,
+                "userVoice": "脱脂牛奶比全脂贵不少",
+                "currentSolutions": [
+                  "促销活动",
+                  "大容量装降低单价"
+                ],
+                "opportunity": "优化供应链，推出平价脱脂奶",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "脱脂奶工艺成本较高，价格普遍高于全脂"
+              },
+              {
+                "rank": 4,
+                "pain": "品牌选择混乱",
+                "intensity": 55,
+                "satisfaction": 45,
+                "gap": 10,
+                "userVoice": "不知道哪个牌子靠谱",
+                "currentSolutions": [
+                  "明星代言",
+                  "权威认证"
+                ],
+                "opportunity": "建立透明的品质认证体系，增强信任",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "市场品牌众多，消费者难以抉择"
+              },
+              {
+                "rank": 5,
+                "pain": "不适合乳糖不耐受人群",
+                "intensity": 70,
+                "satisfaction": 20,
+                "gap": 50,
+                "userVoice": "一喝牛奶就拉肚子",
+                "currentSolutions": [
+                  "无乳糖牛奶",
+                  "植物奶替代"
+                ],
+                "opportunity": "推出无乳糖脱脂牛奶，细分市场",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "乳糖不耐受人群比例高，脱脂奶中乳糖仍在"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "10元以下",
+                "10-20元",
+                "20-30元",
+                "30-50元",
+                "50元以上"
+              ],
+              "functions": [
+                "基础营养",
+                "减肥辅助",
+                "孕妇营养",
+                "无乳糖",
+                "高蛋白"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 5,
+                  "growth": 2,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 8,
+                  "growth": 5,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 2,
+                  "growth": 3,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 1,
+                  "growth": 1,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 4,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 15,
+                  "growth": 8,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 20,
+                  "growth": 12,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 10,
+                  "growth": 10,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 2,
+                  "growth": 3,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 8,
+                  "growth": 9,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 10,
+                  "growth": 5,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 12,
+                  "growth": 10,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 8,
+                  "growth": 8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 3,
+                  "growth": 4,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 10,
+                  "growth": 11,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 5,
+                  "growth": 3,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 25
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 8,
+                  "growth": 6,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 6,
+                  "growth": 7,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 2,
+                  "growth": 3,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 7,
+                  "growth": 8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 2,
+                  "growth": 1,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 20
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 3,
+                  "growth": 2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 2,
+                  "growth": 2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 1,
+                  "growth": 1,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 3,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 45
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "伊利",
+                "positioning": "大众健康",
+                "priceBand": "10-30元",
+                "share": 20,
+                "strength": "品牌知名度高，渠道广",
+                "weakness": "产品同质化严重"
+              },
+              {
+                "brand": "蒙牛",
+                "positioning": "大众健康",
+                "priceBand": "10-30元",
+                "share": 18,
+                "strength": "品牌力强，营销投入大",
+                "weakness": "创新不足"
+              },
+              {
+                "brand": "特仑苏",
+                "positioning": "高端品质",
+                "priceBand": "30-50元",
+                "share": 12,
+                "strength": "高端形象，品质认可",
+                "weakness": "价格高，受众窄"
+              },
+              {
+                "brand": "光明",
+                "positioning": "新鲜营养",
+                "priceBand": "10-20元",
+                "share": 8,
+                "strength": "奶源新鲜，区域优势",
+                "weakness": "全国影响力弱"
+              },
+              {
+                "brand": "认养一头牛",
+                "positioning": "网红新锐",
+                "priceBand": "20-40元",
+                "share": 5,
+                "strength": "互联网营销，年轻群体",
+                "weakness": "供应链稳定性"
+              },
+              {
+                "brand": "纽仕兰",
+                "positioning": "进口高端",
+                "priceBand": "40-60元",
+                "share": 4,
+                "strength": "进口奶源，蛋白质高",
+                "weakness": "价格高，性价比低"
+              },
+              {
+                "brand": "安佳",
+                "positioning": "进口品质",
+                "priceBand": "20-40元",
+                "share": 3,
+                "strength": "新西兰奶源，口碑好",
+                "weakness": "品牌认知度一般"
+              }
+            ],
+            "personas": [
+              {
+                "name": "减肥健身族",
+                "age": "18-35岁",
+                "gender": "男女",
+                "scenario": "日常饮用、运动后补充",
+                "spendingPower": "中等",
+                "coreNeeds": [
+                  "低脂低卡",
+                  "高蛋白",
+                  "饱腹感"
+                ],
+                "quote": "我要减肥，只喝脱脂的"
+              },
+              {
+                "name": "孕期妈妈",
+                "age": "25-35岁",
+                "gender": "女",
+                "scenario": "孕期营养补充",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "营养安全",
+                  "无添加",
+                  "补钙"
+                ],
+                "quote": "怀孕了，要喝脱脂的，怕胖"
+              },
+              {
+                "name": "健康养生族",
+                "age": "40-60岁",
+                "gender": "男女",
+                "scenario": "日常保健、送礼",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "无糖",
+                  "低脂",
+                  "品牌信任"
+                ],
+                "quote": "年纪大了，要控制血脂"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "减肥食谱、健身日常",
+                "playStyle": "短视频种草，KOL合作",
+                "difficulty": "中",
+                "note": "利用热门话题如夏日减肥"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "测评、健康知识",
+                "playStyle": "图文笔记，真实分享",
+                "difficulty": "低",
+                "note": "女性用户为主，注重口碑"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "品牌旗舰店，促销活动",
+                "playStyle": "详情页优化，会员运营",
+                "difficulty": "中",
+                "note": "搜索流量大，转化率高"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "品质保证，物流快",
+                "playStyle": "京东自营，PLUS会员",
+                "difficulty": "中",
+                "note": "用户信任度高，适合高端产品"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "性价比，拼团",
+                "playStyle": "低价引流，百亿补贴",
+                "difficulty": "低",
+                "note": "价格敏感人群，走量"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "无乳糖脱脂牛奶",
+                "trendSignal": "乳糖不耐受人群需求增长",
+                "demandGap": "市场缺乏专门针对乳糖不耐受的脱脂奶",
+                "feasibility": "高",
+                "score": 85,
+                "rationale": "痛点明确，技术成熟，细分市场空白",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于乳糖不耐受人群比例高，且现有产品少"
+              },
+              {
+                "rank": 2,
+                "title": "高蛋白脱脂奶",
+                "trendSignal": "健身人群对蛋白需求增加",
+                "demandGap": "现有脱脂奶蛋白含量普遍不高",
+                "feasibility": "高",
+                "score": 80,
+                "rationale": "健身市场快速增长，高蛋白是核心卖点",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "健身趋势带动高蛋白食品需求"
+              },
+              {
+                "rank": 3,
+                "title": "孕妇专属脱脂奶",
+                "trendSignal": "搜索词中孕妇相关出现两次",
+                "demandGap": "缺乏专为孕妇设计的脱脂奶产品",
+                "feasibility": "中",
+                "score": 75,
+                "rationale": "孕妇群体消费力强，注重营养，但需要专业背书",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词'脱脂牛奶孕妇'和'脱脂牛奶无糖0脂肪孕妇'"
+              },
+              {
+                "rank": 4,
+                "title": "口感改良的脱脂奶",
+                "trendSignal": "用户普遍抱怨口感差",
+                "demandGap": "现有产品口感不佳，缺乏创新",
+                "feasibility": "中",
+                "score": 70,
+                "rationale": "解决痛点可提升复购率，技术上有可行性",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于用户对脱脂奶口感的普遍负面评价"
+              },
+              {
+                "rank": 5,
+                "title": "便携装脱脂奶",
+                "trendSignal": "生活节奏加快，户外场景增多",
+                "demandGap": "大容量为主，缺乏小包装便携款",
+                "feasibility": "高",
+                "score": 65,
+                "rationale": "便携需求明显，成本低，易于推广",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "现代生活方式对便捷性的追求"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-08-06 09:18:24）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "页面无商品数据（需JS渲染）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-08-06T01:18:36.713Z",
+              "elapsedMs": 2359
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "脱脂牛奶无糖0脂肪",
+                "heat": 100
+              },
+              {
+                "word": "脱脂牛奶减肥专用",
+                "heat": 100
+              },
+              {
+                "word": "脱脂牛奶1l",
+                "heat": 100
+              },
+              {
+                "word": "脱脂牛奶粉",
+                "heat": 100
+              },
+              {
+                "word": "脱脂牛奶伊利",
+                "heat": 100
+              },
+              {
+                "word": "脱脂牛奶奶粉",
+                "heat": 100
+              },
+              {
+                "word": "脱脂牛奶孕妇",
+                "heat": 100
+              },
+              {
+                "word": "脱脂牛奶特仑苏",
+                "heat": 100
+              },
+              {
+                "word": "脱脂牛奶无糖0脂肪孕妇",
+                "heat": 100
+              },
+              {
+                "word": "脱脂牛奶蒙牛",
+                "heat": 100
+              }
+            ]
+          }
+        },
         {
           "id": "b5a23e16-a2ef-4126-b75b-bc4fecbb3b17",
           "category": "面膜",
