@@ -6,11 +6,17 @@
       "username": "qaq",
       "company": "创品智造",
       "industry": "电商",
-      "password": "44788e32f8b2ac8ebc00e636a68918630f414127dc0cfdd919bca4c9ba31f58d",
+      "password": "scrypt$16384$8$1$jXyuHJhO8CZyCqwSdLF/1g==$akijXUoUTM5R1sFElo20vLxVtrqfKI7TP+JOdJAb57JNfCTs5uqpLfyOIKBRtb+QLOCHl0lmNRRdkevkG2IQXA==",
       "createdAt": "2026-07-24T02:21:52.652Z",
-      "lastLogin": "2026-08-04T06:01:57.342Z",
+      "lastLogin": "2026-08-06T08:59:08.233Z",
       "recordCount": 1,
-      "_token": "f50a35a8895364e148e972c0489664fcba1e11f50097f46cbe0fcbe5f8c5e6cf"
+      "_token": "f50a35a8895364e148e972c0489664fcba1e11f50097f46cbe0fcbe5f8c5e6cf",
+      "_tokens": [
+        {
+          "token": "09c8f070a7f8645fee28118cdc28eac36c63503a7a04839040261d136e247fec",
+          "createdAt": "2026-08-06T08:59:08.234Z"
+        }
+      ]
     },
     {
       "id": "250facdc-f74f-46fe-9a03-742dd258a8ff",
