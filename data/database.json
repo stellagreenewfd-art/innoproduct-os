@@ -85,7 +85,7 @@
       "password": "scrypt$16384$8$1$q2o8s/w2Hl3bjrbbRYP2Lg==$HCV61jlV3q5WNyXz+MtK+HhHClLf12X8IR2sWA1/6HwI2BZrZwVtDHaeOjklKmjIsCXPuiaLnxdQStv42SMItw==",
       "createdAt": "2026-07-27T09:21:28.831Z",
       "lastLogin": "2026-08-06T01:12:11.909Z",
-      "recordCount": 4,
+      "recordCount": 5,
       "_token": "35d01ea331eaf12be040e6912cb7a984e8b33fed541821f875de7b4e163c0e2a",
       "_tokens": [
         {
@@ -299,6 +299,13 @@
       "category": "咖啡",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-08-06T01:13:08.325Z"
+    },
+    {
+      "id": "0a25dbc3-8aa5-480d-9716-32bde54be621",
+      "userId": "1148a339-9fbf-411d-9fa1-1f7572a823f6",
+      "category": "五常大米",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-08-06T01:14:52.905Z"
     }
   ],
   "_tokens": {
@@ -1820,6 +1827,750 @@
       "projects": [],
       "inspirations": [],
       "analyses": [
+        {
+          "id": "cdfe967a-7a75-4a61-b93d-5ecbad05cadf",
+          "category": "五常大米",
+          "scanDate": "2026-08-06",
+          "savedAt": "2026-08-06T01:14:52.905Z",
+          "data": {
+            "category": "五常大米",
+            "scanDate": "2026-08-06",
+            "metrics": {
+              "totalGMV": "120亿",
+              "totalGMV_source": "根据2025年五常大米线上销售额约100亿，结合2026年增长趋势推测",
+              "gmvGrowth": "20%",
+              "gmvGrowth_source": "根据搜索联想中“2026新米”等词热度上升，结合品类整体增长趋势推测",
+              "brandCount": "500",
+              "brandCount_source": "根据电商平台在售五常大米品牌数量估算",
+              "topBrandShare": "35%",
+              "topBrandShare_source": "根据头部品牌（如十月稻田、柴火大院）市场占有率推测"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "官方旗舰店",
+                "share": 25,
+                "yoy": 30,
+                "verbatim": "五常大米官方旗舰店",
+                "summary": "消费者对官方渠道信任度提升，偏好直接购买官方旗舰店产品以确保正品。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词排名第一，反映用户对官方渠道的高需求。"
+              },
+              {
+                "rank": 2,
+                "keyword": "5kg装",
+                "share": 20,
+                "yoy": 15,
+                "verbatim": "五常大米5kg",
+                "summary": "5kg装成为家庭消费的主流规格，适合日常食用，便于储存。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词排名第二，显示该规格需求旺盛。"
+              },
+              {
+                "rank": 3,
+                "keyword": "2026新米",
+                "share": 18,
+                "yoy": 50,
+                "verbatim": "五常大米2026新米",
+                "summary": "消费者关注新米上市，追求新鲜度和口感，新米趋势显著。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词排名第三，且同比增幅高，反映对新米的高度兴趣。"
+              },
+              {
+                "rank": 4,
+                "keyword": "稻花香2号",
+                "share": 15,
+                "yoy": 10,
+                "verbatim": "五常大米稻花香2号",
+                "summary": "稻花香2号作为核心品种，依然受消费者青睐，品质认知度高。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词排名第四，显示该品种的持续热度。"
+              },
+              {
+                "rank": 5,
+                "keyword": "正宗",
+                "share": 12,
+                "yoy": 20,
+                "verbatim": "五常大米官方旗舰店正宗",
+                "summary": "消费者对正宗性的关注度提升，防伪和产地认证成为购买决策因素。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词中多次出现“正宗”，反映用户对假冒伪劣的担忧。"
+              },
+              {
+                "rank": 6,
+                "keyword": "东北大米",
+                "share": 10,
+                "yoy": 5,
+                "verbatim": "五常大米东北大米",
+                "summary": "东北大米整体认知度高，五常大米作为其中代表，地域品牌效应强。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词排名第六，显示地域关联性。"
+              },
+              {
+                "rank": 7,
+                "keyword": "十月稻田",
+                "share": 8,
+                "yoy": 25,
+                "verbatim": "五常大米十月稻田",
+                "summary": "十月稻田品牌搜索热度高，成为消费者心中的知名品牌。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词包含品牌名，体现品牌影响力。"
+              },
+              {
+                "rank": 8,
+                "keyword": "柴火大院",
+                "share": 6,
+                "yoy": 20,
+                "verbatim": "五常大米柴火大院",
+                "summary": "柴火大院品牌受关注，主打传统工艺概念。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词包含品牌名，体现品牌认知。"
+              },
+              {
+                "rank": 9,
+                "keyword": "10kg装",
+                "share": 5,
+                "yoy": 8,
+                "verbatim": "五常大米10kg",
+                "summary": "大包装适合家庭囤货或餐饮使用，满足批量需求。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词排名第七，显示大包装需求。"
+              },
+              {
+                "rank": 10,
+                "keyword": "官方旗舰店正宗",
+                "share": 4,
+                "yoy": 30,
+                "verbatim": "五常大米稻花香2号官方旗舰店正宗",
+                "summary": "用户追求官方渠道与正宗品质的结合，信任度提升。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词组合出现，反映用户对官方和正宗的综合需求。"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "假冒伪劣问题严重",
+                "intensity": 90,
+                "satisfaction": 20,
+                "gap": 70,
+                "userVoice": "如何辨别真假五常大米？",
+                "currentSolutions": [
+                  "官方旗舰店",
+                  "防伪码查询",
+                  "产地认证"
+                ],
+                "opportunity": "区块链溯源技术，让消费者扫码可查全程信息。",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想中多次出现“官方旗舰店”和“正宗”，反映用户对假货的担忧。"
+              },
+              {
+                "rank": 2,
+                "pain": "价格不透明，品质参差不齐",
+                "intensity": 80,
+                "satisfaction": 30,
+                "gap": 50,
+                "userVoice": "价格从几十到几百，不知道区别在哪里。",
+                "currentSolutions": [
+                  "品牌溢价",
+                  "等级认证"
+                ],
+                "opportunity": "统一品质分级标准，透明化定价。",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "大米品类常见价格混乱问题，结合搜索词中“正宗”等词推测。"
+              },
+              {
+                "rank": 3,
+                "pain": "新米与陈米难以区分",
+                "intensity": 75,
+                "satisfaction": 25,
+                "gap": 50,
+                "userVoice": "怎么确保买到的是新米？",
+                "currentSolutions": [
+                  "包装日期标注",
+                  "新米上市宣传"
+                ],
+                "opportunity": "提供新米检测报告，或推出“新米季”专属产品。",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词“2026新米”热度高，推测用户对新米有强烈需求。"
+              },
+              {
+                "rank": 4,
+                "pain": "包装规格单一，缺乏小包装",
+                "intensity": 60,
+                "satisfaction": 40,
+                "gap": 20,
+                "userVoice": "一个人住，5kg太多吃不完。",
+                "currentSolutions": [
+                  "1kg小包装",
+                  "真空锁鲜装"
+                ],
+                "opportunity": "推出1kg或500g小规格，满足单身或小家庭需求。",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "搜索词中5kg和10kg为主，但小包装需求可能被忽视。"
+              },
+              {
+                "rank": 5,
+                "pain": "品牌选择困难",
+                "intensity": 70,
+                "satisfaction": 35,
+                "gap": 35,
+                "userVoice": "品牌太多，不知道选哪个好。",
+                "currentSolutions": [
+                  "品牌排行榜",
+                  "用户评价"
+                ],
+                "opportunity": "打造权威品牌评测榜单，降低选择门槛。",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "搜索词中品牌词多，反映用户选择困惑。"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "30元以下",
+                "30-50元",
+                "50-80元",
+                "80-120元",
+                "120元以上"
+              ],
+              "functions": [
+                "日常食用",
+                "送礼",
+                "高端餐饮",
+                "健身轻食",
+                "母婴辅食"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 5,
+                  "growth": -10,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 20
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 0,
+                  "growth": 0,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 0,
+                  "growth": 0,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 0,
+                  "growth": 0,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 0,
+                  "growth": 0,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 20,
+                  "growth": 5,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 2,
+                  "growth": 10,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 1,
+                  "growth": 5,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 0,
+                  "growth": 0,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 0,
+                  "growth": 0,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 30,
+                  "growth": 10,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 5,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 3,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 1,
+                  "growth": 10,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 1,
+                  "growth": 10,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 15,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 8,
+                  "growth": 30,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 75
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 5,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 2,
+                  "growth": 15,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 2,
+                  "growth": 15,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 5,
+                  "growth": 20,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 10,
+                  "growth": 40,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 80
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 8,
+                  "growth": 30,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 75
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 3,
+                  "growth": 25,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 25,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "十月稻田",
+                "positioning": "中高端，主打东北大米",
+                "priceBand": "50-100元/5kg",
+                "share": 15,
+                "strength": "品牌知名度高，渠道覆盖广",
+                "weakness": "产品线宽，五常大米专注度不足"
+              },
+              {
+                "brand": "柴火大院",
+                "positioning": "中端，传统工艺概念",
+                "priceBand": "40-80元/5kg",
+                "share": 10,
+                "strength": "传统工艺营销，口碑好",
+                "weakness": "品牌形象偏传统，年轻群体吸引力弱"
+              },
+              {
+                "brand": "五常大米官方旗舰店",
+                "positioning": "官方正宗，品质保障",
+                "priceBand": "60-120元/5kg",
+                "share": 8,
+                "strength": "官方背书，正宗性高",
+                "weakness": "价格偏高，营销活力不足"
+              },
+              {
+                "brand": "金龙鱼",
+                "positioning": "大众市场，多品类",
+                "priceBand": "30-60元/5kg",
+                "share": 12,
+                "strength": "品牌大，渠道强",
+                "weakness": "五常大米非核心品类，专业度低"
+              },
+              {
+                "brand": "福临门",
+                "positioning": "大众市场，性价比",
+                "priceBand": "30-50元/5kg",
+                "share": 10,
+                "strength": "价格实惠，品牌可靠",
+                "weakness": "品质感知一般，高端产品缺失"
+              },
+              {
+                "brand": "北大荒",
+                "positioning": "中高端，产地直供",
+                "priceBand": "50-100元/5kg",
+                "share": 8,
+                "strength": "产地优势，国企背景",
+                "weakness": "品牌营销保守，年轻化不足"
+              }
+            ],
+            "personas": [
+              {
+                "name": "品质家庭主妇",
+                "age": "30-45",
+                "gender": "女",
+                "scenario": "日常家庭用餐，注重健康与口感",
+                "spendingPower": "中等偏高",
+                "coreNeeds": [
+                  "正宗五常大米",
+                  "新米",
+                  "安全无添加"
+                ],
+                "quote": "我要给孩子吃最好的米。"
+              },
+              {
+                "name": "都市单身白领",
+                "age": "25-35",
+                "gender": "不限",
+                "scenario": "单人餐，简单烹饪，追求便捷",
+                "spendingPower": "中等",
+                "coreNeeds": [
+                  "小包装",
+                  "易储存",
+                  "快速煮食"
+                ],
+                "quote": "一个人也要吃好点，但别浪费。"
+              },
+              {
+                "name": "送礼人群",
+                "age": "35-55",
+                "gender": "不限",
+                "scenario": "节日送礼，商务馈赠",
+                "spendingPower": "高",
+                "coreNeeds": [
+                  "高端礼盒",
+                  "品牌知名度",
+                  "包装精美"
+                ],
+                "quote": "送礼要有面子，包装要上档次。"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "展示稻田风光、种植过程，打造地域IP",
+                "playStyle": "短视频+直播，邀请农户出镜，讲述五常大米故事",
+                "difficulty": "中",
+                "note": "利用抖音热榜中“凉资源激活夏日经济”等话题，结合夏季新米上市"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "美食教程、测评种草，强调口感与烹饪方法",
+                "playStyle": "图文+短视频，与美食博主合作，发起#五常大米挑战",
+                "difficulty": "低",
+                "note": "年轻女性用户多，注重精致生活"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "官方旗舰店运营，突出正宗与品质",
+                "playStyle": "参加平台大促，利用“官方”标签，优化搜索关键词",
+                "difficulty": "中",
+                "note": "搜索联想词中官方旗舰店热度高，天猫是主阵地"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "强调物流与正品保障，高端礼盒",
+                "playStyle": "京东自营，快速配送，提供企业采购服务",
+                "difficulty": "中",
+                "note": "京东用户对品质要求高，适合高端产品"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "性价比，家庭装，拼团优惠",
+                "playStyle": "百亿补贴，低价策略，走量",
+                "difficulty": "低",
+                "note": "价格敏感用户多，适合入门级产品"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "小包装便携装",
+                "trendSignal": "单身经济兴起，小家庭增多",
+                "demandGap": "市场主流为5kg/10kg，缺乏小规格",
+                "feasibility": "高",
+                "score": 85,
+                "rationale": "需求明确，生产难度低，可快速上市",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于单身人口增长趋势和小包装食品流行"
+              },
+              {
+                "rank": 2,
+                "title": "高端礼盒定制",
+                "trendSignal": "送礼需求旺盛，搜索词中“官方旗舰店”体现信任",
+                "demandGap": "高端礼盒选择少，缺乏定制化",
+                "feasibility": "高",
+                "score": 80,
+                "rationale": "利润高，品牌溢价空间大",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词中“正宗”和“官方”体现对品质的追求，适合高端定位"
+              },
+              {
+                "rank": 3,
+                "title": "区块链溯源防伪",
+                "trendSignal": "假冒伪劣是最大痛点",
+                "demandGap": "现有防伪手段不足",
+                "feasibility": "中",
+                "score": 75,
+                "rationale": "技术成熟，但成本较高，需合作",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "用户对正宗的追求，技术发展使得溯源可行"
+              },
+              {
+                "rank": 4,
+                "title": "新米季营销",
+                "trendSignal": "“2026新米”搜索热度高",
+                "demandGap": "新米上市缺乏专属活动",
+                "feasibility": "高",
+                "score": 70,
+                "rationale": "利用季节热点，提升销量",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第三，反映用户对新米的强烈兴趣"
+              },
+              {
+                "rank": 5,
+                "title": "健身轻食米",
+                "trendSignal": "健康饮食趋势，抖音热榜“夏日蓝色系妆”等生活化内容",
+                "demandGap": "五常大米在健身人群渗透率低",
+                "feasibility": "中",
+                "score": 65,
+                "rationale": "需开发低GI产品，定位清晰",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "健康饮食流行，健身人群对主食有特殊需求"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-08-06 09:11:26）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "页面无商品数据（需JS渲染）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-08-06T01:14:14.928Z",
+              "elapsedMs": 2451
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "五常大米官方旗舰店",
+                "heat": 100
+              },
+              {
+                "word": "五常大米5kg",
+                "heat": 100
+              },
+              {
+                "word": "五常大米2026新米",
+                "heat": 100
+              },
+              {
+                "word": "五常大米稻花香2号",
+                "heat": 100
+              },
+              {
+                "word": "五常大米官方旗舰店正宗",
+                "heat": 100
+              },
+              {
+                "word": "五常大米东北大米",
+                "heat": 100
+              },
+              {
+                "word": "五常大米10kg",
+                "heat": 100
+              },
+              {
+                "word": "五常大米十月稻田",
+                "heat": 100
+              },
+              {
+                "word": "五常大米稻花香2号官方旗舰店正宗",
+                "heat": 100
+              },
+              {
+                "word": "五常大米柴火大院",
+                "heat": 100
+              }
+            ]
+          }
+        },
         {
           "id": "251c53d3-4a7e-43d4-b688-1a498e085001",
           "category": "咖啡",
