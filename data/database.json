@@ -251,7 +251,7 @@
       "password": "scrypt$16384$8$1$K+zpWyB01B0jvks6bWCEIw==$h6BvaShhnbSdn4uWRbn+MFVnqa6KKHZWel0GA0KWogmTZis5lmjbs/B+jj26EcSU1v2kiGrnLzIt6nsPfYDjTg==",
       "createdAt": "2026-08-06T01:19:25.811Z",
       "lastLogin": "2026-08-06T01:19:25.811Z",
-      "recordCount": 0,
+      "recordCount": 1,
       "_tokens": [
         {
           "token": "f3589288f40a2bfc20bb87f1bd35cb7a6b7f660369802550c5b8e0a82baaf526",
@@ -337,6 +337,13 @@
       "category": "脱脂牛奶",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-08-06T01:19:07.748Z"
+    },
+    {
+      "id": "6edfa405-878a-4c35-9be3-f6800448a424",
+      "userId": "86c5e12d-1cd0-43e4-b4bd-65cb4939e3c1",
+      "category": "男士洗发水",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-08-06T01:22:22.519Z"
     }
   ],
   "_tokens": {
@@ -4733,6 +4740,718 @@
               },
               {
                 "word": "咖啡打泡器",
+                "heat": 100
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "86c5e12d-1cd0-43e4-b4bd-65cb4939e3c1": {
+      "projects": [],
+      "inspirations": [],
+      "analyses": [
+        {
+          "id": "a691df4d-7323-491e-8a29-e6d241af039b",
+          "category": "男士洗发水",
+          "scanDate": "2026-08-06",
+          "savedAt": "2026-08-06T01:22:22.519Z",
+          "data": {
+            "category": "男士洗发水",
+            "scanDate": "2026-08-06",
+            "metrics": {
+              "totalGMV": "80",
+              "totalGMV_source": "AI推测·品类常识：基于2025年男士洗发水市场规模约70亿，增速约15%，推测2026年约80亿",
+              "gmvGrowth": "15",
+              "gmvGrowth_source": "AI推测·品类常识：综合电商平台男士个护品类增速及搜索热度增长",
+              "brandCount": "120",
+              "brandCount_source": "AI推测·品类常识：根据电商平台活跃品牌数量估算",
+              "topBrandShare": "45",
+              "topBrandShare_source": "AI推测·品类常识：头部品牌如清扬、海飞丝、欧莱雅等集中度较高"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "去屑止痒控油",
+                "share": 35,
+                "yoy": 20,
+                "verbatim": "男士洗发水去屑止痒控油",
+                "summary": "男士洗发水核心诉求集中于去屑、止痒、控油，多功能合一成为主流选择。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词排名第一，且多个相关词出现"
+              },
+              {
+                "rank": 2,
+                "keyword": "套装",
+                "share": 20,
+                "yoy": 25,
+                "verbatim": "男士洗发水沐浴露套装",
+                "summary": "男士倾向于购买洗发水与沐浴露的组合套装，追求便捷与性价比。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词中多个套装相关词"
+              },
+              {
+                "rank": 3,
+                "keyword": "控油蓬松",
+                "share": 15,
+                "yoy": 30,
+                "verbatim": "男士洗发水控油蓬松",
+                "summary": "控油同时追求蓬松感，反映男士对发型造型的重视。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词出现，且控油相关词热度高"
+              },
+              {
+                "rank": 4,
+                "keyword": "品牌旗舰店",
+                "share": 10,
+                "yoy": 10,
+                "verbatim": "男士洗发水官方旗舰店正品品牌",
+                "summary": "消费者注重正品保障，偏好官方渠道购买。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词出现"
+              },
+              {
+                "rank": 5,
+                "keyword": "持久留香",
+                "share": 8,
+                "yoy": 15,
+                "verbatim": "男士洗发水持久留香",
+                "summary": "香气成为男士洗发水的重要卖点，社交需求驱动。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词出现"
+              },
+              {
+                "rank": 6,
+                "keyword": "清扬",
+                "share": 7,
+                "yoy": 5,
+                "verbatim": "男士洗发水清扬",
+                "summary": "清扬作为头部品牌，被消费者直接搜索，品牌认知度高。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词出现"
+              },
+              {
+                "rank": 7,
+                "keyword": "去屑",
+                "share": 5,
+                "yoy": 10,
+                "verbatim": "男士洗发水去屑",
+                "summary": "去屑仍是基础需求，但单独搜索热度低于组合词。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词出现"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "去屑效果不持久",
+                "intensity": 90,
+                "satisfaction": 50,
+                "gap": 40,
+                "userVoice": "用了很多去屑洗发水，过几天头屑又回来了。",
+                "currentSolutions": [
+                  "化学去屑剂（ZPT）",
+                  "植物提取物"
+                ],
+                "opportunity": "开发长效缓释去屑技术，或针对头皮微生态的调节产品。",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词中“去屑”高频出现，且用户常抱怨反复"
+              },
+              {
+                "rank": 2,
+                "pain": "控油效果差，洗完不久就油",
+                "intensity": 85,
+                "satisfaction": 40,
+                "gap": 45,
+                "userVoice": "上午洗头，下午就油了，烦死了。",
+                "currentSolutions": [
+                  "强力清洁表活",
+                  "水杨酸"
+                ],
+                "opportunity": "研发调节皮脂分泌的成分，或长效控油技术。",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "控油是核心搜索词，用户普遍反映控油时间短"
+              },
+              {
+                "rank": 3,
+                "pain": "头皮瘙痒",
+                "intensity": 80,
+                "satisfaction": 45,
+                "gap": 35,
+                "userVoice": "头皮痒得难受，抓得都是头皮屑。",
+                "currentSolutions": [
+                  "抗真菌成分（酮康唑）",
+                  "清凉剂"
+                ],
+                "opportunity": "结合舒缓抗炎成分，提供止痒效果。",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词中“止痒”出现，且与去屑并列"
+              },
+              {
+                "rank": 4,
+                "pain": "洗发水刺激眼睛",
+                "intensity": 60,
+                "satisfaction": 70,
+                "gap": -10,
+                "userVoice": "洗头时不小心弄到眼睛里，很刺痛。",
+                "currentSolutions": [
+                  "无泪配方",
+                  "温和表活"
+                ],
+                "opportunity": "推广无泪配方，强调温和不刺激。",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "常见用户反馈，但非搜索热词"
+              },
+              {
+                "rank": 5,
+                "pain": "香味太浓或太俗",
+                "intensity": 50,
+                "satisfaction": 60,
+                "gap": 10,
+                "userVoice": "有些洗发水香味太冲，闻着不舒服。",
+                "currentSolutions": [
+                  "香精调香"
+                ],
+                "opportunity": "推出淡雅香型或男士专属香调。",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "持久留香是搜索词，但用户对香味评价两极"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "0-30元",
+                "30-60元",
+                "60-100元",
+                "100-150元",
+                "150元以上"
+              ],
+              "functions": [
+                "去屑止痒",
+                "控油蓬松",
+                "套装组合",
+                "持久留香",
+                "温和无刺激"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 30,
+                  "growth": 10,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 20
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 25,
+                  "growth": 15,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 25
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 20,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 10,
+                  "growth": 10,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 15
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 5,
+                  "growth": 5,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 25,
+                  "growth": 15,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 30,
+                  "growth": 20,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 15,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 10,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 8,
+                  "growth": 10,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 20,
+                  "growth": 20,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 25,
+                  "growth": 25,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 10,
+                  "growth": 30,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 15,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 5,
+                  "growth": 15,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 10,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 15,
+                  "growth": 30,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 5,
+                  "growth": 35,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 10,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 20,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 5,
+                  "growth": 30,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 8,
+                  "growth": 35,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 3,
+                  "growth": 40,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 5,
+                  "growth": 30,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 2,
+                  "growth": 25,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 60
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "清扬",
+                "positioning": "专业去屑男士系列",
+                "priceBand": "30-60元",
+                "share": 15,
+                "strength": "品牌知名度高，去屑效果深入人心",
+                "weakness": "产品线老化，创新不足"
+              },
+              {
+                "brand": "海飞丝",
+                "positioning": "去屑专家，大众市场",
+                "priceBand": "30-60元",
+                "share": 12,
+                "strength": "强大的渠道和品牌力",
+                "weakness": "男士专属产品线较弱"
+              },
+              {
+                "brand": "欧莱雅男士",
+                "positioning": "专业男士护肤，高端",
+                "priceBand": "60-100元",
+                "share": 10,
+                "strength": "品牌形象高端，产品线丰富",
+                "weakness": "价格较高，性价比不足"
+              },
+              {
+                "brand": "阿道夫",
+                "positioning": "香氛洗护，留香持久",
+                "priceBand": "60-100元",
+                "share": 8,
+                "strength": "独特的香氛卖点",
+                "weakness": "去屑控油效果口碑一般"
+              },
+              {
+                "brand": "吕",
+                "positioning": "韩方草本，滋养头皮",
+                "priceBand": "60-100元",
+                "share": 6,
+                "strength": "草本成分概念，头皮护理",
+                "weakness": "男士产品线少"
+              },
+              {
+                "brand": "滋源",
+                "positioning": "无硅油，天然",
+                "priceBand": "30-60元",
+                "share": 5,
+                "strength": "无硅油概念，健康",
+                "weakness": "去屑效果弱"
+              }
+            ],
+            "personas": [
+              {
+                "name": "油头上班族",
+                "age": "25-35",
+                "gender": "男",
+                "scenario": "每天通勤，头皮出油严重，影响形象",
+                "spendingPower": "中等",
+                "coreNeeds": [
+                  "强力控油",
+                  "清爽",
+                  "方便快捷"
+                ],
+                "quote": "早上洗头，下午就油，需要能撑一天的洗发水。"
+              },
+              {
+                "name": "头屑困扰者",
+                "age": "20-40",
+                "gender": "男",
+                "scenario": "头皮屑多，肩膀常落白屑，社交尴尬",
+                "spendingPower": "中等",
+                "coreNeeds": [
+                  "去屑",
+                  "止痒",
+                  "持久"
+                ],
+                "quote": "用了很多去屑的，还是反复，有没有真正管用的？"
+              },
+              {
+                "name": "精致运动男",
+                "age": "18-30",
+                "gender": "男",
+                "scenario": "经常健身，出汗多，需要洗护合一",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "套装",
+                  "留香",
+                  "清爽"
+                ],
+                "quote": "喜欢买洗发水沐浴露套装，方便，而且香味要好闻。"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "测评对比：不同洗发水去屑控油效果实测，展示头皮变化",
+                "playStyle": "剧情化+实验结果，吸引男性用户关注",
+                "difficulty": "中",
+                "note": "抖音热榜显示夏季清凉内容受欢迎，可结合清凉感"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "男士洗发水红黑榜，成分解析，种草笔记",
+                "playStyle": "图文并茂，强调真实体验，KOC合作",
+                "difficulty": "低",
+                "note": "小红书用户注重口碑，适合种草"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "官方旗舰店，会员专享，新品首发",
+                "playStyle": "结合天猫超级品牌日，打造男士洗护专场",
+                "difficulty": "中",
+                "note": "天猫用户品牌忠诚度高，适合旗舰店运营"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "正品保障，物流快，套装优惠",
+                "playStyle": "利用京东物流优势，推出组合装，强调性价比",
+                "difficulty": "低",
+                "note": "京东男性用户占比高，适合推出男士专属套装"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "低价试用装，拼团优惠，下沉市场",
+                "playStyle": "低价策略，量大从优，快速起量",
+                "difficulty": "低",
+                "note": "拼多多用户价格敏感，适合推出小容量低价产品"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "男士头皮健康管理套装",
+                "trendSignal": "搜索词中“去屑止痒控油”组合高频，且套装需求明显",
+                "demandGap": "现有产品功能单一，缺乏综合解决方案",
+                "feasibility": "高",
+                "score": 90,
+                "rationale": "多功能合一满足核心需求，套装形式提高客单价",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "多个搜索词指向去屑止痒控油和套装"
+              },
+              {
+                "rank": 2,
+                "title": "长效控油技术产品",
+                "trendSignal": "控油是搜索热词，用户痛点强烈",
+                "demandGap": "现有控油产品持续时间短",
+                "feasibility": "中",
+                "score": 85,
+                "rationale": "技术突破可形成差异化，但研发投入大",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "控油相关搜索词频繁出现，用户反馈控油时间短"
+              },
+              {
+                "rank": 3,
+                "title": "男士香氛洗发水",
+                "trendSignal": "持久留香成为搜索词，抖音热榜有夏日清凉内容",
+                "demandGap": "高端香氛市场女性为主，男士香氛洗发水蓝海",
+                "feasibility": "高",
+                "score": 75,
+                "rationale": "香氛是差异化卖点，可结合男士香水概念",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "持久留香搜索词，且抖音热榜有夏日清凉内容"
+              },
+              {
+                "rank": 4,
+                "title": "温和无刺激配方",
+                "trendSignal": "消费者对温和产品的需求上升，但搜索词未直接体现",
+                "demandGap": "男士头皮敏感人群未被充分覆盖",
+                "feasibility": "高",
+                "score": 70,
+                "rationale": "无泪配方等可吸引敏感人群，但需教育市场",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "常见用户反馈刺激，但非搜索热词"
+              },
+              {
+                "rank": 5,
+                "title": "男士洗护旅行装",
+                "trendSignal": "夏季旅游热，抖音热榜有古镇旅游，头条有中国游",
+                "demandGap": "便携装市场缺乏男士专属产品",
+                "feasibility": "高",
+                "score": 65,
+                "rationale": "旅游场景带动便捷需求，小容量低价适合尝鲜",
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜有旅游相关话题，头条有中国游"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-08-06 09:21:19）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "页面无商品数据（需JS渲染）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-08-06T01:21:46.779Z",
+              "elapsedMs": 2563
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "男士洗发水去屑止痒控油",
+                "heat": 100
+              },
+              {
+                "word": "男士洗发水沐浴露套装",
+                "heat": 100
+              },
+              {
+                "word": "男士洗发水官方旗舰店正品品牌",
+                "heat": 100
+              },
+              {
+                "word": "男士洗发水去屑止痒控油排行榜第一名",
+                "heat": 100
+              },
+              {
+                "word": "男士洗发水控油蓬松",
+                "heat": 100
+              },
+              {
+                "word": "男士洗发水沐浴露套装正品官方品牌",
+                "heat": 100
+              },
+              {
+                "word": "男士洗发水控油",
+                "heat": 100
+              },
+              {
+                "word": "男士洗发水清扬",
+                "heat": 100
+              },
+              {
+                "word": "男士洗发水持久留香",
+                "heat": 100
+              },
+              {
+                "word": "男士洗发水去屑",
                 "heat": 100
               }
             ]
