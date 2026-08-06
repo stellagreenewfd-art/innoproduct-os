@@ -4881,22 +4881,22 @@
               "tasks": [
                 {
                   "name": "工厂确认",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "质检标准",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "首批生产",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "入库",
-                  "done": false
+                  "done": true
                 }
               ],
-              "status": "not_started",
+              "status": "completed",
               "assignee": "",
               "startDate": "2026-10-18",
               "endDate": "2026-11-07",
@@ -4925,7 +4925,7 @@
                   "done": false
                 }
               ],
-              "status": "not_started",
+              "status": "in_progress",
               "assignee": "",
               "startDate": "2026-11-07",
               "endDate": "2026-11-21",
