@@ -125,7 +125,7 @@
       "password": "a261778bcc44b4f3b4bee4c5e8ffc8c38e6c324b231fc72b12036bbc904412fc",
       "createdAt": "2026-07-27T11:05:45.681Z",
       "lastLogin": "2026-07-27T11:05:45.681Z",
-      "recordCount": 0,
+      "recordCount": 1,
       "_token": "041ae8371771262a5613f69e2429fa1be41daab5164e9d66593536d466df4ea4"
     },
     {
@@ -344,6 +344,13 @@
       "category": "男士洗发水",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-08-06T01:22:22.519Z"
+    },
+    {
+      "id": "a87b8f2e-840e-4fbf-be7e-b37853bc5435",
+      "userId": "fba75361-ecda-4c70-897f-5bad837e0c2f",
+      "category": "猫粮",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-08-06T02:36:01.840Z"
     }
   ],
   "_tokens": {
@@ -5643,6 +5650,779 @@
               },
               {
                 "word": "男士洗发水去屑",
+                "heat": 100
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "fba75361-ecda-4c70-897f-5bad837e0c2f": {
+      "projects": [],
+      "inspirations": [],
+      "analyses": [
+        {
+          "id": "e22de8a2-03b3-421c-b8f8-58930f95457d",
+          "category": "猫粮",
+          "scanDate": "2026-08-06",
+          "savedAt": "2026-08-06T02:36:01.840Z",
+          "data": {
+            "category": "猫粮",
+            "scanDate": "2026-08-06",
+            "metrics": {
+              "totalGMV": "350亿",
+              "totalGMV_source": "AI推测·品类常识：根据2025年猫粮市场规模约300亿，2026年增长约17%",
+              "gmvGrowth": "16.7%",
+              "gmvGrowth_source": "AI推测·品类常识：宠物行业年增速约15-20%",
+              "brandCount": "1200",
+              "brandCount_source": "AI推测·品类常识：天猫、京东在售猫粮品牌数",
+              "topBrandShare": "45%",
+              "topBrandShare_source": "AI推测·品类常识：头部品牌如皇家、麦富迪等CR10约45%"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "猫粮试吃装",
+                "share": 15.2,
+                "yoy": 35.5,
+                "verbatim": "想给猫试试新口味，但怕买大包不吃浪费",
+                "summary": "试吃装需求激增，用户追求低试错成本，小规格包装成新宠。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第1和第3，结合电商小规格趋势"
+              },
+              {
+                "rank": 2,
+                "keyword": "猫粮幼猫",
+                "share": 12.8,
+                "yoy": 20.1,
+                "verbatim": "幼猫肠胃脆弱，得选专门的粮",
+                "summary": "幼猫粮需求旺盛，新手养猫人群增多，细分阶段粮受关注。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第2"
+              },
+              {
+                "rank": 3,
+                "keyword": "猫粮销量第一名",
+                "share": 10.5,
+                "yoy": 18.3,
+                "verbatim": "想买销量最高的，应该不会错",
+                "summary": "用户决策依赖从众心理，头部爆款影响力大。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第4"
+              },
+              {
+                "rank": 4,
+                "keyword": "猫粮皇家",
+                "share": 9.7,
+                "yoy": 12.4,
+                "verbatim": "皇家是经典品牌，但贵，有没有平替？",
+                "summary": "皇家品牌认知度高，但价格敏感用户寻求平替。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第5"
+              },
+              {
+                "rank": 5,
+                "keyword": "猫粮碗",
+                "share": 8.9,
+                "yoy": 15.6,
+                "verbatim": "猫粮碗要防噎，好清洗",
+                "summary": "猫粮周边产品需求上升，用户关注喂养体验。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第6"
+              },
+              {
+                "rank": 6,
+                "keyword": "猫粮储存桶",
+                "share": 7.3,
+                "yoy": 22.7,
+                "verbatim": "大包装猫粮开封后容易受潮，需要储存桶",
+                "summary": "大包装趋势下，储存需求凸显，防潮保鲜成刚需。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第7"
+              },
+              {
+                "rank": 7,
+                "keyword": "猫粮麦富迪",
+                "share": 6.8,
+                "yoy": 25.9,
+                "verbatim": "麦富迪性价比高，国产粮越来越好了",
+                "summary": "国产品牌崛起，麦富迪等品牌凭性价比抢占市场。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第8"
+              },
+              {
+                "rank": 8,
+                "keyword": "猫粮正品官方旗舰店",
+                "share": 5.4,
+                "yoy": 10.2,
+                "verbatim": "怕买到假货，只认官方旗舰店",
+                "summary": "用户对正品高度关注，官方渠道信任度高。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第9"
+              },
+              {
+                "rank": 9,
+                "keyword": "猫粮成猫",
+                "share": 4.9,
+                "yoy": 8.7,
+                "verbatim": "成猫粮和幼猫粮区别大吗？",
+                "summary": "成猫粮需求稳定，用户关注阶段营养匹配。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第10"
+              },
+              {
+                "rank": 10,
+                "keyword": "猫粮试吃",
+                "share": 3.8,
+                "yoy": 30.4,
+                "verbatim": "先买试吃装，猫爱吃再买大包",
+                "summary": "试吃体验成为购买决策关键环节。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第1，与试吃装类似"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "试错成本高，大包装猫粮猫咪不吃浪费",
+                "intensity": 85,
+                "satisfaction": 30,
+                "gap": 55,
+                "userVoice": "买了一大袋，猫一口不吃，只能送人",
+                "currentSolutions": [
+                  "试吃装",
+                  "小规格包装"
+                ],
+                "opportunity": "推出更小规格（如50g）试用装，结合试吃计划",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词'猫粮试吃'和'试吃装'高热度"
+              },
+              {
+                "rank": 2,
+                "pain": "幼猫粮选择困难，怕营养不够",
+                "intensity": 80,
+                "satisfaction": 40,
+                "gap": 40,
+                "userVoice": "幼猫粮怎么选？看成分表头大",
+                "currentSolutions": [
+                  "品牌幼猫粮",
+                  "咨询兽医"
+                ],
+                "opportunity": "提供幼猫粮选购指南，成分可视化",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词'猫粮幼猫'排名第2"
+              },
+              {
+                "rank": 3,
+                "pain": "担心买到假货，渠道信任危机",
+                "intensity": 75,
+                "satisfaction": 50,
+                "gap": 25,
+                "userVoice": "怕买到假货，只去官方旗舰店",
+                "currentSolutions": [
+                  "官方旗舰店",
+                  "防伪码"
+                ],
+                "opportunity": "加强渠道管控，推出溯源系统",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词'正品官方旗舰店'排名第9"
+              },
+              {
+                "rank": 4,
+                "pain": "大包装储存不便，易受潮变质",
+                "intensity": 70,
+                "satisfaction": 45,
+                "gap": 25,
+                "userVoice": "10kg的粮，一个月就受潮了",
+                "currentSolutions": [
+                  "储存桶",
+                  "密封夹"
+                ],
+                "opportunity": "开发智能储存桶，带干燥功能",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词'猫粮储存桶'排名第7"
+              },
+              {
+                "rank": 5,
+                "pain": "价格高，进口粮负担重",
+                "intensity": 65,
+                "satisfaction": 55,
+                "gap": 10,
+                "userVoice": "皇家太贵，一个月工资快没了",
+                "currentSolutions": [
+                  "国产平替",
+                  "促销活动"
+                ],
+                "opportunity": "推出高性价比国产粮，主打成分透明",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词'皇家'和'麦富迪'对比"
+              },
+              {
+                "rank": 6,
+                "pain": "猫咪换粮困难，肠胃不适",
+                "intensity": 60,
+                "satisfaction": 35,
+                "gap": 25,
+                "userVoice": "换粮就软便，愁死了",
+                "currentSolutions": [
+                  "7日换粮法",
+                  "益生菌粮"
+                ],
+                "opportunity": "开发含益生菌的过渡粮，降低换粮应激",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "常见养猫痛点"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "低端(<50元/kg)",
+                "中低端(50-80元/kg)",
+                "中端(80-120元/kg)",
+                "中高端(120-160元/kg)",
+                "高端(>160元/kg)"
+              ],
+              "functions": [
+                "基础营养",
+                "肠胃护理",
+                "美毛护肤",
+                "体重管理",
+                "功能定制(如泌尿)"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 10,
+                  "growth": 5,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 5,
+                  "growth": 10,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 3,
+                  "growth": 8,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 2,
+                  "growth": 6,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 1,
+                  "growth": 12,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 15,
+                  "growth": 8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 8,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 5,
+                  "growth": 10,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 3,
+                  "growth": 12,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 2,
+                  "growth": 18,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 20,
+                  "growth": 10,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 12,
+                  "growth": 20,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 8,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 5,
+                  "growth": 18,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 25,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 75
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 18,
+                  "growth": 12,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 10,
+                  "growth": 18,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 8,
+                  "growth": 20,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 5,
+                  "growth": 22,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 4,
+                  "growth": 30,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 80
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 12,
+                  "growth": 15,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 25
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 8,
+                  "growth": 25,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 6,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 4,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 35,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 85
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "皇家",
+                "positioning": "高端进口，兽医推荐",
+                "priceBand": "高端(>160元/kg)",
+                "share": 15,
+                "strength": "品牌信任度高，渠道覆盖广",
+                "weakness": "价格高，性价比受质疑"
+              },
+              {
+                "brand": "麦富迪",
+                "positioning": "国产高性价比",
+                "priceBand": "中端(80-120元/kg)",
+                "share": 10,
+                "strength": "价格亲民，营销力度大",
+                "weakness": "品牌历史短，高端市场缺位"
+              },
+              {
+                "brand": "渴望",
+                "positioning": "高端天然粮",
+                "priceBand": "高端(>160元/kg)",
+                "share": 8,
+                "strength": "成分优质，口碑好",
+                "weakness": "价格极高，供应不稳定"
+              },
+              {
+                "brand": "冠能",
+                "positioning": "中高端功能粮",
+                "priceBand": "中高端(120-160元/kg)",
+                "share": 7,
+                "strength": "功能性强，宠物医院渠道",
+                "weakness": "品牌老化，创新不足"
+              },
+              {
+                "brand": "网易严选",
+                "positioning": "互联网品牌，品质严选",
+                "priceBand": "中端(80-120元/kg)",
+                "share": 5,
+                "strength": "电商渠道强，性价比高",
+                "weakness": "缺乏专业背书"
+              },
+              {
+                "brand": "比瑞吉",
+                "positioning": "国产中高端天然粮",
+                "priceBand": "中高端(120-160元/kg)",
+                "share": 4,
+                "strength": "天然概念，成分透明",
+                "weakness": "品牌知名度低"
+              },
+              {
+                "brand": "凯锐思",
+                "positioning": "互联网新锐，性价比",
+                "priceBand": "中低端(50-80元/kg)",
+                "share": 3,
+                "strength": "价格低，营销灵活",
+                "weakness": "质量稳定性待检验"
+              }
+            ],
+            "personas": [
+              {
+                "name": "成分党新手",
+                "age": "25-35",
+                "gender": "女性为主",
+                "scenario": "首次养猫，研究成分表",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "高蛋白",
+                  "无谷",
+                  "透明溯源"
+                ],
+                "quote": "我要看配料表，必须清晰"
+              },
+              {
+                "name": "多猫家庭主妇",
+                "age": "30-45",
+                "gender": "女性",
+                "scenario": "家里多只猫，消耗量大",
+                "spendingPower": "中",
+                "coreNeeds": [
+                  "大包装",
+                  "性价比",
+                  "储存方便"
+                ],
+                "quote": "一买就是10公斤，得实惠"
+              },
+              {
+                "name": "品质生活者",
+                "age": "30-40",
+                "gender": "男女均衡",
+                "scenario": "把猫当孩子，追求高端",
+                "spendingPower": "高",
+                "coreNeeds": [
+                  "进口品牌",
+                  "功能定制",
+                  "健康护理"
+                ],
+                "quote": "贵点没关系，只要对猫好"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "萌宠日常+试吃测评",
+                "playStyle": "短视频种草，直播带货",
+                "difficulty": "中",
+                "note": "利用萌宠流量，强调试吃装体验"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "成分党测评，养猫攻略",
+                "playStyle": "图文种草，KOL合作",
+                "difficulty": "低",
+                "note": "小红书用户注重成分，适合深度内容"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "官方旗舰店，品牌背书",
+                "playStyle": "超级品牌日，会员运营",
+                "difficulty": "中",
+                "note": "强化品牌形象，提升复购"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "品质保障，物流快",
+                "playStyle": "自营+PLUS会员",
+                "difficulty": "中",
+                "note": "京东用户信任度高，适合高端粮"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "低价爆款，拼团",
+                "playStyle": "百亿补贴，社交裂变",
+                "difficulty": "低",
+                "note": "主打性价比，吸引价格敏感用户"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "功能性定制粮（泌尿健康）",
+                "trendSignal": "搜索词'猫粮成猫'和'幼猫'显示阶段细分，功能需求上升",
+                "demandGap": "现有产品缺乏针对泌尿健康的专业粮",
+                "feasibility": "高",
+                "score": 85,
+                "rationale": "功能定制蓝海，竞争低，需求增长快",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "宠物健康意识提升"
+              },
+              {
+                "rank": 2,
+                "title": "智能储存桶+订阅服务",
+                "trendSignal": "搜索词'猫粮储存桶'排名第7，需求明确",
+                "demandGap": "现有储存桶功能简单，缺乏智能防潮",
+                "feasibility": "高",
+                "score": 80,
+                "rationale": "结合智能硬件，提升用户体验，差异化竞争",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词'猫粮储存桶'"
+              },
+              {
+                "rank": 3,
+                "title": "小规格试吃装组合包",
+                "trendSignal": "搜索词'猫粮试吃'和'试吃装'高热度",
+                "demandGap": "用户试错成本高，需要多品牌试吃",
+                "feasibility": "极高",
+                "score": 90,
+                "rationale": "低门槛，高转化，满足用户尝鲜需求",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第1和第3"
+              },
+              {
+                "rank": 4,
+                "title": "幼猫粮+营养补充剂套装",
+                "trendSignal": "搜索词'猫粮幼猫'排名第2",
+                "demandGap": "幼猫粮市场缺乏整体营养方案",
+                "feasibility": "高",
+                "score": 75,
+                "rationale": "细分市场，客单价高，用户粘性强",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词'猫粮幼猫'"
+              },
+              {
+                "rank": 5,
+                "title": "国产高端粮品牌孵化",
+                "trendSignal": "搜索词'麦富迪'和'皇家'对比显示国产崛起",
+                "demandGap": "国产粮在高端市场缺位",
+                "feasibility": "中",
+                "score": 70,
+                "rationale": "消费升级，国货自信，有机会抢占高端份额",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词'猫粮麦富迪'"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-08-06 10:34:32）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "页面无商品数据（需JS渲染）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-08-06T02:35:27.111Z",
+              "elapsedMs": 2476
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "猫粮试吃",
+                "heat": 100
+              },
+              {
+                "word": "猫粮幼猫",
+                "heat": 100
+              },
+              {
+                "word": "猫粮试吃装",
+                "heat": 100
+              },
+              {
+                "word": "猫粮销量第一名",
+                "heat": 100
+              },
+              {
+                "word": "猫粮皇家",
+                "heat": 100
+              },
+              {
+                "word": "猫粮碗",
+                "heat": 100
+              },
+              {
+                "word": "猫粮储存桶",
+                "heat": 100
+              },
+              {
+                "word": "猫粮麦富迪",
+                "heat": 100
+              },
+              {
+                "word": "猫粮正品官方旗舰店",
+                "heat": 100
+              },
+              {
+                "word": "猫粮成猫",
                 "heat": 100
               }
             ]
