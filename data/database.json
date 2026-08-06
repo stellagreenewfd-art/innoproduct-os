@@ -7204,7 +7204,198 @@
       ]
     },
     "8195f92e-7df6-4ad8-9587-5b8db7bc7348": {
-      "projects": [],
+      "projects": [
+        {
+          "id": "dev-1786009705783",
+          "conceptId": "concept-3",
+          "productName": "零乳糖清畅脱脂奶",
+          "category": "脱脂牛奶",
+          "tagline": "乳糖不耐受也能喝的脱脂奶，清肠无负担",
+          "priceRange": "8-10元/盒",
+          "innovationLevel": "差异创新",
+          "feasibilityScore": 4,
+          "stages": [
+            {
+              "stageId": 1,
+              "name": "概念确认",
+              "tasks": [
+                {
+                  "name": "目标人群锁定",
+                  "done": false
+                },
+                {
+                  "name": "USP定稿",
+                  "done": false
+                },
+                {
+                  "name": "定价区间",
+                  "done": false
+                },
+                {
+                  "name": "立项审批",
+                  "done": false
+                }
+              ],
+              "status": "in_progress",
+              "assignee": "",
+              "startDate": "2026-08-06",
+              "endDate": "2026-08-13",
+              "progress": 0,
+              "risks": [],
+              "notes": ""
+            },
+            {
+              "stageId": 2,
+              "name": "配方研发",
+              "tasks": [
+                {
+                  "name": "成分配方设计",
+                  "done": false
+                },
+                {
+                  "name": "功效验证方案",
+                  "done": false
+                },
+                {
+                  "name": "供应商对接",
+                  "done": false
+                },
+                {
+                  "name": "初版样品",
+                  "done": false
+                }
+              ],
+              "status": "not_started",
+              "assignee": "",
+              "startDate": "2026-08-13",
+              "endDate": "2026-09-12",
+              "progress": 0,
+              "risks": [],
+              "notes": ""
+            },
+            {
+              "stageId": 3,
+              "name": "打样测试",
+              "tasks": [
+                {
+                  "name": "实验室打样",
+                  "done": false
+                },
+                {
+                  "name": "用户测试组",
+                  "done": false
+                },
+                {
+                  "name": "功效数据",
+                  "done": false
+                },
+                {
+                  "name": "迭代优化",
+                  "done": false
+                }
+              ],
+              "status": "not_started",
+              "assignee": "",
+              "startDate": "2026-09-12",
+              "endDate": "2026-10-03",
+              "progress": 0,
+              "risks": [],
+              "notes": ""
+            },
+            {
+              "stageId": 4,
+              "name": "包装设计",
+              "tasks": [
+                {
+                  "name": "视觉方案",
+                  "done": false
+                },
+                {
+                  "name": "包装材质",
+                  "done": false
+                },
+                {
+                  "name": "合规审核",
+                  "done": false
+                },
+                {
+                  "name": "终版确认",
+                  "done": false
+                }
+              ],
+              "status": "not_started",
+              "assignee": "",
+              "startDate": "2026-10-03",
+              "endDate": "2026-10-18",
+              "progress": 0,
+              "risks": [],
+              "notes": ""
+            },
+            {
+              "stageId": 5,
+              "name": "量产准备",
+              "tasks": [
+                {
+                  "name": "工厂确认",
+                  "done": false
+                },
+                {
+                  "name": "质检标准",
+                  "done": false
+                },
+                {
+                  "name": "首批生产",
+                  "done": false
+                },
+                {
+                  "name": "入库",
+                  "done": false
+                }
+              ],
+              "status": "not_started",
+              "assignee": "",
+              "startDate": "2026-10-18",
+              "endDate": "2026-11-07",
+              "progress": 0,
+              "risks": [],
+              "notes": ""
+            },
+            {
+              "stageId": 6,
+              "name": "上线准备",
+              "tasks": [
+                {
+                  "name": "详情页",
+                  "done": false
+                },
+                {
+                  "name": "种草内容",
+                  "done": false
+                },
+                {
+                  "name": "上市计划",
+                  "done": false
+                },
+                {
+                  "name": "正式发售",
+                  "done": false
+                }
+              ],
+              "status": "not_started",
+              "assignee": "",
+              "startDate": "2026-11-07",
+              "endDate": "2026-11-21",
+              "progress": 0,
+              "risks": [],
+              "notes": ""
+            }
+          ],
+          "currentStage": 1,
+          "createdAt": "2026-08-06",
+          "updatedAt": "2026-08-06",
+          "status": "concept"
+        }
+      ],
       "inspirations": [],
       "analyses": [
         {
