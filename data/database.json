@@ -7426,14 +7426,14 @@
                 },
                 {
                   "name": "定价区间",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "立项审批",
-                  "done": false
+                  "done": true
                 }
               ],
-              "status": "in_progress",
+              "status": "completed",
               "assignee": "",
               "startDate": "2026-08-11",
               "endDate": "2026-08-18",
@@ -7447,7 +7447,7 @@
               "tasks": [
                 {
                   "name": "成分配方设计",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "功效验证方案",
