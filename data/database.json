@@ -7451,18 +7451,18 @@
                 },
                 {
                   "name": "功效验证方案",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "供应商对接",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "初版样品",
                   "done": false
                 }
               ],
-              "status": "not_started",
+              "status": "in_progress",
               "assignee": "",
               "startDate": "2026-08-18",
               "endDate": "2026-09-17",
