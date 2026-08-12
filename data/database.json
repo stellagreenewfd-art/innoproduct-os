@@ -302,6 +302,23 @@
           "createdAt": "2026-08-11T12:18:15.134Z"
         }
       ]
+    },
+    {
+      "id": "5b8723a2-f9c1-4cb0-b319-574e4fb7debd",
+      "phone": "13269308662",
+      "username": "s y",
+      "company": "北京赛佩妮",
+      "industry": "",
+      "password": "scrypt$16384$8$1$ITcq42aABrM98WaBIDZ3jA==$otDfvpXzrvEAq8k4uoAiM1qJhzNg1QmRcJIZvjq/grbJ2Tn0ngaNhafaRZ2pvi1REzF7HQGJTGrRweUAChSBiQ==",
+      "createdAt": "2026-08-12T09:17:57.571Z",
+      "lastLogin": "2026-08-12T09:17:57.571Z",
+      "recordCount": 0,
+      "_tokens": [
+        {
+          "token": "bcfa9079ac63c0bb67fb44e28c7db242a6da58152efade3b2044c1c80479ff28",
+          "createdAt": "2026-08-12T09:17:57.572Z"
+        }
+      ]
     }
   ],
   "records": [
