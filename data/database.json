@@ -319,6 +319,23 @@
           "createdAt": "2026-08-12T09:17:57.572Z"
         }
       ]
+    },
+    {
+      "id": "2b74cadf-d7f5-4ecc-8b86-77b9f9729c1a",
+      "phone": "13821007911",
+      "username": "ALex",
+      "company": "个人",
+      "industry": "食品",
+      "password": "scrypt$16384$8$1$R4CScZBos7gfjOxzzdu1Yg==$fSGTGFpfIq50rApMVZkVqsMsFNvLQwvhsofx4EsWc5ewdKXyCJYSNkCdWWhd+bM+fTZP6ujdUFJ0epy4JV17HQ==",
+      "createdAt": "2026-08-13T10:45:30.201Z",
+      "lastLogin": "2026-08-13T10:45:30.201Z",
+      "recordCount": 0,
+      "_tokens": [
+        {
+          "token": "b119ce747f60265debe6dc5c865b0a2d88bbcd4620f595ebf398ead3cb417a18",
+          "createdAt": "2026-08-13T10:45:30.202Z"
+        }
+      ]
     }
   ],
   "records": [
