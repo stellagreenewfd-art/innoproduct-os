@@ -9224,11 +9224,11 @@
                 },
                 {
                   "name": "包装材质",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "合规审核",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "终版确认",
