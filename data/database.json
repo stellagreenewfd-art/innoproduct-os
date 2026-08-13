@@ -329,7 +329,7 @@
       "password": "scrypt$16384$8$1$R4CScZBos7gfjOxzzdu1Yg==$fSGTGFpfIq50rApMVZkVqsMsFNvLQwvhsofx4EsWc5ewdKXyCJYSNkCdWWhd+bM+fTZP6ujdUFJ0epy4JV17HQ==",
       "createdAt": "2026-08-13T10:45:30.201Z",
       "lastLogin": "2026-08-13T10:45:30.201Z",
-      "recordCount": 0,
+      "recordCount": 1,
       "_tokens": [
         {
           "token": "b119ce747f60265debe6dc5c865b0a2d88bbcd4620f595ebf398ead3cb417a18",
@@ -450,6 +450,13 @@
       "category": "洗发水",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-08-11T07:42:45.178Z"
+    },
+    {
+      "id": "2cb16b9e-341d-4682-a620-fc1dc5c21cbf",
+      "userId": "2b74cadf-d7f5-4ecc-8b86-77b9f9729c1a",
+      "category": "医用空气净化器",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-08-13T10:46:10.359Z"
     }
   ],
   "_tokens": {
@@ -9101,6 +9108,691 @@
               },
               {
                 "word": "脱脂牛奶蒙牛",
+                "heat": 100
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "2b74cadf-d7f5-4ecc-8b86-77b9f9729c1a": {
+      "projects": [],
+      "inspirations": [],
+      "analyses": [
+        {
+          "id": "57006a9f-ad49-40f6-a38a-79e229f42d01",
+          "category": "医用空气净化器",
+          "scanDate": "2026-08-13",
+          "savedAt": "2026-08-13T10:46:10.359Z",
+          "data": {
+            "category": "医用空气净化器",
+            "scanDate": "2026-08-13",
+            "metrics": {
+              "totalGMV": "45.6亿",
+              "totalGMV_source": "AI推测·品类常识：综合天猫、京东、抖音等平台销售数据估算",
+              "gmvGrowth": "28.5%",
+              "gmvGrowth_source": "AI推测·品类常识：基于健康消费升级和疫情后需求增长趋势",
+              "brandCount": "320",
+              "brandCount_source": "AI推测·品类常识：参考主流电商平台在售品牌数量",
+              "topBrandShare": "65%",
+              "topBrandShare_source": "AI推测·品类常识：头部品牌如飞利浦、松下、布鲁雅尔等占据主要份额"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "医用空气净化器消毒机",
+                "share": 45.2,
+                "yoy": 35.6,
+                "verbatim": "医用空气净化器消毒机",
+                "summary": "用户对医用空气净化器的消毒功能需求强烈，期望设备能有效杀灭病毒细菌，适用于医疗机构和家庭防护。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词，结合疫情后健康意识提升"
+              },
+              {
+                "rank": 2,
+                "keyword": "医用级空气净化器",
+                "share": 32.8,
+                "yoy": 28.3,
+                "verbatim": "医用级空气净化器",
+                "summary": "用户关注“医用级”认证，追求更高过滤效率和安全性，适用于敏感人群。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词，反映对品质的追求"
+              },
+              {
+                "rank": 3,
+                "keyword": "空气净化器医用级",
+                "share": 22,
+                "yoy": 25.1,
+                "verbatim": "空气净化器医用级",
+                "summary": "与“医用级”搜索词类似，用户更注重产品是否达到医用标准，可能用于医院或家庭护理。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词，与趋势2同源"
+              },
+              {
+                "rank": 4,
+                "keyword": "除菌消毒",
+                "share": 18.5,
+                "yoy": 30.2,
+                "verbatim": "能杀灭新冠病毒吗？",
+                "summary": "用户对除菌消毒功能有高需求，尤其在疫情期间，关注对特定病毒的杀灭效果。",
+                "platform": "抖音",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于抖音健康类内容热度及用户评论"
+              },
+              {
+                "rank": 5,
+                "keyword": "家庭医疗",
+                "share": 15.3,
+                "yoy": 22.4,
+                "verbatim": "家里有老人小孩，需要医用级净化器",
+                "summary": "家庭医疗场景需求增长，用户为老人、儿童等敏感人群购买医用级设备。",
+                "platform": "百度",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于百度热搜中健康话题关联"
+              },
+              {
+                "rank": 6,
+                "keyword": "过敏防护",
+                "share": 12.7,
+                "yoy": 18.9,
+                "verbatim": "对花粉过敏，医用净化器有效吗？",
+                "summary": "过敏人群关注净化器对过敏原的过滤效果，医用级产品更受信赖。",
+                "platform": "小红书",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于小红书健康笔记内容"
+              },
+              {
+                "rank": 7,
+                "keyword": "智能监测",
+                "share": 10.2,
+                "yoy": 25.8,
+                "verbatim": "能实时显示空气质量吗？",
+                "summary": "用户期望产品具备智能监测功能，实时反馈空气质量，提升使用体验。",
+                "platform": "京东",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于智能家居趋势"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "价格昂贵",
+                "intensity": 85,
+                "satisfaction": 40,
+                "gap": 45,
+                "userVoice": "医用级的太贵了，动辄上万",
+                "currentSolutions": [
+                  "高端品牌降价促销",
+                  "分期付款"
+                ],
+                "opportunity": "推出性价比高的医用级产品，或提供租赁服务",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于用户评论和价格敏感度"
+              },
+              {
+                "rank": 2,
+                "pain": "噪音大",
+                "intensity": 70,
+                "satisfaction": 50,
+                "gap": 20,
+                "userVoice": "晚上睡觉噪音太大，影响休息",
+                "currentSolutions": [
+                  "静音模式",
+                  "夜间模式"
+                ],
+                "opportunity": "优化风机和风道设计，降低噪音",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于产品评价常见问题"
+              },
+              {
+                "rank": 3,
+                "pain": "��网更换频繁且贵",
+                "intensity": 75,
+                "satisfaction": 45,
+                "gap": 30,
+                "userVoice": "滤网三个月就要换，一次好几百",
+                "currentSolutions": [
+                  "提供滤网订阅服务",
+                  "延长滤网寿命"
+                ],
+                "opportunity": "研发可清洗滤网或长寿命滤网",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于耗材成本痛点"
+              },
+              {
+                "rank": 4,
+                "pain": "消毒效果存疑",
+                "intensity": 80,
+                "satisfaction": 35,
+                "gap": 45,
+                "userVoice": "真的能杀灭病毒吗？有没有权威认证？",
+                "currentSolutions": [
+                  "展示检测报告",
+                  "第三方认证"
+                ],
+                "opportunity": "提供权威认证和实时监测数据",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于用户对功效的疑虑"
+              },
+              {
+                "rank": 5,
+                "pain": "体积大移动不便",
+                "intensity": 60,
+                "satisfaction": 55,
+                "gap": 5,
+                "userVoice": "机器太重，挪动不方便",
+                "currentSolutions": [
+                  "底部轮子",
+                  "便携把手"
+                ],
+                "opportunity": "设计轻量化或带万向轮",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于使用场景反馈"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "2000元以下",
+                "2000-4000元",
+                "4000-6000元",
+                "6000-8000元",
+                "8000元以上"
+              ],
+              "functions": [
+                "基础过滤",
+                "除菌消毒",
+                "智能监测",
+                "静音设计",
+                "医用级认证"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 5,
+                  "growth": 10,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 8,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 3,
+                  "growth": 15,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 6,
+                  "growth": 12,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 2,
+                  "growth": 25,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 80
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 10,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 15,
+                  "growth": 25,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 8,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 12,
+                  "growth": 18,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 5,
+                  "growth": 30,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 85
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 8,
+                  "growth": 12,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 18,
+                  "growth": 22,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 10,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 15,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 7,
+                  "growth": 35,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 90
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 5,
+                  "growth": 10,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 12,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 8,
+                  "growth": 22,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 10,
+                  "growth": 18,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 6,
+                  "growth": 30,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 85
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 3,
+                  "growth": 8,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 25
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 10,
+                  "growth": 18,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 5,
+                  "growth": 20,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 8,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 4,
+                  "growth": 25,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 80
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "飞利浦",
+                "positioning": "高端医用级",
+                "priceBand": "4000-8000元",
+                "share": 18,
+                "strength": "品牌知名度高，技术成熟",
+                "weakness": "价���高，噪音控制一般"
+              },
+              {
+                "brand": "松下",
+                "positioning": "中高端，主打除菌",
+                "priceBand": "3000-6000元",
+                "share": 15,
+                "strength": "除菌技术强，设计紧凑",
+                "weakness": "滤网更换成本高"
+              },
+              {
+                "brand": "布鲁雅尔",
+                "positioning": "专业空气净化，北欧品牌",
+                "priceBand": "5000-10000元",
+                "share": 12,
+                "strength": "过滤效率高，静音效果好",
+                "weakness": "价格昂贵，渠道较少"
+              },
+              {
+                "brand": "小米",
+                "positioning": "性价比，智能互联",
+                "priceBand": "1000-3000元",
+                "share": 20,
+                "strength": "价格亲民，智能控制",
+                "weakness": "医用级认证缺失，除菌效果一般"
+              },
+              {
+                "brand": "霍尼韦尔",
+                "positioning": "工业级背景，专业除菌",
+                "priceBand": "4000-7000元",
+                "share": 10,
+                "strength": "技术专业，除菌能力强",
+                "weakness": "设计偏工业，不适合家用"
+              },
+              {
+                "brand": "亚都",
+                "positioning": "国产老牌，性价比",
+                "priceBand": "2000-4000元",
+                "share": 8,
+                "strength": "价格适中，功能齐全",
+                "weakness": "品牌影响力弱，智能化不足"
+              }
+            ],
+            "personas": [
+              {
+                "name": "健康焦虑型家庭",
+                "age": "30-45岁",
+                "gender": "女",
+                "scenario": "家中有老人、小孩，担心空气污染和病毒传播",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "除菌消毒",
+                  "医用级认证",
+                  "静音"
+                ],
+                "quote": "为了家人健康，贵点也值得。"
+              },
+              {
+                "name": "过敏体质人群",
+                "age": "20-35岁",
+                "gender": "男",
+                "scenario": "花粉季或雾霾天，过敏症状严重",
+                "spendingPower": "中",
+                "coreNeeds": [
+                  "高效过滤",
+                  "过敏原去除",
+                  "智能监测"
+                ],
+                "quote": "能让我舒服呼吸就行。"
+              },
+              {
+                "name": "医疗工作者",
+                "age": "25-40岁",
+                "gender": "不限",
+                "scenario": "诊所或小型医疗机构，需要消毒空气",
+                "spendingPower": "高",
+                "coreNeeds": [
+                  "消毒杀菌",
+                  "大空间适用",
+                  "耐用"
+                ],
+                "quote": "要专业级的效果，不能马虎。"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "科普医用级净化器的除菌原理，展示检测过程",
+                "playStyle": "专家讲解+真实测试，短视频和直播带货",
+                "difficulty": "中",
+                "note": "利用健康焦虑，强调权威认证"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "真实使用体验，对比评测，家居搭配",
+                "playStyle": "种草笔记，KOL合作，注重颜值和效果",
+                "difficulty": "低",
+                "note": "女性用户为主，突出家庭健康"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "品牌旗舰店，突出医用级认证和促销活动",
+                "playStyle": "大促节点，优惠券，会员体系",
+                "difficulty": "中",
+                "note": "搜索流量大，需优化关键词"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "强调正品保障和物流速度，专业评测",
+                "playStyle": "京东自营，PLUS会员优惠，评价管理",
+                "difficulty": "中",
+                "note": "男性用户多，注重参数和性能"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "低价入门款，百亿补贴",
+                "playStyle": "低价引流，拼团，社交裂变",
+                "difficulty": "低",
+                "note": "价格敏感用户，需控制成本"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "开发平价医用级净化器",
+                "trendSignal": "搜索词“医用级”热度高",
+                "demandGap": "医用级产品价格高，市场缺乏高性价比选择",
+                "feasibility": "高",
+                "score": 90,
+                "rationale": "需求明确，技术可实现，成本可控",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词和价格痛点"
+              },
+              {
+                "rank": 2,
+                "title": "智能监测+除菌一体化",
+                "trendSignal": "智能家居趋势",
+                "demandGap": "现有产品要么智能但除菌弱，要么除菌强但智能不足",
+                "feasibility": "高",
+                "score": 85,
+                "rationale": "技术成熟，用户需求高",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于智能家电趋势"
+              },
+              {
+                "rank": 3,
+                "title": "租赁模式降低门槛",
+                "trendSignal": "共享经济",
+                "demandGap": "价格敏感用户无法承担一次性支出",
+                "feasibility": "中",
+                "score": 75,
+                "rationale": "模式创新，需建立信任",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于价格痛点"
+              },
+              {
+                "rank": 4,
+                "title": "滤网订阅服务",
+                "trendSignal": "耗材复购需求",
+                "demandGap": "滤网更换麻烦且贵",
+                "feasibility": "高",
+                "score": 80,
+                "rationale": "提升用户粘性，稳定收入",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于耗材痛点"
+              },
+              {
+                "rank": 5,
+                "title": "权威认证+透明数据",
+                "trendSignal": "用户对功效存疑",
+                "demandGap": "缺乏第三方认证和实时数据展示",
+                "feasibility": "高",
+                "score": 82,
+                "rationale": "建立信任，差异化竞争",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于用户疑虑"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 3,
+                  "detail": "3个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-08-13 18:44:31）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "页面无商品数据（需JS渲染）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-08-13T10:45:39.821Z",
+              "elapsedMs": 2939
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "医用空气净化器消毒机",
+                "heat": 100
+              },
+              {
+                "word": "医用级空气净化器",
+                "heat": 100
+              },
+              {
+                "word": "空气净化器医用级",
                 "heat": 100
               }
             ]
