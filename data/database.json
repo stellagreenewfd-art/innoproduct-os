@@ -9220,7 +9220,7 @@
               "tasks": [
                 {
                   "name": "视觉方案",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "包装材质",
@@ -9235,7 +9235,7 @@
                   "done": false
                 }
               ],
-              "status": "not_started",
+              "status": "in_progress",
               "assignee": "",
               "startDate": "2026-10-10",
               "endDate": "2026-10-25",
