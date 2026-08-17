@@ -329,7 +329,7 @@
       "password": "scrypt$16384$8$1$R4CScZBos7gfjOxzzdu1Yg==$fSGTGFpfIq50rApMVZkVqsMsFNvLQwvhsofx4EsWc5ewdKXyCJYSNkCdWWhd+bM+fTZP6ujdUFJ0epy4JV17HQ==",
       "createdAt": "2026-08-13T10:45:30.201Z",
       "lastLogin": "2026-08-13T10:45:30.201Z",
-      "recordCount": 1,
+      "recordCount": 2,
       "_tokens": [
         {
           "token": "b119ce747f60265debe6dc5c865b0a2d88bbcd4620f595ebf398ead3cb417a18",
@@ -457,6 +457,13 @@
       "category": "医用空气净化器",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-08-13T10:46:10.359Z"
+    },
+    {
+      "id": "257ece77-d843-4618-aa88-078d88114e8d",
+      "userId": "2b74cadf-d7f5-4ecc-8b86-77b9f9729c1a",
+      "category": "面膜",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-08-17T02:55:03.328Z"
     }
   ],
   "_tokens": {
@@ -9310,6 +9317,736 @@
       ],
       "inspirations": [],
       "analyses": [
+        {
+          "id": "949bd53e-6942-4ce6-a171-f65774c0748e",
+          "category": "面膜",
+          "scanDate": "2026-08-17",
+          "savedAt": "2026-08-17T02:55:03.328Z",
+          "data": {
+            "category": "面膜",
+            "scanDate": "2026-08-17",
+            "metrics": {
+              "totalGMV": "500亿",
+              "totalGMV_source": "AI推测·品类常识",
+              "gmvGrowth": "12%",
+              "gmvGrowth_source": "AI推测·品类常识",
+              "brandCount": "3000",
+              "brandCount_source": "AI推测·品类常识",
+              "topBrandShare": "35%",
+              "topBrandShare_source": "AI推测·品类常识"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "面膜补水",
+                "share": 25,
+                "yoy": 10,
+                "verbatim": "面膜补水",
+                "summary": "补水保湿仍是面膜第一大需求，基础功效持续主导市场。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词热度第一，为长期基础需求"
+              },
+              {
+                "rank": 2,
+                "keyword": "美白去黄",
+                "share": 18,
+                "yoy": 15,
+                "verbatim": "面膜补水美白去黄气暗沉",
+                "summary": "美白去黄需求显著，尤其针对亚洲肌肤的暗沉问题。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词包含美白去黄，热度靠前"
+              },
+              {
+                "rank": 3,
+                "keyword": "面膜裤",
+                "share": 12,
+                "yoy": 30,
+                "verbatim": "面膜裤",
+                "summary": "面膜裤作为跨界产品，将面膜概念延伸至身体护理，增长迅速。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词热度第三，属于新奇特品类"
+              },
+              {
+                "rank": 4,
+                "keyword": "面膜纸",
+                "share": 10,
+                "yoy": 5,
+                "verbatim": "面膜纸",
+                "summary": "面膜纸是DIY面膜的必备工具，需求稳定。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词为工具类，热度稳定"
+              },
+              {
+                "rank": 5,
+                "keyword": "官方旗舰店",
+                "share": 8,
+                "yoy": 20,
+                "verbatim": "面膜正品官方旗舰店",
+                "summary": "消费者对正品和官方渠道信任度提升，品牌官方店流量增长。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词包含官方旗舰店，体现信任需求"
+              },
+              {
+                "rank": 6,
+                "keyword": "紧致抗皱",
+                "share": 7,
+                "yoy": 18,
+                "verbatim": "面膜紧致抗皱抗衰老",
+                "summary": "抗衰老需求持续上升，紧致抗皱成为中高端面膜核心卖点。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词热度，抗衰老为品类趋势"
+              },
+              {
+                "rank": 7,
+                "keyword": "面膜T恤",
+                "share": 5,
+                "yoy": 40,
+                "verbatim": "面膜t恤女",
+                "summary": "面膜T恤是时尚与护肤的跨界产品，在年轻群体中流行。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词热度，属于创意跨界"
+              },
+              {
+                "rank": 8,
+                "keyword": "面膜刷",
+                "share": 4,
+                "yoy": 8,
+                "verbatim": "面膜刷",
+                "summary": "面膜刷作为涂抹式面膜的辅助工具，需求稳定。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词为工具类"
+              },
+              {
+                "rank": 9,
+                "keyword": "面膜碗",
+                "share": 3,
+                "yoy": 6,
+                "verbatim": "面膜碗",
+                "summary": "DIY面膜碗是搭配面膜纸使用的工具，需求平稳。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词为工具类"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "面膜补水效果不持久",
+                "intensity": 85,
+                "satisfaction": 50,
+                "gap": 35,
+                "userVoice": "敷完面膜第二天就打回原形",
+                "currentSolutions": [
+                  "玻尿酸面膜",
+                  "神经酰胺面膜"
+                ],
+                "opportunity": "开发长效保湿或屏障修复型面膜",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "补水是最大需求，但用户常抱怨不持久"
+              },
+              {
+                "rank": 2,
+                "pain": "美白去黄效果不显著",
+                "intensity": 80,
+                "satisfaction": 40,
+                "gap": 40,
+                "userVoice": "用了很多美白面膜都没变白",
+                "currentSolutions": [
+                  "维生素C面膜",
+                  "烟酰胺面膜"
+                ],
+                "opportunity": "结合医美级成分或个性化定制",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "美白去黄搜索热度高，但效果难验证"
+              },
+              {
+                "rank": 3,
+                "pain": "面膜纸不服帖",
+                "intensity": 70,
+                "satisfaction": 60,
+                "gap": 10,
+                "userVoice": "面膜纸总是起泡",
+                "currentSolutions": [
+                  "蚕丝面膜纸",
+                  "生物纤维面膜纸"
+                ],
+                "opportunity": "定制化剪裁或智能贴合材料",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "面膜纸是常见工具，服帖度是痛点"
+              },
+              {
+                "rank": 4,
+                "pain": "敏感肌使用后过敏",
+                "intensity": 90,
+                "satisfaction": 30,
+                "gap": 60,
+                "userVoice": "一用面膜就泛红刺痛",
+                "currentSolutions": [
+                  "药妆面膜",
+                  "无添加面膜"
+                ],
+                "opportunity": "专为敏感肌设计，含舒缓成分",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "敏感肌人群增多，安全是核心"
+              },
+              {
+                "rank": 5,
+                "pain": "面膜精华液过多浪费",
+                "intensity": 60,
+                "satisfaction": 70,
+                "gap": -10,
+                "userVoice": "精华液太多滴得到处都是",
+                "currentSolutions": [
+                  "精华液控制包装"
+                ],
+                "opportunity": "设计精华液适量或可回收包装",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "常见抱怨，但非核心痛点"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "0-50元",
+                "50-100元",
+                "100-200元",
+                "200-500元",
+                "500元以上"
+              ],
+              "functions": [
+                "补水保湿",
+                "美白提亮",
+                "抗皱紧致",
+                "舒缓修复",
+                "清洁控油"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 30,
+                  "growth": 5,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 20
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 20,
+                  "growth": 8,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 5,
+                  "growth": 10,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 10,
+                  "growth": 12,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 15,
+                  "growth": 3,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 25
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 20,
+                  "growth": 8,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 15,
+                  "growth": 10,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 10,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 8,
+                  "growth": 12,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 12,
+                  "growth": 5,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 10,
+                  "growth": 10,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 10,
+                  "growth": 12,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 15,
+                  "growth": 18,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 12,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 8,
+                  "growth": 8,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 5,
+                  "growth": 8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 5,
+                  "growth": 10,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 10,
+                  "growth": 20,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 8,
+                  "growth": 15,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 5,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 2,
+                  "growth": 5,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 2,
+                  "growth": 8,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 5,
+                  "growth": 25,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 80
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 3,
+                  "growth": 15,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 1,
+                  "growth": 5,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 40
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "欧莱雅",
+                "positioning": "大众护肤领导品牌",
+                "priceBand": "100-200元",
+                "share": 15,
+                "strength": "品牌知名度高，渠道广",
+                "weakness": "产品创新不足"
+              },
+              {
+                "brand": "兰蔻",
+                "positioning": "高端奢华",
+                "priceBand": "500元以上",
+                "share": 10,
+                "strength": "品牌溢价，高端形象",
+                "weakness": "价格高，性价比低"
+              },
+              {
+                "brand": "玉兰油",
+                "positioning": "抗衰老专家",
+                "priceBand": "100-200元",
+                "share": 12,
+                "strength": "抗衰老口碑好",
+                "weakness": "年轻群体吸引力弱"
+              },
+              {
+                "brand": "自然堂",
+                "positioning": "国货自然护肤",
+                "priceBand": "50-100元",
+                "share": 8,
+                "strength": "国货情怀，性价比高",
+                "weakness": "品牌升级困难"
+              },
+              {
+                "brand": "薇诺娜",
+                "positioning": "敏感肌护理",
+                "priceBand": "100-200元",
+                "share": 8,
+                "strength": "敏感肌专业，医生背书",
+                "weakness": "品类单一"
+              },
+              {
+                "brand": "膜法世家",
+                "positioning": "专业面膜品牌",
+                "priceBand": "50-100元",
+                "share": 5,
+                "strength": "面膜品类专注",
+                "weakness": "品牌力弱"
+              }
+            ],
+            "personas": [
+              {
+                "name": "成分党妈妈",
+                "age": "30-40岁",
+                "gender": "女性",
+                "scenario": "家庭护肤，关注安全",
+                "spendingPower": "中等",
+                "coreNeeds": [
+                  "无添加",
+                  "母婴安全",
+                  "补水保湿"
+                ],
+                "quote": "给孩子用的护肤品必须安全"
+              },
+              {
+                "name": "熬夜年轻白领",
+                "age": "20-30岁",
+                "gender": "女性",
+                "scenario": "加班后急救",
+                "spendingPower": "中等偏高",
+                "coreNeeds": [
+                  "快速提亮",
+                  "去黄",
+                  "方便快捷"
+                ],
+                "quote": "熬夜后敷一片，第二天才能见人"
+              },
+              {
+                "name": "抗衰中年男性",
+                "age": "40-50岁",
+                "gender": "男性",
+                "scenario": "商务社交，注重形象",
+                "spendingPower": "高",
+                "coreNeeds": [
+                  "紧致抗皱",
+                  "高端品牌",
+                  "低调奢华"
+                ],
+                "quote": "年纪大了，面子工程不能少"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "沉浸式护肤过程",
+                "playStyle": "红人种草+直播带货",
+                "difficulty": "中",
+                "note": "短视频展示效果，强调即时变化"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "成分解析+��评",
+                "playStyle": "KOC种草+教程",
+                "difficulty": "低",
+                "note": "注重真实体验，图文结合"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "官方旗舰店+会员运营",
+                "playStyle": "超级品牌日+预售",
+                "difficulty": "高",
+                "note": "品牌信任，数据化运营"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "正品保障+快速物流",
+                "playStyle": "自营+PLUS会员",
+                "difficulty": "中",
+                "note": "强调品质和速度"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "性价比+拼团",
+                "playStyle": "低价爆款+百亿补贴",
+                "difficulty": "低",
+                "note": "价格敏感用户，量大"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "长效保湿+屏障修复面膜",
+                "trendSignal": "补水需求最大，但用户抱怨不持久",
+                "demandGap": "缺乏长效保湿产品",
+                "feasibility": "高",
+                "score": 90,
+                "rationale": "补水是基础需求，但现有产品效果短暂，技术可行",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "补水搜索热度第一"
+              },
+              {
+                "rank": 2,
+                "title": "敏感肌专用面膜",
+                "trendSignal": "敏感肌人群增长，过敏问题突出",
+                "demandGap": "安全有效的敏感肌面膜少",
+                "feasibility": "高",
+                "score": 85,
+                "rationale": "痛点强烈，市场有薇诺娜但仍有空间",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "敏感肌常见痛点"
+              },
+              {
+                "rank": 3,
+                "title": "高端抗衰面膜（500元以上）",
+                "trendSignal": "抗皱紧致搜索增长，高端市场增长快",
+                "demandGap": "高端抗衰面膜选择少",
+                "feasibility": "中",
+                "score": 80,
+                "rationale": "中高端价格带增长快，且竞争低",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "紧致抗皱搜索热度"
+              },
+              {
+                "rank": 4,
+                "title": "面膜裤（身体护理跨界）",
+                "trendSignal": "面膜裤搜索热度高，增长快",
+                "demandGap": "身体护理面膜化",
+                "feasibility": "中",
+                "score": 75,
+                "rationale": "新奇特品类，增长迅速，但市场教育成本高",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "面膜裤搜索词热度第三"
+              },
+              {
+                "rank": 5,
+                "title": "个性化定制面膜",
+                "trendSignal": "消费者对效果要求高",
+                "demandGap": "千人千面的护肤需求",
+                "feasibility": "低",
+                "score": 70,
+                "rationale": "技术难度大，但未来趋势",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "个性化护肤趋势"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-08-17 10:54:26）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "页面无商品数据（需JS渲染）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-08-17T02:54:36.600Z",
+              "elapsedMs": 2660
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "面膜补水",
+                "heat": 100
+              },
+              {
+                "word": "面膜补水美白去黄气暗沉",
+                "heat": 100
+              },
+              {
+                "word": "面膜裤",
+                "heat": 100
+              },
+              {
+                "word": "面膜纸",
+                "heat": 100
+              },
+              {
+                "word": "面膜正品官方旗舰店",
+                "heat": 100
+              },
+              {
+                "word": "面膜紧致抗皱抗衰老",
+                "heat": 100
+              },
+              {
+                "word": "面膜t恤女",
+                "heat": 100
+              },
+              {
+                "word": "面膜刷",
+                "heat": 100
+              },
+              {
+                "word": "面膜t",
+                "heat": 100
+              },
+              {
+                "word": "面膜碗",
+                "heat": 100
+              }
+            ]
+          }
+        },
         {
           "id": "57006a9f-ad49-40f6-a38a-79e229f42d01",
           "category": "医用空气净化器",
