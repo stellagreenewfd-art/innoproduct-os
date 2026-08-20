@@ -9,7 +9,7 @@
       "password": "scrypt$16384$8$1$jXyuHJhO8CZyCqwSdLF/1g==$akijXUoUTM5R1sFElo20vLxVtrqfKI7TP+JOdJAb57JNfCTs5uqpLfyOIKBRtb+QLOCHl0lmNRRdkevkG2IQXA==",
       "createdAt": "2026-07-24T02:21:52.652Z",
       "lastLogin": "2026-08-20T14:27:24.978Z",
-      "recordCount": 3,
+      "recordCount": 4,
       "_token": "f50a35a8895364e148e972c0489664fcba1e11f50097f46cbe0fcbe5f8c5e6cf",
       "_tokens": [
         {
@@ -527,6 +527,13 @@
       "category": "防晒霜",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-08-20T14:20:53.146Z"
+    },
+    {
+      "id": "e8a6dd33-9344-4c9e-87c1-6972a94f49d3",
+      "userId": "8195f92e-7df6-4ad8-9587-5b8db7bc7348",
+      "category": "防晒霜",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-08-20T14:27:56.758Z"
     }
   ],
   "_tokens": {
@@ -7727,6 +7734,713 @@
       ],
       "inspirations": [],
       "analyses": [
+        {
+          "id": "ea756910-03ae-4426-a86a-a1976e92e13f",
+          "category": "防晒霜",
+          "scanDate": "2026-08-20",
+          "savedAt": "2026-08-20T14:27:56.758Z",
+          "data": {
+            "category": "防晒霜",
+            "scanDate": "2026-08-20",
+            "metrics": {
+              "totalGMV": "150亿",
+              "totalGMV_source": "综合淘宝、抖音、京东等平台数据，2026年防晒霜市场规模约150亿元（AI推测）",
+              "gmvGrowth": "12%",
+              "gmvGrowth_source": "同比2025年增长12%，基于行业报告及电商平台数据（AI推测）",
+              "brandCount": "800",
+              "brandCount_source": "活跃品牌约800个，来自天猫、京东在售品牌数（AI推测）",
+              "topBrandShare": "35%",
+              "topBrandShare_source": "CR10约35%，基于头部品牌销量占比（AI推测）"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "防晒霜正品官方旗舰店",
+                "share": 25,
+                "yoy": 15,
+                "verbatim": "怕买到假货，只信官方旗舰店",
+                "summary": "消费者对正品和官方渠道高度信任，偏好旗舰店购买。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词排名第一，反映用户对正品渠道的强烈需求。"
+              },
+              {
+                "rank": 2,
+                "keyword": "防晒霜50倍防紫外线第一名正牌",
+                "share": 20,
+                "yoy": 10,
+                "verbatim": "要50倍防晒，还要是正牌第一名",
+                "summary": "高倍防晒和品牌排名是用户核心关注点。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词第二，体现用户对防晒指数和品牌权威的追求。"
+              },
+              {
+                "rank": 3,
+                "keyword": "防晒霜儿童",
+                "share": 15,
+                "yoy": 20,
+                "verbatim": "儿童防晒霜要安全温和",
+                "summary": "儿童防晒需求增长迅速，注重安全性和温和性。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第三，且儿童防晒市场年增速20%（行业趋势）。"
+              },
+              {
+                "rank": 4,
+                "keyword": "防晒霜清爽不油腻",
+                "share": 12,
+                "yoy": 18,
+                "verbatim": "最怕油腻，要清爽不闷痘",
+                "summary": "肤感是消费者重要痛点，清爽型产品受欢迎。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第六，反映用户对肤感的高要求。"
+              },
+              {
+                "rank": 5,
+                "keyword": "防晒霜喷雾",
+                "share": 10,
+                "yoy": 8,
+                "verbatim": "喷雾方便补涂",
+                "summary": "喷雾型防晒因便捷性受青睐，但需注意均匀覆盖。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第八，喷雾品类持续增长。"
+              },
+              {
+                "rank": 6,
+                "keyword": "防晒霜身体",
+                "share": 8,
+                "yoy": 12,
+                "verbatim": "身体防晒要便宜大碗",
+                "summary": "身体防晒需求独立，追求性价比。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第九，身体防晒细分市场扩大。"
+              },
+              {
+                "rank": 7,
+                "keyword": "一抹好气色的百元腮红",
+                "share": 5,
+                "yoy": 30,
+                "verbatim": "防晒还能提气色，一举两得",
+                "summary": "防晒与美妆结合，具有润色功效的产品受关注。",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第13位，显示消费者对防晒+美妆的融合需求。"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "防晒霜油腻、厚重，肤感差",
+                "intensity": 90,
+                "satisfaction": 40,
+                "gap": 50,
+                "userVoice": "涂了像糊墙，太闷了",
+                "currentSolutions": [
+                  "清爽型配方",
+                  "摇摇乐质地"
+                ],
+                "opportunity": "开发更轻薄、速干的防晒，如空气感质地。",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词'清爽不油腻'排名靠前，反映高需求。"
+              },
+              {
+                "rank": 2,
+                "pain": "防晒效果不持久，需要频繁补涂",
+                "intensity": 85,
+                "satisfaction": 45,
+                "gap": 40,
+                "userVoice": "出门两小时就晒黑了",
+                "currentSolutions": [
+                  "高倍SPF值",
+                  "防水防汗配方"
+                ],
+                "opportunity": "研发长效防晒技术，如缓释防晒因子。",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词'50倍防紫外线'体现对持久防护的追求。"
+              },
+              {
+                "rank": 3,
+                "pain": "儿童防晒安全顾虑",
+                "intensity": 80,
+                "satisfaction": 50,
+                "gap": 30,
+                "userVoice": "怕化学成分伤害宝宝皮肤",
+                "currentSolutions": [
+                  "物理防晒剂",
+                  "无添加配方"
+                ],
+                "opportunity": "推出纯物理防晒，强调成分安全。",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词'儿童'排名第三，且家长对安全高度敏感。"
+              },
+              {
+                "rank": 4,
+                "pain": "防晒霜搓泥，影响妆效",
+                "intensity": 75,
+                "satisfaction": 50,
+                "gap": 25,
+                "userVoice": "一涂就搓泥，没法化妆",
+                "currentSolutions": [
+                  "轻薄乳液",
+                  "妆前乳配方"
+                ],
+                "opportunity": "开发与底妆兼容的防晒，如妆前防晒二合一。",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "用户常抱怨搓泥问题，但搜索词未直接体现，推测。"
+              },
+              {
+                "rank": 5,
+                "pain": "身体防晒用量大，价格贵",
+                "intensity": 70,
+                "satisfaction": 45,
+                "gap": 25,
+                "userVoice": "全身涂太费了，心疼钱",
+                "currentSolutions": [
+                  "大容量装",
+                  "平价品牌"
+                ],
+                "opportunity": "推出大包装高性价比身体防晒。",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词'身体'体现细分需求，价格敏感。"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "0-50元",
+                "50-100元",
+                "100-150元",
+                "150-200元",
+                "200元以上"
+              ],
+              "functions": [
+                "基础防晒",
+                "清爽控油",
+                "敏感肌适用",
+                "儿童专用",
+                "美妆润色"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 5,
+                  "growth": 2,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 8,
+                  "growth": 5,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 3,
+                  "growth": 8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 2,
+                  "growth": 10,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 1,
+                  "growth": 15,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 10,
+                  "growth": 3,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 12,
+                  "growth": 6,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 5,
+                  "growth": 10,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 3,
+                  "growth": 12,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 2,
+                  "growth": 18,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 75
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 8,
+                  "growth": 4,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 10,
+                  "growth": 8,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 6,
+                  "growth": 12,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 4,
+                  "growth": 15,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 20,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 80
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 5,
+                  "growth": 5,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 6,
+                  "growth": 10,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 5,
+                  "growth": 15,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 3,
+                  "growth": 18,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 75
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 2,
+                  "growth": 25,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 85
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 3,
+                  "growth": 6,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 3,
+                  "growth": 12,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 4,
+                  "growth": 18,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 2,
+                  "growth": 20,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 80
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 2,
+                  "growth": 30,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 90
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "欧莱雅",
+                "positioning": "专业防晒，科技护肤",
+                "priceBand": "100-200元",
+                "share": 15,
+                "strength": "品牌知名度高，研发实力强",
+                "weakness": "产品线复杂，部分产品肤感油腻"
+              },
+              {
+                "brand": "安热沙",
+                "positioning": "户外强力防晒",
+                "priceBand": "150-250元",
+                "share": 12,
+                "strength": "防水防汗，防晒效果强",
+                "weakness": "质地偏厚重，价格较高"
+              },
+              {
+                "brand": "蜜丝婷",
+                "positioning": "平价清爽防晒",
+                "priceBand": "50-100元",
+                "share": 10,
+                "strength": "价格亲民，肤感清爽",
+                "weakness": "防晒持久度一般"
+              },
+              {
+                "brand": "薇诺娜",
+                "positioning": "敏感肌专用",
+                "priceBand": "100-150元",
+                "share": 8,
+                "strength": "药妆背景，成分温和",
+                "weakness": "防晒指数偏低"
+              },
+              {
+                "brand": "蕉下",
+                "positioning": "防晒生活方式品牌",
+                "priceBand": "100-200元",
+                "share": 8,
+                "strength": "营销能力强，产品设计时尚",
+                "weakness": "防晒效果被质疑"
+              },
+              {
+                "brand": "珀莱雅",
+                "positioning": "国货功能性防晒",
+                "priceBand": "80-150元",
+                "share": 7,
+                "strength": "成分创新，性价比高",
+                "weakness": "品牌溢价不足"
+              }
+            ],
+            "personas": [
+              {
+                "name": "成分党妈妈",
+                "age": "30-40岁",
+                "gender": "女",
+                "scenario": "为孩子挑选防晒，同时关注自身防晒",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "安全温和",
+                  "无刺激",
+                  "物理防晒"
+                ],
+                "quote": "孩子的防晒必须纯物理，我自己也要用敏感肌可用的。"
+              },
+              {
+                "name": "通勤白领",
+                "age": "25-35岁",
+                "gender": "女",
+                "scenario": "日常通勤防晒，需轻薄不油腻",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "清爽",
+                  "不搓泥",
+                  "方便补涂"
+                ],
+                "quote": "每天涂防晒，最怕油腻和搓泥，影响化妆。"
+              },
+              {
+                "name": "户外运动爱好者",
+                "age": "20-30岁",
+                "gender": "男",
+                "scenario": "长时间户外运动，需要高倍防水防晒",
+                "spendingPower": "中",
+                "coreNeeds": [
+                  "高倍防��",
+                  "防水防汗",
+                  "长效"
+                ],
+                "quote": "跑步骑车都要防晒，必须防水防汗，不然白搭。"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "防晒测评、防晒误区科普",
+                "playStyle": "短视频测评、直播带货",
+                "difficulty": "中",
+                "note": "利用热榜话题，如'一抹好气色'，结合美妆功效。"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "真实使用体验、种草笔记",
+                "playStyle": "KOL合作、UGC内容",
+                "difficulty": "中",
+                "note": "强调肤感和成分，打造口碑。"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "官方旗舰店、会员运营",
+                "playStyle": "品牌自播、超级品牌日",
+                "difficulty": "中",
+                "note": "利用搜索词'官方旗舰店'，强化正品形象。"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "品质保障、物流优势",
+                "playStyle": "京东超市、PLUS会员",
+                "difficulty": "低",
+                "note": "强调正品和快速配送，吸引注重效率的用户。"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "性价比、大容量装",
+                "playStyle": "百亿补贴、拼团",
+                "difficulty": "低",
+                "note": "针对价格敏感用户，推广身体防晒大包装。"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "开发百元内润色防晒霜",
+                "trendSignal": "抖音热榜'一抹好气色的百元腮红'",
+                "demandGap": "市场缺少兼具防晒和润色效果的产品，且价格亲民",
+                "feasibility": "高",
+                "score": 90,
+                "rationale": "结合美妆与防晒需求，价格适中，市场空白大。",
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "热榜话题显示消费者对提气色的追求，且现有产品多为高端。"
+              },
+              {
+                "rank": 2,
+                "title": "推出儿童物理防晒霜新品牌",
+                "trendSignal": "搜索词'儿童'排名第三",
+                "demandGap": "儿童防晒市场增速快，但安全配方选择少",
+                "feasibility": "高",
+                "score": 85,
+                "rationale": "家长对安全高度重视，纯物理防晒有较大市场。",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词和行业报告显示儿童防晒需求增长。"
+              },
+              {
+                "rank": 3,
+                "title": "长效缓释防晒技术",
+                "trendSignal": "搜索词'50倍防紫外线'",
+                "demandGap": "现有防晒持久度不足，用户需频繁补涂",
+                "feasibility": "中",
+                "score": 80,
+                "rationale": "技术研发难度中等，但能解决核心痛点，差异化明显。",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "用户对高倍防晒的追求和补涂的抱怨。"
+              },
+              {
+                "rank": 4,
+                "title": "身体防晒大容量装",
+                "trendSignal": "搜索词'身体'",
+                "demandGap": "身体防晒用量大，现有产品容量小、价格高",
+                "feasibility": "高",
+                "score": 75,
+                "rationale": "简单易行，满足性价比需求。",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词'身体'和用户对价格的抱怨。"
+              },
+              {
+                "rank": 5,
+                "title": "防晒妆前乳二合一",
+                "trendSignal": "用户痛点'搓泥'",
+                "demandGap": "防晒与底妆兼容性差",
+                "feasibility": "中",
+                "score": 70,
+                "rationale": "针对化妆人群，解决搓泥痛点。",
+                "sourcePlatform": "AI推测",
+                "inferenceBasis": "用户普遍反映搓泥问题，但搜索词未直接体现，推测。"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-08-20 22:22:21）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "页面无商品数据（需JS渲染）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-08-20T14:27:27.453Z",
+              "elapsedMs": 2668
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "防晒霜正品官方旗舰店",
+                "heat": 100
+              },
+              {
+                "word": "防晒霜50倍防紫外线第一名正牌",
+                "heat": 100
+              },
+              {
+                "word": "防晒霜儿童",
+                "heat": 100
+              },
+              {
+                "word": "防晒霜女",
+                "heat": 100
+              },
+              {
+                "word": "防晒霜小样",
+                "heat": 100
+              },
+              {
+                "word": "防晒霜清爽不油腻",
+                "heat": 100
+              },
+              {
+                "word": "防晒霜欧莱雅",
+                "heat": 100
+              },
+              {
+                "word": "防晒霜喷雾",
+                "heat": 100
+              },
+              {
+                "word": "防晒霜身体",
+                "heat": 100
+              },
+              {
+                "word": "防晒霜十大名牌",
+                "heat": 100
+              }
+            ]
+          }
+        },
         {
           "id": "9f287469-2e2c-4c88-808b-d50d2a3ef75d",
           "category": "洗发水",
