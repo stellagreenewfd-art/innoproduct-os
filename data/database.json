@@ -336,6 +336,23 @@
           "createdAt": "2026-08-13T10:45:30.202Z"
         }
       ]
+    },
+    {
+      "id": "8584701c-7980-4413-bad8-e1f2b004bbea",
+      "phone": "13800138000",
+      "username": "keycheck_1787235515947",
+      "company": "t",
+      "industry": "t",
+      "password": "scrypt$16384$8$1$+V/gjZW8mN98E6JDzh2MaA==$rvUXWqeuI2Bwk10Q7ZvCMBHmeQMXg0ly8s3x4UmUhnwmv6xQqFomKIc5mDfVI4Z2bmnS9u1lv0xyaEXzZTL1bg==",
+      "createdAt": "2026-08-20T14:18:37.332Z",
+      "lastLogin": "2026-08-20T14:18:37.332Z",
+      "recordCount": 0,
+      "_tokens": [
+        {
+          "token": "21e8744f43842a89d91f7a3047f139fa621055e7614485f74a5b33432de279b8",
+          "createdAt": "2026-08-20T14:18:37.333Z"
+        }
+      ]
     }
   ],
   "records": [
