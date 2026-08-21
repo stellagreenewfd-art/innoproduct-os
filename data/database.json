@@ -378,6 +378,23 @@
           "createdAt": "2026-08-20T14:20:24.924Z"
         }
       ]
+    },
+    {
+      "id": "4d0fd8fd-f0eb-4148-a796-02e2beb8e7fc",
+      "phone": "13810360506",
+      "username": "northzhou",
+      "company": "鹿客",
+      "industry": "智能门锁",
+      "password": "scrypt$16384$8$1$bnENPMuthxdZCct6KomQJg==$ZZe9ENQyk/jHWBhO17hnSjIKMBvKUjEQ4KXtRV0PrdUC/rnMREsKHfrdMdoPcanbt4fjcgOIfNC128c3PQjI7w==",
+      "createdAt": "2026-08-21T13:39:18.952Z",
+      "lastLogin": "2026-08-21T13:39:18.952Z",
+      "recordCount": 0,
+      "_tokens": [
+        {
+          "token": "bd456b5ac701d47b761ef5f1657b67b7d4039a51a0a9d0e603f7745f1693082e",
+          "createdAt": "2026-08-21T13:39:18.953Z"
+        }
+      ]
     }
   ],
   "records": [
