@@ -338,12 +338,7 @@
       "createdAt": "2026-08-13T10:45:30.201Z",
       "lastLogin": "2026-08-13T10:45:30.201Z",
       "recordCount": 4,
-      "_tokens": [
-        {
-          "token": "b119ce747f60265debe6dc5c865b0a2d88bbcd4620f595ebf398ead3cb417a18",
-          "createdAt": "2026-08-13T10:45:30.202Z"
-        }
-      ]
+      "_tokens": []
     },
     {
       "id": "8584701c-7980-4413-bad8-e1f2b004bbea",
