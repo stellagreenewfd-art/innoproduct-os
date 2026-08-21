@@ -388,7 +388,7 @@
       "password": "scrypt$16384$8$1$bnENPMuthxdZCct6KomQJg==$ZZe9ENQyk/jHWBhO17hnSjIKMBvKUjEQ4KXtRV0PrdUC/rnMREsKHfrdMdoPcanbt4fjcgOIfNC128c3PQjI7w==",
       "createdAt": "2026-08-21T13:39:18.952Z",
       "lastLogin": "2026-08-21T13:39:18.952Z",
-      "recordCount": 0,
+      "recordCount": 1,
       "_tokens": [
         {
           "token": "bd456b5ac701d47b761ef5f1657b67b7d4039a51a0a9d0e603f7745f1693082e",
@@ -558,6 +558,13 @@
       "category": "智能门锁",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-08-21T06:25:22.036Z"
+    },
+    {
+      "id": "f554f49e-a211-4aa9-857f-b7cfa0505a98",
+      "userId": "4d0fd8fd-f0eb-4148-a796-02e2beb8e7fc",
+      "category": "智能门锁",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-08-21T13:40:08.059Z"
     }
   ],
   "_tokens": {
@@ -14865,6 +14872,721 @@
               },
               {
                 "word": "防晒霜十大名牌",
+                "heat": 100
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "4d0fd8fd-f0eb-4148-a796-02e2beb8e7fc": {
+      "projects": [],
+      "inspirations": [],
+      "analyses": [
+        {
+          "id": "6873d9ac-8059-476e-9b92-0d944cb7e3bf",
+          "category": "智能门锁",
+          "scanDate": "2026-08-21",
+          "savedAt": "2026-08-21T13:40:08.059Z",
+          "data": {
+            "category": "智能门锁",
+            "scanDate": "2026-08-21",
+            "metrics": {
+              "totalGMV": "385亿",
+              "totalGMV_source": "AI推测·品类常识：根据2025年智能门锁市场约320亿规模，结合2026年增速约20%推测",
+              "gmvGrowth": "20%",
+              "gmvGrowth_source": "AI推测·品类常识：智能门锁行业连续多年保持20%左右增长，2026年预计延续",
+              "brandCount": "500",
+              "brandCount_source": "AI推测·品类常识：行业活跃品牌数约500个，包括传统锁具品牌和跨界品牌",
+              "topBrandShare": "55%",
+              "topBrandShare_source": "AI推测·品类常识：CR10约55%，头部品牌如小米、德施曼、凯迪仕等占据主要份额"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "智能门锁电池",
+                "share": 12.5,
+                "yoy": 30,
+                "verbatim": "智能门锁电池",
+                "summary": "用户对智能门锁的续航问题高度关注，电池更换频率和便捷性成为核心痛点，带动电池相关搜索量上升。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#1���热度最高，反映用户对电池续航的焦虑"
+              },
+              {
+                "rank": 2,
+                "keyword": "智能门锁家用",
+                "share": 10.2,
+                "yoy": 15,
+                "verbatim": "智能门锁家用",
+                "summary": "家庭用户是智能门锁的主要消费群体，搜索词直接指向家用场景，表明市场以家庭需求为主。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#2"
+              },
+              {
+                "rank": 3,
+                "keyword": "智能门锁十大品牌第一名",
+                "share": 8.7,
+                "yoy": 25,
+                "verbatim": "智能门锁十大品牌第一名",
+                "summary": "用户在意品牌排名和口碑，头部品牌影响力强，但用户对“第一名”的搜索也暗示选择困难，需要权威背书。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#3"
+              },
+              {
+                "rank": 4,
+                "keyword": "智能门锁带监控",
+                "share": 7.9,
+                "yoy": 40,
+                "verbatim": "智能门锁带监控",
+                "summary": "安防需求升级，用户期望门锁集成监控功能，实现远程查看和预警，带监控的门锁成为新增长点。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#4"
+              },
+              {
+                "rank": 5,
+                "keyword": "智能门锁小米",
+                "share": 7.1,
+                "yoy": 10,
+                "verbatim": "智能门锁小米",
+                "summary": "小米作为性价比品牌，搜索热度高，用户对小米的智能生态有较高认可，但可能面临品牌偏好分化。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#5"
+              },
+              {
+                "rank": 6,
+                "keyword": "智能门锁专用锂电池",
+                "share": 6.5,
+                "yoy": 35,
+                "verbatim": "智能门锁专用锂电池",
+                "summary": "电池类型细分，用户对锂电池的充电循环和使用寿命有更高期待，专用锂电池成为配件市场热点。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#7"
+              },
+              {
+                "rank": 7,
+                "keyword": "智能门锁防撞神器",
+                "share": 5.8,
+                "yoy": 50,
+                "verbatim": "智能门锁防撞神器",
+                "summary": "用户关注门锁的物理防护，防撞功能成为差异化卖点，可能源于对暴力开锁的担忧。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#10"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "电池续航焦虑",
+                "intensity": 90,
+                "satisfaction": 40,
+                "gap": 50,
+                "userVoice": "智能门锁电池",
+                "currentSolutions": [
+                  "低功耗设计",
+                  "电池电量提醒",
+                  "备用电池"
+                ],
+                "opportunity": "开发超长续航电池或无线充电方案，减少更换频率",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#1热度最高，反映用户核心痛点"
+              },
+              {
+                "rank": 2,
+                "pain": "安全性担忧",
+                "intensity": 85,
+                "satisfaction": 60,
+                "gap": 25,
+                "userVoice": "智能门锁带监控",
+                "currentSolutions": [
+                  "指纹识别",
+                  "密码",
+                  "监控摄像头"
+                ],
+                "opportunity": "集成AI识别和异常报警，提升主动安防能力",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#4，用户对监控功能的需求"
+              },
+              {
+                "rank": 3,
+                "pain": "品牌选择困难",
+                "intensity": 70,
+                "satisfaction": 50,
+                "gap": 20,
+                "userVoice": "智能门锁十大品牌第一名",
+                "currentSolutions": [
+                  "品牌排行榜",
+                  "用户评价"
+                ],
+                "opportunity": "提供权威测评和对比工具，降低决策成本",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#3"
+              },
+              {
+                "rank": 4,
+                "pain": "电池更换不便",
+                "intensity": 75,
+                "satisfaction": 45,
+                "gap": 30,
+                "userVoice": "智能门锁专用5号电池",
+                "currentSolutions": [
+                  "使用标准电池",
+                  "低电量提醒"
+                ],
+                "opportunity": "设计可充电电池或自动断电保护，提升便利性",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#9"
+              },
+              {
+                "rank": 5,
+                "pain": "物理防护不足",
+                "intensity": 60,
+                "satisfaction": 55,
+                "gap": 5,
+                "userVoice": "智能门锁防撞神器",
+                "currentSolutions": [
+                  "防撬报警",
+                  "加固锁体"
+                ],
+                "opportunity": "增强锁体抗冲击设计，推出防撞配件",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#10"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "0-1000元",
+                "1000-2000元",
+                "2000-3000元",
+                "3000-4000元",
+                "4000元以上"
+              ],
+              "functions": [
+                "基础指纹",
+                "远程控制",
+                "监控安防",
+                "人脸识别",
+                "智能联动"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 20,
+                  "growth": 5,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 15,
+                  "growth": 10,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 5,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": true,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 2,
+                  "growth": 15,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 12,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 25,
+                  "growth": 8,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 20,
+                  "growth": 15,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 10,
+                  "growth": 30,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 75
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 5,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": true,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 8,
+                  "growth": 18,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 15,
+                  "growth": 5,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 25
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 18,
+                  "growth": 12,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 15,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 10,
+                  "growth": 22,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 68
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 12,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 62
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 5,
+                  "growth": 3,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 20
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 8,
+                  "growth": 10,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 12,
+                  "growth": 28,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 72
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 15,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 10,
+                  "growth": 22,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 2,
+                  "growth": 2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 15
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 3,
+                  "growth": 8,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 8,
+                  "growth": 30,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 78
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 10,
+                  "growth": 28,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 75
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 12,
+                  "growth": 25,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 72
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "小米",
+                "positioning": "性价比智能生态",
+                "priceBand": "1000-2000元",
+                "share": 20,
+                "strength": "品牌知名度高，生态链完善，性价比突出",
+                "weakness": "高端产品布局不足，安防技术积累较浅"
+              },
+              {
+                "brand": "德施曼",
+                "positioning": "高端安全",
+                "priceBand": "2000-4000元",
+                "share": 15,
+                "strength": "专注智能锁，安全技术领先，品质可靠",
+                "weakness": "价格偏高，智能生态联动较弱"
+              },
+              {
+                "brand": "凯迪仕",
+                "positioning": "中高端品质",
+                "priceBand": "1500-3000元",
+                "share": 12,
+                "strength": "产品线丰富，设计感强，渠道覆盖广",
+                "weakness": "品牌营销相对保守，年轻用户认知度一般"
+              },
+              {
+                "brand": "TCL",
+                "positioning": "家电跨界",
+                "priceBand": "1000-2500元",
+                "share": 8,
+                "strength": "家电品牌背书，渠道优势，价格适中",
+                "weakness": "智能锁专业度不足，创新功能较少"
+              },
+              {
+                "brand": "三星",
+                "positioning": "国际高端",
+                "priceBand": "3000-5000元",
+                "share": 5,
+                "strength": "品牌溢价，设计时尚，技术实力强",
+                "weakness": "价格昂贵，本地化服务不足"
+              },
+              {
+                "brand": "海尔",
+                "positioning": "智能家居整合",
+                "priceBand": "1500-3000元",
+                "share": 6,
+                "strength": "智能家居生态，用户信任度高",
+                "weakness": "智能锁产品线相对单一，创新不足"
+              }
+            ],
+            "personas": [
+              {
+                "name": "科技尝鲜族",
+                "age": "25-35岁",
+                "gender": "男",
+                "scenario": "新装修或升级智能家居",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "远程控制",
+                  "智能联动",
+                  "人脸识别"
+                ],
+                "quote": "我要能用手机控制，最好能跟家里的智能设备联动。"
+              },
+              {
+                "name": "安全至上家庭",
+                "age": "30-45岁",
+                "gender": "女",
+                "scenario": "有老人小孩的家庭，注重安全",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "监控功能",
+                  "防撬报警",
+                  "指纹识别"
+                ],
+                "quote": "家里有老人小孩，门锁一定要安全，最好能随时看到门外情况。"
+              },
+              {
+                "name": "性价比实用派",
+                "age": "20-30岁",
+                "gender": "男",
+                "scenario": "租房或首套刚需房",
+                "spendingPower": "中等",
+                "coreNeeds": [
+                  "基础指纹",
+                  "价格实惠",
+                  "品牌可靠"
+                ],
+                "quote": "功能不用太多，能指纹开锁就行，价格别太贵。"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "短视频展示开锁过程和安防测试，突出监控功能",
+                "playStyle": "与家居博主合作，进行场景化演示和对比测评",
+                "difficulty": "中",
+                "note": "抖音热榜显示科技类内容热度高，但需注意内容合规"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "种草笔记，分享装修搭配和智能家居体验",
+                "playStyle": "邀请家居博主发布开箱和实用技巧，强调颜值和便利性",
+                "difficulty": "低",
+                "note": "小红书用户注重生活品质，适合中高端品牌"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "官方旗舰店详情页优化，突出技术参数和用户评价",
+                "playStyle": "利用天猫大数据精准推荐，参与超品日等活动",
+                "difficulty": "中",
+                "note": "天猫是主要销售渠道，需注重评价管理"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "强调品质和物流，突出售后服务和正品保障",
+                "playStyle": "结合京东家电节促销，提供以旧换新服务",
+                "difficulty": "中",
+                "note": "京东用户对品质要求高，可侧重高端线"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "性价比路线，强调低价和基础功能",
+                "playStyle": "参与百亿补贴，主打价格优势，简化功能",
+                "difficulty": "低",
+                "note": "拼多多用户价格敏感，适合入门款"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "超长续航电池方案",
+                "trendSignal": "电池搜索热度高",
+                "demandGap": "用户对电池更换频率不满",
+                "feasibility": "高",
+                "score": 90,
+                "rationale": "直接解决用户核心痛点，技术成熟，市场接受度高",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#1"
+              },
+              {
+                "rank": 2,
+                "title": "集成监控与AI识别",
+                "trendSignal": "带监控搜索词上升",
+                "demandGap": "用户希望门锁具备主动安防功能",
+                "feasibility": "中",
+                "score": 85,
+                "rationale": "技术可行，但成本较高，需平衡价格",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#4"
+              },
+              {
+                "rank": 3,
+                "title": "品牌权威测评体系",
+                "trendSignal": "十大品牌搜索频繁",
+                "demandGap": "用户选择困难，缺乏权威指导",
+                "feasibility": "高",
+                "score": 80,
+                "rationale": "内容营销机会，可提升品牌信任度",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#3"
+              },
+              {
+                "rank": 4,
+                "title": "防撞加固设计",
+                "trendSignal": "防撞神器搜索出现",
+                "demandGap": "用户对物理防护有需求",
+                "feasibility": "高",
+                "score": 75,
+                "rationale": "简单易行，可作差异化卖点",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#10"
+              },
+              {
+                "rank": 5,
+                "title": "高端市场人脸识别+监控组合",
+                "trendSignal": "带监控和人脸识别搜索上升",
+                "demandGap": "高端用户追求极致体验",
+                "feasibility": "中",
+                "score": 70,
+                "rationale": "利润空间大，但技术门槛高",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词#4和#8"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-08-21 21:37:15）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "页面无商品数据（需JS渲染）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-08-21T13:39:30.474Z",
+              "elapsedMs": 12119
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "智能门锁电池",
+                "heat": 100
+              },
+              {
+                "word": "智能门锁家用",
+                "heat": 100
+              },
+              {
+                "word": "智能门锁十大品牌第一名",
+                "heat": 100
+              },
+              {
+                "word": "智能门锁带监控",
+                "heat": 100
+              },
+              {
+                "word": "智能门锁小米",
+                "heat": 100
+              },
+              {
+                "word": "智能门锁十大品牌",
+                "heat": 100
+              },
+              {
+                "word": "智能门锁专用锂电池",
+                "heat": 100
+              },
+              {
+                "word": "智能门锁锂电池",
+                "heat": 100
+              },
+              {
+                "word": "智能门锁专用5号电池",
+                "heat": 100
+              },
+              {
+                "word": "智能门锁防撞神器",
                 "heat": 100
               }
             ]
