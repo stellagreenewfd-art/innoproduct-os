@@ -99,7 +99,7 @@
       "password": "scrypt$16384$8$1$q2o8s/w2Hl3bjrbbRYP2Lg==$HCV61jlV3q5WNyXz+MtK+HhHClLf12X8IR2sWA1/6HwI2BZrZwVtDHaeOjklKmjIsCXPuiaLnxdQStv42SMItw==",
       "createdAt": "2026-07-27T09:21:28.831Z",
       "lastLogin": "2026-08-21T14:30:14.722Z",
-      "recordCount": 7,
+      "recordCount": 8,
       "_token": "35d01ea331eaf12be040e6912cb7a984e8b33fed541821f875de7b4e163c0e2a",
       "_tokens": [
         {
@@ -564,6 +564,13 @@
       "category": "智能门锁",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-08-21T13:40:08.059Z"
+    },
+    {
+      "id": "0e1a0450-5c87-42c8-948c-c4f02aa1e4ab",
+      "userId": "1148a339-9fbf-411d-9fa1-1f7572a823f6",
+      "category": "筋膜枪",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-08-21T14:31:04.161Z"
     }
   ],
   "_tokens": {
@@ -2085,6 +2092,721 @@
       "projects": [],
       "inspirations": [],
       "analyses": [
+        {
+          "id": "910f64c6-319b-4114-b74c-a271e05f2b73",
+          "category": "筋膜枪",
+          "scanDate": "2026-08-21",
+          "savedAt": "2026-08-21T14:31:04.161Z",
+          "data": {
+            "category": "筋膜枪",
+            "scanDate": "2026-08-21",
+            "metrics": {
+              "totalGMV": "120亿",
+              "totalGMV_source": "AI推测·品类常识",
+              "gmvGrowth": "28%",
+              "gmvGrowth_source": "AI推测·品类常识",
+              "brandCount": "350",
+              "brandCount_source": "AI推测·品类常识",
+              "topBrandShare": "45%",
+              "topBrandShare_source": "AI推测·品类常识"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "筋膜枪肌肉按摩器",
+                "share": 25,
+                "yoy": 30,
+                "verbatim": "筋膜枪肌肉按摩器",
+                "summary": "核心品类词，用户需求明确，市场教育成熟，搜索量大且持续增长。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词第一位，高热度"
+              },
+              {
+                "rank": 2,
+                "keyword": "筋膜枪女生多功能",
+                "share": 12,
+                "yoy": 45,
+                "verbatim": "筋膜枪女生多功能",
+                "summary": "女性用户需求突出，多功能设计（如换头、轻便）成为差异化卖点。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词第三位，热度高"
+              },
+              {
+                "rank": 3,
+                "keyword": "筋膜枪改装头",
+                "share": 8,
+                "yoy": 60,
+                "verbatim": "筋膜枪改装头",
+                "summary": "个性化改装需求兴起，用户追求适配不同肌肉群或场景的替换头。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词第四位，热度上升"
+              },
+              {
+                "rank": 4,
+                "keyword": "筋膜枪男士专用",
+                "share": 10,
+                "yoy": 20,
+                "verbatim": "筋膜枪男士专用",
+                "summary": "男性用户注重力度和深层按摩，专用款式需求稳定。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词第五位"
+              },
+              {
+                "rank": 5,
+                "keyword": "筋膜枪小米",
+                "share": 5,
+                "yoy": 15,
+                "verbatim": "筋膜枪小米",
+                "summary": "品牌词搜索，小米生态链产品受欢迎，性价比高。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词第六位"
+              },
+              {
+                "rank": 6,
+                "keyword": "筋膜枪飞利浦",
+                "share": 3,
+                "yoy": 10,
+                "verbatim": "筋膜枪飞利浦",
+                "summary": "传统家电品牌入局，用户信赖品牌效应。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词第八位"
+              },
+              {
+                "rank": 7,
+                "keyword": "筋膜枪女生mini",
+                "share": 6,
+                "yoy": 50,
+                "verbatim": "筋膜枪女生mini",
+                "summary": "轻巧便携的mini款受女性青睐，适合旅行和办公室场景。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词第十位"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "噪音大",
+                "intensity": 85,
+                "satisfaction": 50,
+                "gap": 35,
+                "userVoice": "用起来嗡嗡响，在办公室都不敢用",
+                "currentSolutions": [
+                  "低噪音电机",
+                  "隔音外壳"
+                ],
+                "opportunity": "开发超静音技术，适合公共场合使用",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "常见用户反馈"
+              },
+              {
+                "rank": 2,
+                "pain": "重量重，携带不便",
+                "intensity": 80,
+                "satisfaction": 45,
+                "gap": 35,
+                "userVoice": "太重了，出差带着累",
+                "currentSolutions": [
+                  "轻量化材料",
+                  "便携收纳包"
+                ],
+                "opportunity": "设计更轻巧的mini款，强调便携性",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "搜索词中女生mini热度高"
+              },
+              {
+                "rank": 3,
+                "pain": "力度不够，深层肌肉按不到",
+                "intensity": 75,
+                "satisfaction": 40,
+                "gap": 35,
+                "userVoice": "感觉没啥力度，按完没效果",
+                "currentSolutions": [
+                  "高扭矩电机",
+                  "不同按摩头"
+                ],
+                "opportunity": "研发高穿透力技术，满足专业需求",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "男士专用搜索词暗示对力度的需求"
+              },
+              {
+                "rank": 4,
+                "pain": "电池续航短",
+                "intensity": 70,
+                "satisfaction": 55,
+                "gap": 15,
+                "userVoice": "充一次电用不了多久",
+                "currentSolutions": [
+                  "大容量电池",
+                  "快充技术"
+                ],
+                "opportunity": "提升电池能量密度，延长续航",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "常见抱怨"
+              },
+              {
+                "rank": 5,
+                "pain": "按摩头容易脏，难清洁",
+                "intensity": 60,
+                "satisfaction": 50,
+                "gap": 10,
+                "userVoice": "用久了头上有汗渍，不好洗",
+                "currentSolutions": [
+                  "可拆卸按摩头",
+                  "抗菌材料"
+                ],
+                "opportunity": "开发易清洁或一次性替换头",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "卫生问题常见"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "0-200元",
+                "200-400元",
+                "400-600元",
+                "600-800元",
+                "800元以上"
+              ],
+              "functions": [
+                "基础按摩",
+                "智能控制",
+                "多功能头",
+                "超静音",
+                "专业级"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 20,
+                  "growth": 10,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 5,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 8,
+                  "growth": 30,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 2,
+                  "growth": 40,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 80
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 1,
+                  "growth": 50,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 25,
+                  "growth": 15,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 10,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 12,
+                  "growth": 35,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 3,
+                  "growth": 45,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 85
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 2,
+                  "growth": 55,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 75
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 15,
+                  "growth": 5,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 25
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 15,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 10,
+                  "growth": 30,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 5,
+                  "growth": 40,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 50,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 80
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 5,
+                  "growth": 0,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 20
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 8,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 6,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 4,
+                  "growth": 35,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 5,
+                  "growth": 45,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 75
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 2,
+                  "growth": -5,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 15
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 3,
+                  "growth": 10,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 2,
+                  "growth": 20,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 2,
+                  "growth": 30,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 40,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "Hyperice",
+                "positioning": "高端专业",
+                "priceBand": "800-1500元",
+                "share": 15,
+                "strength": "专业运动员背书，技术领先",
+                "weakness": "价格高，普通用户难以接受"
+              },
+              {
+                "brand": "Theragun",
+                "positioning": "高端专业",
+                "priceBand": "1000-2000元",
+                "share": 10,
+                "strength": "品牌知名度高，设计独特",
+                "weakness": "价格昂贵，噪音较大"
+              },
+              {
+                "brand": "小米/米家",
+                "positioning": "性价比",
+                "priceBand": "200-400元",
+                "share": 20,
+                "strength": "价格亲民，智能联动",
+                "weakness": "专业性能不足"
+              },
+              {
+                "brand": "飞利浦",
+                "positioning": "中高端",
+                "priceBand": "400-800元",
+                "share": 8,
+                "strength": "品牌信任度，品质保障",
+                "weakness": "产品线单一"
+              },
+              {
+                "brand": "菠萝君",
+                "positioning": "中低端",
+                "priceBand": "100-300元",
+                "share": 12,
+                "strength": "价格实惠，功能齐全",
+                "weakness": "品牌影响力弱"
+              },
+              {
+                "brand": "Keep",
+                "positioning": "运动生态",
+                "priceBand": "300-600元",
+                "share": 6,
+                "strength": "运动社区联动，内容营销",
+                "weakness": "硬件性能一般"
+              },
+              {
+                "brand": "云麦",
+                "positioning": "中端",
+                "priceBand": "300-500元",
+                "share": 5,
+                "strength": "产品设计时尚",
+                "weakness": "品牌知名度不高"
+              }
+            ],
+            "personas": [
+              {
+                "name": "都市白领女性",
+                "age": "25-35岁",
+                "gender": "女",
+                "scenario": "办公室久坐，肩颈酸痛，健身放松",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "轻便",
+                  "静音",
+                  "颜值高"
+                ],
+                "quote": "想要一个能放包里，办公室里也能用的按摩器"
+              },
+              {
+                "name": "健身爱好者",
+                "age": "20-40岁",
+                "gender": "男",
+                "scenario": "健身前后肌肉放松，深层按摩",
+                "spendingPower": "中",
+                "coreNeeds": [
+                  "力度大",
+                  "专业",
+                  "耐用"
+                ],
+                "quote": "练完腿必须用筋膜枪，不然第二天走不动路"
+              },
+              {
+                "name": "运动康复人群",
+                "age": "30-50岁",
+                "gender": "男",
+                "scenario": "运动损伤恢复，日常理疗",
+                "spendingPower": "高",
+                "coreNeeds": [
+                  "医用级",
+                  "精准",
+                  "多种按摩头"
+                ],
+                "quote": "医生推荐用筋膜枪辅助恢复，但必须选专业的"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "健身场景演示，效果对比",
+                "playStyle": "短视频挑战赛，达人种草",
+                "difficulty": "中",
+                "note": "适合展示功能，转化率高"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "女性用户测评，颜值推荐",
+                "playStyle": "图文笔记，KOL合作",
+                "difficulty": "低",
+                "note": "种草效果好，尤其针对女性"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "品牌旗舰店，专业详情页",
+                "playStyle": "搜索优化，大促活动",
+                "difficulty": "中",
+                "note": "用户主动搜索，转化率高"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "品质保障，物流快",
+                "playStyle": "自营优先，PLUS会员",
+                "difficulty": "低",
+                "note": "适合中高端品牌"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "低价引流，拼团",
+                "playStyle": "性价比路线，百亿补贴",
+                "difficulty": "低",
+                "note": "适合入门级产品"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "超静音筋膜枪",
+                "trendSignal": "用户对噪音抱怨多，搜索词中未直接体现但常见",
+                "demandGap": "现有产品噪音大，缺乏静音设计",
+                "feasibility": "高",
+                "score": 90,
+                "rationale": "痛点强度高，技术可行，差异化明显",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "常见用户反馈"
+              },
+              {
+                "rank": 2,
+                "title": "女性专属mini筋膜枪",
+                "trendSignal": "搜索词中女生mini热度高",
+                "demandGap": "现有产品大多偏重，缺乏女性轻便款",
+                "feasibility": "高",
+                "score": 85,
+                "rationale": "需求明确，设计简单，市场潜力大",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词第十位"
+              },
+              {
+                "rank": 3,
+                "title": "可更换按摩头套装",
+                "trendSignal": "搜索词中改装头热度高",
+                "demandGap": "用��需要不同形状的按摩头以适应不同部位",
+                "feasibility": "中",
+                "score": 80,
+                "rationale": "个性化需求，成本低，可提高复购",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词第四位"
+              },
+              {
+                "rank": 4,
+                "title": "智能APP联动筋膜枪",
+                "trendSignal": "智能家居趋势，小米搜索词",
+                "demandGap": "现有产品缺乏智能控制，数据记录",
+                "feasibility": "中",
+                "score": 75,
+                "rationale": "科技感强，适合年轻用户",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词第六位"
+              },
+              {
+                "rank": 5,
+                "title": "男士专业级筋膜枪",
+                "trendSignal": "搜索词中男士专用",
+                "demandGap": "现有产品力度不足，缺乏专业级",
+                "feasibility": "中",
+                "score": 70,
+                "rationale": "针对健身人群，需求稳定",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词第五位"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-08-21 22:27:18）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "页面无商品数据（需JS渲染）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-08-21T14:30:37.405Z",
+              "elapsedMs": 3497
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "筋膜枪肌肉按摩器",
+                "heat": 100
+              },
+              {
+                "word": "筋膜枪肌肉按摩器第一名",
+                "heat": 100
+              },
+              {
+                "word": "筋膜枪女生多功能",
+                "heat": 100
+              },
+              {
+                "word": "筋膜枪改装头",
+                "heat": 100
+              },
+              {
+                "word": "筋膜枪男士专用",
+                "heat": 100
+              },
+              {
+                "word": "筋膜枪小米",
+                "heat": 100
+              },
+              {
+                "word": "筋膜枪男士专用改装头",
+                "heat": 100
+              },
+              {
+                "word": "筋膜枪飞利浦",
+                "heat": 100
+              },
+              {
+                "word": "筋膜枪女生改装头",
+                "heat": 100
+              },
+              {
+                "word": "筋膜枪女生mini",
+                "heat": 100
+              }
+            ]
+          }
+        },
         {
           "id": "582d7575-6dfe-421d-8572-b4e3f9643e7d",
           "category": "脱脂牛奶",
