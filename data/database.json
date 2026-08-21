@@ -98,13 +98,17 @@
       "industry": "",
       "password": "scrypt$16384$8$1$q2o8s/w2Hl3bjrbbRYP2Lg==$HCV61jlV3q5WNyXz+MtK+HhHClLf12X8IR2sWA1/6HwI2BZrZwVtDHaeOjklKmjIsCXPuiaLnxdQStv42SMItw==",
       "createdAt": "2026-07-27T09:21:28.831Z",
-      "lastLogin": "2026-08-06T01:12:11.909Z",
+      "lastLogin": "2026-08-21T14:30:14.722Z",
       "recordCount": 7,
       "_token": "35d01ea331eaf12be040e6912cb7a984e8b33fed541821f875de7b4e163c0e2a",
       "_tokens": [
         {
           "token": "f54771e776a7760e88635cbdbb8c7540156a70f0710b11657517250c1a86b2de",
           "createdAt": "2026-08-06T01:12:11.909Z"
+        },
+        {
+          "token": "ffcca32739f1ddaedf70d4e15ffb3df1cfdfa19aab38abed58ccf68ac02629db",
+          "createdAt": "2026-08-21T14:30:14.723Z"
         }
       ]
     },
