@@ -97,39 +97,55 @@ function httpsJSON(options, body) {
   })
 }
 
+// 合并本地与远程数据库：以「用户名」去重，绝不丢弃任一侧存在的用户/记录。
+// 这是修复「注册用户冷启动被冲掉、必须重新注册」的核心：即便远程因任何原因
+// 比本地旧（缺人），本地独有的用户依然保留，避免整体替换导致数据回滚。
+function mergeDB(local, remote) {
+  const localUsers = local && Array.isArray(local.users) ? local.users : []
+  const localRecords = local && Array.isArray(local.records) ? local.records : []
+  const remoteUsers = remote && Array.isArray(remote.users) ? remote.users : []
+  const remoteRecords = remote && Array.isArray(remote.records) ? remote.records : []
+
+  // 用户：远程优先（含最新密码哈希），本地独有的保留
+  const byName = new Map()
+  for (const u of remoteUsers) if (u && u.username) byName.set(u.username, u)
+  for (const u of localUsers) if (u && u.username && !byName.has(u.username)) byName.set(u.username, u)
+  const users = [...byName.values()]
+
+  // 记录：按 id 去重，合并两侧
+  const byId = new Map()
+  for (const r of remoteRecords) if (r && r.id) byId.set(r.id, r)
+  for (const r of localRecords) if (r && r.id && !byId.has(r.id)) byId.set(r.id, r)
+  const records = [...byId.values()]
+
+  const userData = Object.assign({}, (remote && remote.userData) || {}, (local && local.userData) || {})
+  return { users, records, userData }
+}
+
 async function pullFromGitHub() {
-  // 优先走 Contents API（实时、无 CDN 缓存）；无 token 时回退 raw
-  if (GITHUB_TOKEN) {
-    const r = await httpsJSON({
-      hostname: 'api.github.com',
-      path: `/repos/${GITHUB_REPO}/contents/data/database.json?ref=${GITHUB_DATA_BRANCH}`,
-      headers: {
-        'Authorization': 'Bearer ' + GITHUB_TOKEN,
-        'User-Agent': 'innoproduct-pro',
-        'Accept': 'application/vnd.github.v3+json'
-      }
-    })
-    if (r.status === 200 && r.body?.content) {
-      try {
-        const data = JSON.parse(Buffer.from(String(r.body.content).replace(/\n/g, ''), 'base64').toString('utf-8'))
-        if (data && Array.isArray(data.users)) return data
-      } catch {}
+  // 仅走 GitHub Contents API（实时、无 CDN 缓存延迟）。
+  // 不再回退 raw.githubusercontent.com —— 其 CDN 可能返回陈旧快照，
+  // 一旦用陈旧快照整体替换内存库，刚注册的用户会被永久冲掉。
+  if (!GITHUB_TOKEN) return null
+  const r = await httpsJSON({
+    hostname: 'api.github.com',
+    path: `/repos/${GITHUB_REPO}/contents/data/database.json?ref=${GITHUB_DATA_BRANCH}`,
+    headers: {
+      'Authorization': 'Bearer ' + GITHUB_TOKEN,
+      'User-Agent': 'innoproduct-pro',
+      'Accept': 'application/vnd.github.v3+json'
     }
-    return null
-  }
-  return new Promise((resolve) => {
-    https.get(GITHUB_RAW, { timeout: 10000 }, res => {
-      if (res.statusCode !== 200) { res.resume(); return resolve(null) }
-      let d = ''
-      res.on('data', c => d += c)
-      res.on('end', () => {
-        try {
-          const data = JSON.parse(d)
-          resolve(data && data.users ? data : null)
-        } catch { resolve(null) }
-      })
-    }).on('error', () => resolve(null))
   })
+  if (r.status === 200 && r.body?.content) {
+    try {
+      const data = JSON.parse(Buffer.from(String(r.body.content).replace(/\n/g, ''), 'base64').toString('utf-8'))
+      if (data && Array.isArray(data.users)) return data
+    } catch (e) {
+      console.error('[DB] GitHub API 解析失败:', e.message)
+    }
+  }
+  console.error('[DB] GitHub API 拉取失败 HTTP ' + r.status + '，将保留本地数据（不回退陈旧快照）')
+  return null
 }
 
 async function syncToGitHub(data) {
@@ -733,36 +749,39 @@ app.listen(PORT, async () => {
 
   // 启动恢复：仅当远程数据比本地更新（用户数更多或本地为空）时才采用远程，避免回滚本地新数据
   const remote = await pullFromGitHub()
+  const localDB = readDB()
   if (remote && remote.users?.length) {
-    let localCount = 0
-    try {
-      if (fs.existsSync(DB_PATH)) {
-        const local = JSON.parse(fs.readFileSync(DB_PATH, 'utf-8'))
-        localCount = Array.isArray(local.users) ? local.users.length : 0
-      }
-    } catch {}
-    if (remote.users.length > localCount) {
-      _noSync = true
-      writeDBSync(remote)
-      _noSync = false
-      console.log(`[DB] 从 GitHub 恢复: ${remote.users.length} 用户（本地 ${localCount}）`)
-    } else {
-      console.log(`[DB] 保留本地数据: ${localCount} 用户（远程 ${remote.users.length}）`)
-    }
+    const merged = mergeDB(localDB, remote)
+    _noSync = true
+    writeDBSync(merged)
+    _noSync = false
+    console.log(`[DB] 合并恢复完成: ${merged.users.length} 用户（本地 ${localDB.users.length} + 远程 ${remote.users.length}）`)
+  } else {
+    console.log(`[DB] 无远程数据，保留本地 ${localDB.users.length} 用户`)
   }
 
   const db = readDB()
-  if (!db.users.find(u => u.username === 'qaq')) {
-    const admin = {
+  // 管理员密码强制为 qaq881205，且与前端 sha256(明文) 提交方式一致：
+  // 前端登录时发送 sha256('qaq881205')，服务端按 scrypt(sha256('qaq881205')) 校验。
+  // 启动时无论如何都校准，避免 GitHub 数据被覆盖导致管理员登录失败。
+  const adminPw = hashPassword(crypto.createHash('sha256').update('qaq881205').digest('hex'))
+  let admin = db.users.find(u => u.username === 'qaq')
+  if (!admin) {
+    admin = {
       id: crypto.randomUUID(), phone: 'qaq', username: 'qaq',
       company: '创品智造', industry: '电商',
-      password: hashPassword(process.env.ADMIN_PASSWORD || 'qaq2026'),
+      password: adminPw,
       createdAt: new Date().toISOString(), lastLogin: new Date().toISOString(), recordCount: 0
     }
     db.users.push(admin)
-    writeDBSync(db)
-    console.log('[DB] 管理员账号已创建: qaq（密码来自 ADMIN_PASSWORD 环境变量或默认值）')
+    console.log('[DB] 管理员账号已创建: qaq / qaq881205')
+  } else {
+    admin.password = adminPw
+    console.log('[DB] 管理员密码已校准为 qaq881205')
   }
+  _noSync = true
+  writeDBSync(db)
+  _noSync = false
 
   console.log(`🚀 服务启动: http://localhost:${PORT}`)
 })
