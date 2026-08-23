@@ -6,9 +6,9 @@
       "username": "qaq",
       "company": "创品智造",
       "industry": "电商",
-      "password": "scrypt$16384$8$1$jXyuHJhO8CZyCqwSdLF/1g==$akijXUoUTM5R1sFElo20vLxVtrqfKI7TP+JOdJAb57JNfCTs5uqpLfyOIKBRtb+QLOCHl0lmNRRdkevkG2IQXA==",
+      "password": "scrypt$16384$8$1$ot70PaaOTmzhSUuhZ6VBVw==$TNaE53y24cm+OOlr3ZzL7izs3rz71cD1sr1fJzNAAfdnBgcJW3veHOLLN5NsP/SliBgXceReYJaW5cyXLmpErQ==",
       "createdAt": "2026-07-24T02:21:52.652Z",
-      "lastLogin": "2026-08-23T13:55:50.790Z",
+      "lastLogin": "2026-08-23T14:16:49.465Z",
       "recordCount": 4,
       "_token": "f50a35a8895364e148e972c0489664fcba1e11f50097f46cbe0fcbe5f8c5e6cf",
       "_tokens": [
@@ -27,6 +27,10 @@
         {
           "token": "d27bf172d4a7aa61cac6ac9022958f1e147cc4c27c84c3a0e59cdcb0e0e54e1f",
           "createdAt": "2026-08-23T13:55:50.790Z"
+        },
+        {
+          "token": "938c16e1be2a6375ee90434ce2c2b9452f4c030f7b066e21463602547180b4e1",
+          "createdAt": "2026-08-23T14:16:49.466Z"
         }
       ]
     },
@@ -598,12 +602,6 @@
       "createdAt": "2026-08-21T14:31:04.161Z"
     }
   ],
-  "_tokens": {
-    "04a27111108739334b6b9ac6d07f2b8620e80534e0e5452af2a028adddc42ea4": "8195f92e-7df6-4ad8-9587-5b8db7bc7348",
-    "dfb1fdaf0c125ef899dc1b1e1dcdce22a21a55c4919881917a43cf3f46ca85e0": "8195f92e-7df6-4ad8-9587-5b8db7bc7348",
-    "b1dfaef732fe764c93ff38aac1bf3d4c208dc58eba2e91253f5810ddad1938b8": "8195f92e-7df6-4ad8-9587-5b8db7bc7348",
-    "3d142220336d1348d68d8735c167e5c5f5da4992fc721b2e1d475a2f45443449": "8195f92e-7df6-4ad8-9587-5b8db7bc7348"
-  },
   "userData": {
     "459bc7e1-d778-440c-b709-040aa27f9030": {
       "projects": [],
