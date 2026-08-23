@@ -8,7 +8,7 @@
       "industry": "电商",
       "password": "scrypt$16384$8$1$jXyuHJhO8CZyCqwSdLF/1g==$akijXUoUTM5R1sFElo20vLxVtrqfKI7TP+JOdJAb57JNfCTs5uqpLfyOIKBRtb+QLOCHl0lmNRRdkevkG2IQXA==",
       "createdAt": "2026-07-24T02:21:52.652Z",
-      "lastLogin": "2026-08-20T14:27:24.978Z",
+      "lastLogin": "2026-08-23T13:55:50.790Z",
       "recordCount": 4,
       "_token": "f50a35a8895364e148e972c0489664fcba1e11f50097f46cbe0fcbe5f8c5e6cf",
       "_tokens": [
@@ -23,6 +23,10 @@
         {
           "token": "a08584fedc78f84c4d1f2581ffd4dccee877ec17b27a5dcc119ba07df93bab10",
           "createdAt": "2026-08-20T14:27:24.978Z"
+        },
+        {
+          "token": "d27bf172d4a7aa61cac6ac9022958f1e147cc4c27c84c3a0e59cdcb0e0e54e1f",
+          "createdAt": "2026-08-23T13:55:50.790Z"
         }
       ]
     },
