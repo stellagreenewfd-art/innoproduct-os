@@ -519,6 +519,10 @@
         {
           "token": "518638db7615eaaf4f11fb3f18cfcdcd56670cbffd153c803499c07853cc3020",
           "createdAt": "2026-08-25T15:26:46.090Z"
+        },
+        {
+          "token": "497b2d41df134d709d68fef8cd7c6362a3a7e035bd585a5eeda1b7b20e4e43b4",
+          "createdAt": "2026-08-25T15:59:43.082Z"
         }
       ]
     },
@@ -531,7 +535,7 @@
       "industry": "",
       "password": "scrypt$16384$8$1$hbJ/3NmNO9XMhRUHTUSWtQ==$DDCeu/48Lt9sgIuZfOKoHkhwLQqllRkTXz4MgYypxFfnqK/wYWmyX8OD9ugV/dv9BHqN6Rg1wbUvHmIaNhFf+A==",
       "createdAt": "2026-08-25T15:25:25.139Z",
-      "lastLogin": "2026-08-25T15:48:38.369Z",
+      "lastLogin": "2026-08-25T16:01:55.004Z",
       "recordCount": 0,
       "ssoAuto": true
     },
