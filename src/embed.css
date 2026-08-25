@@ -1,0 +1,10 @@
+/* 创品智造 Pro · 嵌入模式样式（方案B iframe 嵌入时收起导航） */
+body.embed-mode header {
+  display: none !important;
+}
+body.embed-mode nav {
+  display: none !important;
+}
+body.embed-mode {
+  background: #fff;
+}

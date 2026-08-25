@@ -11,6 +11,7 @@ import Portfolio from './components/Portfolio'
 import InspirationVault from './components/InspirationVault'
 import AdminPanel from './components/AdminPanel'
 import AIChat from './components/AIChat'
+import { useEmbedSSO } from './embed'
 
 const MODULES = [
   { id: 'dashboard', name: '工作台' },
@@ -43,6 +44,7 @@ function MainContent() {
 
 function Shell() {
   const { user, logout, activeModule, setActiveModule, category, trendData, concepts, selectedConcept } = useApp()
+  useEmbedSSO() // 嵌入场景：自动消费 ticket 登录 + 标记 embed-mode
 
   const canNavigate = (modId) => {
     if (['dashboard', 'input', 'portfolio', 'inspiration', 'dev'].includes(modId)) return true

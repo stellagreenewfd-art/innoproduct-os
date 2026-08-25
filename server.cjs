@@ -707,6 +707,80 @@ app.get('/api/admin/all-records', (req, res) => {
   res.json({ success: true, records })
 })
 
+// ========== Partner Embed SSO（方案B：预签名 ticket，不给对方源码/密钥） ==========
+const PARTNER_API_KEY = process.env.PARTNER_API_KEY || ''
+const SSO_ALLOWED_ORIGINS = (process.env.SSO_ALLOWED_ORIGINS || '').split(',').map(s => s.trim()).filter(Boolean)
+const EMBED_TICKETS = new Map() // ticket -> { userId, expiresAt }
+const EMBED_TICKET_TTL = 5 * 60 * 1000
+
+// 朋友侧调此接口：用 PARTNER_API_KEY 鉴权，换取一次性嵌入链接
+app.post('/api/partner/embed-link', (req, res) => {
+  const key = req.headers['x-partner-key'] || req.headers['x-partner-key'.toLowerCase()]
+  if (!PARTNER_API_KEY) return res.status(503).json({ error: '服务端未配置 PARTNER_API_KEY' })
+  if (key !== PARTNER_API_KEY) return res.status(403).json({ error: 'invalid partner key' })
+
+  const { account, name, company, phone } = req.body || {}
+  if (!account || typeof account !== 'string') return res.status(400).json({ error: 'account 必填且为字符串' })
+
+  try {
+    const db = readDB()
+    let user = db.users.find(u => u.ssoAccount === account)
+    if (!user) {
+      const username = 'sso_' + account.replace(/[^a-zA-Z0-9_-]/g, '_').slice(0, 40)
+      user = {
+        id: crypto.randomUUID(),
+        ssoAccount: account,
+        username,
+        phone: phone || '',
+        company: company || '',
+        industry: '',
+        password: hashPassword('sso-' + crypto.randomBytes(16).toString('hex')),
+        createdAt: new Date().toISOString(),
+        lastLogin: new Date().toISOString(),
+        recordCount: 0,
+        ssoAuto: true,
+      }
+      db.users.push(user)
+      console.log('[EMBED] 新建 SSO 用户:', username, 'account=', account)
+    } else {
+      user.lastLogin = new Date().toISOString()
+      if (name) user.company = user.company || name
+    }
+    const ticket = crypto.randomBytes(24).toString('hex')
+    EMBED_TICKETS.set(ticket, { userId: user.id, expiresAt: Date.now() + EMBED_TICKET_TTL })
+    writeDB(db)
+    const origin = req.get('origin') || ''
+    const host = req.get('host') || ''
+    const base = `${req.protocol}://${host}`
+    res.json({ success: true, url: `${base}/?embed=1&ticket=${ticket}`, expiresIn: EMBED_TICKET_TTL / 1000 })
+  } catch (e) {
+    console.error('[EMBED] embed-link 失败:', e)
+    res.status(500).json({ error: 'internal error' })
+  }
+})
+
+// 前端消费 ticket -> 换 inno_token（复用 v2.0 的 issueToken）
+app.post('/api/auth/ticket', async (req, res) => {
+  const { ticket } = req.body || {}
+  if (!ticket) return res.status(400).json({ error: 'ticket 必填' })
+  const rec = EMBED_TICKETS.get(ticket)
+  if (!rec) return res.status(401).json({ error: 'ticket 无效或已过期' })
+  if (Date.now() > rec.expiresAt) { EMBED_TICKETS.delete(ticket); return res.status(401).json({ error: 'ticket 已过期' }) }
+  EMBED_TICKETS.delete(ticket) // 一次性
+
+  try {
+    const db = readDB()
+    const user = db.users.find(u => u.id === rec.userId)
+    if (!user) return res.status(401).json({ error: '用户不存在' })
+    const token = issueToken(user)
+    await writeDB(db)
+    res.json({ success: true, token, user: publicUser(user) })
+  } catch (e) {
+    console.error('[EMBED] ticket 兑换失败:', e)
+    res.status(500).json({ error: 'internal error' })
+  }
+})
+
 // 健康检查
 app.get('/api/health', (req, res) => {
   const db = readDB()
