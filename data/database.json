@@ -515,6 +515,19 @@
       "lastLogin": "2026-08-25T15:19:14.250Z",
       "recordCount": 0,
       "ssoAuto": true
+    },
+    {
+      "id": "9f8c5e30-4cae-4f98-8899-fbcc64277ad6",
+      "ssoAccount": "clawow-11",
+      "username": "sso_clawow-11",
+      "phone": "",
+      "company": "Kingsun",
+      "industry": "",
+      "password": "scrypt$16384$8$1$hbJ/3NmNO9XMhRUHTUSWtQ==$DDCeu/48Lt9sgIuZfOKoHkhwLQqllRkTXz4MgYypxFfnqK/wYWmyX8OD9ugV/dv9BHqN6Rg1wbUvHmIaNhFf+A==",
+      "createdAt": "2026-08-25T15:25:25.139Z",
+      "lastLogin": "2026-08-25T15:25:25.271Z",
+      "recordCount": 0,
+      "ssoAuto": true
     }
   ],
   "records": [
