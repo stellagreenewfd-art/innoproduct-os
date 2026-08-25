@@ -535,9 +535,15 @@
       "industry": "",
       "password": "scrypt$16384$8$1$hbJ/3NmNO9XMhRUHTUSWtQ==$DDCeu/48Lt9sgIuZfOKoHkhwLQqllRkTXz4MgYypxFfnqK/wYWmyX8OD9ugV/dv9BHqN6Rg1wbUvHmIaNhFf+A==",
       "createdAt": "2026-08-25T15:25:25.139Z",
-      "lastLogin": "2026-08-25T16:01:55.004Z",
+      "lastLogin": "2026-08-25T16:02:24.238Z",
       "recordCount": 0,
-      "ssoAuto": true
+      "ssoAuto": true,
+      "_tokens": [
+        {
+          "token": "3d052ebf66dfb3a94beb9eb067d196df12e259c2b52b16cc00c3804613b0a8b0",
+          "createdAt": "2026-08-25T16:01:56.911Z"
+        }
+      ]
     },
     {
       "id": "8114bf4b-51b8-464a-9b1a-ab00bf25e804",
