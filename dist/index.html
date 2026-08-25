@@ -9,6 +9,42 @@
     <link rel="modulepreload" crossorigin href="/assets/markdown-vendor-CkeNCm8r.js">
     <link rel="modulepreload" crossorigin href="/assets/react-vendor-DCIq_4na.js">
     <link rel="stylesheet" crossorigin href="/assets/index-XObCw2YR.css">
+    <style>
+      /* 嵌入模式：收起顶部导航，避免 iframe 内重复导航 */
+      body.embed-mode header { display: none !important; }
+      body.embed-mode nav { display: none !important; }
+      body.embed-mode { background: #fff; }
+    </style>
+    <script>
+      // 创品智造 Pro · 嵌入SSO（方案B）：在 React 启动前消费 ticket 换 inno_token
+      (function () {
+        try {
+          var params = new URLSearchParams(location.search);
+          var ticket = params.get('ticket');
+          var isEmbed = params.get('embed') === '1';
+          if (isEmbed) document.body.classList.add('embed-mode');
+          if (!ticket) return;
+          if (sessionStorage.getItem('embed_ticket_used') === ticket) return;
+          // 同步写入占位，防止 React 启动时空窗；真正 token 异步拿到后覆盖
+          var xhr = new XMLHttpRequest();
+          xhr.open('POST', '/api/auth/ticket', false); // 同步请求，确保 React 启动前完成
+          xhr.setRequestHeader('Content-Type', 'application/json');
+          xhr.send(JSON.stringify({ ticket: ticket }));
+          if (xhr.status === 200) {
+            var d = JSON.parse(xhr.responseText);
+            if (d.success && d.token) {
+              localStorage.setItem('inno_token', d.token);
+              if (d.user) localStorage.setItem('inno_user', JSON.stringify(d.user));
+              sessionStorage.setItem('embed_ticket_used', ticket);
+              // 清掉 URL 里的 ticket
+              var url = new URL(location.href);
+              url.searchParams.delete('ticket');
+              history.replaceState({}, document.title, url.pathname + url.search);
+            }
+          }
+        } catch (e) { /* 忽略，落到正常登录页 */ }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
