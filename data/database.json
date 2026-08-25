@@ -469,6 +469,25 @@
       "createdAt": "2026-08-25T14:40:39.600Z",
       "lastLogin": "2026-08-25T14:40:39.600Z",
       "recordCount": 0,
+      "ssoAuto": true,
+      "_tokens": [
+        {
+          "token": "3870b4b688af4b0877048225a1a804ab64a37a935561b40d4b0d7007b758b57b",
+          "createdAt": "2026-08-25T14:40:40.741Z"
+        }
+      ]
+    },
+    {
+      "id": "aa13ca1e-f93f-49c9-87cb-9b3eb0763a26",
+      "ssoAccount": "clawow-checkalive",
+      "username": "sso_clawow-checkalive",
+      "phone": "",
+      "company": "",
+      "industry": "",
+      "password": "scrypt$16384$8$1$S+BE6InHb6utoC+mSh23mQ==$BEXnGbQ8eVYHEUdnYW7uCdNcOxss4I6VLaBRrDhhpng+nUoADtsg6+Pvf0eCF+ESg1zdLXdxKWr/8ov4UuAlYQ==",
+      "createdAt": "2026-08-25T14:42:56.104Z",
+      "lastLogin": "2026-08-25T14:42:56.104Z",
+      "recordCount": 0,
       "ssoAuto": true
     }
   ],
