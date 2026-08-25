@@ -457,6 +457,19 @@
       "lastLogin": "2026-08-25T14:40:09.593Z",
       "recordCount": 0,
       "ssoAuto": true
+    },
+    {
+      "id": "70b87f17-60fb-49b3-832f-9535e237c408",
+      "ssoAccount": "clawow-verify",
+      "username": "sso_clawow-verify",
+      "phone": "",
+      "company": "",
+      "industry": "",
+      "password": "scrypt$16384$8$1$D+sR4zou3QIM0gDYbTlILQ==$8jKave542mMk53Ukm87YXO9f9xgRuQT6XZcALY3EA5s2kb/7tabB9YnoThKlTD+4wEwp3BUorACKEqUNMoJ83g==",
+      "createdAt": "2026-08-25T14:40:39.600Z",
+      "lastLogin": "2026-08-25T14:40:39.600Z",
+      "recordCount": 0,
+      "ssoAuto": true
     }
   ],
   "records": [
