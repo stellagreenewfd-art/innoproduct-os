@@ -514,7 +514,13 @@
       "createdAt": "2026-08-25T15:19:14.249Z",
       "lastLogin": "2026-08-25T15:26:45.114Z",
       "recordCount": 0,
-      "ssoAuto": true
+      "ssoAuto": true,
+      "_tokens": [
+        {
+          "token": "518638db7615eaaf4f11fb3f18cfcdcd56670cbffd153c803499c07853cc3020",
+          "createdAt": "2026-08-25T15:26:46.090Z"
+        }
+      ]
     },
     {
       "id": "9f8c5e30-4cae-4f98-8899-fbcc64277ad6",
@@ -526,6 +532,19 @@
       "password": "scrypt$16384$8$1$hbJ/3NmNO9XMhRUHTUSWtQ==$DDCeu/48Lt9sgIuZfOKoHkhwLQqllRkTXz4MgYypxFfnqK/wYWmyX8OD9ugV/dv9BHqN6Rg1wbUvHmIaNhFf+A==",
       "createdAt": "2026-08-25T15:25:25.139Z",
       "lastLogin": "2026-08-25T15:25:25.271Z",
+      "recordCount": 0,
+      "ssoAuto": true
+    },
+    {
+      "id": "8114bf4b-51b8-464a-9b1a-ab00bf25e804",
+      "ssoAccount": "probe-old",
+      "username": "sso_probe-old",
+      "phone": "",
+      "company": "",
+      "industry": "",
+      "password": "scrypt$16384$8$1$zViYo8T6KLAwJ3H8pGG6Iw==$l77sp5R3ossn7riZ6yDnY1OkoIEZsmyefw8l5f1zAXyBIvZp+JVFyeIvS1vcdLVL+JiAo5T/qJHhdoSFNAl3mQ==",
+      "createdAt": "2026-08-25T15:33:02.346Z",
+      "lastLogin": "2026-08-25T15:33:02.346Z",
       "recordCount": 0,
       "ssoAuto": true
     }
