@@ -6,7 +6,7 @@
       "username": "qaq",
       "company": "创品智造",
       "industry": "电商",
-      "password": "scrypt$16384$8$1$xK0HkFvLWJ3B9/AY0fR6iA==$LL132DjoBcxYiAUxbxICz8tSdlzQmW6ZU0jO47yk+xyT1qEhIq6398TX6W0EWNYwVE6QuPFA6HhRLLdABzHWLQ==",
+      "password": "scrypt$16384$8$1$cRs8T231hHQ0NgSEosTU+A==$wSAfQmpa8pPZoRGlQJXj/N5R5b0mpKOepvbImcut6gZbu9aS/PNQa1Ab073doM+LzbCRsnCV+mOKFAQ3ZnFJ8A==",
       "createdAt": "2026-07-24T02:21:52.652Z",
       "lastLogin": "2026-08-23T14:16:49.465Z",
       "recordCount": 4,
@@ -495,11 +495,11 @@
       "ssoAccount": "clawow-httpscheck",
       "username": "sso_clawow-httpscheck",
       "phone": "",
-      "company": "",
+      "company": "https检查",
       "industry": "",
       "password": "scrypt$16384$8$1$dv9IYth7GelbVCs/J6n1tg==$RP8t2Cz2vZo56TYflcZHvABSKrAaaMdSZFU1/CgR5Wia2/UmfIo0yTvIOJZSvlJVftD0hH/ZcjjmWhSh3I13Sg==",
       "createdAt": "2026-08-25T14:46:05.395Z",
-      "lastLogin": "2026-08-25T14:46:05.395Z",
+      "lastLogin": "2026-08-25T14:46:16.434Z",
       "recordCount": 0,
       "ssoAuto": true
     }
