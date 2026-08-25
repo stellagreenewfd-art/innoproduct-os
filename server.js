@@ -18,6 +18,9 @@ const { collectAll, formatForPrompt } = require('./collectors.cjs')
 const app = express()
 const PORT = process.env.PORT || 3457
 
+// 信任前置代理(Render 等), 使 req.protocol / req.secure 正确返回 https
+app.set('trust proxy', true)
+
 app.use(express.json({ limit: '2mb' }))
 app.use(express.static(path.join(__dirname, 'dist')))
 
@@ -765,7 +768,8 @@ app.post('/api/partner/embed-link', (req, res) => {
     const ticket = crypto.randomBytes(24).toString('hex')
     EMBED_TICKETS.set(ticket, { userId: user.id, expiresAt: Date.now() + EMBED_TICKET_TTL })
     writeDB(db)
-    const base = `${req.protocol}://${req.get('host')}`
+    const protocol = (req.secure || req.get('x-forwarded-proto') === 'https') ? 'https' : (req.protocol || 'http')
+    const base = `${protocol}://${req.get('host')}`
     res.json({ success: true, url: `${base}/?embed=1&ticket=${ticket}`, expiresIn: EMBED_TICKET_TTL / 1000 })
   } catch (e) {
     console.error('[EMBED] embed-link 失败:', e)
