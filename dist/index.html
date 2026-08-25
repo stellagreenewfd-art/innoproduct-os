@@ -17,32 +17,71 @@
     </style>
     <script>
       // 创品智造 Pro · 嵌入SSO（方案B）：在 React 启动前消费 ticket 换 inno_token
+      // 健壮性修复：iframe 受限环境（sandbox / 跨源）下 sessionStorage/localStorage
+      // 可能抛 SecurityError，曾导致脚本静默中断 → ticket 未消费 → 登录窗。
+      // 现改为「永不抛错的安全存储 + 同步优先/异步兜底 + 防重放容错」。
       (function () {
+        var mem = {};
+        var SS_OK = true, LS_OK = true;
+        try { var _p = '__inno_probe'; sessionStorage.setItem(_p, '1'); sessionStorage.removeItem(_p); }
+        catch (e) { SS_OK = false; }
+        try { var _p2 = '__inno_probe'; localStorage.setItem(_p2, '1'); localStorage.removeItem(_p2); }
+        catch (e) { LS_OK = false; }
+        function ssGet(k) { try { return SS_OK ? sessionStorage.getItem(k) : (k in mem ? mem[k] : null); } catch (e) { return (k in mem ? mem[k] : null); } }
+        function ssSet(k, v) { mem[k] = v; try { if (SS_OK) sessionStorage.setItem(k, v); } catch (e) {} }
+        function lsGet(k) { try { return LS_OK ? localStorage.getItem(k) : (k in mem ? mem[k] : null); } catch (e) { return (k in mem ? mem[k] : null); } }
+        function lsSet(k, v) { mem[k] = v; try { if (LS_OK) localStorage.setItem(k, v); } catch (e) {} }
+
         try {
           var params = new URLSearchParams(location.search);
           var ticket = params.get('ticket');
           var isEmbed = params.get('embed') === '1';
-          if (isEmbed) document.body.classList.add('embed-mode');
+          if (isEmbed) { try { document.body.classList.add('embed-mode'); } catch (e) {} }
           if (!ticket) return;
-          if (sessionStorage.getItem('embed_ticket_used') === ticket) return;
-          // 同步写入占位，防止 React 启动时空窗；真正 token 异步拿到后覆盖
-          var xhr = new XMLHttpRequest();
-          xhr.open('POST', '/api/auth/ticket', false); // 同步请求，确保 React 启动前完成
-          xhr.setRequestHeader('Content-Type', 'application/json');
-          xhr.send(JSON.stringify({ ticket: ticket }));
-          if (xhr.status === 200) {
-            var d = JSON.parse(xhr.responseText);
-            if (d.success && d.token) {
-              localStorage.setItem('inno_token', d.token);
-              if (d.user) localStorage.setItem('inno_user', JSON.stringify(d.user));
-              sessionStorage.setItem('embed_ticket_used', ticket);
-              // 清掉 URL 里的 ticket
+          // 防重放容错：存储不可用时跳过检查，而非中断流程
+          var used = ssGet('embed_ticket_used');
+          if (used === ticket) return;
+
+          function apply(d) {
+            if (!d || !d.success || !d.token) return false;
+            lsSet('inno_token', d.token);
+            if (d.user) { try { lsSet('inno_user', JSON.stringify(d.user)); } catch (e) {} }
+            ssSet('embed_ticket_used', ticket);
+            try { if (document.body) document.body.classList.add('embed-mode'); } catch (e) {}
+            try {
               var url = new URL(location.href);
               url.searchParams.delete('ticket');
               history.replaceState({}, document.title, url.pathname + url.search);
-            }
+            } catch (e) {}
+            return true;
           }
-        } catch (e) { /* 忽略，落到正常登录页 */ }
+
+          // 主路径：同步 XHR 确保 React 启动前完成；失败降级异步
+          function syncExchange() {
+            try {
+              var xhr = new XMLHttpRequest();
+              xhr.open('POST', '/api/auth/ticket', false);
+              xhr.setRequestHeader('Content-Type', 'application/json');
+              xhr.send(JSON.stringify({ ticket: ticket }));
+              if (xhr.status === 200) return apply(JSON.parse(xhr.responseText));
+              return false;
+            } catch (e) { return false; }
+          }
+          function asyncExchange() {
+            try {
+              fetch('/api/auth/ticket', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                credentials: 'same-origin',
+                body: JSON.stringify({ ticket: ticket })
+              }).then(function (r) { return r.json(); }).then(function (d) {
+                if (apply(d)) { try { location.reload(); } catch (e) {} }
+              }).catch(function () {});
+            } catch (e) {}
+          }
+
+          if (!syncExchange()) asyncExchange();
+        } catch (e) { /* 任何意外都不应阻塞页面其余功能 */ }
       })();
     </script>
   </head>
