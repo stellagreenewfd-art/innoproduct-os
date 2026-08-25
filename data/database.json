@@ -6,7 +6,7 @@
       "username": "qaq",
       "company": "创品智造",
       "industry": "电商",
-      "password": "scrypt$16384$8$1$ot70PaaOTmzhSUuhZ6VBVw==$TNaE53y24cm+OOlr3ZzL7izs3rz71cD1sr1fJzNAAfdnBgcJW3veHOLLN5NsP/SliBgXceReYJaW5cyXLmpErQ==",
+      "password": "scrypt$16384$8$1$YpHYHyBRMufDCeUevzX/cw==$WeEwfUDrV4qyXJnYxSwAoA1b+R7nggrCyii4pClRvfnS9VYINKHkqVqFINs4KvXXc6gBN9HYojTcB+7CK9qxNg==",
       "createdAt": "2026-07-24T02:21:52.652Z",
       "lastLogin": "2026-08-23T14:16:49.465Z",
       "recordCount": 4,
@@ -107,7 +107,7 @@
       "password": "scrypt$16384$8$1$q2o8s/w2Hl3bjrbbRYP2Lg==$HCV61jlV3q5WNyXz+MtK+HhHClLf12X8IR2sWA1/6HwI2BZrZwVtDHaeOjklKmjIsCXPuiaLnxdQStv42SMItw==",
       "createdAt": "2026-07-27T09:21:28.831Z",
       "lastLogin": "2026-08-21T14:30:14.722Z",
-      "recordCount": 8,
+      "recordCount": 9,
       "_token": "35d01ea331eaf12be040e6912cb7a984e8b33fed541821f875de7b4e163c0e2a",
       "_tokens": [
         {
@@ -621,6 +621,13 @@
       "category": "筋膜枪",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-08-21T14:31:04.161Z"
+    },
+    {
+      "id": "71400ec1-eb5c-44da-badf-5633002075ca",
+      "userId": "1148a339-9fbf-411d-9fa1-1f7572a823f6",
+      "category": "花胶粥",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-08-25T07:10:59.365Z"
     }
   ],
   "userData": {
@@ -2136,6 +2143,781 @@
       "projects": [],
       "inspirations": [],
       "analyses": [
+        {
+          "id": "68979657-1944-459d-afe7-5564f02d5773",
+          "category": "花胶粥",
+          "scanDate": "2026-08-25",
+          "savedAt": "2026-08-25T07:10:59.365Z",
+          "data": {
+            "category": "花胶粥",
+            "scanDate": "2026-08-25",
+            "metrics": {
+              "totalGMV": "28.5亿",
+              "totalGMV_source": "综合淘宝、抖音、京东等平台销售数据估算",
+              "gmvGrowth": "35%",
+              "gmvGrowth_source": "基于搜索联想词热度增长及行业报告推测",
+              "brandCount": "120",
+              "brandCount_source": "综合电商平台活跃品牌数统计",
+              "topBrandShare": "45%",
+              "topBrandShare_source": "头部品牌如官栈、小仙炖等市场份额估算"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "花胶粥礼盒",
+                "share": 18.5,
+                "yoy": 45.2,
+                "verbatim": "送礼有面子，花胶粥礼盒高档",
+                "summary": "礼盒装需求旺盛，节日送礼场景驱动增长",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第一，结合中秋国庆送礼季"
+              },
+              {
+                "rank": 2,
+                "keyword": "花胶粥山姆",
+                "share": 12.3,
+                "yoy": 60.8,
+                "verbatim": "山姆同款花胶粥，量大实惠",
+                "summary": "山姆会员店带动��质信赖，消费者追求高性价比",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第二，山姆渠道热度上升"
+              },
+              {
+                "rank": 3,
+                "keyword": "花胶燕窝粥",
+                "share": 15.7,
+                "yoy": 50.3,
+                "verbatim": "花胶加燕窝，双倍滋补",
+                "summary": "滋补组合产品受欢迎，满足一站式养生需求",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第三，滋补品组合趋势"
+              },
+              {
+                "rank": 4,
+                "keyword": "杨枝甘露燕窝花胶粥",
+                "share": 8.2,
+                "yoy": 120.5,
+                "verbatim": "甜品化滋补，好喝又养生",
+                "summary": "甜品风味与滋补结合，吸引年轻消费者",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第四，创新口味需求爆发"
+              },
+              {
+                "rank": 5,
+                "keyword": "官栈花胶粥",
+                "share": 9.8,
+                "yoy": 30.2,
+                "verbatim": "官栈品牌靠谱，花胶含量高",
+                "summary": "头部品牌效应，消费者指名购买",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第五，品牌认知度高"
+              },
+              {
+                "rank": 6,
+                "keyword": "生椰燕麦花胶粥",
+                "share": 5.6,
+                "yoy": 200,
+                "verbatim": "生椰口味新潮，燕麦健康",
+                "summary": "植物基与健康元素结合，新口味快速崛起",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第六，新口味创新趋势"
+              },
+              {
+                "rank": 7,
+                "keyword": "杨枝甘露花胶粥",
+                "share": 7.1,
+                "yoy": 150,
+                "verbatim": "杨枝甘露口味，甜品替代",
+                "summary": "甜品化趋势明显，满足下午茶场景",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第七，口味创新驱动"
+              },
+              {
+                "rank": 8,
+                "keyword": "即食花胶粥",
+                "share": 10.4,
+                "yoy": 40,
+                "verbatim": "开盖即食，方便快捷",
+                "summary": "便捷性需求，即食产品成为主流",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第八，方便食品趋势"
+              },
+              {
+                "rank": 9,
+                "keyword": "杨枝甘露鲜炖花胶粥",
+                "share": 3.8,
+                "yoy": 180,
+                "verbatim": "鲜炖工艺，口感新鲜",
+                "summary": "鲜炖概念提升品质感，高端化趋势",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第九，鲜炖工艺受青睐"
+              },
+              {
+                "rank": 10,
+                "keyword": "即食花胶燕窝粥",
+                "share": 6.5,
+                "yoy": 65,
+                "verbatim": "即食又有燕窝，营养全面",
+                "summary": "即食加滋补组合，满足多效需求",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词排名第十，即食燕窝粥延伸"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "花胶含量不透明，担心虚假宣传",
+                "intensity": 85,
+                "satisfaction": 40,
+                "gap": 45,
+                "userVoice": "说是花胶粥，但花胶含量多少都不知道，怕没效果",
+                "currentSolutions": [
+                  "品牌标注含量",
+                  "第三方检测"
+                ],
+                "opportunity": "推出高含量认证产品，透明化配料表",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "消费者对滋补品成分关注度高，行业常见痛点"
+              },
+              {
+                "rank": 2,
+                "pain": "口感不佳，腥味重",
+                "intensity": 75,
+                "satisfaction": 50,
+                "gap": 25,
+                "userVoice": "有些花胶粥腥味太大，吃不下去",
+                "currentSolutions": [
+                  "添加调味料",
+                  "去腥工艺"
+                ],
+                "opportunity": "研发去腥技术，改善口感",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "花胶本身腥味是常见问题，用户反馈多"
+              },
+              {
+                "rank": 3,
+                "pain": "价格偏高，性价比不足",
+                "intensity": 70,
+                "satisfaction": 45,
+                "gap": 25,
+                "userVoice": "一小碗就要几十块，天天吃不起",
+                "currentSolutions": [
+                  "促销活动",
+                  "大包装"
+                ],
+                "opportunity": "推出经济装或家庭装，降低成本",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "高价是滋补品普遍痛点，搜索联想有山姆体现性价比需求"
+              },
+              {
+                "rank": 4,
+                "pain": "保质期短，储存不便",
+                "intensity": 60,
+                "satisfaction": 55,
+                "gap": 5,
+                "userVoice": "保质期太短，买多了容易过期",
+                "currentSolutions": [
+                  "小包装",
+                  "冷藏保存"
+                ],
+                "opportunity": "延长保质期技术，或推出小份装",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "即食粥类保质期通常较短，用户储存难"
+              },
+              {
+                "rank": 5,
+                "pain": "产品同质化严重，缺乏创新",
+                "intensity": 65,
+                "satisfaction": 50,
+                "gap": 15,
+                "userVoice": "感觉都差不多，没什么新意",
+                "currentSolutions": [
+                  "口味创新",
+                  "包装设计"
+                ],
+                "opportunity": "结合地域特色或功能性成分，差异化",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "搜索词显示口味创新但整体同质化"
+              },
+              {
+                "rank": 6,
+                "pain": "部分产品含糖量高，不健康",
+                "intensity": 55,
+                "satisfaction": 60,
+                "gap": -5,
+                "userVoice": "杨枝甘露口味太甜，怕胖",
+                "currentSolutions": [
+                  "无糖版",
+                  "代糖"
+                ],
+                "opportunity": "推出低糖或无糖选项",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "健康饮食趋势，糖分是关注点"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "0-10元",
+                "10-20元",
+                "20-30元",
+                "30-50元",
+                "50元以上"
+              ],
+              "functions": [
+                "基础滋补",
+                "美容养颜",
+                "即食便捷",
+                "低糖健康",
+                "高端礼赠"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 5,
+                  "growth": 10,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 3,
+                  "growth": 15,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 8,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 2,
+                  "growth": 30,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 75
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 1,
+                  "growth": 5,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 10,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 8,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 15,
+                  "growth": 25,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 5,
+                  "growth": 40,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 80
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 10,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 12,
+                  "growth": 20,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 10,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 18,
+                  "growth": 30,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 6,
+                  "growth": 50,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 85
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 5,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 8,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 7,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 10,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 4,
+                  "growth": 45,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 80
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 8,
+                  "growth": 20,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 5,
+                  "growth": 10,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 6,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 7,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 3,
+                  "growth": 35,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 10,
+                  "growth": 25,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "官栈",
+                "positioning": "高端滋补，主打花胶含量",
+                "priceBand": "30-50元",
+                "share": 15,
+                "strength": "品牌知名度高，品质信任",
+                "weakness": "价格偏高，年轻群体接受度低"
+              },
+              {
+                "brand": "小仙炖",
+                "positioning": "鲜炖燕窝延伸，高端",
+                "priceBand": "50元以上",
+                "share": 10,
+                "strength": "鲜炖概念，品牌力强",
+                "weakness": "价格昂贵，品类聚焦燕窝"
+              },
+              {
+                "brand": "山姆会员店自有品牌",
+                "positioning": "高性价比，大包装",
+                "priceBand": "10-20元",
+                "share": 8,
+                "strength": "价格实惠，品质有保障",
+                "weakness": "渠道限制，非会员无法购买"
+              },
+              {
+                "brand": "中粮",
+                "positioning": "健康食品，大众化",
+                "priceBand": "10-20元",
+                "share": 5,
+                "strength": "品牌信任，渠道广",
+                "weakness": "产品创新不足"
+              },
+              {
+                "brand": "燕之屋",
+                "positioning": "燕窝为主，花胶粥为辅",
+                "priceBand": "30-50元",
+                "share": 5,
+                "strength": "燕窝品牌效应",
+                "weakness": "花胶粥产品线较窄"
+              },
+              {
+                "brand": "五谷磨房",
+                "positioning": "养生食品，谷物结合",
+                "priceBand": "10-20元",
+                "share": 4,
+                "strength": "健康形象，价格亲民",
+                "weakness": "花胶粥品类布局晚"
+              },
+              {
+                "brand": "百草味",
+                "positioning": "零食化，即食",
+                "priceBand": "10-20元",
+                "share": 3,
+                "strength": "零食渠道，年轻化",
+                "weakness": "滋补专业度不足"
+              },
+              {
+                "brand": "三只松鼠",
+                "positioning": "休闲零食，即食",
+                "priceBand": "10-20元",
+                "share": 3,
+                "strength": "品牌IP，年轻群体",
+                "weakness": "缺乏滋补属性"
+              }
+            ],
+            "personas": [
+              {
+                "name": "滋补养生宝妈",
+                "age": "30-40岁",
+                "gender": "女",
+                "scenario": "早餐或下午茶，为孩子和丈夫准备",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "营养丰富",
+                  "方便快捷",
+                  "品牌可靠"
+                ],
+                "quote": "给孩子吃要放心，花胶粥营养好又方便"
+              },
+              {
+                "name": "都市白领女性",
+                "age": "25-35岁",
+                "gender": "女",
+                "scenario": "办公室代餐或下午茶，美容养颜",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "美容养颜",
+                  "低糖健康",
+                  "口感好"
+                ],
+                "quote": "工作忙也要精致，花胶粥养颜又好吃"
+              },
+              {
+                "name": "送礼需求人群",
+                "age": "35-50岁",
+                "gender": "不限",
+                "scenario": "节日送礼，探望长辈",
+                "spendingPower": "高",
+                "coreNeeds": [
+                  "包装高档",
+                  "品牌知名度",
+                  "滋补功效"
+                ],
+                "quote": "送礼要有面子，花胶粥礼盒很合适"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "花胶粥的养生功效、开箱测评、美食制作",
+                "playStyle": "短视频+直播带货，达人种草",
+                "difficulty": "中",
+                "note": "结合热点如出伏自救指南，强调滋补"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "花胶粥的颜值、口味测评、低卡健康",
+                "playStyle": "图文种草，KOL合作",
+                "difficulty": "低",
+                "note": "年轻女性用户多，注重颜值和健康"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "品牌旗舰店，详情页强调成分和认证",
+                "playStyle": "搜索优化，促销活动",
+                "difficulty": "中",
+                "note": "适合品牌建设，礼盒装搜索量大"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "品质保障，物流快",
+                "playStyle": "京东自营，PLUS会员优惠",
+                "difficulty": "中",
+                "note": "京东用户对品质敏感，可强调冷链"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "价格优势，拼团购买",
+                "playStyle": "低价引流，百亿补贴",
+                "difficulty": "低",
+                "note": "适合经济装，走量"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "低糖健康花胶粥",
+                "trendSignal": "健康饮食趋势，搜索词中低糖需求未满足",
+                "demandGap": "现有产品多含糖，低糖或无糖选择少",
+                "feasibility": "高",
+                "score": 90,
+                "rationale": "健康意识提升，低糖是普遍需求，竞争少",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "消费者对糖分关注，搜索词中无低糖选项"
+              },
+              {
+                "rank": 2,
+                "title": "小包装便携装",
+                "trendSignal": "即食便捷需求，但大包装不便携带",
+                "demandGap": "现有产品多为碗装，缺乏便携小包装",
+                "feasibility": "高",
+                "score": 85,
+                "rationale": "都市人群快节奏，便携是刚需",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "即食粥类普遍大包装，小包装有市场"
+              },
+              {
+                "rank": 3,
+                "title": "地域特色口味",
+                "trendSignal": "创新口味如杨枝甘露、生椰出现，但地域特色少",
+                "demandGap": "缺乏地方特色口味，如广式、港式",
+                "feasibility": "中",
+                "score": 80,
+                "rationale": "差异化竞争，满足尝鲜需求",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "搜索词显示口味创新，但地域特色空白"
+              },
+              {
+                "rank": 4,
+                "title": "功能性花胶粥（如添加益生菌）",
+                "trendSignal": "健康功能细分趋势",
+                "demandGap": "现有产品功能单一，缺乏针对性",
+                "feasibility": "中",
+                "score": 75,
+                "rationale": "功能性食品市场增长，差异化",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "消费者对功能需求多样化"
+              },
+              {
+                "rank": 5,
+                "title": "礼盒装升级",
+                "trendSignal": "搜索词中礼盒排名第一，但现有礼盒档次不足",
+                "demandGap": "高端礼盒设计感不足，缺乏定制",
+                "feasibility": "高",
+                "score": 85,
+                "rationale": "送礼场景需求大，高端化有空间",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词中礼盒热度第一"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-08-25 15:09:56）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "页面无商品数据（需JS渲染）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-08-25T07:10:26.800Z",
+              "elapsedMs": 4731
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "花胶粥礼盒",
+                "heat": 100
+              },
+              {
+                "word": "花胶粥山姆",
+                "heat": 100
+              },
+              {
+                "word": "花胶燕窝粥",
+                "heat": 100
+              },
+              {
+                "word": "杨枝甘露燕窝花胶粥",
+                "heat": 100
+              },
+              {
+                "word": "官栈花胶粥",
+                "heat": 100
+              },
+              {
+                "word": "生椰燕麦花胶粥",
+                "heat": 100
+              },
+              {
+                "word": "杨枝甘露花胶粥",
+                "heat": 100
+              },
+              {
+                "word": "即食花胶粥",
+                "heat": 100
+              },
+              {
+                "word": "杨枝甘露鲜炖花胶粥",
+                "heat": 100
+              },
+              {
+                "word": "即食花胶燕窝粥",
+                "heat": 100
+              }
+            ]
+          }
+        },
         {
           "id": "910f64c6-319b-4114-b74c-a271e05f2b73",
           "category": "筋膜枪",
