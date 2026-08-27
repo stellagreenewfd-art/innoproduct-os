@@ -6,7 +6,7 @@
       "username": "qaq",
       "company": "创品智造",
       "industry": "电商",
-      "password": "scrypt$16384$8$1$yWvLmTAmonAjtjHnDRZBhg==$9Ll/QRmAzBJnWC8K/P6s164dOILBVLIWt5S4m4TF3v6KmtbYadS9YuC/fDEI/pxaiDFCxGd0wcGRGTxitgaZag==",
+      "password": "scrypt$16384$8$1$3WnY4NV1MMawkZO5ZqutFQ==$6C634HzXGISf8fBfvYExXhCBvDSYSo4uIJspBpNd90gmevKIXLKM0Uku9OhYwlF46NkQWwdknjOGfRPsHZ0Obw==",
       "createdAt": "2026-07-24T02:21:52.652Z",
       "lastLogin": "2026-08-23T14:16:49.465Z",
       "recordCount": 4,
@@ -535,7 +535,7 @@
       "industry": "",
       "password": "scrypt$16384$8$1$hbJ/3NmNO9XMhRUHTUSWtQ==$DDCeu/48Lt9sgIuZfOKoHkhwLQqllRkTXz4MgYypxFfnqK/wYWmyX8OD9ugV/dv9BHqN6Rg1wbUvHmIaNhFf+A==",
       "createdAt": "2026-08-25T15:25:25.139Z",
-      "lastLogin": "2026-08-27T07:54:34.159Z",
+      "lastLogin": "2026-08-27T10:11:55.776Z",
       "recordCount": 0,
       "ssoAuto": true,
       "_tokens": [
