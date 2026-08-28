@@ -75,7 +75,7 @@
       "password": "scrypt$16384$8$1$mbpxUZQalHJzwWyKbplisw==$KQnbrw3hUfiBuCowSFETF51GiwautaGt8jeNAr/1r9kdSuJKzmiUjuplexE6NMItywVnaJhGe8pTPXiEzQ+tlg==",
       "createdAt": "2026-07-27T03:54:25.588Z",
       "lastLogin": "2026-08-28T03:06:41.036Z",
-      "recordCount": 0,
+      "recordCount": 1,
       "_tokens": [
         {
           "token": "c7e6a896a88c2cc722798f9383ab9cfb39147170f075720ba09e18ab11a17884",
@@ -755,6 +755,13 @@
       "category": "花胶粥",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-08-25T07:10:59.365Z"
+    },
+    {
+      "id": "3183fc54-d951-4a0a-a674-87a8d527f221",
+      "userId": "ee1725b7-822a-40aa-8057-26b4cb3ea7f1",
+      "category": "方便速食（冲泡、自热、快煮等）",
+      "result": "趋势分析（真实源4/7）",
+      "createdAt": "2026-08-28T03:09:43.935Z"
     }
   ],
   "userData": {
@@ -17645,6 +17652,682 @@
                 "heat": 100
               }
             ]
+          }
+        }
+      ]
+    },
+    "ee1725b7-822a-40aa-8057-26b4cb3ea7f1": {
+      "projects": [],
+      "inspirations": [],
+      "analyses": [
+        {
+          "id": "438788b8-d78f-4ce1-ac36-77abb6155bb2",
+          "category": "方便速食（冲泡、自热、快煮等）",
+          "scanDate": "2026-08-28",
+          "savedAt": "2026-08-28T03:09:43.935Z",
+          "data": {
+            "category": "方便速食（冲泡、自热、快煮等）",
+            "scanDate": "2026-08-28",
+            "metrics": {
+              "totalGMV": "1200亿",
+              "totalGMV_source": "综合行业报告与平台数据推测，2026年市场规模约1200亿",
+              "gmvGrowth": "12.5%",
+              "gmvGrowth_source": "基于2025-2026年行业增长趋势推测",
+              "brandCount": "800",
+              "brandCount_source": "综合电商平台活跃品牌数推测",
+              "topBrandShare": "35%",
+              "topBrandShare_source": "CR10头部品牌集中度推测"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "自热火锅",
+                "share": 25.3,
+                "yoy": 15.2,
+                "verbatim": "一个人也要好好吃饭，自热火锅方便又美味",
+                "summary": "自热火锅持续热门，尤其受独居青年和户外爱好者欢迎，口味和食材不断升级。",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜中与美食相关的视频热度高，自热火锅为品类代表性产品"
+              },
+              {
+                "rank": 2,
+                "keyword": "速食面",
+                "share": 18.7,
+                "yoy": 8.3,
+                "verbatim": "深夜加班来一碗，治愈所有疲惫",
+                "summary": "速食面从传统泡面升级为高端化、健康化，如非油炸、低卡等概念流行。",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜中饮食类内容常出现速食面测评"
+              },
+              {
+                "rank": 3,
+                "keyword": "冲泡粥",
+                "share": 12.1,
+                "yoy": 20.5,
+                "verbatim": "早上来不及吃早饭，冲泡粥是救星",
+                "summary": "冲泡粥因便捷和健康属性，成为早餐场景的热门选择。",
+                "platform": "百度热搜",
+                "dataFromReal": false,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜中健康饮食话题增多，冲泡粥符合趋势"
+              },
+              {
+                "rank": 4,
+                "keyword": "快煮意面",
+                "share": 9.8,
+                "yoy": 35.7,
+                "verbatim": "在家也能做出西餐厅的意面，孩子超爱吃",
+                "summary": "快煮意面满足家庭西餐需求，酱料包和烹饪时间优化提升体验。",
+                "platform": "抖音",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "抖音美食内容中意面教程流行，快煮产品应运而生"
+              },
+              {
+                "rank": 5,
+                "keyword": "低卡速食",
+                "share": 8.4,
+                "yoy": 50.2,
+                "verbatim": "减肥期间也能吃好吃的，低卡速食yyds",
+                "summary": "健康意识提升，低卡、低脂速食成为新宠，尤其受年轻女性欢迎。",
+                "platform": "抖音",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "社交媒体上健身减脂内容增多，带动低卡食品需求"
+              },
+              {
+                "rank": 6,
+                "keyword": "地域特色速食",
+                "share": 6.9,
+                "yoy": 28.9,
+                "verbatim": "在外地也能吃到正宗柳州螺蛳粉，太幸福了",
+                "summary": "地方特色小吃速食化，如螺蛳粉、酸辣粉等，满足异乡人的味蕾。",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜中地方美食视频常引发热议"
+              },
+              {
+                "rank": 7,
+                "keyword": "速食汤",
+                "share": 5.2,
+                "yoy": 18.4,
+                "verbatim": "办公室必备速食汤，热水一冲就能喝",
+                "summary": "速食汤品类增长，便捷养生概念受职场人青睐。",
+                "platform": "百度热搜",
+                "dataFromReal": false,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜中健康饮食话题增多，速食汤符合便捷养生需求"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "自热食品加热包安全隐患",
+                "intensity": 92,
+                "satisfaction": 45,
+                "gap": 47,
+                "userVoice": "自热火锅加热时喷气吓人，担心爆炸",
+                "currentSolutions": [
+                  "改进加热包材质",
+                  "增加安全提示",
+                  "开发无水加热技术"
+                ],
+                "opportunity": "研发更安全的加热技术，如电加热自热锅",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "行业常见痛点，新闻中偶有报道"
+              },
+              {
+                "rank": 2,
+                "pain": "速食产品钠含量高",
+                "intensity": 85,
+                "satisfaction": 50,
+                "gap": 35,
+                "userVoice": "方便面太咸了，吃完口渴半天",
+                "currentSolutions": [
+                  "低钠盐配方",
+                  "减少调料包分量",
+                  "推出清汤口味"
+                ],
+                "opportunity": "开发低钠健康速食，主打清淡养生",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "消费者健康意识增强，低盐需求明显"
+              },
+              {
+                "rank": 3,
+                "pain": "食材不新鲜，口感差",
+                "intensity": 80,
+                "satisfaction": 40,
+                "gap": 40,
+                "userVoice": "自热锅里的肉像塑料，难吃",
+                "currentSolutions": [
+                  "采用冻干技术",
+                  "增加真实肉块",
+                  "改进保鲜工艺"
+                ],
+                "opportunity": "使用高端冻干技术，提升食材品质",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "消费者对品质要求提高，传统速食口感受诟病"
+              },
+              {
+                "rank": 4,
+                "pain": "包装不环保",
+                "intensity": 70,
+                "satisfaction": 45,
+                "gap": 25,
+                "userVoice": "每次吃完一堆塑料垃圾，有罪恶感",
+                "currentSolutions": [
+                  "可降解包装",
+                  "减少过度包装",
+                  "鼓励回收"
+                ],
+                "opportunity": "推出环保包装，吸引绿色消费者",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "环保话题热度高，消费者对塑料污染关注"
+              },
+              {
+                "rank": 5,
+                "pain": "口味单一，容易腻",
+                "intensity": 75,
+                "satisfaction": 55,
+                "gap": 20,
+                "userVoice": "吃来吃去就那几种味道，想换换新花样",
+                "currentSolutions": [
+                  "推出季节限定口味",
+                  "跨界联名口味",
+                  "增加地方特色"
+                ],
+                "opportunity": "开发小众独特口味，如地域限定、网红口味",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "消费者追求新鲜感，口味创新是持续需求"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "0-5元",
+                "5-10元",
+                "10-20元",
+                "20-30元",
+                "30元以上"
+              ],
+              "functions": [
+                "便捷速食",
+                "健康低卡",
+                "地方风味",
+                "高端食材",
+                "环保包装"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 30,
+                  "growth": 5,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 20
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 10,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 15,
+                  "growth": 10,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 5,
+                  "growth": 15,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 2,
+                  "growth": 30,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 80
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 25,
+                  "growth": 3,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 15
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 15,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 20,
+                  "growth": 8,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 8,
+                  "growth": 20,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 35,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 85
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 20,
+                  "growth": 2,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 10
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 12,
+                  "growth": 30,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 25,
+                  "growth": 12,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 10,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 5,
+                  "growth": 40,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 80
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 15,
+                  "growth": 1,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 25
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 10,
+                  "growth": 35,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 18,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 15,
+                  "growth": 30,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 8,
+                  "growth": 45,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 85
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 10,
+                  "growth": 0,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 20
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 8,
+                  "growth": 40,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 75
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 12,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 20,
+                  "growth": 35,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 80
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 15,
+                  "growth": 50,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 90
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "海底捞",
+                "positioning": "高端自热火锅，品牌背书",
+                "priceBand": "30-50元",
+                "share": 15,
+                "strength": "品牌知名度高，食材优质",
+                "weakness": "价格偏高，性价比不足"
+              },
+              {
+                "brand": "自嗨锅",
+                "positioning": "自热食品领军品牌，主打一人食",
+                "priceBand": "20-40元",
+                "share": 12,
+                "strength": "产品线丰富，营销能力强",
+                "weakness": "口味同质化，创新不足"
+              },
+              {
+                "brand": "康师傅",
+                "positioning": "传统方便面巨头，性价比高",
+                "priceBand": "5-15元",
+                "share": 18,
+                "strength": "渠道广，品牌忠诚度高",
+                "weakness": "健康形象欠缺，高端化困难"
+              },
+              {
+                "brand": "统一",
+                "positioning": "传统方便面品牌，创新尝试",
+                "priceBand": "5-20元",
+                "share": 15,
+                "strength": "品牌认知度高，产品线丰富",
+                "weakness": "创新产品市场反应一般"
+              },
+              {
+                "brand": "空刻",
+                "positioning": "快煮意面专家，主打西餐体验",
+                "priceBand": "20-40元",
+                "share": 8,
+                "strength": "细分市场领导者，口味正宗",
+                "weakness": "价格较高，受众有限"
+              },
+              {
+                "brand": "李子柒",
+                "positioning": "网红品牌，传统美食文化",
+                "priceBand": "15-30元",
+                "share": 10,
+                "strength": "IP影响力大，内容营销强",
+                "weakness": "依赖个人IP，风险高"
+              }
+            ],
+            "personas": [
+              {
+                "name": "独居青年",
+                "age": "20-30岁",
+                "gender": "男女均可",
+                "scenario": "一人食，加班夜宵",
+                "spendingPower": "中等",
+                "coreNeeds": [
+                  "方便快捷",
+                  "口味丰富",
+                  "价格适中"
+                ],
+                "quote": "一个人也要好好吃饭，速食是我的救星。"
+              },
+              {
+                "name": "健康追求者",
+                "age": "25-40岁",
+                "gender": "女性偏多",
+                "scenario": "减肥期间，健身餐",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "低卡低脂",
+                  "营养均衡",
+                  "天然食材"
+                ],
+                "quote": "既要好吃又要健康，低卡速食满足我。"
+              },
+              {
+                "name": "家庭主妇",
+                "age": "30-45岁",
+                "gender": "女性",
+                "scenario": "家庭早餐，孩子辅食",
+                "spendingPower": "中等",
+                "coreNeeds": [
+                  "安全卫生",
+                  "营养丰富",
+                  "操作简单"
+                ],
+                "quote": "给孩子吃的，必须安全又营养。"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "测评对比、开箱试吃、美食教程",
+                "playStyle": "短视频+直播带货，KOL合作",
+                "difficulty": "中",
+                "note": "内容驱动，爆款视频带动销量"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "种草笔记、减脂食谱、好物分享",
+                "playStyle": "图文+短视频，素人种草",
+                "difficulty": "低",
+                "note": "女性用户为主，适合健康速食"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "品牌旗舰店，详情页优化",
+                "playStyle": "搜索+推荐，促销活动",
+                "difficulty": "高",
+                "note": "竞争激烈，需品牌力支撑"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "品质保障，物流快",
+                "playStyle": "自营+品牌店，PLUS会员",
+                "difficulty": "中",
+                "note": "适合高端速食，强调品质"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "低价爆款，拼团优惠",
+                "playStyle": "社交裂变，性价比",
+                "difficulty": "低",
+                "note": "价格敏感市场，适合走量"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "环保包装速食",
+                "trendSignal": "消费者环保意识增强，政策限塑",
+                "demandGap": "目前环保包装产品占比低",
+                "feasibility": "高",
+                "score": 90,
+                "rationale": "环保趋势明显，差异化竞争优势",
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "热搜中环保话题增多"
+              },
+              {
+                "rank": 2,
+                "title": "低卡健康速食系列",
+                "trendSignal": "健康饮食风潮，健身人群扩大",
+                "demandGap": "现有低卡产品口感差，选择少",
+                "feasibility": "高",
+                "score": 85,
+                "rationale": "健康需求持续增长，市场空间大",
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音健身减脂内容热度高"
+              },
+              {
+                "rank": 3,
+                "title": "地域特色速食创新",
+                "trendSignal": "地方美食旅游热，异乡人思乡",
+                "demandGap": "地域特色速食品类少，标准化难",
+                "feasibility": "中",
+                "score": 80,
+                "rationale": "差异化口味吸引消费者，但供应链复杂",
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "地方美食视频播放量高"
+              },
+              {
+                "rank": 4,
+                "title": "高端食材速食",
+                "trendSignal": "消费升级，品质追求",
+                "demandGap": "高端速食市场空白，现有产品档次低",
+                "feasibility": "中",
+                "score": 75,
+                "rationale": "高客单价带来高利润，但受众有限",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "消费升级趋势明显"
+              },
+              {
+                "rank": 5,
+                "title": "智能加热技术",
+                "trendSignal": "科技发展，智能家居普及",
+                "demandGap": "自热食品安全隐患，加热体验差",
+                "feasibility": "中",
+                "score": 70,
+                "rationale": "解决痛点，技术门槛高",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "消费者对安全便捷需求强烈"
+              }
+            ],
+            "_collection": {
+              "successCount": 4,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无联想词"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-08-28 11:08:23）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "页面无商品数据（需JS渲染）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-08-28T03:09:12.130Z",
+              "elapsedMs": 2453
+            }
           }
         }
       ]
