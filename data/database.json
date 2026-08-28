@@ -6,7 +6,7 @@
       "username": "qaq",
       "company": "创品智造",
       "industry": "电商",
-      "password": "scrypt$16384$8$1$3WnY4NV1MMawkZO5ZqutFQ==$6C634HzXGISf8fBfvYExXhCBvDSYSo4uIJspBpNd90gmevKIXLKM0Uku9OhYwlF46NkQWwdknjOGfRPsHZ0Obw==",
+      "password": "scrypt$16384$8$1$4RwyftkEfUmdYty0EMA/QA==$Ck7v0DPXK17Hrx0a3mkC1j3rqw9bp8/hv0niArFPQ8E6ph3v6fMPHQ06z6onmHx3XlcUswYdUJ9iTkDyI4ujwA==",
       "createdAt": "2026-07-24T02:21:52.652Z",
       "lastLogin": "2026-08-23T14:16:49.465Z",
       "recordCount": 4,
@@ -72,10 +72,16 @@
       "username": "Jance",
       "company": "深圳市本衍量供应链有限公司",
       "industry": "食品、饮料、冷藏食品",
-      "password": "5143dc590bf6493f556da4449b9fb647c3cd8f586a37af39e1bf21725d6c2dab",
+      "password": "scrypt$16384$8$1$mbpxUZQalHJzwWyKbplisw==$KQnbrw3hUfiBuCowSFETF51GiwautaGt8jeNAr/1r9kdSuJKzmiUjuplexE6NMItywVnaJhGe8pTPXiEzQ+tlg==",
       "createdAt": "2026-07-27T03:54:25.588Z",
-      "lastLogin": "2026-07-27T04:22:37.863Z",
-      "recordCount": 0
+      "lastLogin": "2026-08-28T03:06:41.036Z",
+      "recordCount": 0,
+      "_tokens": [
+        {
+          "token": "c7e6a896a88c2cc722798f9383ab9cfb39147170f075720ba09e18ab11a17884",
+          "createdAt": "2026-08-28T03:06:41.036Z"
+        }
+      ]
     },
     {
       "id": "d53b05b4-38ec-4c4a-a683-40770e1dfe3f",
