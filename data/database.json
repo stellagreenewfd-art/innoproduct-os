@@ -6,7 +6,7 @@
       "username": "qaq",
       "company": "创品智造",
       "industry": "电商",
-      "password": "scrypt$16384$8$1$SqBSOCiO3RQUWK4F1nFrng==$J9V9U3LQVFTpNR+Z6gVFgJotLmXoQPRNJP2h3s00aO4WgQ6Xfg8yb05tJvRmspMgwWp+YjI+fPk4s0KKJp0uzg==",
+      "password": "scrypt$16384$8$1$a68yeIpWLcEUc+Iyq9kygA==$ipQ86Eqs2e4+p9vGRl9cT/wpHFzjdzBD1OZN1afDaS17Qa99ihzY2ieozggbLShP8YDoStaANKNCuPMuavSd6A==",
       "createdAt": "2026-07-24T02:21:52.652Z",
       "lastLogin": "2026-08-23T14:16:49.465Z",
       "recordCount": 4,
@@ -113,7 +113,7 @@
       "password": "scrypt$16384$8$1$q2o8s/w2Hl3bjrbbRYP2Lg==$HCV61jlV3q5WNyXz+MtK+HhHClLf12X8IR2sWA1/6HwI2BZrZwVtDHaeOjklKmjIsCXPuiaLnxdQStv42SMItw==",
       "createdAt": "2026-07-27T09:21:28.831Z",
       "lastLogin": "2026-08-21T14:30:14.722Z",
-      "recordCount": 9,
+      "recordCount": 10,
       "_token": "35d01ea331eaf12be040e6912cb7a984e8b33fed541821f875de7b4e163c0e2a",
       "_tokens": [
         {
@@ -766,6 +766,13 @@
       "category": "方便速食（冲泡、自热、快煮等）",
       "result": "趋势分析（真实源4/7）",
       "createdAt": "2026-08-28T03:09:43.935Z"
+    },
+    {
+      "id": "2a34b418-ce44-41e0-8f2e-e10afe229197",
+      "userId": "1148a339-9fbf-411d-9fa1-1f7572a823f6",
+      "category": "洗衣液",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-09-01T09:02:48.059Z"
     }
   ],
   "userData": {
@@ -2662,6 +2669,733 @@
       ],
       "inspirations": [],
       "analyses": [
+        {
+          "id": "f705df0f-1203-4c80-b375-defae0470b0b",
+          "category": "洗衣液",
+          "scanDate": "2026-09-01",
+          "savedAt": "2026-09-01T09:02:48.059Z",
+          "data": {
+            "category": "洗衣液",
+            "scanDate": "2026-09-01",
+            "metrics": {
+              "totalGMV": "350亿",
+              "totalGMV_source": "综合电商平台及行业报告估算",
+              "gmvGrowth": "8%",
+              "gmvGrowth_source": "行业分析报告推测，基于消费升级与品类渗透率提升",
+              "brandCount": "1200",
+              "brandCount_source": "主要电商平台在售品牌数估算",
+              "topBrandShare": "65%",
+              "topBrandShare_source": "根据搜索联想词及市场认知推测，头部品牌集中度较高"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "持久留香",
+                "share": 15,
+                "yoy": 25,
+                "verbatim": "洗衣液持久留香72小时香水",
+                "summary": "消费者对洗衣液的留香时长要求显著提升，香水级香氛成为核心卖点。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词热度第一，且香氛类产品在抖音等平台内容热度高"
+              },
+              {
+                "rank": 2,
+                "keyword": "补充装",
+                "share": 12,
+                "yoy": 18,
+                "verbatim": "洗衣液补充装",
+                "summary": "环保和经济性需求推动补充装流行，消费者注重性价比和减少塑料浪费。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词排名第二，结合环保趋势"
+              },
+              {
+                "rank": 3,
+                "keyword": "家用大容量",
+                "share": 10,
+                "yoy": 5,
+                "verbatim": "洗衣液家用",
+                "summary": "家庭装大容量仍是主流需求，但增速放缓，趋于饱和。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词排名第三，常规需求"
+              },
+              {
+                "rank": 4,
+                "keyword": "品牌信任",
+                "share": 9,
+                "yoy": 3,
+                "verbatim": "洗衣液立白/威露士/蓝月亮",
+                "summary": "消费者对知名品牌有较高信任度，搜索行为直接指向品牌。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词包含多个品牌名"
+              },
+              {
+                "rank": 5,
+                "keyword": "香氛大师",
+                "share": 8,
+                "yoy": 30,
+                "verbatim": "洗衣液立白香氛大师",
+                "summary": "高端香氛系列受到追捧，香调层次和持久度成为差异化关键。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词排名第九，体现细分需求"
+              },
+              {
+                "rank": 6,
+                "keyword": "洗衣凝珠",
+                "share": 7,
+                "yoy": 40,
+                "verbatim": "洗衣凝珠（推测）",
+                "summary": "便捷性和高颜值吸引年轻消费者，品类快速增长。",
+                "platform": "抖音",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "抖音平台内容中洗衣凝珠相关视频热度高，且符合年轻化趋势"
+              },
+              {
+                "rank": 7,
+                "keyword": "除菌除螨",
+                "share": 6,
+                "yoy": 10,
+                "verbatim": "除菌除螨（推测）",
+                "summary": "健康意识提升，除菌除螨功能成为标配。",
+                "platform": "淘宝",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "疫情后健康需求持续，且搜索联想中隐含对威露士等除菌品牌的关注"
+              },
+              {
+                "rank": 8,
+                "keyword": "内衣专用",
+                "share": 5,
+                "yoy": 20,
+                "verbatim": "内衣洗衣液（推测）",
+                "summary": "精细化洗护需求增长，内衣专用洗衣液成为细分蓝海。",
+                "platform": "小红书",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "小红书平台内衣洗护内容增多，且女性用户关注"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "留香不持久",
+                "intensity": 85,
+                "satisfaction": 40,
+                "gap": 45,
+                "userVoice": "刚洗完很香，但过一天就没味道了。",
+                "currentSolutions": [
+                  "添加香氛微胶囊",
+                  "延长留香时间"
+                ],
+                "opportunity": "开发留香超过72小时且香味层次丰富的产品",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词'持久留香72小时香水'热度第一"
+              },
+              {
+                "rank": 2,
+                "pain": "化学成分担忧",
+                "intensity": 80,
+                "satisfaction": 50,
+                "gap": 30,
+                "userVoice": "担心洗衣液残留对皮肤不好，尤其宝宝衣服。",
+                "currentSolutions": [
+                  "植物配方",
+                  "无添加认证"
+                ],
+                "opportunity": "推出母婴级安全配方，强调温和无刺激",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "母婴人群对安全性的普遍关注"
+              },
+              {
+                "rank": 3,
+                "pain": "用量难控制",
+                "intensity": 70,
+                "satisfaction": 30,
+                "gap": 40,
+                "userVoice": "总是倒多倒少，浪费又洗不干净。",
+                "currentSolutions": [
+                  "浓缩型",
+                  "泵头设计"
+                ],
+                "opportunity": "智能定量投放装置或一次性凝珠",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "消费者使用习惯常见问题"
+              },
+              {
+                "rank": 4,
+                "pain": "包装浪费",
+                "intensity": 60,
+                "satisfaction": 45,
+                "gap": 15,
+                "userVoice": "每次用完一大瓶塑料，感觉不环保。",
+                "currentSolutions": [
+                  "补充装",
+                  "可回收包装"
+                ],
+                "opportunity": "推出浓缩补充包，减少塑料使用",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "补充装搜索热度高"
+              },
+              {
+                "rank": 5,
+                "pain": "顽固污渍难去除",
+                "intensity": 75,
+                "satisfaction": 35,
+                "gap": 40,
+                "userVoice": "袖口领口的污渍总是洗不干净。",
+                "currentSolutions": [
+                  "预涂皂",
+                  "强力去渍配方"
+                ],
+                "opportunity": "开发针对特定污渍的生物酶技术",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "消费者普遍抱怨去渍能力"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "0-20元",
+                "20-40元",
+                "40-60元",
+                "60-100元",
+                "100元以上"
+              ],
+              "functions": [
+                "基础清洁",
+                "持久留香",
+                "除菌除螨",
+                "温和护衣",
+                "浓缩环保"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 20,
+                  "growth": 2,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 10,
+                  "growth": 8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 5,
+                  "growth": 5,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 8,
+                  "growth": 3,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 2,
+                  "growth": 10,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 25,
+                  "growth": 3,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 15,
+                  "growth": 12,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 10,
+                  "growth": 6,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 12,
+                  "growth": 4,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 15,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 80
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 15,
+                  "growth": 2,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 20,
+                  "growth": 18,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 8,
+                  "growth": 8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 10,
+                  "growth": 5,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 4,
+                  "growth": 20,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 85
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 10,
+                  "growth": 1,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 18,
+                  "growth": 25,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 75
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 6,
+                  "growth": 10,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 8,
+                  "growth": 6,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 22,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 90
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 5,
+                  "growth": 1,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 10,
+                  "growth": 30,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 80
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 4,
+                  "growth": 12,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 6,
+                  "growth": 8,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 2,
+                  "growth": 25,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 95
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "蓝月亮",
+                "positioning": "专业家庭清洁",
+                "priceBand": "中高端",
+                "share": 25,
+                "strength": "品牌知名度高，渠道覆盖广",
+                "weakness": "产品创新不足，年轻用户吸引力下降"
+              },
+              {
+                "brand": "立白",
+                "positioning": "大众家庭",
+                "priceBand": "中低端",
+                "share": 20,
+                "strength": "性价比高，香氛系列受欢迎",
+                "weakness": "高端市场存在感弱"
+              },
+              {
+                "brand": "威露士",
+                "positioning": "除菌健康",
+                "priceBand": "中高端",
+                "share": 15,
+                "strength": "除菌功能深入人心",
+                "weakness": "留香效果一般"
+              },
+              {
+                "brand": "活力28",
+                "positioning": "经典国货",
+                "priceBand": "低端",
+                "share": 8,
+                "strength": "价格实惠，情怀品牌",
+                "weakness": "产品老化，形象陈旧"
+              },
+              {
+                "brand": "奥妙",
+                "positioning": "去污强效",
+                "priceBand": "中端",
+                "share": 10,
+                "strength": "去渍能力口碑好",
+                "weakness": "香氛选择少"
+              },
+              {
+                "brand": "雕牌",
+                "positioning": "经济实惠",
+                "priceBand": "低端",
+                "share": 7,
+                "strength": "价格优势，家庭主妇认知度高",
+                "weakness": "品牌升��缓慢"
+              },
+              {
+                "brand": "当妮",
+                "positioning": "留香专家",
+                "priceBand": "中高端",
+                "share": 5,
+                "strength": "留香持久，香型丰富",
+                "weakness": "国内渠道有限"
+              }
+            ],
+            "personas": [
+              {
+                "name": "成分党妈妈",
+                "age": "25-35",
+                "gender": "女性",
+                "scenario": "有婴幼儿家庭，洗衣频率高",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "安全无毒",
+                  "温和不刺激",
+                  "除菌效果好"
+                ],
+                "quote": "宝宝的衣服必须用最安全的，再贵也值得。"
+              },
+              {
+                "name": "精致白领",
+                "age": "22-30",
+                "gender": "女性",
+                "scenario": "租房独居或合租，注重个人形象",
+                "spendingPower": "中",
+                "coreNeeds": [
+                  "持久留香",
+                  "香氛高级感",
+                  "方便快捷"
+                ],
+                "quote": "衣服要香香的，出门才有自信。"
+              },
+              {
+                "name": "精打细算家庭主妇",
+                "age": "35-50",
+                "gender": "女性",
+                "scenario": "多口之家，日常大量洗衣",
+                "spendingPower": "中低",
+                "coreNeeds": [
+                  "性价比高",
+                  "大容量",
+                  "去污力强"
+                ],
+                "quote": "洗得干净又便宜才是王道。"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "展示留香效果，如72小时挑战、香氛测评",
+                "playStyle": "短视频种草，与达人合作，使用热门BGM",
+                "difficulty": "中",
+                "note": "抖音热榜显示用户对生活技巧类内容感兴趣"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "真实测评、成分解析、母婴安全",
+                "playStyle": "图文种草，KOC合作，强调使用体验",
+                "difficulty": "低",
+                "note": "小红书用户对成分和细节关注度高"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "品牌旗舰店，突出产品功效和科技",
+                "playStyle": "详情页优化，参加大促活动",
+                "difficulty": "中",
+                "note": "天猫用户注重品牌和品质"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "强调正品保障和物流速度",
+                "playStyle": "京东自营，快速配送，用户评价管理",
+                "difficulty": "低",
+                "note": "京东用户对物流敏感"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "低价团购，实惠大容量",
+                "playStyle": "百亿补贴，拼团活动，性价比突出",
+                "difficulty": "低",
+                "note": "拼多多用户价格敏感度高"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "高端香氛洗衣液",
+                "trendSignal": "搜索词'持久留香72小时香水'和'香氛大师'热度高",
+                "demandGap": "现有产品留香时间短，香型单一",
+                "feasibility": "高",
+                "score": 90,
+                "rationale": "用户需求明确，且愿意支付溢价",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词排名第一和第九"
+              },
+              {
+                "rank": 2,
+                "title": "浓缩环保补充包",
+                "trendSignal": "补充装搜索热度第二，环保意识增强",
+                "demandGap": "传统大瓶装浪费且不环保",
+                "feasibility": "高",
+                "score": 85,
+                "rationale": "成本低，符合可持续趋势",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词排名第二"
+              },
+              {
+                "rank": 3,
+                "title": "母婴专用洗衣液",
+                "trendSignal": "健康安全需求突出",
+                "demandGap": "母婴市场缺乏专业品牌",
+                "feasibility": "高",
+                "score": 80,
+                "rationale": "母婴人群消费力强，且忠诚度高",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "母婴市场持续增长"
+              },
+              {
+                "rank": 4,
+                "title": "智能定量投放系统",
+                "trendSignal": "用户抱怨用量难控制",
+                "demandGap": "市场缺乏智能化产品",
+                "feasibility": "中",
+                "score": 70,
+                "rationale": "技术门槛较高，但差异化明显",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "消费者使用痛点"
+              },
+              {
+                "rank": 5,
+                "title": "多功能合一（洗护+除菌+留香）",
+                "trendSignal": "用户追求便捷",
+                "demandGap": "现有产品功能单一",
+                "feasibility": "高",
+                "score": 75,
+                "rationale": "整合功能可提升性价比",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "生活节奏加快"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-09-01 17:01:34）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "页面无商品数据（需JS渲染）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-09-01T09:02:18.130Z",
+              "elapsedMs": 2928
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "洗衣液持久留香72小时香水",
+                "heat": 100
+              },
+              {
+                "word": "洗衣液补充装",
+                "heat": 100
+              },
+              {
+                "word": "洗衣液家用",
+                "heat": 100
+              },
+              {
+                "word": "洗衣液立白",
+                "heat": 100
+              },
+              {
+                "word": "洗衣液威露士",
+                "heat": 100
+              },
+              {
+                "word": "洗衣液蓝月亮",
+                "heat": 100
+              },
+              {
+                "word": "洗衣液正品",
+                "heat": 100
+              },
+              {
+                "word": "洗衣液活力28",
+                "heat": 100
+              },
+              {
+                "word": "洗衣液立白香氛大师",
+                "heat": 100
+              },
+              {
+                "word": "洗衣液袋装",
+                "heat": 100
+              }
+            ]
+          }
+        },
         {
           "id": "68979657-1944-459d-afe7-5564f02d5773",
           "category": "花胶粥",
