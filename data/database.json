@@ -2689,11 +2689,11 @@
               "tasks": [
                 {
                   "name": "目标人群锁定",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "USP定稿",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "定价区间",
