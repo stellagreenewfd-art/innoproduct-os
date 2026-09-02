@@ -2701,7 +2701,7 @@
                 },
                 {
                   "name": "立项审批",
-                  "done": false
+                  "done": true
                 }
               ],
               "status": "in_progress",
@@ -2805,7 +2805,7 @@
               "tasks": [
                 {
                   "name": "工厂确认",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "质检标准",
@@ -2820,7 +2820,7 @@
                   "done": false
                 }
               ],
-              "status": "not_started",
+              "status": "in_progress",
               "assignee": "",
               "startDate": "2026-11-14",
               "endDate": "2026-12-04",
