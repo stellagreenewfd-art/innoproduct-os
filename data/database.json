@@ -6,7 +6,7 @@
       "username": "qaq",
       "company": "创品智造",
       "industry": "电商",
-      "password": "scrypt$16384$8$1$bTvTLMYUpdyWLuTO0BIQPA==$n5NNR0x8IL6crDiK+LerpLYuEa+RVww8Pm/crd/HB4GC8swfUsRTAZAtoO42PXRwCpLHYrCKnDSOWwa7xQYE6A==",
+      "password": "scrypt$16384$8$1$Feik+C3jxTDTY4OSJq4Fhw==$2NXUZ9ZRYBXHK23gdjGHgSCrZ3g52vj0Oa8pYux4PYysH6h2v6fcpPOQ8vw80770n5uNV3XMXHAkU/MTniT2jw==",
       "createdAt": "2026-07-24T02:21:52.652Z",
       "lastLogin": "2026-08-23T14:16:49.465Z",
       "recordCount": 4,
@@ -113,7 +113,7 @@
       "password": "scrypt$16384$8$1$q2o8s/w2Hl3bjrbbRYP2Lg==$HCV61jlV3q5WNyXz+MtK+HhHClLf12X8IR2sWA1/6HwI2BZrZwVtDHaeOjklKmjIsCXPuiaLnxdQStv42SMItw==",
       "createdAt": "2026-07-27T09:21:28.831Z",
       "lastLogin": "2026-08-21T14:30:14.722Z",
-      "recordCount": 11,
+      "recordCount": 12,
       "_token": "35d01ea331eaf12be040e6912cb7a984e8b33fed541821f875de7b4e163c0e2a",
       "_tokens": [
         {
@@ -780,6 +780,13 @@
       "category": "面膜",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-09-02T08:20:51.250Z"
+    },
+    {
+      "id": "6641455d-8059-44bc-97e2-97786d3f9b80",
+      "userId": "1148a339-9fbf-411d-9fa1-1f7572a823f6",
+      "category": "大路灯",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-09-03T02:37:39.986Z"
     }
   ],
   "userData": {
@@ -2866,6 +2873,768 @@
       ],
       "inspirations": [],
       "analyses": [
+        {
+          "id": "257c1eb9-96c9-4db8-b132-05f800659ceb",
+          "category": "大路灯",
+          "scanDate": "2026-09-03",
+          "savedAt": "2026-09-03T02:37:39.986Z",
+          "data": {
+            "category": "大路灯",
+            "scanDate": "2026-09-03",
+            "metrics": {
+              "totalGMV": "45.6亿",
+              "totalGMV_source": "根据淘宝搜索联想热度及行业报告推测，2025年大路灯品类GMV约40亿，2026年增长14%",
+              "gmvGrowth": "14%",
+              "gmvGrowth_source": "推测：基于搜索热度增长及抖音内容热度，2026年同比2025年增长14%",
+              "brandCount": "320",
+              "brandCount_source": "推测：天猫和京东平台活跃品牌数约320个，基于行业报告",
+              "topBrandShare": "45%",
+              "topBrandShare_source": "推测：头部品牌CR10约45%，基于行业集中度趋势"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "护眼灯",
+                "share": 25,
+                "yoy": 30,
+                "verbatim": "大路灯护眼灯",
+                "summary": "用户核心需求是护眼，大路灯作为护眼灯的一种形态，搜索热度高，且与学习场景强关联。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词第一位，直接反映用户需求"
+              },
+              {
+                "rank": 2,
+                "keyword": "学习专用",
+                "share": 20,
+                "yoy": 35,
+                "verbatim": "大路灯护眼灯学习专用",
+                "summary": "学习场景是主要使用场景，家长为孩子购买，注重照度均匀和显色指数。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词第二位，结合B站、抖音学习内容热度"
+              },
+              {
+                "rank": 3,
+                "keyword": "霍尼韦尔",
+                "share": 10,
+                "yoy": 20,
+                "verbatim": "大路灯霍尼韦尔",
+                "summary": "霍尼韦尔作为知名品牌，用户搜索其品牌词，表明品牌认知度高，但可能寻求平替。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词第三位，品牌词出现"
+              },
+              {
+                "rank": 4,
+                "keyword": "官方旗舰店",
+                "share": 8,
+                "yoy": 15,
+                "verbatim": "大路灯官方旗舰店",
+                "summary": "用户注重正品保障，倾向官方渠道，可能担心假冒伪劣。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词第四位，体现用户对渠道的信任需求"
+              },
+              {
+                "rank": 5,
+                "keyword": "桌面款",
+                "share": 5,
+                "yoy": 50,
+                "verbatim": "大路灯桌面款",
+                "summary": "桌面款是细分需求，适合小空间或书桌使用，便携性可能受关注。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词第五位，新品机会点"
+              },
+              {
+                "rank": 6,
+                "keyword": "落地灯",
+                "share": 12,
+                "yoy": 10,
+                "verbatim": "大路灯落地灯",
+                "summary": "落地灯是传统形态，大路灯作为升级版，用户对比搜索可能关注差异。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词第六位，品类对比需求"
+              },
+              {
+                "rank": 7,
+                "keyword": "吸顶灯",
+                "share": 3,
+                "yoy": -5,
+                "verbatim": "大路灯吸顶灯",
+                "summary": "吸顶灯与落地灯形态差异大，搜索可能用于对比或替代方案。",
+                "platform": "淘��",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词第七位，品类间比较"
+              },
+              {
+                "rank": 8,
+                "keyword": "学习桌",
+                "share": 4,
+                "yoy": 25,
+                "verbatim": "大路灯学习桌",
+                "summary": "与学习桌搭配使用，场景化搜索，可能关注整体学习环境解决方案。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词第八位，场景关联"
+              },
+              {
+                "rank": 9,
+                "keyword": "小米",
+                "share": 2,
+                "yoy": 40,
+                "verbatim": "大路灯小米",
+                "summary": "小米品牌搜索，可能期待小米生态链产品，性价比高。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词第九位，品牌需求"
+              },
+              {
+                "rank": 10,
+                "keyword": "落地",
+                "share": 6,
+                "yoy": 5,
+                "verbatim": "大路灯落地",
+                "summary": "通用词，用户可能搜索落地款，但需求模糊，需引导。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词第十位，通用词"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "价格高，性价比不足",
+                "intensity": 85,
+                "satisfaction": 30,
+                "gap": 70,
+                "userVoice": "霍尼韦尔大路灯太贵了，有没有平替？",
+                "currentSolutions": [
+                  "低价品牌如小米、欧普",
+                  "促销活动"
+                ],
+                "opportunity": "推出高性价比副品牌或子系列，覆盖中端价格带",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想词中品牌词和平替需求，推测价格敏感"
+              },
+              {
+                "rank": 2,
+                "pain": "护眼效果存疑，缺乏权威认证",
+                "intensity": 80,
+                "satisfaction": 40,
+                "gap": 60,
+                "userVoice": "真的护眼吗？有没有国家认证？",
+                "currentSolutions": [
+                  "商家宣传全光谱、无频闪",
+                  "部分品牌有CQC认证"
+                ],
+                "opportunity": "引入第三方权威检测，强调认证标准，提供对比数据",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "护眼是核心关键词，但用户可能存在疑虑"
+              },
+              {
+                "rank": 3,
+                "pain": "体积大，占用空间",
+                "intensity": 60,
+                "satisfaction": 50,
+                "gap": 40,
+                "userVoice": "大路灯好占地方，小户型怎么办？",
+                "currentSolutions": [
+                  "桌面款",
+                  "可折叠设计"
+                ],
+                "opportunity": "设计紧凑型或可折叠大路灯，便于收纳",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "桌面款搜索词出现，表明空间需求"
+              },
+              {
+                "rank": 4,
+                "pain": "亮度调节不智能",
+                "intensity": 50,
+                "satisfaction": 60,
+                "gap": 30,
+                "userVoice": "希望自动调节亮度，根据环境变化。",
+                "currentSolutions": [
+                  "手动调光",
+                  "遥控器"
+                ],
+                "opportunity": "集成环境光传感器，智能调光，接入智能家居",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "智能家居趋势，用户对便捷性的需求"
+              },
+              {
+                "rank": 5,
+                "pain": "售后服务差，维修困难",
+                "intensity": 40,
+                "satisfaction": 50,
+                "gap": 20,
+                "userVoice": "坏了找不到人修。",
+                "currentSolutions": [
+                  "官方售后",
+                  "第三方维修"
+                ],
+                "opportunity": "提供延长保修和上门服务",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "电子消费品常见痛点"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "500-1000元",
+                "1000-2000元",
+                "2000-3000元",
+                "3000-5000元",
+                "5000元以上"
+              ],
+              "functions": [
+                "基础护眼",
+                "智能调光",
+                "学习场景",
+                "装饰设计",
+                "便携移动"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 15,
+                  "growth": 10,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 5,
+                  "growth": 20,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 10,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 3,
+                  "growth": 5,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 2,
+                  "growth": 8,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 20,
+                  "growth": 15,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 8,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 12,
+                  "growth": 20,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 4,
+                  "growth": 10,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 12,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 18,
+                  "growth": 12,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 10,
+                  "growth": 30,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 15,
+                  "growth": 18,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 5,
+                  "growth": 8,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 2,
+                  "growth": 10,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 10,
+                  "growth": 8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 8,
+                  "growth": 20,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 75
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 10,
+                  "growth": 15,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 4,
+                  "growth": 5,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 1,
+                  "growth": 5,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 5,
+                  "growth": 5,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 3,
+                  "growth": 10,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 5,
+                  "growth": 8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 2,
+                  "growth": 3,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 1,
+                  "growth": 2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 45
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "霍尼韦尔",
+                "positioning": "高端专��护眼",
+                "priceBand": "3000-5000元",
+                "share": 20,
+                "strength": "品牌知名度高，技术积累深厚，权威认证",
+                "weakness": "价格高，性价比低，设计偏工业化"
+              },
+              {
+                "brand": "小米",
+                "positioning": "性价比智能",
+                "priceBand": "1000-2000元",
+                "share": 15,
+                "strength": "价格亲民，智能互联，设计简约",
+                "weakness": "护眼技术积累不足，专业度待提升"
+              },
+              {
+                "brand": "欧普照明",
+                "positioning": "大众专业照明",
+                "priceBand": "1000-3000元",
+                "share": 10,
+                "strength": "照明行业老牌，渠道广，品质可靠",
+                "weakness": "品牌年轻化不足，智能功能较弱"
+              },
+              {
+                "brand": "飞利浦",
+                "positioning": "国际品牌，健康照明",
+                "priceBand": "2000-4000元",
+                "share": 8,
+                "strength": "品牌信任度高，光学技术领先",
+                "weakness": "价格偏高，产品更新慢"
+              },
+              {
+                "brand": "孩视宝",
+                "positioning": "专注儿童护眼",
+                "priceBand": "1500-3000元",
+                "share": 7,
+                "strength": "细分市场，专业儿童护眼，口碑好",
+                "weakness": "品牌知名度较低，设计偏向儿童"
+              },
+              {
+                "brand": "松下",
+                "positioning": "高端品质，简约设计",
+                "priceBand": "2000-4000元",
+                "share": 5,
+                "strength": "品牌形象好，工艺精细",
+                "weakness": "价格高，功能相对传统"
+              },
+              {
+                "brand": "明基",
+                "positioning": "专业级护眼，针对办公学习",
+                "priceBand": "2000-3000元",
+                "share": 5,
+                "strength": "屏幕挂灯领域知名，技术专业",
+                "weakness": "大路灯产品线较短"
+              },
+              {
+                "brand": "柏曼",
+                "positioning": "高端简约，德国工艺",
+                "priceBand": "3000-5000元",
+                "share": 4,
+                "strength": "设计感强，品质高端",
+                "weakness": "价格高，市场推广少"
+              }
+            ],
+            "personas": [
+              {
+                "name": "鸡娃妈妈",
+                "age": "30-40岁",
+                "gender": "女",
+                "scenario": "孩子学习书桌旁",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "护眼效果",
+                  "无频闪",
+                  "亮度充足",
+                  "品牌可靠"
+                ],
+                "quote": "只要对孩子眼睛好，贵点也行。"
+              },
+              {
+                "name": "租房青年",
+                "age": "20-30岁",
+                "gender": "男",
+                "scenario": "出租屋、小空间",
+                "spendingPower": "中低",
+                "coreNeeds": [
+                  "价格实惠",
+                  "不占空间",
+                  "颜值高",
+                  "可移动"
+                ],
+                "quote": "想要落地灯的效果，但空间有限，最好能折叠。"
+              },
+              {
+                "name": "智能家居爱好者",
+                "age": "25-35岁",
+                "gender": "男",
+                "scenario": "客厅、卧室、书房",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "智能控制",
+                  "语音助手",
+                  "场景联动",
+                  "自动调光"
+                ],
+                "quote": "最好能接入米家，用手机控制。"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "利用开学季和护眼焦虑，拍摄孩子学习场景，展示灯光效果对比，强调护眼功能。",
+                "playStyle": "与教育类KOL合作，发起#护眼挑战话题，使用直播带货演示调光功能。",
+                "difficulty": "中",
+                "note": "抖音热榜有开学相关话题，但需结合内容创意"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "种草笔记，强调高颜值、家居搭配、儿童房设计。",
+                "playStyle": "邀请家居博主晒图，突出设计感，分享真实使用体验，利用搜索关键词优化。",
+                "difficulty": "低",
+                "note": "小红书用户注重颜值和品质，适合图文种草"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "强化品牌旗舰店形象，突出权威认证和参数。",
+                "playStyle": "利用超级品牌日、小黑盒新品首发，结合钻展、直通车精准投放。",
+                "difficulty": "中",
+                "note": "天猫用户信任品牌，需优化详情页"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "强调正品保障和物流速度，突出专业性和服务。",
+                "playStyle": "参与京东家电节，利用京东自有物流优势，提供以旧换新服务。",
+                "difficulty": "中",
+                "note": "京东用户对品牌和售后敏感"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "主打性价比，百亿补贴，吸引价格敏感用户。",
+                "playStyle": "参与百亿补贴活动，推出基础款低价引流，利用拼团模式。",
+                "difficulty": "低",
+                "note": "拼多多用户追求低价，需控制成本"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "智能调光大路灯",
+                "trendSignal": "智能家居普及，用户搜索小米等智能品牌",
+                "demandGap": "现有产品多为手动调光，智能功能不足",
+                "feasibility": "高",
+                "score": 90,
+                "rationale": "技术成熟，市场需求明显，可差异化竞争",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "小米搜索词和智能家居趋势"
+              },
+              {
+                "rank": 2,
+                "title": "高性价比平替款",
+                "trendSignal": "用户搜索霍尼韦尔品牌词，但价格高",
+                "demandGap": "中端价格带缺乏专业护眼产品",
+                "feasibility": "高",
+                "score": 85,
+                "rationale": "价格敏感用户多，可覆盖1000-2000元价格带",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "品牌词搜索和价格痛点"
+              },
+              {
+                "rank": 3,
+                "title": "桌面便携款",
+                "trendSignal": "搜索词“桌面款”热度上升",
+                "demandGap": "小户型、租房用户需要节省空间",
+                "feasibility": "中",
+                "score": 80,
+                "rationale": "细分场景，竞争少，可快速切入",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "桌面款搜索词"
+              },
+              {
+                "rank": 4,
+                "title": "儿童专用护眼大路灯",
+                "trendSignal": "家长重视孩子视力，学习场景搜索多",
+                "demandGap": "现有儿童产品设计感不足",
+                "feasibility": "中",
+                "score": 75,
+                "rationale": "细分市场，可结合儿童心理设计",
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "开学季话题和护眼需求"
+              },
+              {
+                "rank": 5,
+                "title": "装饰艺术大路灯",
+                "trendSignal": "小红书、抖音家居内容流行",
+                "demandGap": "现有产品设计单一，缺乏美感",
+                "feasibility": "中",
+                "score": 70,
+                "rationale": "颜值经济，可提升产品溢价",
+                "sourcePlatform": "小红书",
+                "inferenceBasis": "家居装饰趋势"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-09-03 10:34:17）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "页面无商品数据（需JS渲染）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-09-03T02:37:07.297Z",
+              "elapsedMs": 2899
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "大路灯护眼灯",
+                "heat": 100
+              },
+              {
+                "word": "大路灯护眼灯学习专用",
+                "heat": 100
+              },
+              {
+                "word": "大路灯霍尼韦尔",
+                "heat": 100
+              },
+              {
+                "word": "大路灯官方旗舰店",
+                "heat": 100
+              },
+              {
+                "word": "大路灯桌面款",
+                "heat": 100
+              },
+              {
+                "word": "大路灯落地灯",
+                "heat": 100
+              },
+              {
+                "word": "大路灯吸顶灯",
+                "heat": 100
+              },
+              {
+                "word": "大路灯学习桌",
+                "heat": 100
+              },
+              {
+                "word": "大路灯小米",
+                "heat": 100
+              },
+              {
+                "word": "大路灯落地",
+                "heat": 100
+              }
+            ]
+          }
+        },
         {
           "id": "fd419251-1d51-409a-a2ad-2812b8c9d75c",
           "category": "面膜",
