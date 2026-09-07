@@ -2381,22 +2381,22 @@
               "tasks": [
                 {
                   "name": "实验室打样",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "用户测试组",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "功效数据",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "迭代优化",
-                  "done": false
+                  "done": true
                 }
               ],
-              "status": "not_started",
+              "status": "completed",
               "assignee": "",
               "startDate": "2026-10-01",
               "endDate": "2026-10-22",
@@ -2425,7 +2425,7 @@
                   "done": false
                 }
               ],
-              "status": "not_started",
+              "status": "in_progress",
               "assignee": "",
               "startDate": "2026-10-22",
               "endDate": "2026-11-06",
