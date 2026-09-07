@@ -2356,7 +2356,7 @@
                 },
                 {
                   "name": "功效验证方案",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "供应商对接",
@@ -2494,7 +2494,7 @@
           ],
           "currentStage": 1,
           "createdAt": "2026-08-25",
-          "updatedAt": "2026-08-25",
+          "updatedAt": "2026-09-07",
           "status": "concept"
         },
         {
