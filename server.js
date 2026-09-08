@@ -768,8 +768,8 @@ app.post('/api/partner/embed-link', (req, res) => {
     const ticket = crypto.randomBytes(24).toString('hex')
     EMBED_TICKETS.set(ticket, { userId: user.id, expiresAt: Date.now() + EMBED_TICKET_TTL })
     writeDB(db)
-    const protocol = (req.secure || req.get('x-forwarded-proto') === 'https') ? 'https' : (req.protocol || 'http')
-    const base = `${protocol}://${req.get('host')}`
+    const base = process.env.PUBLIC_URL
+      || `${(req.secure || req.get('x-forwarded-proto') === 'https') ? 'https' : (req.protocol || 'http')}://${req.get('host')}`
     res.json({ success: true, url: `${base}/?embed=1&ticket=${ticket}`, expiresIn: EMBED_TICKET_TTL / 1000 })
   } catch (e) {
     console.error('[EMBED] embed-link 失败:', e)
