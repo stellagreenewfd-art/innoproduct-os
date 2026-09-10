@@ -6,7 +6,7 @@
       "username": "qaq",
       "company": "创品智造",
       "industry": "电商",
-      "password": "scrypt$16384$8$1$TrtIcAqWXqp3e29e/gnhNw==$JJgFwLZCHP3Gq5pBQUuBWXTI8zGNFMzlCzAyhZA3s3TOqcpOj5zAETEYihUV+TY3QjxUP7IZxYU+d2UlOv+opg==",
+      "password": "scrypt$16384$8$1$j8BfBJoL5KI2K6PX6B3j/A==$AcIIuu/PAomnAj8CnAkICVcqwxyE0oqbrjCJuKKmvReiUG/Q9Jl2A/kjdG3R1fbUTBGqyjoohaMoE0rzPv9FRQ==",
       "createdAt": "2026-07-24T02:21:52.652Z",
       "lastLogin": "2026-08-23T14:16:49.465Z",
       "recordCount": 4,
@@ -74,12 +74,16 @@
       "industry": "食品、饮料、冷藏食品",
       "password": "scrypt$16384$8$1$mbpxUZQalHJzwWyKbplisw==$KQnbrw3hUfiBuCowSFETF51GiwautaGt8jeNAr/1r9kdSuJKzmiUjuplexE6NMItywVnaJhGe8pTPXiEzQ+tlg==",
       "createdAt": "2026-07-27T03:54:25.588Z",
-      "lastLogin": "2026-08-28T03:06:41.036Z",
+      "lastLogin": "2026-09-10T01:56:41.670Z",
       "recordCount": 1,
       "_tokens": [
         {
           "token": "c7e6a896a88c2cc722798f9383ab9cfb39147170f075720ba09e18ab11a17884",
           "createdAt": "2026-08-28T03:06:41.036Z"
+        },
+        {
+          "token": "2892a67d602ddae6f19439946a059e98354eac9af0f8a05ac1a25d3a53a8d1ad",
+          "createdAt": "2026-09-10T01:56:41.670Z"
         }
       ]
     },
