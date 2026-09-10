@@ -75,7 +75,7 @@
       "password": "scrypt$16384$8$1$mbpxUZQalHJzwWyKbplisw==$KQnbrw3hUfiBuCowSFETF51GiwautaGt8jeNAr/1r9kdSuJKzmiUjuplexE6NMItywVnaJhGe8pTPXiEzQ+tlg==",
       "createdAt": "2026-07-27T03:54:25.588Z",
       "lastLogin": "2026-09-10T01:56:41.670Z",
-      "recordCount": 1,
+      "recordCount": 2,
       "_tokens": [
         {
           "token": "c7e6a896a88c2cc722798f9383ab9cfb39147170f075720ba09e18ab11a17884",
@@ -798,6 +798,13 @@
       "category": "落地款大路灯（护眼灯）",
       "result": "趋势分析（真实源4/7）",
       "createdAt": "2026-09-03T02:44:34.282Z"
+    },
+    {
+      "id": "7f39e52f-6211-40ad-94c0-ce7d0a8a7f86",
+      "userId": "ee1725b7-822a-40aa-8057-26b4cb3ea7f1",
+      "category": "膨化食品",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-09-10T01:58:22.634Z"
     }
   ],
   "userData": {
@@ -21224,6 +21231,746 @@
       ],
       "inspirations": [],
       "analyses": [
+        {
+          "id": "af10987e-9740-4645-a402-573f29fc0933",
+          "category": "膨化食品",
+          "scanDate": "2026-09-10",
+          "savedAt": "2026-09-10T01:58:22.634Z",
+          "data": {
+            "category": "膨化食品",
+            "scanDate": "2026-09-10",
+            "metrics": {
+              "totalGMV": "约680亿",
+              "totalGMV_source": "AI推测·品类常识（基于2025年约620亿规模按行业增速推算）",
+              "gmvGrowth": "9.7%",
+              "gmvGrowth_source": "AI推测·品类常识（结合淘宝搜索联想中批发/大包装词频上升推断）",
+              "brandCount": "约4200个",
+              "brandCount_source": "AI推测·品类常识（含白牌与区域品牌）",
+              "topBrandShare": "CR10约38%",
+              "topBrandShare_source": "AI推测·品类常识（乐事、上好佳、可比克等头部集中度）"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "膨化食品零食批发",
+                "share": 18.5,
+                "yoy": 22.3,
+                "verbatim": "膨化食品零食批发大包装，整箱拿货更划算",
+                "summary": "批发/整箱采购需求暴涨，零食量贩店与社区团购渠道兴起，倒逼品牌推出大规格专供装。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝联想词第1、10位均为批发大包装，反映B端与小B端采购搜索激增"
+              },
+              {
+                "rank": 2,
+                "keyword": "膨化食品小包装",
+                "share": 14.2,
+                "yoy": 15.8,
+                "verbatim": "膨化食品小包装，独立小袋方便带办公室",
+                "summary": "小包装/独立分装契合一人食与办公场景，控卡与分享双重需求驱动。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝联想词第2位为小包装，与抖音热榜中'燕麦系秋天的神'健康轻食情绪吻合"
+              },
+              {
+                "rank": 3,
+                "keyword": "膨化食品薯片",
+                "share": 13.6,
+                "yoy": 6.4,
+                "verbatim": "膨化食品薯片，追剧必备",
+                "summary": "薯片仍是品类基本盘，但增速放缓，用户向非油炸、厚切、地域风味细分迁移。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝联想词第3位为薯片，属品类核心搜索词"
+              },
+              {
+                "rank": 4,
+                "keyword": "膨化食品大礼包",
+                "share": 11.8,
+                "yoy": 19.5,
+                "verbatim": "膨化食品大礼包，教师节送同事分享装",
+                "summary": "礼包/分享装场景化需求上升，节日与办公室分享驱动组合装销售。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝联想词第5位为大礼包，结合抖音热榜教师节话题形成送礼场景"
+              },
+              {
+                "rank": 5,
+                "keyword": "膨化食品散装",
+                "share": 9.4,
+                "yoy": 12.1,
+                "verbatim": "膨化食品散装，按斤称更自由",
+                "summary": "散装称重模式在量贩零食渠道爆发，用户追求性价比与口味混搭自由。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝联想词第9位为散装，反映量贩零食店渠道渗透"
+              },
+              {
+                "rank": 6,
+                "keyword": "膨化食品包装袋",
+                "share": 7.2,
+                "yoy": 8.9,
+                "verbatim": "膨化食品包装袋，想找可降解的",
+                "summary": "包装环保化与二次封口需求显现，用户关注可降解材质与保鲜设计。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝联想词第8位为包装袋，隐含DIY与环保包装需求"
+              },
+              {
+                "rank": 7,
+                "keyword": "非油炸膨化/健康膨化",
+                "share": 6.5,
+                "yoy": 31.7,
+                "verbatim": "非油炸膨化食品，热量低一点心里没负担",
+                "summary": "健康化是最大增量方向，非油炸、高蛋白、低GI概念在年轻女性中快速渗透。",
+                "platform": "抖音",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "抖音热榜'燕麦系秋天的神'与百度'人类史上首次老人比小孩多了'折射健康与控卡消费情绪"
+              },
+              {
+                "rank": 8,
+                "keyword": "地域风味膨化（辣味/地方限定）",
+                "share": 5.3,
+                "yoy": 26.4,
+                "verbatim": "想要贵州酸汤味、淄博烧烤味的膨化零食",
+                "summary": "地域风味联名与限定口味成为内容平台传播爆点，拉动尝鲜型购买。",
+                "platform": "抖音",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "结合抖音热榜中'可可美人'等人设话题与内容种草逻辑推断"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "大包装易受潮、吃不完浪费",
+                "intensity": 82,
+                "satisfaction": 38,
+                "gap": 44,
+                "userVoice": "一大袋打开两天就皮了，太浪费",
+                "currentSolutions": [
+                  "自封袋",
+                  "夹子封口",
+                  "买小包装"
+                ],
+                "opportunity": "推出可重复密封+氮气保鲜的大包装，或大袋内含独立小包",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "大包装与小包装搜索词并存，反映保鲜与份量矛盾"
+              },
+              {
+                "rank": 2,
+                "pain": "热量高、配料表不干净",
+                "intensity": 88,
+                "satisfaction": 30,
+                "gap": 58,
+                "userVoice": "好吃是好吃，一看配料表全是添加剂",
+                "currentSolutions": [
+                  "选非油炸",
+                  "看营养成分表",
+                  "控制量"
+                ],
+                "opportunity": "清洁标签、非油炸、高蛋白膨化，透明配料表",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "抖音健康轻食话题与燕麦热度折射成分焦虑"
+              },
+              {
+                "rank": 3,
+                "pain": "碎渣多、到手品相差",
+                "intensity": 74,
+                "satisfaction": 42,
+                "gap": 32,
+                "userVoice": "快递到手一半是碎的，体验很差",
+                "currentSolutions": [
+                  "选充气包装",
+                  "投诉补发"
+                ],
+                "opportunity": "抗压包装结构+防碎内托设计，强化物流适配",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "膨化食品易碎属性与电商物流痛点常识"
+              },
+              {
+                "rank": 4,
+                "pain": "口味同质化、缺乏新意",
+                "intensity": 69,
+                "satisfaction": 45,
+                "gap": 24,
+                "userVoice": "来来去去就那几种味道，吃腻了",
+                "currentSolutions": [
+                  "买混合装",
+                  "尝试进口零食"
+                ],
+                "opportunity": "地域风味、联名限定、季节限定口味快速上新",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "淘宝'膨化食品大全'搜索反映尝鲜需求"
+              },
+              {
+                "rank": 5,
+                "pain": "批发渠道价格不透明、真假难辨",
+                "intensity": 66,
+                "satisfaction": 40,
+                "gap": 26,
+                "userVoice": "批发怕买到临期或者假货",
+                "currentSolutions": [
+                  "认准旗舰店",
+                  "看生产日期"
+                ],
+                "opportunity": "品牌官方批发专供装+溯源标识，建立B端信任",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "批发类搜索词高频出现，隐含渠道信任缺口"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "0-5元",
+                "5-10元",
+                "10-20元",
+                "20-40元",
+                "40元以上"
+              ],
+              "functions": [
+                "解馋追剧",
+                "健康低卡",
+                "分享送礼",
+                "办公充饥",
+                "儿童零食"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 8.2,
+                  "growth": 5.1,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 42
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 2.1,
+                  "growth": 28.4,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 78
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 3.4,
+                  "growth": 9.2,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 4.6,
+                  "growth": 12.3,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 58
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 6.8,
+                  "growth": 7.5,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 12.5,
+                  "growth": 6.8,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 48
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 3.2,
+                  "growth": 33.6,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 82
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 5.1,
+                  "growth": 14.2,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 62
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 7.4,
+                  "growth": 18.5,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 68
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 5.6,
+                  "growth": 4.3,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 44
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 10.3,
+                  "growth": 7.1,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 4.8,
+                  "growth": 36.2,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 85
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 6.2,
+                  "growth": 21.4,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 3.9,
+                  "growth": 16.8,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 74
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 4.1,
+                  "growth": 6.2,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 52
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 4.5,
+                  "growth": 9.6,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 56
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 2.8,
+                  "growth": 29.7,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 80
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 5.9,
+                  "growth": 24.3,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 72
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 2.2,
+                  "growth": 11.5,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 66
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 2.6,
+                  "growth": 8.4,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 54
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 1.8,
+                  "growth": 12.7,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 64
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 1.5,
+                  "growth": 41.2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 88
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 3.7,
+                  "growth": 27.8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 76
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 1.1,
+                  "growth": 14.6,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 62
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 1.3,
+                  "growth": 10.2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 60
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "乐事",
+                "positioning": "国民薯片第一品牌，全渠道覆盖",
+                "priceBand": "5-15元",
+                "share": 14.2,
+                "strength": "品牌认知强、口味迭代快、渠道渗透深",
+                "weakness": "健康形象弱，非油炸布局慢，价格战被动"
+              },
+              {
+                "brand": "上好佳",
+                "positioning": "经典膨化多品类，家庭分享装",
+                "priceBand": "5-20元",
+                "share": 8.6,
+                "strength": "品类齐全、性价比高、下沉市场强",
+                "weakness": "年轻化不足，内容营销声量弱"
+              },
+              {
+                "brand": "可比克",
+                "positioning": "薯片+年轻偶像代言",
+                "priceBand": "5-12元",
+                "share": 6.4,
+                "strength": "代言流量、线下铺货广",
+                "weakness": "产品创新慢，健康化转型滞后"
+              },
+              {
+                "brand": "三只松鼠",
+                "positioning": "互联网零食品牌，礼包组合强",
+                "priceBand": "10-40元",
+                "share": 5.1,
+                "strength": "电商运营强、礼包组合丰富、IP化",
+                "weakness": "膨化非核心品类，供应链代工依赖"
+              },
+              {
+                "brand": "旺旺",
+                "positioning": "怀旧经典膨化，儿童与情怀人群",
+                "priceBand": "5-20元",
+                "share": 4.8,
+                "strength": "IP情怀、儿童心智强",
+                "weakness": "健康标签弱，年轻客群流失"
+              },
+              {
+                "brand": "好丽友",
+                "positioning": "派类延伸膨化，品质感",
+                "priceBand": "10-25元",
+                "share": 3.9,
+                "strength": "品质形象、进口感",
+                "weakness": "价格偏高，本土化口味不足"
+              },
+              {
+                "brand": "脆脆鲨/白牌量贩装",
+                "positioning": "量贩零食渠道专供，极致性价比",
+                "priceBand": "0-10元",
+                "share": 3.2,
+                "strength": "价格低、散装称重灵活",
+                "weakness": "品牌力弱，品质不稳定"
+              }
+            ],
+            "personas": [
+              {
+                "name": "追剧解馋党",
+                "age": "18-28岁",
+                "gender": "女性为主",
+                "scenario": "晚上追剧、刷短视频时零食陪伴",
+                "spendingPower": "中等，月零食消费100-300元",
+                "coreNeeds": [
+                  "口味刺激",
+                  "小包装不浪费",
+                  "高颜值包装"
+                ],
+                "quote": "追剧没有膨化食品等于白追"
+              },
+              {
+                "name": "成分党妈妈",
+                "age": "28-40岁",
+                "gender": "女性",
+                "scenario": "给孩子选购相对健康的膨化零食",
+                "spendingPower": "较高，愿为健康溢价",
+                "coreNeeds": [
+                  "非油炸",
+                  "清洁配料表",
+                  "独立小包装"
+                ],
+                "quote": "配料表越短我越放心"
+              },
+              {
+                "name": "量贩批发小B店主",
+                "age": "25-45岁",
+                "gender": "男女均衡",
+                "scenario": "社区团购/量贩零食店整箱进货",
+                "spendingPower": "高，单次采购千元级",
+                "coreNeeds": [
+                  "大包装批发价",
+                  "稳定供货",
+                  "正品溯源"
+                ],
+                "quote": "整箱拿货，利润空间才有保障"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "口味挑战、开箱测评、办公室分享剧情",
+                "playStyle": "短视频种草+直播间大礼包组合秒杀，达人分销铺量",
+                "difficulty": "中",
+                "note": "结合健康轻食与教师节分享情绪做场景内容"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "低卡膨化测评、办公室零食柜、成分党避雷",
+                "playStyle": "素人笔记铺量+成分对比图，主打健康与颜值",
+                "difficulty": "中",
+                "note": "关键词布局'非油炸''低卡''独立小包装'"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "品牌旗舰店新品首发、礼盒定制",
+                "playStyle": "大促礼包组合+会员复购，强化品牌旗舰心智",
+                "difficulty": "高",
+                "note": "适合头部品牌做新品与礼盒首发"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "整箱批发、企业采购、品质保障",
+                "playStyle": "自营背书+次日达，主打大包装与B端采购",
+                "difficulty": "中",
+                "note": "京东商品数据缺失，建议补充SKU监测"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "极致性价比、散装称重、拼团大包装",
+                "playStyle": "百亿补贴+拼团走量，白牌与量贩装为主",
+                "difficulty": "低",
+                "note": "价格敏感人群主阵地，适合清库存与走量"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "非油炸高蛋白健康膨化",
+                "trendSignal": "健康化搜索与内容情绪双升，非油炸同比+31.7%",
+                "demandGap": "健康膨化价格带20元以上供给稀缺，满意度仅30",
+                "feasibility": "中高，需供应链与配方升级",
+                "score": 88,
+                "rationale": "健康焦虑强、竞品布局慢、溢价空间大",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "抖音燕麦健康话题与成分党痛点交叉推断"
+              },
+              {
+                "rank": 2,
+                "title": "可重复密封+防碎大包装",
+                "trendSignal": "大包装/批发搜索占比合计超30%",
+                "demandGap": "受潮与碎渣痛点强度82，满意度仅38",
+                "feasibility": "高，包装结构改良即可落地",
+                "score": 84,
+                "rationale": "真实搜索词驱动，改造成本低，直接提升复购",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "大包装与小包装搜索并存，保鲜矛盾突出"
+              },
+              {
+                "rank": 3,
+                "title": "地域风味限定系列",
+                "trendSignal": "尝鲜型搜索'膨化食品大全'高频出现",
+                "demandGap": "口味同质化痛点强度69，创新供给不足",
+                "feasibility": "中，需快速上新与联名能力",
+                "score": 79,
+                "rationale": "内容平台易传播，限定制造稀缺与话题",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "大全类搜索反映尝鲜需求，结合内容平台传播逻辑"
+              },
+              {
+                "rank": 4,
+                "title": "节日分享礼包（教师节/办公室）",
+                "trendSignal": "大礼包搜索同比+19.5%，节日话题热度高",
+                "demandGap": "场景化组合装供给零散，缺乏品牌化礼盒",
+                "feasibility": "高，组合装即可快速上线",
+                "score": 76,
+                "rationale": "节日节点明确，礼包溢价与分享属性强",
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音教师节话题热度超1200万，送礼场景明确"
+              },
+              {
+                "rank": 5,
+                "title": "量贩渠道专供散装称重装",
+                "trendSignal": "散装搜索同比+12.1%，量贩零食渠道扩张",
+                "demandGap": "渠道专供品缺乏品牌背书与溯源",
+                "feasibility": "中，需渠道合作与供应链适配",
+                "score": 73,
+                "rationale": "渠道红利明确，走量能力强，适合新品牌切入",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "散装搜索词与量贩零食业态扩张趋势吻合"
+              },
+              {
+                "rank": 6,
+                "title": "儿童友好低盐膨化",
+                "trendSignal": "成分党妈妈人群崛起，儿童零食需求细分",
+                "demandGap": "儿童膨化低盐低糖供给不足，家长信任缺口大",
+                "feasibility": "中，需营养标准与认证",
+                "score": 70,
+                "rationale": "人群付费意愿高，差异化明显，复购稳定",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "结合成分党妈妈痛点与健康化趋势推断"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-09-10 09:57:17）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "页面无商品数据（需JS渲染）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-09-10T01:57:57.188Z",
+              "elapsedMs": 2162
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "膨化食品零食批发",
+                "heat": 100
+              },
+              {
+                "word": "膨化食品小包装",
+                "heat": 100
+              },
+              {
+                "word": "膨化食品薯片",
+                "heat": 100
+              },
+              {
+                "word": "膨化食品零食",
+                "heat": 100
+              },
+              {
+                "word": "膨化食品大礼包",
+                "heat": 100
+              },
+              {
+                "word": "膨化食品大包装",
+                "heat": 100
+              },
+              {
+                "word": "膨化食品大全",
+                "heat": 100
+              },
+              {
+                "word": "膨化食品包装袋",
+                "heat": 100
+              },
+              {
+                "word": "膨化食品散装",
+                "heat": 100
+              },
+              {
+                "word": "膨化食品零食批发大包装",
+                "heat": 100
+              }
+            ]
+          }
+        },
         {
           "id": "438788b8-d78f-4ce1-ac36-77abb6155bb2",
           "category": "方便速食（冲泡、自热、快煮等）",
