@@ -589,7 +589,7 @@
       "password": "scrypt$16384$8$1$ld4KWWPJxOfvECCmPg3fKA==$Yj6800bwXd6yXHFvzTA68Axi4Jos3XrILiCr749oTUGMtiCBF9FGR1Ns2RiQRK6eGcnvg7sv86fGS+pKOA5YzQ==",
       "createdAt": "2026-09-18T07:21:01.109Z",
       "lastLogin": "2026-09-18T07:21:01.109Z",
-      "recordCount": 0,
+      "recordCount": 1,
       "_tokens": [
         {
           "token": "2b5b101bee0a79111875e37d48a42ead15b3a3ec7effd083049a8ce0c2cd1907",
@@ -829,6 +829,13 @@
       "category": "面膜",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-09-18T06:15:29.083Z"
+    },
+    {
+      "id": "4dd5aa4a-a246-4694-9a97-55a481e767aa",
+      "userId": "8cd7ba83-eb74-4474-8abb-593e8ff4e848",
+      "category": "小米",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-09-18T07:22:11.025Z"
     }
   ],
   "userData": {
@@ -23811,6 +23818,796 @@
               "timestamp": "2026-08-28T03:09:12.130Z",
               "elapsedMs": 2453
             }
+          }
+        }
+      ]
+    },
+    "8cd7ba83-eb74-4474-8abb-593e8ff4e848": {
+      "projects": [],
+      "inspirations": [],
+      "analyses": [
+        {
+          "id": "6166de8f-44ff-40c1-bc01-46a2234e492e",
+          "category": "小米",
+          "scanDate": "2026-09-18",
+          "savedAt": "2026-09-18T07:22:11.025Z",
+          "data": {
+            "category": "小米",
+            "scanDate": "2026-09-18",
+            "metrics": {
+              "totalGMV": "约2180亿",
+              "totalGMV_source": "AI推测·品类常识（基于小米生态链全品类线上零售口径，含手机/可穿戴/IoT/大家电）",
+              "gmvGrowth": "+14.2%",
+              "gmvGrowth_source": "AI推测·品类常识（对比2025年同期线上大盘，可穿戴与大家电为主要增量）",
+              "brandCount": "约186个",
+              "brandCount_source": "AI推测·品类常识（含小米自有SKU矩阵及生态链合作品牌口径）",
+              "topBrandShare": "CR10约78%",
+              "topBrandShare_source": "AI推测·品类常识（小米主品牌+生态链头部品牌集中度高）"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "小米手环10",
+                "share": 24.5,
+                "yoy": 38,
+                "verbatim": "小米手环10表带哪里买好看又不掉色",
+                "summary": "手环10成为搜索绝对主力，用户关注点从硬件参数转向表带等配件生态，说明换新周期与个性化需求叠加。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝联想���中『小米手环』『小米手环10』『小米手环10表带』三条同时上榜，配件词独立进榜为强信号"
+              },
+              {
+                "rank": 2,
+                "keyword": "小米17",
+                "share": 18.2,
+                "yoy": 62,
+                "verbatim": "小米17什么时候发布 值得等吗",
+                "summary": "数字旗舰新机搜索热度快速攀升，用户处于持币观望与信息搜集期，首发期转化窗口临近。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "『小米17』与『小米15』同时进榜，新老机型并列说明换代过渡期用户比价行为活跃"
+              },
+              {
+                "rank": 3,
+                "keyword": "小米充电宝",
+                "share": 12.8,
+                "yoy": 21,
+                "verbatim": "小米充电宝能上飞机吗 容量多大合规",
+                "summary": "出行场景驱动充电宝搜索，合规容量与快充协议成为决策关键词，秋季出游季放量。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "充电宝为小米传统强势配件品类，搜索联想稳定进榜，与抖音『秋冬外套一衣穿三季』等出行内容情绪共振"
+              },
+              {
+                "rank": 4,
+                "keyword": "小米手表",
+                "share": 11.6,
+                "yoy": 27,
+                "verbatim": "小米手表和手环区别在哪 有必要买手表吗",
+                "summary": "手表与手环形成内部比价，用户需要清晰的场景区隔教育，健康监测与独立通话是升级动因。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "『小米手表』与『小米手环』同榜，可穿戴双品类并列为真实用户决策路径"
+              },
+              {
+                "rank": 5,
+                "keyword": "小米空调",
+                "share": 10.4,
+                "yoy": 33,
+                "verbatim": "小米空调安装要等多久 售后怎么样",
+                "summary": "大家电搜索热度上行，用户从参数关注转向安装与售后体验，服务能力成为转化瓶颈。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "『小米空调』进入淘宝搜索联想前十，大家电为小米近年高增长品类"
+              },
+              {
+                "rank": 6,
+                "keyword": "小米手机",
+                "share": 9.7,
+                "yoy": 6,
+                "verbatim": "小米手机官方旗舰店和第三方哪个便宜",
+                "summary": "泛品牌词搜索占比稳定但增速放缓，用户更倾向直接搜索具体机型与官方渠道。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "『小米手机』『小米官方旗舰店』同榜，渠道信任与价格比较为真实需求"
+              },
+              {
+                "rank": 7,
+                "keyword": "小米官方旗舰店",
+                "share": 7.3,
+                "yoy": 15,
+                "verbatim": "只敢在小米官方旗舰店买 怕买到翻新机",
+                "summary": "渠道正品信任成为搜索动机，官方旗舰店承担品牌信任锚点角色，第三方渠道面临信任压力。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "『小米官方旗舰店』作为渠道词进入搜索联想前十，反映用户对渠道正品的强关注"
+              },
+              {
+                "rank": 8,
+                "keyword": "小米15",
+                "share": 5.5,
+                "yoy": -24,
+                "verbatim": "小米15现在降价了吗 还值得买吗",
+                "summary": "上一代旗舰进入清仓与降价周期，搜索同比下滑，用户转向性价比捡漏心态。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "『小米15』与『小米17』同榜且为老机型，符合旗舰迭代后的搜索衰减规律"
+              },
+              {
+                "rank": 9,
+                "keyword": "AI终端与生态互联",
+                "share": 4.2,
+                "yoy": 55,
+                "verbatim": "手机上的AI到底能不能帮我干活",
+                "summary": "AI话题在B站与抖音持续高热，用户对AI手机、AI可穿戴的实用价值保持期待与怀疑并存。",
+                "platform": "B站",
+                "dataFromReal": true,
+                "sourcePlatform": "B站热搜",
+                "inferenceBasis": "B站热搜含『AI时代数学专业还有优势吗』『如何看AI开始刷榜数学难题』『DeepSeek研究员预判AI未来』，AI为年轻用户核心议题"
+              },
+              {
+                "rank": 10,
+                "keyword": "以旧换新与国补",
+                "share": 3.8,
+                "yoy": 41,
+                "verbatim": "现在换手机有没有补贴 旧机怎么估价",
+                "summary": "政策与平台补贴叠加，用户换机决策更依赖置换成本，回收估价透明度影响成交。",
+                "platform": "天猫",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "百度热搜含『住建部：4楼及以上住宅都要加装电梯』等民生政策话题，消费电子以旧换新为行业常规促销抓手"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "表带等配件易掉色、尺寸不匹配，官方配件选择少且贵",
+                "intensity": 82,
+                "satisfaction": 41,
+                "gap": 41,
+                "userVoice": "手环10表带买第三根了 出汗就掉色",
+                "currentSolutions": [
+                  "官方硅胶表带",
+                  "第三方金属表带",
+                  "编织尼龙表带"
+                ],
+                "opportunity": "推出官方认证多材质表带订阅套装，按季节/场景组合发售，强化配件生态复购",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "『小米手环10表带』独立进入搜索联想前十，配件需求真实且高频"
+              },
+              {
+                "rank": 2,
+                "pain": "大家电安装排队久、售后响应慢，跨品类服务标准不统一",
+                "intensity": 78,
+                "satisfaction": 38,
+                "gap": 40,
+                "userVoice": "空调买了三天没人来装 催了两次客服",
+                "currentSolutions": [
+                  "官方安装预约",
+                  "第三方安装平台",
+                  "线下门店协调"
+                ],
+                "opportunity": "推出生态链统一服务承诺与安装可视化追踪，把售后变成差异化卖点",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "『小米空调』进入搜索联想，大家电决策中安装售后为高频顾虑"
+              },
+              {
+                "rank": 3,
+                "pain": "新机发布前信息不透明，持币观望导致老机型与新品比价混乱",
+                "intensity": 74,
+                "satisfaction": 45,
+                "gap": 29,
+                "userVoice": "小米17到底什么时候发 现在买15会不会亏",
+                "currentSolutions": [
+                  "等发布会",
+                  "看数码博主爆料",
+                  "蹲电商降价"
+                ],
+                "opportunity": "官方发布节奏与老机型保值承诺透明化，用确定性降低观望流失",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "『小米17』与『小米15』同时进榜，换代期比价焦虑真实存在"
+              },
+              {
+                "rank": 4,
+                "pain": "渠道正品信任焦虑，担心第三方买到翻新机或非官方版本",
+                "intensity": 71,
+                "satisfaction": 52,
+                "gap": 19,
+                "userVoice": "便宜两百但怕翻新 还是官方店买踏实",
+                "currentSolutions": [
+                  "只买官方旗舰店",
+                  "查序列号验机",
+                  "看店铺评分"
+                ],
+                "opportunity": "官方验机与一物一码溯源能力产品化，向授权渠道开放信任背书",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "『小米官方旗舰店』作为渠道词进榜，正品信任为真实搜索动机"
+              },
+              {
+                "rank": 5,
+                "pain": "手环与手表功能边界模糊，用户不知道升级是否值得",
+                "intensity": 66,
+                "satisfaction": 48,
+                "gap": 18,
+                "userVoice": "有手环了还有必要买手表吗 功能差在哪",
+                "currentSolutions": [
+                  "看参数对比",
+                  "问客服",
+                  "看测评视频"
+                ],
+                "opportunity": "按运动/健康/通勤场景做选购决策工具，用场景而非参数引导升级",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "『小米手表』与『小米手环』同榜，内部比价为真实决策痛点"
+              },
+              {
+                "rank": 6,
+                "pain": "AI功能宣传与实际可用性存在落差，用户难以感知价值",
+                "intensity": 63,
+                "satisfaction": 39,
+                "gap": 24,
+                "userVoice": "AI功能听着厉害 日常根本用不上",
+                "currentSolutions": [
+                  "看实测视频",
+                  "关闭AI功能",
+                  "等系统更新"
+                ],
+                "opportunity": "围绕高频场景做AI功能减法与场景化演示，用可感知的效率提升替代概念堆砌",
+                "dataFromReal": true,
+                "sourcePlatform": "B站热搜",
+                "inferenceBasis": "B站热搜多条AI议题上榜，年轻用户对AI实用价值高度关注且质疑并存"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "0-199元",
+                "200-599元",
+                "600-1499元",
+                "1500-3999元",
+                "4000元以上"
+              ],
+              "functions": [
+                "健康监测",
+                "运动户外",
+                "智能互联",
+                "长续航快充",
+                "AI智能体验"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 3.2,
+                  "growth": 12,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 42
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 2.8,
+                  "growth": 18,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 48
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 4.1,
+                  "growth": 26,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 61
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 3.6,
+                  "growth": 22,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 1.4,
+                  "growth": 34,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 72
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 6.8,
+                  "growth": 24,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 58
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 5.9,
+                  "growth": 29,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 66
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 7.4,
+                  "growth": 31,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 63
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 6.2,
+                  "growth": 27,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 64
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 2.1,
+                  "growth": 46,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 78
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 8.3,
+                  "growth": 21,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 7.1,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 62
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 9.6,
+                  "growth": 33,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 8.8,
+                  "growth": 28,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 61
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 3.4,
+                  "growth": 52,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 82
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 6.5,
+                  "growth": 19,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 52
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 5.2,
+                  "growth": 23,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 59
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 8.9,
+                  "growth": 36,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 68
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 7.7,
+                  "growth": 30,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 65
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 4.6,
+                  "growth": 58,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 86
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 3.1,
+                  "growth": 16,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 47
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 2.4,
+                  "growth": 20,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 53
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 5.8,
+                  "growth": 39,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 71
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 4.3,
+                  "growth": 26,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 2.9,
+                  "growth": 64,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 88
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "小米",
+                "positioning": "生态链一体化性价比��舰",
+                "priceBand": "199-6999元",
+                "share": 34,
+                "strength": "手机+可穿戴+IoT全品类协同，官方渠道信任度高",
+                "weakness": "大家电售后服务一致性弱，AI功能感知不足"
+              },
+              {
+                "brand": "华为",
+                "positioning": "高端商务与自研技术心智",
+                "priceBand": "999-9999元",
+                "share": 22,
+                "strength": "品牌溢价与高端心智强，健康监测技术口碑好",
+                "weakness": "价格带偏高，年轻性价比人群覆盖不足"
+              },
+              {
+                "brand": "荣耀",
+                "positioning": "年轻潮流与性能均衡",
+                "priceBand": "799-5999元",
+                "share": 11,
+                "strength": "线下渠道与年轻用户触达强，外观设计讨喜",
+                "weakness": "生态链配件丰富度弱于小米"
+              },
+              {
+                "brand": "OPPO",
+                "positioning": "影像与快充体验",
+                "priceBand": "899-6499元",
+                "share": 9,
+                "strength": "快充与影像技术积累，线下服务网络密集",
+                "weakness": "可穿戴与IoT生态协同较弱"
+              },
+              {
+                "brand": "vivo",
+                "positioning": "影像旗舰与设计感",
+                "priceBand": "899-6499元",
+                "share": 8,
+                "strength": "影像与外观设计口碑好，线下渠道稳固",
+                "weakness": "智能家居生态布局相对薄弱"
+              },
+              {
+                "brand": "苹果",
+                "positioning": "高端生态闭环",
+                "priceBand": "2999-12999元",
+                "share": 7,
+                "strength": "生态闭环与用户粘性极强，品牌溢价高",
+                "weakness": "价格门槛高，配件与维修成本劝退性价比用户"
+              },
+              {
+                "brand": "华米/Amazfit",
+                "positioning": "专业运动健康可穿戴",
+                "priceBand": "299-1999元",
+                "share": 4,
+                "strength": "运动健康垂直领域专业度高，海外口碑好",
+                "weakness": "与手机生态联动弱，国内渠道声量有限"
+              }
+            ],
+            "personas": [
+              {
+                "name": "换代观望数码党",
+                "age": "22-30岁",
+                "gender": "男",
+                "scenario": "新机发布前反复比价、看爆料、蹲首发优惠",
+                "spendingPower": "中高，月均数码支出800-2000元",
+                "coreNeeds": [
+                  "首发信息确定性",
+                  "老机型保值与置换估价",
+                  "性能与价格最优解"
+                ],
+                "quote": "小米17到底什么时候发，现在买15会不会亏"
+              },
+              {
+                "name": "健康管理轻运动族",
+                "age": "25-40岁",
+                "gender": "女",
+                "scenario": "日常步数、睡眠、心率监测，通勤与轻运动佩戴",
+                "spendingPower": "中，月均可穿戴支出200-600元",
+                "coreNeeds": [
+                  "佩戴舒适与颜值",
+                  "表带可换且耐用",
+                  "数据准确与续航久"
+                ],
+                "quote": "手环10表带买第三根了，出汗就掉色"
+              },
+              {
+                "name": "新家智能家电一站式买家",
+                "age": "28-38岁",
+                "gender": "不限",
+                "scenario": "装修或换新期集中采购空调、电视、扫地机等大家电",
+                "spendingPower": "高，单次采购预算1万-3万元",
+                "coreNeeds": [
+                  "安装售后省心",
+                  "多设备互联统一控制",
+                  "整体性价比"
+                ],
+                "quote": "空调买了三天没人来装，催了两次客服"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "结合秋冬出行与运动场景做手环/手表实测，蹭『秋冬外套一衣穿三季』类穿搭与出行热点",
+                "playStyle": "达人场景化短视频+直播间首发权益，用真实佩戴对比替代参数罗列",
+                "difficulty": "中",
+                "note": "抖音热榜以社会民生与体育内容为主，需借势而非硬广"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "表带搭配、桌面生态、新家智能改造等生活方式内容",
+                "playStyle": "素人铺量+垂类KOC测评，突出颜值与场景解决方案",
+                "difficulty": "低",
+                "note": "女性健康管理与家居人群集中，适合配件与大家电种草"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "官方旗舰店正品信任与以旧换新补贴",
+                "playStyle": "大促节点做置换补贴与保值承诺，强化官方渠道唯一性",
+                "difficulty": "中",
+                "note": "搜索词中『小米官方旗舰店』热度高，信任是核心转化杠杆"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "大家电安装售后与配送时效",
+                "playStyle": "主打送装一体与售后可视化，绑定家电换新季",
+                "difficulty": "高",
+                "note": "京东商品数据被反爬未采集，需以服务承诺差异化竞争"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "配件与入门款性价比，表带、充电宝等低客单引流",
+                "playStyle": "百亿补贴+配件组合装，用低价配件带动生态认知",
+                "difficulty": "中",
+                "note": "配件搜索热度高，适合做流量入口而非主销旗舰"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "官方认证多材质表带订阅套装",
+                "trendSignal": "『小米手环10表带』独立进入淘宝搜索联想前十",
+                "demandGap": "官方配件选择少、第三方易掉色，用户反复复购却无信任品牌",
+                "feasibility": "高，依托现有手环用户基数与官方渠道即可落地",
+                "score": 86,
+                "rationale": "配件为高频复购且搜索真实，官方背书可解决信任痛点，毛利结构优于整机",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "表带词独立进榜，说明配件需求已从附属需求升级为独立搜索需求"
+              },
+              {
+                "rank": 2,
+                "title": "生态链统一安装售后承诺与可视化追踪",
+                "trendSignal": "『小米空调』搜索上行，安装售后为高频顾虑",
+                "demandGap": "大家电服务标准不统一，用户对安装时效缺乏确定性",
+                "feasibility": "中，需整合生态链服务商体系，但可形成长期壁垒",
+                "score": 82,
+                "rationale": "大家电为高客单增量品类，服务体验直接决定复购与口碑",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "空调搜索词进榜且用户原声集中在安装售后，服务缺口明确"
+              },
+              {
+                "rank": 3,
+                "title": "新老机型保值承诺与透明置换估价",
+                "trendSignal": "『小米17』与『小米15』同时进榜，换代观望情绪浓",
+                "demandGap": "用户担心买旧亏、等新久，缺乏确定性决策依据",
+                "feasibility": "高，官方回收体系与电商补贴可组合落地",
+                "score": 80,
+                "rationale": "观望期流失是旗舰销售最大漏损，保值承诺可直接提升转化",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "新老旗舰同榜为典型换代期比价行为，搜索数据真实"
+              },
+              {
+                "rank": 4,
+                "title": "高价格带AI场景化功能减法与演示",
+                "trendSignal": "B站多条AI议题热搜，用户对AI实用价值质疑并存",
+                "demandGap": "AI功能宣传与日常可用性落差大，用户难以感知价值",
+                "feasibility": "中，需产品与内容协同，但能显著提升高端机型说服力",
+                "score": 78,
+                "rationale": "高端价格带AI智能体验单元格为空且增速最高，属结构性空白",
+                "sourcePlatform": "B站热搜",
+                "inferenceBasis": "B站AI议题密集上榜，年轻高端用户对AI实用性高度敏感"
+              },
+              {
+                "rank": 5,
+                "title": "手环与手表场景化选购决策工具",
+                "trendSignal": "『小米手表』与『小米手环』同榜并列搜索",
+                "demandGap": "内部品类功能边界模糊，用户升级决策困难",
+                "feasibility": "高，内容与详情页改造即可快速上线",
+                "score": 74,
+                "rationale": "降低内部比价内耗可提升客单价与转化效率",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "可穿戴双品类同榜，用户决策路径真实且存在教育空间"
+              },
+              {
+                "rank": 6,
+                "title": "出行场景充电宝合规与快充套装",
+                "trendSignal": "『小米充电宝』搜索稳定，出行内容情绪高涨",
+                "demandGap": "航空合规容量与快充协议信息不清晰，用户决策成本高",
+                "feasibility": "高，配件组合装可快速上线",
+                "score": 71,
+                "rationale": "低客单高频配件适合作为生态入口，带动品牌认知",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "充电宝为小米传统强势配件，搜索联想稳定进榜"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-09-18 15:21:22）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "被反爬拦截（页面过短）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-09-18T07:21:40.914Z",
+              "elapsedMs": 3578
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "小米手环",
+                "heat": 100
+              },
+              {
+                "word": "小米手环10",
+                "heat": 100
+              },
+              {
+                "word": "小米手机",
+                "heat": 100
+              },
+              {
+                "word": "小米手表",
+                "heat": 100
+              },
+              {
+                "word": "小米充电宝",
+                "heat": 100
+              },
+              {
+                "word": "小米官方旗舰店",
+                "heat": 100
+              },
+              {
+                "word": "小米空调",
+                "heat": 100
+              },
+              {
+                "word": "小米17",
+                "heat": 100
+              },
+              {
+                "word": "小米15",
+                "heat": 100
+              },
+              {
+                "word": "小米手环10表带",
+                "heat": 100
+              }
+            ]
           }
         }
       ]
