@@ -6,7 +6,7 @@
       "username": "qaq",
       "company": "创品智造",
       "industry": "电商",
-      "password": "scrypt$16384$8$1$XAea9TcYFfLrPm6lSyKhMA==$064Abjad8/7RRlWQN9B+Q68iw/Yt9iN6POXuq+ibFfO2ZIYPy/f99WQlQ+bpER5sIsBs0/g6Mft09/gQdto3IA==",
+      "password": "scrypt$16384$8$1$gNnEfeUXggzUTrdd1LZwsA==$dPbNS8BCVJ81oL/GEuEZmqoUxiHP9/nuAJwDfOd3HfpK5rMgQCbp7hRDwPLHrNvkl4hJeudQut5B3JHyk86zcQ==",
       "createdAt": "2026-07-24T02:21:52.652Z",
       "lastLogin": "2026-08-23T14:16:49.465Z",
       "recordCount": 4,
@@ -579,6 +579,23 @@
       "lastLogin": "2026-08-25T15:33:02.346Z",
       "recordCount": 0,
       "ssoAuto": true
+    },
+    {
+      "id": "8cd7ba83-eb74-4474-8abb-593e8ff4e848",
+      "phone": "18911967976",
+      "username": "陈潇潇",
+      "company": "地标",
+      "industry": "茶叶、滋补、粮油、生鲜",
+      "password": "scrypt$16384$8$1$ld4KWWPJxOfvECCmPg3fKA==$Yj6800bwXd6yXHFvzTA68Axi4Jos3XrILiCr749oTUGMtiCBF9FGR1Ns2RiQRK6eGcnvg7sv86fGS+pKOA5YzQ==",
+      "createdAt": "2026-09-18T07:21:01.109Z",
+      "lastLogin": "2026-09-18T07:21:01.109Z",
+      "recordCount": 0,
+      "_tokens": [
+        {
+          "token": "2b5b101bee0a79111875e37d48a42ead15b3a3ec7effd083049a8ce0c2cd1907",
+          "createdAt": "2026-09-18T07:21:01.110Z"
+        }
+      ]
     }
   ],
   "records": [
