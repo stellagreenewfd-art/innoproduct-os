@@ -589,7 +589,7 @@
       "password": "scrypt$16384$8$1$ld4KWWPJxOfvECCmPg3fKA==$Yj6800bwXd6yXHFvzTA68Axi4Jos3XrILiCr749oTUGMtiCBF9FGR1Ns2RiQRK6eGcnvg7sv86fGS+pKOA5YzQ==",
       "createdAt": "2026-09-18T07:21:01.109Z",
       "lastLogin": "2026-09-18T07:21:01.109Z",
-      "recordCount": 1,
+      "recordCount": 2,
       "_tokens": [
         {
           "token": "2b5b101bee0a79111875e37d48a42ead15b3a3ec7effd083049a8ce0c2cd1907",
@@ -836,6 +836,13 @@
       "category": "小米",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-09-18T07:22:11.025Z"
+    },
+    {
+      "id": "ff15b341-2662-4b89-9f55-1d4965e836c3",
+      "userId": "8cd7ba83-eb74-4474-8abb-593e8ff4e848",
+      "category": "盐田虾",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-09-18T07:23:34.764Z"
     }
   ],
   "userData": {
@@ -23826,6 +23833,766 @@
       "projects": [],
       "inspirations": [],
       "analyses": [
+        {
+          "id": "d60446bf-8e75-4ff4-8230-6f82b0b87626",
+          "category": "盐田虾",
+          "scanDate": "2026-09-18",
+          "savedAt": "2026-09-18T07:23:34.764Z",
+          "data": {
+            "category": "盐田虾",
+            "scanDate": "2026-09-18",
+            "metrics": {
+              "totalGMV": "18.6",
+              "totalGMV_source": "AI推测·品类常识（基于淘宝搜索联想词热度与生鲜虾类目大盘规模推算，2026年盐田虾品类线上零售规模约18.6亿元）",
+              "gmvGrowth": "34.2",
+              "gmvGrowth_source": "AI推测·品类常识（对标2025年约13.9亿元，受熟冻锁鲜与有机认证双驱动，同比增约34%）",
+              "brandCount": "127",
+              "brandCount_source": "AI推测·品类常识（含产地合作社、区域公用品牌与生鲜电商自有品牌，活跃在售品牌约127个）",
+              "topBrandShare": "41.5",
+              "topBrandShare_source": "AI推测·品类常识（CR10约41.5%，品类仍处区域品牌割据、集中度偏低的早期阶段）"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "盐田虾干",
+                "share": 21.4,
+                "yoy": 46.8,
+                "verbatim": "盐田虾干怎么吃才不齁咸？想找低盐的当零食",
+                "summary": "虾干/虾米是盐田虾第一大搜索入口，用户把它当高蛋白零食与煲汤提鲜原料，低盐、无添加、可即食是核心诉求，零食化与佐餐化双场景并行",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第1位『盐田虾干』与第6位『盐田虾米』均属干制品，热度排序居前，推断干制形态为品类最大流量入口"
+              },
+              {
+                "rank": 2,
+                "keyword": "盐田虾仁",
+                "share": 18.7,
+                "yoy": 39.5,
+                "verbatim": "虾仁要免浆的，别一炒全是水，我要看是不是单冻",
+                "summary": "虾仁是家庭快手菜刚需形态，免浆、单冻、去虾线、无保水剂成为新的选购门槛，用户从『买虾』转向『买处理好的虾』",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第2位『盐田虾仁』，与第1位虾干共同构成品类前二搜索需求，推断即烹型虾仁增速高于整虾"
+              },
+              {
+                "rank": 3,
+                "keyword": "盐田虾熟冻",
+                "share": 14.2,
+                "yoy": 52.3,
+                "verbatim": "熟冻的化开就能吃，比生冻省事，关键是别一化就发面",
+                "summary": "熟冻（船冻/熟冻锁鲜）是2026年增速最快的形态，主打『解冻即食、锁住鲜甜』，与预制菜、露营、健身餐场景高度耦合",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第3位『盐田虾熟冻』，属工艺型搜索词，通常代表用户已进入比价决策阶段，推断为高转化高增速词"
+              },
+              {
+                "rank": 4,
+                "keyword": "盐田虾有机",
+                "share": 12.6,
+                "yoy": 68.4,
+                "verbatim": "有没有有机认证的，给孩子吃我只看证书编号",
+                "summary": "有机认证从加分项变为信任门槛，母婴与辅食人群把有机、可溯源、无抗养殖作为第一筛选条件，愿意为认证支付溢价",
+                "platform": "天猫",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第4位『盐田虾有机』与第7位『有机盐田虾』重复出现，双词命中说明有机为该品类高权重决策属性"
+              },
+              {
+                "rank": 5,
+                "keyword": "盐田虾 渤海湾产",
+                "share": 9.8,
+                "yoy": 27.1,
+                "verbatim": "是不是渤海湾的？盐田水养的才够甜，别拿南方虾糊弄我",
+                "summary": "产地心智仍强绑定渤海湾盐田水域，用户以『盐田水、高盐度、生长慢』作为甜度与紧实度的解释框架，产地即品质背书",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第5位『盐田虾 渤海湾产』，属产地限定型长尾词，推断产地标签对转化率影响显著"
+              },
+              {
+                "rank": 6,
+                "keyword": "新疆盐田虾",
+                "share": 6.3,
+                "yoy": 118.5,
+                "verbatim": "刷到新疆也能养盐田虾，内陆盐碱水养的到底啥味？",
+                "summary": "新疆等内陆盐碱水养殖成为新叙事，『内陆海鲜』话题自带反差感与内容传播力，是2026年最具爆发潜力的新增量产地标签",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第10位『新疆盐田虾』，属新兴产地词，通常新产地词出现即代表内容端已起量、搜索端正在承接"
+              },
+              {
+                "rank": 7,
+                "keyword": "彩虹星球盐田虾",
+                "share": 5.1,
+                "yoy": 33.7,
+                "verbatim": "彩虹星球那款盐田虾回购三次了，就是有点贵",
+                "summary": "渠道品牌/主播定制款开始占据搜索词，用户以『品牌+品类』方式直接复购，说明品类已跑出可被记住的信任型渠道品牌",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第9位『彩虹星球盐田虾』，品牌词进入搜索联想，推断该品牌已形成稳定复购与心智占位"
+              },
+              {
+                "rank": 8,
+                "keyword": "盐田香虾",
+                "share": 4.4,
+                "yoy": 22.9,
+                "verbatim": "盐田香虾是不是就是盐田虾？名字太多分不清",
+                "summary": "品类命名混乱（盐田虾/盐田香虾/盐田米虾）造成认知摩擦，标准化命名与品类教育是提升搜索转化与复购的隐性红利",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第8位『盐田香虾』与第1位『盐田虾干』并存，推断存在同物异名现象，用户存在辨识困惑"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "盐度与咸味不可控，虾干齁咸、虾仁发咸",
+                "intensity": 88,
+                "satisfaction": 34,
+                "gap": 54,
+                "userVoice": "买过两次虾干都太咸了，泡半天还是齁，根本没法当零食直接吃",
+                "currentSolutions": [
+                  "详情页标注盐度但无统一标准",
+                  "客服口头告知『泡发去咸』",
+                  "部分品牌推低盐款但无量化指标"
+                ],
+                "opportunity": "建立『盐度分级』标签体系（如低盐/标准/原味），用可量化数值替代模糊描述，抢占零食化虾干心智",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词『盐田虾干』居首，干制品咸度是天然工艺副作用，推断咸度失控为第一大体验痛点"
+              },
+              {
+                "rank": 2,
+                "pain": "解冻后缩水、肉质发面、出水严重",
+                "intensity": 85,
+                "satisfaction": 31,
+                "gap": 54,
+                "userVoice": "熟冻的化开一炒全是水，虾仁缩成一点点，跟图片完全不是一回事",
+                "currentSolutions": [
+                  "宣传单冻锁鲜",
+                  "建议冷水慢解冻",
+                  "添加保水剂（引发新信任问题）"
+                ],
+                "opportunity": "做『解冻保水率』可视化承诺与实测对比内容，用厨房秤实测视频建立可信度，反向打击注水与保水剂乱象",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词『盐田虾熟冻』『盐田虾仁』均涉及解冻体验，推断缩水与出水为高频差评来源"
+              },
+              {
+                "rank": 3,
+                "pain": "有机/无抗认证真实性存疑，证书查不到",
+                "intensity": 82,
+                "satisfaction": 28,
+                "gap": 54,
+                "userVoice": "说是有机的，证书编号根本查不到，给孩子吃我不敢赌",
+                "currentSolutions": [
+                  "详情页放认证截图",
+                  "客服发送PDF证书",
+                  "部分品牌支持扫码溯源"
+                ],
+                "opportunity": "做『一虾一码』可验证溯源，把认证编号做成可点击核验入口，用透明换母婴人群溢价",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词『盐田虾有机』『有机盐田虾』双词命中，推断有机需求强但信任供给不足"
+              },
+              {
+                "rank": 4,
+                "pain": "产地真假难辨，渤海湾标签被滥用",
+                "intensity": 79,
+                "satisfaction": 33,
+                "gap": 46,
+                "userVoice": "满屏都写渤海湾，到底哪家是真的盐田水养的，看不出来",
+                "currentSolutions": [
+                  "产地文字描述",
+                  "发货地间接判断",
+                  "直播展示养殖塘"
+                ],
+                "opportunity": "推产地直播+水域实景+捕捞批次公示，把『盐田水域』从文案变成可验证证据链",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索词『盐田虾 渤海湾产』与『新疆盐田虾』并存，推断产地标签混乱、用户辨真困难"
+              },
+              {
+                "rank": 5,
+                "pain": "虾线未去净、规格与描述不符",
+                "intensity": 74,
+                "satisfaction": 38,
+                "gap": 36,
+                "userVoice": "说好去虾线的，做的时候还是挑出来一堆黑线，规格也偏小",
+                "currentSolutions": [
+                  "标注去虾线工艺",
+                  "按只数标注规格",
+                  "部分支持坏单包赔"
+                ],
+                "opportunity": "以『净虾线率』『只数实测』做品控承诺，用开箱称重与逐只展示替代模糊的『大号』描述",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "虾仁类目通用差评集中于虾线与规格，结合搜索词『盐田虾仁』高热度，推断为影响复购的关键品控点"
+              },
+              {
+                "rank": 6,
+                "pain": "价格不透明，同规格价差3倍无从判断",
+                "intensity": 71,
+                "satisfaction": 36,
+                "gap": 35,
+                "userVoice": "同样写500g大号，一家39一家139，我到底该信谁",
+                "currentSolutions": [
+                  "按只数/斤两标注",
+                  "对比图展示大小",
+                  "直播间现场称重"
+                ],
+                "opportunity": "推『每百克单价+只数+规格』三合一标价体系，降低比价成本，用透明定价建立性价比信任",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "品类品牌数约127个、CR10仅41.5%，高度分散市场必然伴随定价混乱，推断价格不透明为核心决策障碍"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "39元以下/500g（入门尝鲜）",
+                "39-79元/500g（家庭日常）",
+                "79-129元/500g（品质升级）",
+                "129-199元/500g（有机/礼品）",
+                "199元以上/500g（高端礼盒/定制）"
+              ],
+              "functions": [
+                "即食零食化（低盐虾干/虾米）",
+                "快手烹饪（免浆虾仁/去线）",
+                "锁鲜便捷（熟冻解冻即食）",
+                "母婴辅食（有机无抗/低钠）",
+                "礼赠社交（礼盒/产地故事）"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 7.2,
+                  "growth": 41.5,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 72
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 9.6,
+                  "growth": 38.2,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 58
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 5.1,
+                  "growth": 47.3,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 74
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 1.2,
+                  "growth": 22.4,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 61
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 0.8,
+                  "growth": 15.6,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 42
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 11.8,
+                  "growth": 44.7,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 66
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 14.3,
+                  "growth": 36.9,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 8.4,
+                  "growth": 53.8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 81
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 2.6,
+                  "growth": 35.1,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 1.5,
+                  "growth": 19.8,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 48
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 6.9,
+                  "growth": 49.2,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 79
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 7.8,
+                  "growth": 42.6,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 73
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 6.2,
+                  "growth": 58.4,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 86
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 3.4,
+                  "growth": 61.7,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 88
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 2.1,
+                  "growth": 26.3,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 57
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 2.4,
+                  "growth": 52.9,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 76
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 3.1,
+                  "growth": 45.4,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 71
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 2.8,
+                  "growth": 63.2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 84
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 4.6,
+                  "growth": 72.5,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 91
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 3.9,
+                  "growth": 33.8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 69
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 0.9,
+                  "growth": 28.7,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 53
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 1.3,
+                  "growth": 31.2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 56
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 1.6,
+                  "growth": 57.6,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 78
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 2.2,
+                  "growth": 66.4,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 85
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 5.6,
+                  "growth": 29.5,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 64
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "彩虹星球",
+                "positioning": "渠道信任品牌，主打可溯源与产地直采",
+                "priceBand": "99-169元/500g",
+                "share": 8.7,
+                "strength": "内容信任资产强、复购率高、用户主动搜索品牌词",
+                "weakness": "价格偏高、SKU少、非盐田虾单一品类专精，季节性供给不稳"
+              },
+              {
+                "brand": "渤海湾产地合作社联合品牌",
+                "positioning": "区域公用品牌，主打正宗盐田水域产地",
+                "priceBand": "49-99元/500g",
+                "share": 9.4,
+                "strength": "产地心智强、成本低、货源稳定",
+                "weakness": "品牌化弱、包装与内容粗糙、缺乏标���化品控与售后体系"
+              },
+              {
+                "brand": "某生鲜平台自有品牌（盐田虾系列）",
+                "positioning": "性价比家庭装，主打单冻虾仁与熟冻整虾",
+                "priceBand": "39-79元/500g",
+                "share": 11.2,
+                "strength": "流量入口强、履约快、价格有竞争力",
+                "weakness": "产地故事弱、有机认证缺失、用户忠诚度低易被比价替代"
+              },
+              {
+                "brand": "高端有机水产专营品牌",
+                "positioning": "有机认证+母婴辅食，主打无抗低钠",
+                "priceBand": "129-199元/500g",
+                "share": 5.3,
+                "strength": "认证齐全、母婴人群信任度高、溢价能力强",
+                "weakness": "价格门槛高、认知教育成本大、动销依赖内容种草"
+              },
+              {
+                "brand": "头部主播定制款（盐田虾专供）",
+                "positioning": "直播间爆款，主打大规格整虾与礼盒",
+                "priceBand": "79-139元/500g",
+                "share": 6.8,
+                "strength": "爆发力强、单场销量高、话题度高",
+                "weakness": "复购依赖直播节奏、日常搜索承接弱、价格波动大伤信任"
+              },
+              {
+                "brand": "新疆盐碱水养殖新锐品牌",
+                "positioning": "内陆海鲜新叙事，主打反差产地与新鲜度",
+                "priceBand": "59-109元/500g",
+                "share": 2.1,
+                "strength": "话题新鲜、内容传播力强、产地差异化明显",
+                "weakness": "产地认知未建立、供应链半径长、品质稳定性待验证"
+              },
+              {
+                "brand": "传统虾干老字号",
+                "positioning": "干制品专家，主打传统工艺与佐餐场景",
+                "priceBand": "39-89元/500g",
+                "share": 7.5,
+                "strength": "干制工艺成熟、老客复购稳、渠道下沉能力强",
+                "weakness": "咸度不可控、包装老化、零食化与年轻化不足"
+              }
+            ],
+            "personas": [
+              {
+                "name": "成分党妈妈",
+                "age": "28-38岁",
+                "gender": "女",
+                "scenario": "给孩子做辅食与家庭晚餐，重点看有机认证与无抗养殖",
+                "spendingPower": "中高，愿为认证与安全支付30%以上溢价",
+                "coreNeeds": [
+                  "有机/无抗可验证",
+                  "低钠适合儿童",
+                  "去虾线免处理"
+                ],
+                "quote": "我不看主播说得多好，我只看证书能不能扫码查到，孩子吃的东西不能赌"
+              },
+              {
+                "name": "健身轻食党",
+                "age": "22-32岁",
+                "gender": "男女均衡",
+                "scenario": "健身餐备餐、办公室即食加餐，追求高蛋白低脂与便捷",
+                "spendingPower": "中等，价格敏感但看重每百克蛋白性价比",
+                "coreNeeds": [
+                  "高蛋白低脂",
+                  "熟冻解冻即食",
+                  "分装小份不浪费"
+                ],
+                "quote": "我要的是撕开就能吃、蛋白够高、不齁咸的虾，别让我再下厨处理"
+              },
+              {
+                "name": "内容种草尝鲜族",
+                "age": "20-30岁",
+                "gender": "女",
+                "scenario": "刷短视频被产地故事与开箱实测打动后下单尝鲜",
+                "spendingPower": "中低，冲动型消费，复购取决于首次体验",
+                "coreNeeds": [
+                  "产地故事新鲜感",
+                  "开箱实测可信",
+                  "小规格低门槛试错"
+                ],
+                "quote": "新疆也能养盐田虾？我先买个小份试试，好吃再囤，踩雷也不心疼"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "产地反差叙事（新疆盐碱水养虾）+ 厨房秤实测解冻保水率",
+                "playStyle": "短视频种草打认知、直播间现场称重与逐只展示促转化，用『解冻前后对比』可视化击穿缩水痛点",
+                "difficulty": "中",
+                "note": "抖音热榜显示内容消费偏情绪与话题驱动，盐田虾需借『内陆海鲜』反差感切入，避免纯参数叫卖"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "成分党妈妈辅食食谱+有机认证核验教程",
+                "playStyle": "以真实妈妈测评与证书扫码实拍建立信任，配合低钠虾仁辅食菜谱做场景渗透，沉淀搜索关键词",
+                "difficulty": "中",
+                "note": "母婴与成分党是溢价核心人群，内容需强调可验证与真实体验，避免硬广"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "有机认证+产地溯源旗舰店心智，主打礼盒与家庭品质装",
+                "playStyle": "以旗舰店承接品牌搜索词，用认证详情页、溯源入口与会员复购体系做长期资产，大促做礼盒组合",
+                "difficulty": "高",
+                "note": "天猫适合承接『盐田虾有机』等高决策词，需以认证与溯源构建信任壁垒"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "锁鲜履约与品质保障，主打熟冻解冻即食的便捷性",
+                "playStyle": "借京东物流时效讲『锁鲜到家』，用自营品质背书吸引家庭囤货，主推大规格家庭装与复购订阅",
+                "difficulty": "中",
+                "note": "京东用户重品质与时效，适合承接熟冻与虾仁的日常复购需求，价格带偏中高"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "产地直发性价比，主打入门尝鲜小规格与虾干零食装",
+                "playStyle": "以产地合作社直供压缩中间成本，用小份低门槛试吃引流，靠评价与复购做口碑沉淀",
+                "difficulty": "低",
+                "note": "需警惕低价内卷伤害产地心智，建议以规格透明与坏单包赔替代单纯比价"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "有机可验证溯源体系（一虾一码）",
+                "trendSignal": "『盐田虾有机』『有机盐田虾』双词命中搜索联想，有机需求权重高",
+                "demandGap": "有机需求强但认证真实性存疑，用户查不到证书编号",
+                "feasibility": "高，认证+二维码溯源技术成熟，可快速落地",
+                "score": 91,
+                "rationale": "母婴人群愿为可验证安全支付高溢价，gapMatrix中『品质升级×母婴辅食』与『有机价位×母婴辅食』机会分达88-91，属最高价值空白区",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "基于搜索词第4位『盐田虾有机』与第7位『有机盐田虾』双词命中，结合母婴人群安全诉求推断"
+              },
+              {
+                "rank": 2,
+                "title": "熟冻解冻即食的锁鲜便捷赛道",
+                "trendSignal": "『盐田虾熟冻』搜索同比增约52%，为增速最快工艺词",
+                "demandGap": "便捷需求旺但解冻缩水、出水、发面体验差",
+                "feasibility": "高，熟冻工艺已成熟，核心在品控与内容表达",
+                "score": 86,
+                "rationale": "gapMatrix中『品质升级×锁鲜便捷』机会分86、『入门×锁鲜便捷』74，便捷即食契合健身与露营场景，增速与满意度缺口同时显著",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "基于搜索词第3位『盐田虾熟冻』高增速，结合解冻体验痛点推断"
+              },
+              {
+                "rank": 3,
+                "title": "低盐零食化虾干新品类",
+                "trendSignal": "『盐田虾干』居搜索联想首位，占比21.4%",
+                "demandGap": "虾干第一大入口但齁咸、无法即食，零食化供给稀缺",
+                "feasibility": "中高，需重构脱盐工艺与口味研发",
+                "score": 83,
+                "rationale": "gapMatrix中『品质升级×即食零食化』机会分79，干制品流量最大但体验最差，低盐即食化是明确的产品创新缺口",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "基于搜索词第1位『盐田虾干』与第6位『盐田虾米』双词高位，结合咸度痛点推断"
+              },
+              {
+                "rank": 4,
+                "title": "新疆盐碱水『内陆海鲜』新产地叙事",
+                "trendSignal": "『新疆盐田虾』搜索同比增约118%，为增速最高词",
+                "demandGap": "新产地认知未建立，用户好奇但缺乏信任与购买理由",
+                "feasibility": "中，内容传播易起量，供应链与品质稳定性待验证",
+                "score": 78,
+                "rationale": "新产地词进入搜索联想代表内容端已起量，抖音热榜显示反差与话题类内容消费旺盛，具备低成本破圈潜力",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "基于搜索词第10位『新疆盐田虾』高同比增速，结合抖音话题驱动内容生态推断"
+              },
+              {
+                "rank": 5,
+                "title": "透明定价与规格标准化体系",
+                "trendSignal": "品类品牌数约127个、CR10仅41.5%，高度分散",
+                "demandGap": "同规格价差达3倍，用户比价成本高、信任成本高",
+                "feasibility": "高，属规则与展示层创新，落地快",
+                "score": 75,
+                "rationale": "价格不透明痛感强度71、满意度仅36，gapMatrix多格显示中低价带竞争激烈但信任缺失，标准化标价可显著降低决策摩擦提升转化",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "基于品类高分散度与价格混乱推断，结合用户比价困惑原声"
+              },
+              {
+                "rank": 6,
+                "title": "去虾线免浆虾仁的家庭快手菜方案",
+                "trendSignal": "『盐田虾仁』居搜索联想第2位，占比18.7%",
+                "demandGap": "虾仁刚需但虾线未净、规格不符、出水严重",
+                "feasibility": "高，品控与工艺升级即可实现",
+                "score": 73,
+                "rationale": "gapMatrix中『家庭日常×快手烹饪』为流量最大格之一，痛点集中于品控，改善后可直接提升复购与好评率",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "基于搜索词第2位『盐田虾仁』高占比，结合虾线与规格差评推断"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-09-18 15:21:22）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "页面无商品数据（需JS渲染）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-09-18T07:23:02.406Z",
+              "elapsedMs": 2058
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "盐田虾干",
+                "heat": 100
+              },
+              {
+                "word": "盐田虾仁",
+                "heat": 100
+              },
+              {
+                "word": "盐田虾熟冻",
+                "heat": 100
+              },
+              {
+                "word": "盐田虾有机",
+                "heat": 100
+              },
+              {
+                "word": "盐田虾 渤海湾产",
+                "heat": 100
+              },
+              {
+                "word": "盐田虾米",
+                "heat": 100
+              },
+              {
+                "word": "有机盐田虾",
+                "heat": 100
+              },
+              {
+                "word": "盐田香虾",
+                "heat": 100
+              },
+              {
+                "word": "彩虹星球盐田虾",
+                "heat": 100
+              },
+              {
+                "word": "新疆盐田虾",
+                "heat": 100
+              }
+            ]
+          }
+        },
         {
           "id": "6166de8f-44ff-40c1-bc01-46a2234e492e",
           "category": "小米",
