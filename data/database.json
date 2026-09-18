@@ -3130,7 +3130,7 @@
               "tasks": [
                 {
                   "name": "成分配方设计",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "功效验证方案",
