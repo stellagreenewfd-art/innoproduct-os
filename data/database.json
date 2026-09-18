@@ -3105,18 +3105,18 @@
                 },
                 {
                   "name": "USP定稿",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "定价区间",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "立项审批",
-                  "done": false
+                  "done": true
                 }
               ],
-              "status": "in_progress",
+              "status": "completed",
               "assignee": "",
               "startDate": "2026-09-18",
               "endDate": "2026-09-25",
@@ -3145,7 +3145,7 @@
                   "done": false
                 }
               ],
-              "status": "not_started",
+              "status": "in_progress",
               "assignee": "",
               "startDate": "2026-09-25",
               "endDate": "2026-10-25",
