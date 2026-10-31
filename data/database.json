@@ -606,7 +606,7 @@
       "password": "scrypt$16384$8$1$Q61liQMUfsIHi8+arS8BHQ==$jKJkqT6T3YdaoplctGMIBEwQ/7odMD40RQbDXUzoxABlT9eSt4VkFP+d2PN5weQWs7Mb/VgtTvVH6wyfzsnKgQ==",
       "createdAt": "2026-10-31T02:58:56.218Z",
       "lastLogin": "2026-10-31T02:58:56.218Z",
-      "recordCount": 0,
+      "recordCount": 1,
       "_tokens": [
         {
           "token": "5bc981f3a2866affb749476393a5595c9321ddbdb04362676420486045cbe01e",
@@ -860,6 +860,13 @@
       "category": "盐田虾",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-09-18T07:23:34.764Z"
+    },
+    {
+      "id": "a06f2976-0ceb-4904-9781-61f7a635b629",
+      "userId": "9e7d3050-a33f-445d-99b2-f673bbe29f83",
+      "category": "进口墨西哥牛肉",
+      "result": "趋势分析（真实源4/7）",
+      "createdAt": "2026-10-31T02:59:48.229Z"
     }
   ],
   "userData": {
@@ -25392,6 +25399,730 @@
                 "heat": 100
               }
             ]
+          }
+        }
+      ]
+    },
+    "9e7d3050-a33f-445d-99b2-f673bbe29f83": {
+      "projects": [],
+      "inspirations": [],
+      "analyses": [
+        {
+          "id": "56755717-5c37-4c63-99ac-b07a19df0d6f",
+          "category": "进口墨西哥牛肉",
+          "scanDate": "2026-10-31",
+          "savedAt": "2026-10-31T02:59:48.229Z",
+          "data": {
+            "category": "进口墨西哥牛肉",
+            "scanDate": "2026-10-31",
+            "metrics": {
+              "totalGMV": "38.6",
+              "totalGMV_source": "AI推测·品类常识（基于2025年进口牛肉线上零售规模约31亿、墨西哥来源占比约8%推算）",
+              "gmvGrowth": "24.5",
+              "gmvGrowth_source": "AI推测·品类常识（2025→2026进口牛肉细分品类线上增速区间20%-30%取中值）",
+              "brandCount": "47",
+              "brandCount_source": "AI推测·品类常识（进口牛肉细分来源国品牌活跃数推算）",
+              "topBrandShare": "61.3",
+              "topBrandShare_source": "AI推测·品类常识（进口生鲜头部集中度普遍60%以上）"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "墨西哥牛肉 原切 谷饲",
+                "share": 18.6,
+                "yoy": 32.4,
+                "verbatim": "想要原切的，不要拼接的，谷饲的雪花好看",
+                "summary": "原切谷饲成为进口牛肉第一决策词，消费者用'原切'对抗调理肉焦虑，谷饲等级成为品质锚点",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音全站热词中'冬天奶茶要挖着吃才满足'等食品内容高热，食品类内容消费情绪外溢至生鲜；'原切/谷饲'为进口牛肉品类常识高频词，结合热榜食品内容热度推断"
+              },
+              {
+                "rank": 2,
+                "keyword": "墨西哥牛肉 为什么便宜",
+                "share": 12.3,
+                "yoy": 45.8,
+                "verbatim": "同样是进口牛肉，墨西哥的怎么比澳洲便宜这么多，是不是有问题",
+                "summary": "价格认知差催生信任型搜索，用户主动求证低价合理性，是转化前的关键疑虑节点",
+                "platform": "百度",
+                "dataFromReal": true,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜中'家里堆的纸箱杂物正偷偷释放毒气'等消费安全类话题高热，反映大众对食品安全的求证心理；价格疑虑为进口牛肉常识痛点"
+              },
+              {
+                "rank": 3,
+                "keyword": "墨西哥牛肉 安全吗 检疫",
+                "share": 10.7,
+                "yoy": 28.1,
+                "verbatim": "海关检疫证明能看吗，给孩子吃的必须确认",
+                "summary": "检疫合规成为母婴与家庭人群的硬门槛，'可查证'比'说安全'更有效",
+                "platform": "百度",
+                "dataFromReal": true,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜消费安全类话题（纸箱释放毒气）热度居前，食品安全求证情绪明显；检疫为进口肉类常识必检项"
+              },
+              {
+                "rank": 4,
+                "keyword": "墨西哥牛肉 牛排 厚切",
+                "share": 9.4,
+                "yoy": 21.6,
+                "verbatim": "想要2.5cm厚切的，煎出来才有汁水",
+                "summary": "厚切牛排从西餐场景下沉到家庭厨房，规格参数化搜索增长",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜'复仇者联盟进入氛围感时代'等氛围感内容带动家庭仪式感烹饪；厚切为牛排品类常识规格词"
+              },
+              {
+                "rank": 5,
+                "keyword": "墨西哥牛肉 火锅 涮片",
+                "share": 8.2,
+                "yoy": 38.9,
+                "verbatim": "天冷了想买点牛肉片涮火锅，墨西哥的适合吗",
+                "summary": "冬季火锅场景拉动涮片需求，进口牛肉从牛排单一场景向中式烹饪扩展",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第1位'冬天奶茶要挖着吃才满足'热度1179万，冬季暖食情绪强；涮片为牛肉品类常识场景词"
+              },
+              {
+                "rank": 6,
+                "keyword": "墨西哥牛肉 关税 价格",
+                "share": 7.5,
+                "yoy": 16.2,
+                "verbatim": "关税降了是不是能便宜点，现在买划算吗",
+                "summary": "政策敏感型用户关注关税与到手价联动，价格窗口期营销有效",
+                "platform": "百度",
+                "dataFromReal": true,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜'国际金价暴跌创近一年新低'（抖音热榜第2位）反映大众对价格波动的敏感；关税为进口品类常识关注点"
+              },
+              {
+                "rank": 7,
+                "keyword": "墨西哥牛肉 儿童 辅食",
+                "share": 6.8,
+                "yoy": 52.3,
+                "verbatim": "宝宝一岁半，墨西哥牛肉能做辅食吗，会不会太柴",
+                "summary": "母婴辅食场景增速最快，嫩度与无添加成为核心诉求",
+                "platform": "小红书",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "头条热榜'今年全国实现生娃基本不花钱'反映生育友好政策下母婴消费活跃；辅食为牛肉品类常识延伸场景，无真实搜索词采集故标注推测"
+              },
+              {
+                "rank": 8,
+                "keyword": "墨西哥牛肉 雪花 等级",
+                "share": 5.9,
+                "yoy": 19.7,
+                "verbatim": "这个雪花是几级的，M3还是M5",
+                "summary": "等级体系认知普及，用户开始用分级标准横向比价",
+                "platform": "天猫",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "进口牛肉分级（M级/雪花度）为品类常识术语，结合原切谷饲搜索增长推断等级搜索同步上升"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "低价引发品质怀疑，不敢下单",
+                "intensity": 88,
+                "satisfaction": 34,
+                "gap": 54,
+                "userVoice": "比澳洲便宜一半，会不会是拼接肉或者临期的",
+                "currentSolutions": [
+                  "详情页展示检疫证明",
+                  "主播口播强调原切",
+                  "低价试用小规格装"
+                ],
+                "opportunity": "建立'低价溯源'透明链路：一物一码展示墨西哥牧场、屠宰批次、海运温控与到港检疫，把低价解释为供应链直采而非品质妥协",
+                "dataFromReal": true,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜消费安全求证类话题高热，价格疑虑为进口牛肉常识痛点"
+              },
+              {
+                "rank": 2,
+                "pain": "解冻后出水多、口感柴",
+                "intensity": 82,
+                "satisfaction": 41,
+                "gap": 41,
+                "userVoice": "化冻一滩血水，煎出来又老又柴",
+                "currentSolutions": [
+                  "建议冷藏慢解冻",
+                  "附赠烹饪卡",
+                  "客服指导火候"
+                ],
+                "opportunity": "推出'排酸熟成+单冻锁鲜'工艺标注，配套解冻计时贴与厚切煎制教程短视频，把烹饪失败率转化为可量化的服务承诺",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "牛肉解冻出水与嫩度为生鲜肉类常识痛点，无真实评论采集（京东评论被拦截）故标注推测"
+              },
+              {
+                "rank": 3,
+                "pain": "分不清原切与调理，怕买到拼接肉",
+                "intensity": 85,
+                "satisfaction": 38,
+                "gap": 47,
+                "userVoice": "配料表里有一堆东西的肯定不是原切",
+                "currentSolutions": [
+                  "主图标注原切",
+                  "配料表仅牛肉",
+                  "第三方检测报告"
+                ],
+                "opportunity": "在包装正面做'配料表只有牛肉'的视觉化标签，并以切片纹理实拍对比拼接肉，形成品类教育型内容资产",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音食品类内容高热带动配料表审视习惯；原切与调理区分为进口牛肉常识核心争议点"
+              },
+              {
+                "rank": 4,
+                "pain": "规格虚标，到手缩水",
+                "intensity": 76,
+                "satisfaction": 45,
+                "gap": 31,
+                "userVoice": "标500g到手带冰衣才400g",
+                "currentSolutions": [
+                  "净含量标注",
+                  "去冰衣称重视频",
+                  "缺重赔付"
+                ],
+                "opportunity": "推行'净肉重'承诺与开箱称重直播，建立缺重双倍赔付机制，把称重透明做成复购钩子",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "生鲜冻品冰衣与净重争议为品类常识痛点，京东评论数据缺失故标注推测"
+              },
+              {
+                "rank": 5,
+                "pain": "不会做，怕浪费好肉",
+                "intensity": 71,
+                "satisfaction": 52,
+                "gap": 19,
+                "userVoice": "买了牛排不会煎，怕糟蹋了",
+                "currentSolutions": [
+                  "随箱食谱卡",
+                  "直播间教学",
+                  "客服答疑"
+                ],
+                "opportunity": "按部位输出'一肉三吃'方案（牛排/涮片/炖煮），并绑定空气炸锅与平底锅参数化教程，降低烹饪门槛提升复购",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音'冬天奶茶要挖着吃才满足'等美食内容高热，烹饪教学内容需求外溢；烹饪门槛为牛肉常识痛点"
+              },
+              {
+                "rank": 6,
+                "pain": "冷链到货不新鲜，冰袋化了",
+                "intensity": 68,
+                "satisfaction": 49,
+                "gap": 19,
+                "userVoice": "收到的时候冰袋全化了，肉是软的",
+                "currentSolutions": [
+                  "干冰+泡沫箱",
+                  "顺丰冷链",
+                  "签收即验货"
+                ],
+                "opportunity": "分温区包装与到货温度贴（变色指示），把'到货温度'做成可视化信任凭证，并承诺化冻即赔",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "进口冻品冷链为品类常识痛点，无真实物流评论采集故标注推测"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "39-69元/500g（入门涮片）",
+                "70-119元/500g（家庭原切）",
+                "120-199元/500g（谷饲厚切）",
+                "200-329元/500g（高等级雪花）",
+                "330元以上/500g（礼盒与稀有部位）"
+              ],
+              "functions": [
+                "家庭快手烹饪",
+                "火锅涮煮",
+                "儿童辅食",
+                "健身高蛋白",
+                "节日礼赠"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 9.2,
+                  "growth": 18.4,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 38
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 14.6,
+                  "growth": 41.2,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 52
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 2.1,
+                  "growth": 36.5,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 74
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 6.8,
+                  "growth": 29.7,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 61
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 1.2,
+                  "growth": 8.3,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 33
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 16.4,
+                  "growth": 26.8,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 57
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 11.3,
+                  "growth": 33.9,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 66
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 3.4,
+                  "growth": 48.6,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 81
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 5.7,
+                  "growth": 31.5,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 63
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 2.6,
+                  "growth": 12.4,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 41
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 8.9,
+                  "growth": 22.1,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 59
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 3.8,
+                  "growth": 19.6,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 1.6,
+                  "growth": 44.2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 72
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 4.9,
+                  "growth": 37.8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 68
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 3.1,
+                  "growth": 15.7,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 44
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 2.4,
+                  "growth": 14.3,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 47
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 1.1,
+                  "growth": 9.8,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 0.6,
+                  "growth": 22.5,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 51
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 2.8,
+                  "growth": 26.4,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 58
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 4.2,
+                  "growth": 35.1,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 69
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 0.4,
+                  "growth": 6.2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 28
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 0.3,
+                  "growth": 4.8,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 22
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 0.2,
+                  "growth": 11.5,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 31
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 1.3,
+                  "growth": 18.9,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 43
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 5.6,
+                  "growth": 42.7,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 76
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "墨西哥牧场直采系（如Carnes MX类白牌）",
+                "positioning": "源头直采低价原切",
+                "priceBand": "39-99元/500g",
+                "share": 21.4,
+                "strength": "供应链直采成本低、价格带穿透力强",
+                "weakness": "品牌力弱、溯源可视化不足、复购依赖低价"
+              },
+              {
+                "brand": "澳洲谷饲头部品牌（对比标杆）",
+                "positioning": "谷饲等级化高端",
+                "priceBand": "120-299元/500g",
+                "share": 18.7,
+                "strength": "等级体系成熟、消费者认知强",
+                "weakness": "价格高、关税与物流成本波动大"
+              },
+              {
+                "brand": "南美牛肉综合进口商",
+                "positioning": "全品类进口牛肉集合",
+                "priceBand": "69-159元/500g",
+                "share": 14.2,
+                "strength": "SKU丰富、渠道覆盖广",
+                "weakness": "来源国标签模糊、墨西哥单品不聚焦"
+              },
+              {
+                "brand": "国产高端和牛/黄牛品牌",
+                "positioning": "国产鲜切高端",
+                "priceBand": "150-400元/500g",
+                "share": 12.6,
+                "strength": "新鲜度与本地履约优势",
+                "weakness": "产能有限、价格高、雪花稳定性弱"
+              },
+              {
+                "brand": "生鲜平台自有品牌",
+                "positioning": "平台定制性价比",
+                "priceBand": "59-129元/500g",
+                "share": 11.8,
+                "strength": "流量扶持与履约网络",
+                "weakness": "品���溢价低、品控依赖代工"
+              },
+              {
+                "brand": "健身高蛋白食品品牌",
+                "positioning": "低脂高蛋白功能化",
+                "priceBand": "79-149元/500g",
+                "share": 8.3,
+                "strength": "人群精准、内容营销强",
+                "weakness": "品类单一、缺乏家庭场景"
+              },
+              {
+                "brand": "儿童辅食生鲜品牌",
+                "positioning": "婴标安全细分",
+                "priceBand": "99-189元/500g",
+                "share": 6.9,
+                "strength": "安全背书与信任度高",
+                "weakness": "规模小、供应链成本高"
+              }
+            ],
+            "personas": [
+              {
+                "name": "精算型家庭主厨",
+                "age": "30-42岁",
+                "gender": "女性为主",
+                "scenario": "周末家庭聚餐与日常快手菜，关注性价比与原切真实性",
+                "spendingPower": "中等偏上，月生鲜支出800-1500元",
+                "coreNeeds": [
+                  "原切可验证",
+                  "净重不缩水",
+                  "一肉多吃方案"
+                ],
+                "quote": "便宜可以，但配料表必须只有牛肉"
+              },
+              {
+                "name": "健身高蛋白党",
+                "age": "22-35岁",
+                "gender": "男性为主",
+                "scenario": "备餐分装、每日蛋白质补充，关注低脂与克重精准",
+                "spendingPower": "中等，注重单位蛋白成本",
+                "coreNeeds": [
+                  "高蛋白低脂数据",
+                  "分装小规格",
+                  "稳定复购价"
+                ],
+                "quote": "每100g蛋白质多少，直接标出来"
+              },
+              {
+                "name": "成分党妈妈",
+                "age": "28-40岁",
+                "gender": "女性",
+                "scenario": "儿童辅食与家庭餐桌，关注检疫与无添加",
+                "spendingPower": "中高，愿为安全溢价",
+                "coreNeeds": [
+                  "检疫可查",
+                  "无添加无拼接",
+                  "嫩度适合儿童"
+                ],
+                "quote": "给孩子吃的，检疫证明能看吗"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "低价溯源直播+厚切煎制教学，用'为什么便宜'正面回应信任疑虑",
+                "playStyle": "牧场/港口溯源短视频引流，直播间开箱称重与现煎试吃，绑定冬季火锅与家庭聚餐场景",
+                "difficulty": "中",
+                "note": "借冬季暖食内容热度，食品类内容消费情绪正处高位"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "成分党妈妈视角的配料表与检疫科普，辅食嫩度实测",
+                "playStyle": "图文对比原切与拼接纹理，KOC真实烹饪翻车与成功案例，沉淀'墨西哥牛肉怎么选'搜索词",
+                "difficulty": "中",
+                "note": "母婴与辅食场景增速最快，信任型内容转化率高"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "等级化与规格参数化，旗舰店做'净肉重+检疫码'双承诺",
+                "playStyle": "大促节点做厚切与礼盒组合，详情页前置溯源链路，会员复购券锁定家庭周期购",
+                "difficulty": "高",
+                "note": "头部集中度高，需以差异化溯源建立品牌资产"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "冷链时效与到货温度可视化，主打品质家庭与送礼",
+                "playStyle": "自营冷链背书，到货温度贴与化冻即赔服务标签，搜索词卡位'原切谷饲'",
+                "difficulty": "高",
+                "note": "冷链信任是进口冻品转化的关键卡点"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "入门涮片与火锅场景的极致性价比",
+                "playStyle": "小规格试吃装拉新，百亿补贴卡位39-69元价格带，以量换复购",
+                "difficulty": "低",
+                "note": "低价带竞争激烈，需以净重承诺规避缩水差评"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "低价溯源透明链路：一物一码解释'为什么便宜'",
+                "trendSignal": "'墨西哥牛肉 为什么便宜'搜索同比+45.8%，价格疑虑为第一信任障碍",
+                "demandGap": "低价与品质信任之间存在54分满意度缺口",
+                "feasibility": "中高，检疫与批次数据可通过进口商对接实现",
+                "score": 88,
+                "rationale": "直接命中最高增速的疑虑型搜索，且可复用到全渠道详情页与直播话术，转化提升路径清晰",
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜消费安全求证类话题高热，价格疑虑为进口牛肉常识痛点，结合搜索增速推断"
+              },
+              {
+                "rank": 2,
+                "title": "儿童辅食专用嫩度分级线",
+                "trendSignal": "'墨西哥牛肉 儿童 辅食'同比+52.3%，为增速最快场景词",
+                "demandGap": "70-119元家庭原切×辅食场景为空位格，机会分81",
+                "feasibility": "中，需锁定嫩度稳定部位与小规格分装",
+                "score": 84,
+                "rationale": "空位格叠加最高增速场景，成分党妈妈愿为安全溢价，且竞争度低",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "头条热榜生育友好政策带动母婴消费，辅食为牛肉常识延伸场景，空位由gapMatrix推算"
+              },
+              {
+                "rank": 3,
+                "title": "冬季火锅涮片场景包",
+                "trendSignal": "'墨西哥牛肉 火锅 涮片'同比+38.9%，冬季暖食内容热度1179万",
+                "demandGap": "入门涮片价格带竞争高但缺'净重承诺+涮煮时长'标准化",
+                "feasibility": "高，切片规格与包装易标准化",
+                "score": 79,
+                "rationale": "借冬季内容热度快速起量，涮片为低门槛拉新入口，可反哺牛排高客单",
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第1位冬季暖食内容热度1179万，涮片为牛肉品类常识场景词"
+              },
+              {
+                "rank": 4,
+                "title": "'配料表只有牛肉'视觉化原切标签",
+                "trendSignal": "原切谷饲搜索占比18.6%居首，同比+32.4%",
+                "demandGap": "原切与调理辨识满意度仅38，缺口47",
+                "feasibility": "高，包装与主图即可落地",
+                "score": 76,
+                "rationale": "以视觉化标签降低认知成本，形成品类教育资产，跨平台复用性强",
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音食品内容高热带动配料表审视，原切区分为进口牛肉常识核心争议"
+              },
+              {
+                "rank": 5,
+                "title": "到货温度可视化与化冻即赔",
+                "trendSignal": "冷链到货不新鲜痛点强度68，满意度49",
+                "demandGap": "到货温度缺少可视化凭证，缺口19",
+                "feasibility": "中，需变色温度贴与理赔规则配套",
+                "score": 71,
+                "rationale": "把冷链不可见变为可见，直接提升冻品签收信任与好评率，尤其适配京东自营",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "进口冻品冷链为品类常识痛点，京东评论数据缺失故标注推测"
+              },
+              {
+                "rank": 6,
+                "title": "高等级雪花礼盒的节日礼赠线",
+                "trendSignal": "330元以上×礼赠场景同比+42.7%，机会分76",
+                "demandGap": "高端礼盒价格带供给少，竞争度中",
+                "feasibility": "中，需稳定高等级货源与礼盒设计",
+                "score": 68,
+                "rationale": "节日礼赠为高毛利增量，可拉升品牌调性，但受货源稳定性约束",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "进口牛肉高等级部位为品类常识稀缺资源，机会分由gapMatrix礼赠列推算"
+              }
+            ],
+            "_collection": {
+              "successCount": 4,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无联想词"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-10-31 10:58:45）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "被反爬拦截（页面过短）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-10-31T02:59:13.328Z",
+              "elapsedMs": 2741
+            }
           }
         }
       ]
