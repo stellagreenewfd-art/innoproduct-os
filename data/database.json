@@ -6,7 +6,7 @@
       "username": "qaq",
       "company": "创品智造",
       "industry": "电商",
-      "password": "scrypt$16384$8$1$gNnEfeUXggzUTrdd1LZwsA==$dPbNS8BCVJ81oL/GEuEZmqoUxiHP9/nuAJwDfOd3HfpK5rMgQCbp7hRDwPLHrNvkl4hJeudQut5B3JHyk86zcQ==",
+      "password": "scrypt$16384$8$1$NVpBSOB4JM8vbe4wv9G1RQ==$D03q2Gua+JuJkJiYFVaAbid00IMisRbEMEZX/0sbSW8LgnCAfosOKK6RhyVjy+Byhx8MM5XDFJa6mquM91rdCg==",
       "createdAt": "2026-07-24T02:21:52.652Z",
       "lastLogin": "2026-08-23T14:16:49.465Z",
       "recordCount": 4,
@@ -594,6 +594,23 @@
         {
           "token": "2b5b101bee0a79111875e37d48a42ead15b3a3ec7effd083049a8ce0c2cd1907",
           "createdAt": "2026-09-18T07:21:01.110Z"
+        }
+      ]
+    },
+    {
+      "id": "9e7d3050-a33f-445d-99b2-f673bbe29f83",
+      "phone": "13770700032",
+      "username": "andyyzw",
+      "company": "南京辰佳",
+      "industry": "牛肉",
+      "password": "scrypt$16384$8$1$Q61liQMUfsIHi8+arS8BHQ==$jKJkqT6T3YdaoplctGMIBEwQ/7odMD40RQbDXUzoxABlT9eSt4VkFP+d2PN5weQWs7Mb/VgtTvVH6wyfzsnKgQ==",
+      "createdAt": "2026-10-31T02:58:56.218Z",
+      "lastLogin": "2026-10-31T02:58:56.218Z",
+      "recordCount": 0,
+      "_tokens": [
+        {
+          "token": "5bc981f3a2866affb749476393a5595c9321ddbdb04362676420486045cbe01e",
+          "createdAt": "2026-10-31T02:58:56.219Z"
         }
       ]
     }
