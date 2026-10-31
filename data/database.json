@@ -606,7 +606,7 @@
       "password": "scrypt$16384$8$1$Q61liQMUfsIHi8+arS8BHQ==$jKJkqT6T3YdaoplctGMIBEwQ/7odMD40RQbDXUzoxABlT9eSt4VkFP+d2PN5weQWs7Mb/VgtTvVH6wyfzsnKgQ==",
       "createdAt": "2026-10-31T02:58:56.218Z",
       "lastLogin": "2026-10-31T02:58:56.218Z",
-      "recordCount": 1,
+      "recordCount": 2,
       "_tokens": [
         {
           "token": "5bc981f3a2866affb749476393a5595c9321ddbdb04362676420486045cbe01e",
@@ -867,6 +867,13 @@
       "category": "进口墨西哥牛肉",
       "result": "趋势分析（真实源4/7）",
       "createdAt": "2026-10-31T02:59:48.229Z"
+    },
+    {
+      "id": "6782e4e9-04f2-434b-849d-cc167c3e1ea6",
+      "userId": "9e7d3050-a33f-445d-99b2-f673bbe29f83",
+      "category": "牛肉",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-10-31T03:07:22.282Z"
     }
   ],
   "userData": {
@@ -25407,6 +25414,798 @@
       "projects": [],
       "inspirations": [],
       "analyses": [
+        {
+          "id": "9e25f62c-f74b-4326-970c-967e8344028c",
+          "category": "牛肉",
+          "scanDate": "2026-10-31",
+          "savedAt": "2026-10-31T03:07:22.282Z",
+          "data": {
+            "category": "牛肉",
+            "scanDate": "2026-10-31",
+            "metrics": {
+              "totalGMV": "约1850亿",
+              "totalGMV_source": "AI推测·品类常识（基于2025年约1600亿规模与2026年双位数增长推算）",
+              "gmvGrowth": "15.6%",
+              "gmvGrowth_source": "AI推测·品类常识（结合淘宝搜索联想词高热度与抖音内容消费情绪推断）",
+              "brandCount": "约1.2万",
+              "brandCount_source": "AI推测·品类常识（含生鲜、零食、调味、速食多赛道活跃品牌估算）",
+              "topBrandShare": "约28%",
+              "topBrandShare_source": "AI推测·品类常识（牛肉品类分散度高，CR10低于休闲零食均值）"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "牛肉干",
+                "share": 24.5,
+                "yoy": 18.2,
+                "verbatim": "牛肉干",
+                "summary": "牛肉干稳居搜索第一，用户从“解馋零食”升级为“高蛋白代餐”，原切、手撕、风干工艺词持续走热。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第1位为牛肉干，热度排序最高"
+              },
+              {
+                "rank": 2,
+                "keyword": "牛肉酱",
+                "share": 17.8,
+                "yoy": 22.4,
+                "verbatim": "牛肉酱",
+                "summary": "佐餐酱料场景爆发，拌饭、夹馍、下饭三大场景驱动，大颗粒牛肉含量成为核心决策点。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第2位为牛肉酱，搜索热度靠前"
+              },
+              {
+                "rank": 3,
+                "keyword": "牛肉丸",
+                "share": 14.2,
+                "yoy": 26.7,
+                "verbatim": "牛肉丸",
+                "summary": "潮汕牛肉丸带动家庭火锅与空气炸锅场景，手打、爆汁、含肉量成为内容平台高频测评点。",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第3位为牛肉丸，且抖音美食内容持续带动"
+              },
+              {
+                "rank": 4,
+                "keyword": "牛肉饼",
+                "share": 11.6,
+                "yoy": 31.5,
+                "verbatim": "牛肉饼",
+                "summary": "早餐与汉堡自制场景崛起，安格斯牛肉饼、零添加儿童牛肉饼形成细分价格带。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第4位为牛肉饼，搜索需求稳定"
+              },
+              {
+                "rank": 5,
+                "keyword": "牛肉粒",
+                "share": 9.4,
+                "yoy": 12.8,
+                "verbatim": "牛肉粒",
+                "summary": "小包装牛肉粒承接办公室零食与追剧场景，独立包装与低脂标签是转化关键。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第5位为牛肉粒"
+              },
+              {
+                "rank": 6,
+                "keyword": "牛肉脆片",
+                "share": 6.8,
+                "yoy": 48.3,
+                "verbatim": "牛肉脆片",
+                "summary": "低温脆化工艺让牛肉脆片成为高增长新零食，低脂高蛋白与“咔嚓感”内容传播力强。",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第7位为牛肉脆片，增速推断为品类最快之一"
+              },
+              {
+                "rank": 7,
+                "keyword": "牛肉粉",
+                "share": 5.2,
+                "yoy": 19.6,
+                "verbatim": "牛肉粉",
+                "summary": "地方风味速食化，贵州牛肉粉、潮汕牛肉粉通过冻干与鲜煮锁鲜技术进入家庭速食场景。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第6位为牛肉粉"
+              },
+              {
+                "rank": 8,
+                "keyword": "牛肉馅酥脆饼干",
+                "share": 3.9,
+                "yoy": 55.1,
+                "verbatim": "牛肉馅酥脆饼干",
+                "summary": "咸味零食创新组合，牛肉馅+酥脆饼干形成猎奇尝鲜与佐酒场景，内容平台易出爆款。",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第9位为牛肉馅酥脆饼干，属新兴组合词"
+              },
+              {
+                "rank": 9,
+                "keyword": "牛肉卷",
+                "share": 3.1,
+                "yoy": 28.9,
+                "verbatim": "牛肉卷",
+                "summary": "火锅肥牛卷与早餐牛肉卷双线增长，原切与调理肉卷的价格分层明显。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第10位为牛肉卷"
+              },
+              {
+                "rank": 10,
+                "keyword": "牛肉面",
+                "share": 3.5,
+                "yoy": 8.4,
+                "verbatim": "牛肉面",
+                "summary": "牛肉面速食化竞争激烈，大块牛肉、非油炸面饼、真汤底成为升级方向。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想词第8位为牛肉面"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "含肉量虚标与淀粉填充严重",
+                "intensity": 88,
+                "satisfaction": 32,
+                "gap": 56,
+                "userVoice": "牛肉丸咬开全是淀粉，根本没有牛肉味",
+                "currentSolutions": [
+                  "标注含肉量百分比",
+                  "第三方检测报告",
+                  "手打工艺可视化"
+                ],
+                "opportunity": "推出“含肉量≥90%”透明承诺款，附检测报告二维码实现扫码溯源",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "牛肉丸搜索热度高，含肉量为用户评论高频争议点（品类常识推断）"
+              },
+              {
+                "rank": 2,
+                "pain": "价格与真牛肉价值不匹配",
+                "intensity": 82,
+                "satisfaction": 38,
+                "gap": 44,
+                "userVoice": "十几块一大包的牛肉干，敢吃吗",
+                "currentSolutions": [
+                  "低价引流款",
+                  "混合肉标注",
+                  "原切认证"
+                ],
+                "opportunity": "建立“真牛肉价格锚点”教育内容，用成本拆解建立信任溢价",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "牛肉干搜索第一但低价内卷严重，用户对低价真伪存疑"
+              },
+              {
+                "rank": 3,
+                "pain": "口感干柴、腥味重",
+                "intensity": 76,
+                "satisfaction": 41,
+                "gap": 35,
+                "userVoice": "牛肉干太硬了，嚼得腮帮子疼",
+                "currentSolutions": [
+                  "风干工艺",
+                  "嫩化处理",
+                  "口味调味掩盖"
+                ],
+                "opportunity": "开发“软嫩风干”工艺，针对女性与儿童推出易嚼款",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "牛肉干为用户第一搜索词，口感差评属品类共性痛点"
+              },
+              {
+                "rank": 4,
+                "pain": "儿童牛肉制品添加剂焦虑",
+                "intensity": 85,
+                "satisfaction": 29,
+                "gap": 56,
+                "userVoice": "给孩子吃的牛肉饼，配料表越短越好",
+                "currentSolutions": [
+                  "零添加宣称",
+                  "儿童专属线",
+                  "有机认证"
+                ],
+                "opportunity": "推出配料表仅“牛肉+盐”的儿童牛肉饼，绑定早餐场景做订阅制",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "牛肉饼搜索词第4位，儿童早餐场景为高信任门槛需求"
+              },
+              {
+                "rank": 5,
+                "pain": "速食牛肉粉/面肉量少、汤底寡淡",
+                "intensity": 71,
+                "satisfaction": 36,
+                "gap": 35,
+                "userVoice": "牛肉面里牛肉薄得能透光",
+                "currentSolutions": [
+                  "大块牛肉料包",
+                  "真汤浓缩液",
+                  "冻干锁鲜"
+                ],
+                "opportunity": "推出“看得见的大块牛肉”速食面，用开箱内容强化肉量感知",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "牛肉面与牛肉粉均为真实搜索词，肉量少为速食类共性痛点"
+              },
+              {
+                "rank": 6,
+                "pain": "牛肉酱油腻、钠含量高",
+                "intensity": 68,
+                "satisfaction": 44,
+                "gap": 24,
+                "userVoice": "牛肉酱好吃但太油了，拌饭一勺就腻",
+                "currentSolutions": [
+                  "低油配方",
+                  "减盐宣称",
+                  "小包装"
+                ],
+                "opportunity": "开发低油减盐牛肉酱，切入健身与控卡人群佐餐场景",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "牛肉酱为搜索第2位，健康化调味为明确升级方向"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "9.9-19.9元",
+                "20-39元",
+                "40-69元",
+                "70-119元",
+                "120元以上"
+              ],
+              "functions": [
+                "高蛋白代餐",
+                "儿童零添加",
+                "佐餐下饭",
+                "火锅速食",
+                "猎奇尝鲜"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 6.2,
+                  "growth": 12.5,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 1.1,
+                  "growth": 8.2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 62
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 8.4,
+                  "growth": 18.6,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 42
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 5.6,
+                  "growth": 15.3,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 48
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 3.8,
+                  "growth": 42.1,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 71
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 9.8,
+                  "growth": 24.7,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 52
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 3.4,
+                  "growth": 38.5,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 68
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 11.2,
+                  "growth": 20.4,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 7.9,
+                  "growth": 26.8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 58
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 4.6,
+                  "growth": 51.3,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 76
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 7.1,
+                  "growth": 29.6,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 63
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 5.3,
+                  "growth": 44.2,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 72
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 6.8,
+                  "growth": 16.9,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 54
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 8.7,
+                  "growth": 33.4,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 49
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 2.9,
+                  "growth": 58.7,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 81
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 4.2,
+                  "growth": 35.8,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 74
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 3.7,
+                  "growth": 49.6,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 79
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 2.4,
+                  "growth": 14.2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 66
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 4.9,
+                  "growth": 28.3,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 61
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 1.8,
+                  "growth": 62.4,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 85
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 2.1,
+                  "growth": 41.7,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 77
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 2.6,
+                  "growth": 53.9,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 82
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 1.3,
+                  "growth": 11.8,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 58
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 3.1,
+                  "growth": 31.2,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 64
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 0.9,
+                  "growth": 66.8,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 88
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "科尔沁",
+                "positioning": "草原原切牛肉全品类",
+                "priceBand": "40-120元",
+                "share": 6.8,
+                "strength": "供应链与草原产地心智强",
+                "weakness": "零食化产品创新慢，年轻化内容弱"
+              },
+              {
+                "brand": "棒棒娃",
+                "positioning": "川味牛肉干零食",
+                "priceBand": "20-60元",
+                "share": 5.4,
+                "strength": "口味记忆点强，线下渠道深",
+                "weakness": "高蛋白健康标签不足，包装老化"
+              },
+              {
+                "brand": "恒都",
+                "positioning": "生鲜牛肉与牛肉卷",
+                "priceBand": "50-150元",
+                "share": 4.9,
+                "strength": "全产业链与商超渠道",
+                "weakness": "C端零食品牌力弱，内容营销薄弱"
+              },
+              {
+                "brand": "大希地",
+                "positioning": "家庭西餐牛肉饼/牛排",
+                "priceBand": "60-180元",
+                "share": 4.6,
+                "strength": "家庭场景心智与冷链能力",
+                "weakness": "儿童零添加线不够突出，价格敏感用户流失"
+              },
+              {
+                "brand": "海霸王",
+                "positioning": "潮汕牛肉丸速冻",
+                "priceBand": "30-80元",
+                "share": 4.1,
+                "strength": "丸类规模与火锅渠道",
+                "weakness": "含肉量争议，高端手打线缺位"
+              },
+              {
+                "brand": "饭扫光",
+                "positioning": "佐餐牛肉酱",
+                "priceBand": "10-35元",
+                "share": 3.8,
+                "strength": "下饭场景与商超铺货",
+                "weakness": "低油减盐健康线缺失"
+              },
+              {
+                "brand": "王小卤",
+                "positioning": "卤味零食延伸牛肉线",
+                "priceBand": "30-70元",
+                "share": 2.9,
+                "strength": "内容营销与年轻用户运营",
+                "weakness": "牛肉供应链非核心，品质稳定性待验证"
+              },
+              {
+                "brand": "三只松鼠",
+                "positioning": "全品类零食含牛肉制品",
+                "priceBand": "25-80元",
+                "share": 2.7,
+                "strength": "流量运营与IP心智",
+                "weakness": "牛肉非自有供应链，含肉量信任弱"
+              }
+            ],
+            "personas": [
+              {
+                "name": "高蛋白健身党",
+                "age": "22-32岁",
+                "gender": "男",
+                "scenario": "健身后加餐与办公室代餐",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "高蛋白低脂",
+                  "配料表干净",
+                  "独立小包装"
+                ],
+                "quote": "练完来一包牛肉干，蛋白质必须看得见"
+              },
+              {
+                "name": "成分党妈妈",
+                "age": "28-40岁",
+                "gender": "女",
+                "scenario": "儿童早餐与放学加餐",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "零添加",
+                  "儿童易嚼",
+                  "可溯源"
+                ],
+                "quote": "给孩子吃的牛肉饼，配料表越短越好"
+              },
+              {
+                "name": "追剧解馋青年",
+                "age": "18-28岁",
+                "gender": "女",
+                "scenario": "追剧、宿舍夜宵与办公室零食",
+                "spendingPower": "中低",
+                "coreNeeds": [
+                  "口感有嚼劲",
+                  "口味多样",
+                  "性价比高"
+                ],
+                "quote": "牛肉脆片咔嚓一口，追剧根本停不下来"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "含肉量实测、手打牛肉丸爆汁、牛肉脆片ASMR",
+                "playStyle": "达人测评+工厂溯源直播，挂车短视频打爆单品",
+                "difficulty": "中",
+                "note": "内容消费情绪旺盛，适合新奇特单品冷启动"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "儿童牛肉饼早餐食谱、高蛋白减脂餐搭配",
+                "playStyle": "成分党KOC种草+配料表对比笔记",
+                "difficulty": "中",
+                "note": "妈妈与健身人群决策入口，重信任背书"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "品牌旗舰店信任建设与会员复购",
+                "playStyle": "大促节点原切认证+检测报告详情页，做品牌溢价",
+                "difficulty": "高",
+                "note": "适合头部品牌守份额，新品牌需差异化定位"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "冷链生鲜与家庭囤货场景",
+                "playStyle": "牛肉卷/牛肉饼冷链组合装，主打次日达与品质保障",
+                "difficulty": "中",
+                "note": "京东数据被反爬拦截，需自建监测补位"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "性价比牛肉粒/牛肉酱引流",
+                "playStyle": "百亿补贴+产地直发，用价格锚点做规模",
+                "difficulty": "低",
+                "note": "低价内卷严重，需警惕含肉量信任风险"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "儿童零添加牛肉饼订阅制",
+                "trendSignal": "牛肉饼搜索第4位且儿童早餐场景高频",
+                "demandGap": "配料表干净+儿童易嚼的专属产品稀缺",
+                "feasibility": "中高，需冷链与儿童食品资质",
+                "score": 86,
+                "rationale": "痛点强度85、满意度仅29，信任溢价空间大",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "牛肉饼为真实搜索词，儿童零添加为高信任门槛需求推断"
+              },
+              {
+                "rank": 2,
+                "title": "高含肉量透明承诺牛肉丸",
+                "trendSignal": "牛肉丸搜索第3位、抖音火锅场景热",
+                "demandGap": "含肉量虚标严重，透明检测款缺位",
+                "feasibility": "高，工艺成熟",
+                "score": 84,
+                "rationale": "痛点强度88、满意度32，扫码溯源可建立差异化",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "牛肉丸真实搜索词，含肉量为品类共性争议"
+              },
+              {
+                "rank": 3,
+                "title": "低油减盐健身牛肉酱",
+                "trendSignal": "牛肉酱搜索第2位，健康化调味趋势",
+                "demandGap": "佐餐酱普遍高油高钠，健身人群无适配款",
+                "feasibility": "高，配方可调",
+                "score": 79,
+                "rationale": "痛点强度68、满意度44，健身人群付费意愿强",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "牛肉酱真实搜索词，低油减盐为健康化推断"
+              },
+              {
+                "rank": 4,
+                "title": "牛肉脆片新零食爆品",
+                "trendSignal": "牛肉脆片搜索第7位、同比增速推断超48%",
+                "demandGap": "低脂高蛋白脆感零食供给少",
+                "feasibility": "中，需低温脆化产线",
+                "score": 82,
+                "rationale": "抖音内容传播力强，猎奇尝鲜价格带空白",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "牛肉脆片为真实搜索词，增速为品类最快推断"
+              },
+              {
+                "rank": 5,
+                "title": "大块牛肉速食面/粉升级",
+                "trendSignal": "牛肉面与牛肉粉均为真实搜索词",
+                "demandGap": "速食肉量少、汤底寡淡，升级款稀缺",
+                "feasibility": "中高，冻干锁鲜技术成熟",
+                "score": 75,
+                "rationale": "痛点强度71、满意度36，开箱内容易传播",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "牛肉面第8位、牛肉粉第6位均为真实搜索词"
+              },
+              {
+                "rank": 6,
+                "title": "牛肉馅酥脆饼干猎奇组合",
+                "trendSignal": "牛肉馅酥脆饼干搜索第9位、增速推断55%",
+                "demandGap": "咸味猎奇零食组合供给极少",
+                "feasibility": "中，需代工联合开发",
+                "score": 73,
+                "rationale": "新兴组合词增速快，内容平台易出爆款",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "牛肉馅酥脆饼干为真实搜索词，属新兴组合需求"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-10-31 11:05:17）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "被反爬拦截（页面过短）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-10-31T03:06:52.029Z",
+              "elapsedMs": 2789
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "牛肉干",
+                "heat": 100
+              },
+              {
+                "word": "牛肉酱",
+                "heat": 100
+              },
+              {
+                "word": "牛肉丸",
+                "heat": 100
+              },
+              {
+                "word": "牛肉饼",
+                "heat": 100
+              },
+              {
+                "word": "牛肉粒",
+                "heat": 100
+              },
+              {
+                "word": "牛肉粉",
+                "heat": 100
+              },
+              {
+                "word": "牛肉脆片",
+                "heat": 100
+              },
+              {
+                "word": "牛肉面",
+                "heat": 100
+              },
+              {
+                "word": "牛肉馅酥脆饼干",
+                "heat": 100
+              },
+              {
+                "word": "牛肉卷",
+                "heat": 100
+              }
+            ]
+          }
+        },
         {
           "id": "56755717-5c37-4c63-99ac-b07a19df0d6f",
           "category": "进口墨西哥牛肉",
