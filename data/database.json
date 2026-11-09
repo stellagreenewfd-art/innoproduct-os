@@ -302,11 +302,11 @@
               "tasks": [
                 {
                   "name": "成分配方设计",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "功效验证方案",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "供应商对接",
@@ -314,10 +314,10 @@
                 },
                 {
                   "name": "初版样品",
-                  "done": false
+                  "done": true
                 }
               ],
-              "status": "not_started",
+              "status": "in_progress",
               "assignee": "",
               "startDate": "2026-11-16",
               "endDate": "2026-12-16",
