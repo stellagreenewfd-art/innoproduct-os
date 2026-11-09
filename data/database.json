@@ -281,11 +281,11 @@
                 },
                 {
                   "name": "定价区间",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "立项审批",
-                  "done": false
+                  "done": true
                 }
               ],
               "status": "in_progress",
