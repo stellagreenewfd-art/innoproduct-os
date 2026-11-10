@@ -470,22 +470,22 @@
               "tasks": [
                 {
                   "name": "目标人群锁定",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "USP定稿",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "定价区间",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "立项审批",
-                  "done": false
+                  "done": true
                 }
               ],
-              "status": "in_progress",
+              "status": "completed",
               "assignee": "",
               "startDate": "2026-11-10",
               "endDate": "2026-11-17",
@@ -514,7 +514,7 @@
                   "done": false
                 }
               ],
-              "status": "not_started",
+              "status": "in_progress",
               "assignee": "",
               "startDate": "2026-11-17",
               "endDate": "2026-12-17",
