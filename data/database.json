@@ -6,7 +6,7 @@
       "username": "qaq",
       "company": "创品智造",
       "industry": "电商",
-      "password": "scrypt$16384$8$1$sqDkcYcU1sOwc99wn+JzhA==$BKkXjAANgnnA7WPGo2qev7973Dp9m/uuwL64CizdjxxLvfVdeAtMeZlaLb26LoqYkNi47/EMdFgJrfdQORRJFA==",
+      "password": "scrypt$16384$8$1$1A+NYNR7NNh1GM5FiLC6wQ==$HTQzPx5zfXOorsH/QsBBbF25cPGgXSUSLsoAhgTk3gIv2Yo/fDtPDI2+GGrlxCciVJQAZLxWNhZfuIrgY2BoyA==",
       "createdAt": "2026-07-24T02:21:52.652Z",
       "lastLogin": "2026-08-04T06:01:57.342Z",
       "recordCount": 1,
@@ -452,6 +452,196 @@
           "currentStage": 1,
           "createdAt": "2026-11-09",
           "updatedAt": "2026-11-09",
+          "status": "concept"
+        },
+        {
+          "id": "dev-1794299080692",
+          "conceptId": "concept-2",
+          "productName": "捞派虾滑·含量分级锁鲜装",
+          "category": "海底捞虾滑",
+          "tagline": "虾含量看得见，每一口都是真虾肉",
+          "priceRange": "39.9-49.9元/盒",
+          "innovationLevel": "微创新",
+          "feasibilityScore": 5,
+          "stages": [
+            {
+              "stageId": 1,
+              "name": "概念确认",
+              "tasks": [
+                {
+                  "name": "目标人群锁定",
+                  "done": false
+                },
+                {
+                  "name": "USP定稿",
+                  "done": false
+                },
+                {
+                  "name": "定价区间",
+                  "done": false
+                },
+                {
+                  "name": "立项审批",
+                  "done": false
+                }
+              ],
+              "status": "in_progress",
+              "assignee": "",
+              "startDate": "2026-11-10",
+              "endDate": "2026-11-17",
+              "progress": 0,
+              "risks": [],
+              "notes": ""
+            },
+            {
+              "stageId": 2,
+              "name": "配方研发",
+              "tasks": [
+                {
+                  "name": "成分配方设计",
+                  "done": false
+                },
+                {
+                  "name": "功效验证方案",
+                  "done": false
+                },
+                {
+                  "name": "供应商对接",
+                  "done": false
+                },
+                {
+                  "name": "初版样品",
+                  "done": false
+                }
+              ],
+              "status": "not_started",
+              "assignee": "",
+              "startDate": "2026-11-17",
+              "endDate": "2026-12-17",
+              "progress": 0,
+              "risks": [],
+              "notes": ""
+            },
+            {
+              "stageId": 3,
+              "name": "打样测试",
+              "tasks": [
+                {
+                  "name": "实验室打样",
+                  "done": false
+                },
+                {
+                  "name": "用户测试组",
+                  "done": false
+                },
+                {
+                  "name": "功效数据",
+                  "done": false
+                },
+                {
+                  "name": "迭代优化",
+                  "done": false
+                }
+              ],
+              "status": "not_started",
+              "assignee": "",
+              "startDate": "2026-12-17",
+              "endDate": "2027-01-07",
+              "progress": 0,
+              "risks": [],
+              "notes": ""
+            },
+            {
+              "stageId": 4,
+              "name": "包装设计",
+              "tasks": [
+                {
+                  "name": "视觉方案",
+                  "done": false
+                },
+                {
+                  "name": "包装材质",
+                  "done": false
+                },
+                {
+                  "name": "合规审核",
+                  "done": false
+                },
+                {
+                  "name": "终版确认",
+                  "done": false
+                }
+              ],
+              "status": "not_started",
+              "assignee": "",
+              "startDate": "2027-01-07",
+              "endDate": "2027-01-22",
+              "progress": 0,
+              "risks": [],
+              "notes": ""
+            },
+            {
+              "stageId": 5,
+              "name": "量产准备",
+              "tasks": [
+                {
+                  "name": "工厂确认",
+                  "done": false
+                },
+                {
+                  "name": "质检标准",
+                  "done": false
+                },
+                {
+                  "name": "首批生产",
+                  "done": false
+                },
+                {
+                  "name": "入库",
+                  "done": false
+                }
+              ],
+              "status": "not_started",
+              "assignee": "",
+              "startDate": "2027-01-22",
+              "endDate": "2027-02-11",
+              "progress": 0,
+              "risks": [],
+              "notes": ""
+            },
+            {
+              "stageId": 6,
+              "name": "上线准备",
+              "tasks": [
+                {
+                  "name": "详情页",
+                  "done": false
+                },
+                {
+                  "name": "种草内容",
+                  "done": false
+                },
+                {
+                  "name": "上市计划",
+                  "done": false
+                },
+                {
+                  "name": "正式发售",
+                  "done": false
+                }
+              ],
+              "status": "not_started",
+              "assignee": "",
+              "startDate": "2027-02-11",
+              "endDate": "2027-02-25",
+              "progress": 0,
+              "risks": [],
+              "notes": ""
+            }
+          ],
+          "currentStage": 1,
+          "createdAt": "2026-11-10",
+          "updatedAt": "2026-11-10",
           "status": "concept"
         }
       ],
