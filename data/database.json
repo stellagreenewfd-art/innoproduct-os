@@ -507,11 +507,11 @@
                 },
                 {
                   "name": "供应商对接",
-                  "done": false
+                  "done": true
                 },
                 {
                   "name": "初版样品",
-                  "done": false
+                  "done": true
                 }
               ],
               "status": "in_progress",
