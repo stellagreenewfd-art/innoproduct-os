@@ -259,6 +259,23 @@
           "createdAt": "2026-11-18T09:34:11.817Z"
         }
       ]
+    },
+    {
+      "id": "25f1857c-33fe-4973-8a05-c63f80989fa0",
+      "phone": "13011281997",
+      "username": "车车",
+      "company": "海底捞",
+      "industry": "/",
+      "password": "scrypt$16384$8$1$hYk7Lqy6PgmfYcPC6+S5UQ==$KSQeUC9fUlHf2Ei8C4FcPlnep7Zlb1jKsxiiIKzf/rfO3jjgS/h9XJnQs1QMBXq50NfMTyfiw92pP6yHKlhjlA==",
+      "createdAt": "2026-11-18T09:46:19.113Z",
+      "lastLogin": "2026-11-18T09:46:19.113Z",
+      "recordCount": 0,
+      "_tokens": [
+        {
+          "token": "63f70964680fe8b74c90d43bdaf92cbac3f2505cc195ff46b28f012660873e2a",
+          "createdAt": "2026-11-18T09:46:19.113Z"
+        }
+      ]
     }
   ],
   "records": [
