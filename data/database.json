@@ -235,7 +235,7 @@
       "password": "scrypt$16384$8$1$N3vxvY3NxUXY64lilyZJLw==$nhIsn2KClGFwkxUyZf/SZIchFQXEprvM9FFvKuN0CZBlAJwOL49Za77+o0KQExMGbzyxiV6tK7Se0md3WJLlRw==",
       "createdAt": "2026-11-18T08:44:13.128Z",
       "lastLogin": "2026-11-18T08:44:13.128Z",
-      "recordCount": 0,
+      "recordCount": 1,
       "_tokens": [
         {
           "token": "41cf72a07083b59b036eadf904318abaf8af8192b1eff5a1c3bb257e06915ff1",
@@ -321,6 +321,13 @@
       "category": "冷冻虾滑馄饨",
       "result": "趋势分析（真实源4/7）",
       "createdAt": "2026-11-18T08:38:25.359Z"
+    },
+    {
+      "id": "a90d1576-75fc-4ac1-be60-f74244b311db",
+      "userId": "859cc190-6e54-4323-8214-8828d3df323f",
+      "category": "方便小火锅",
+      "result": "趋势分析（真实源4/7）",
+      "createdAt": "2026-11-18T08:45:55.805Z"
     }
   ],
   "userData": {
@@ -5598,6 +5605,729 @@
                 "heat": 100
               }
             ]
+          }
+        }
+      ]
+    },
+    "859cc190-6e54-4323-8214-8828d3df323f": {
+      "projects": [],
+      "inspirations": [],
+      "analyses": [
+        {
+          "id": "db83c9ef-2eb4-4f08-9e26-4f449666c3a7",
+          "category": "方便小火锅",
+          "scanDate": "2026-11-18",
+          "savedAt": "2026-11-18T08:45:55.805Z",
+          "data": {
+            "category": "方便小火锅",
+            "scanDate": "2026-11-18",
+            "metrics": {
+              "totalGMV": 86.4,
+              "totalGMV_source": "AI推测·品类常识（基于2025年约72亿规模按渠道增速外推，京东/淘宝实时成交数据本次采集受阻）",
+              "gmvGrowth": 20,
+              "gmvGrowth_source": "AI推测·品类常识（结合抖音内容热度与冬季火锅季前置需求，2025→2026同比估算）",
+              "brandCount": 340,
+              "brandCount_source": "AI推测·品类常识（含白牌与区域品牌，活跃在架SKU品牌口径）",
+              "topBrandShare": 46.5,
+              "topBrandShare_source": "AI推测·品类常识（自热火锅赛道CR10估算区间45%-50%）"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "秋冬自热火锅囤货",
+                "share": 18.6,
+                "yoy": 24.5,
+                "verbatim": "天一冷就想囤几盒自热锅，宿舍半夜来一盒太顶了",
+                "summary": "11月降温叠加APEC期间居家观看热点内容时长上升，自热火锅进入年度最强囤货窗口，整箱装搜索抬升明显",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜TOP20中『北京的银杏雨你淋到了吗』等季节情绪内容高频，冬季氛围词带动暖食消费，热度值超1000万级"
+              },
+              {
+                "rank": 2,
+                "keyword": "辣皮子牛肋排味",
+                "share": 12.4,
+                "yoy": 38.2,
+                "verbatim": "辣皮子牛肋排香迷糊了，火锅能不能也出这个味",
+                "summary": "热榜美食话题直接外溢到品类口味创新，重辣+牛肉大块料成为2026年最被期待的新口味方向",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第19位『辣皮子牛肋排香迷糊了』热度8607419，为榜单唯一美食类词条，具备直接口味迁移信号"
+              },
+              {
+                "rank": 3,
+                "keyword": "一人食小火锅",
+                "share": 15.2,
+                "yoy": 16.8,
+                "verbatim": "一个人住也要好好吃饭，小火锅刚好一盒不浪费",
+                "summary": "独居与宿舍场景持续扩容，单人份、免洗锅、少餐具成为基础决策条件",
+                "platform": "天猫",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "结合头条热榜『博主回村拍老人涨粉400万』反映的独居/返乡内容情绪，及品类历史搜索结构外推"
+              },
+              {
+                "rank": 4,
+                "keyword": "短剧同款宵夜火锅",
+                "share": 8.7,
+                "yoy": 42,
+                "verbatim": "看短剧看到半夜，主角吃的那个自热锅我直接下单了",
+                "summary": "短剧与影视内容成为宵夜场景最强种草载体，夜间冲动下单占比提升",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "B站热搜",
+                "inferenceBasis": "B站热搜第9位『短剧是中国影视的文化输出吗』，短剧话题在年轻群体高热度，内容-消费链路成立"
+              },
+              {
+                "rank": 5,
+                "keyword": "低卡轻食火锅",
+                "share": 7.3,
+                "yoy": 29.6,
+                "verbatim": "减脂期也想吃火锅，有没有热量低一点的",
+                "summary": "健康化诉求渗透方便食品，低油底料、魔芋粉条、高蛋白配菜成为差异化卖点",
+                "platform": "小红书",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "食品饮料健康化长期趋势外推，结合年轻女性用户对热量标注的高关注度"
+              },
+              {
+                "rank": 6,
+                "keyword": "露营户外火锅",
+                "share": 6.1,
+                "yoy": 11.2,
+                "verbatim": "露营带两盒自热锅，不用生火太方便了",
+                "summary": "户外场景从爆发期转入稳定期，但对免明火、抗风加热包仍有明确需求",
+                "platform": "拼多多",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "户外内容在短视频平台常态化存在，品类历史场景结构外推"
+              },
+              {
+                "rank": 7,
+                "keyword": "国潮联名礼盒",
+                "share": 5.4,
+                "yoy": 33.1,
+                "verbatim": "包装好看才想送人，自热锅礼盒送同事挺有意思",
+                "summary": "节庆送礼与年轻社交场景催生礼盒化，视觉设计与地域文化联名成为溢价抓手",
+                "platform": "天猫",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第8位『高低得去景德镇画一次盘子』热度9366994与第17位『赵露思葛栗穿搭我悟了』，反映国潮审美与礼赠内容消费旺盛"
+              },
+              {
+                "rank": 8,
+                "keyword": "大块真肉料足",
+                "share": 9.8,
+                "yoy": 21.4,
+                "verbatim": "最烦打开全是菜，肉就两片，料足才值这个价",
+                "summary": "消费者对『图片与实物不符』容忍度下降，真肉克重与配菜数量成为比价核心维度",
+                "platform": "京东",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "方便食品类目长期存在的料包缩水争议，结合比价型平台用户评论结构外推"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "加热包异味与安全性担忧",
+                "intensity": 82,
+                "satisfaction": 38,
+                "gap": 44,
+                "userVoice": "加热的时候一股味道，宿舍里不太敢用，怕烫到",
+                "currentSolutions": [
+                  "标注食品级加热包",
+                  "增加隔热外托",
+                  "说明书安全提示"
+                ],
+                "opportunity": "开发无味缓释加热包+双层隔热结构，主打宿舍与室内安全场景",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "自热食品行业长期客诉集中于加热包气味与烫伤风险，属品类结构性痛点"
+              },
+              {
+                "rank": 2,
+                "pain": "分量不足吃不饱",
+                "intensity": 76,
+                "satisfaction": 41,
+                "gap": 35,
+                "userVoice": "一盒下去还是饿，男生真的不够吃",
+                "currentSolutions": [
+                  "推出加量版",
+                  "搭配主食包",
+                  "双人份规格"
+                ],
+                "opportunity": "推出『主食+菜品』双层加量装，明确标注净含量与饱腹指数",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "单人份方便食品普遍存在分量争议，结合男性与夜宵场景需求外推"
+              },
+              {
+                "rank": 3,
+                "pain": "底料油腻重口、吃完口干",
+                "intensity": 71,
+                "satisfaction": 36,
+                "gap": 35,
+                "userVoice": "吃完一嘴油，晚上口渴得睡不着",
+                "currentSolutions": [
+                  "清汤/番茄口味",
+                  "减油底料",
+                  "独立油包可自选"
+                ],
+                "opportunity": "做可调油量双包底料，主打轻负担火锅，绑定健康人群",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "健康化趋势下重油重盐被诟病，品类口味结构外推"
+              },
+              {
+                "rank": 4,
+                "pain": "等待时间长、加热不彻底",
+                "intensity": 68,
+                "satisfaction": 45,
+                "gap": 23,
+                "userVoice": "等了十五分钟中间还是凉的，粉条没熟",
+                "currentSolutions": [
+                  "预熟食材",
+                  "优化加热包配比",
+                  "标注建议时长"
+                ],
+                "opportunity": "研发快熟食材组合与高效加热包，把等待压缩到8分钟内",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "自热食品加热均匀性为通用体验痛点，属工艺层问题"
+              },
+              {
+                "rank": 5,
+                "pain": "口味同质化严重",
+                "intensity": 65,
+                "satisfaction": 33,
+                "gap": 32,
+                "userVoice": "每家都是麻辣牛油，吃来吃去一个味",
+                "currentSolutions": [
+                  "区域特色口味",
+                  "联名限定口味",
+                  "酸汤/冬阴功等新风味"
+                ],
+                "opportunity": "围绕热榜美食信号做地域风味矩阵，如辣皮子牛肋排、酸汤系列",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第19位『辣皮子牛肋排香迷糊了』证明新风味有强传播力，而品类口味集中度高"
+              },
+              {
+                "rank": 6,
+                "pain": "包装笨重不便携、垃圾难处理",
+                "intensity": 58,
+                "satisfaction": 42,
+                "gap": 16,
+                "userVoice": "盒子太大，吃完一堆汤汤水水没地方倒",
+                "currentSolutions": [
+                  "可压缩包装",
+                  "附赠垃圾袋",
+                  "分体式餐盒"
+                ],
+                "opportunity": "设计可折叠餐盒与固液分离结构，主打露营与办公场景",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "户外与办公场景扩张带来的便携与清洁诉求外推"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "9.9元以下",
+                "10-19元",
+                "20-29元",
+                "30-39元",
+                "40元以上"
+              ],
+              "functions": [
+                "重辣重口",
+                "清淡健康",
+                "大块真肉",
+                "地域风味",
+                "礼盒便携"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 6.2,
+                  "growth": 8.4,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 32
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 1.1,
+                  "growth": 18.6,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 71
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 0.6,
+                  "growth": 9.2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 48
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 1.4,
+                  "growth": 22.3,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 74
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 0.4,
+                  "growth": 6.1,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 29
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 14.8,
+                  "growth": 12.5,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 41
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 2.3,
+                  "growth": 26.4,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 68
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 3.1,
+                  "growth": 19.8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 63
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 2.8,
+                  "growth": 31.5,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 82
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 0.9,
+                  "growth": 10.2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 37
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 16.4,
+                  "growth": 9.6,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 38
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 3.6,
+                  "growth": 28.7,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 72
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 7.9,
+                  "growth": 23.1,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 58
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 4.2,
+                  "growth": 34.8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 85
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 1.6,
+                  "growth": 14.3,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 51
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 6.8,
+                  "growth": 7.2,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 2.1,
+                  "growth": 24.9,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 66
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 5.4,
+                  "growth": 20.6,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 61
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 2.6,
+                  "growth": 29.4,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 78
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 2.9,
+                  "growth": 26.8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 69
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 1.8,
+                  "growth": 5.4,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 28
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 0.7,
+                  "growth": 16.2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 44
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 2.4,
+                  "growth": 17.9,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 57
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 1.3,
+                  "growth": 21.7,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 62
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 4.6,
+                  "growth": 33.6,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 79
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "自嗨锅",
+                "positioning": "全场景自热食品头部品牌",
+                "priceBand": "20-35元",
+                "share": 13.2,
+                "strength": "品牌心智强、渠道覆盖广、口味矩阵全",
+                "weakness": "价格偏高、料包分量口碑波动、创新节奏放缓"
+              },
+              {
+                "brand": "莫小仙",
+                "positioning": "高性价比年轻自热火锅",
+                "priceBand": "12-22元",
+                "share": 11.6,
+                "strength": "性价比与电商运营能力强、内容投放活跃",
+                "weakness": "高端化乏力、真肉含量被比价质疑"
+              },
+              {
+                "brand": "海底捞（方便线）",
+                "positioning": "餐饮品牌背书的高端自热锅",
+                "priceBand": "30-45元",
+                "share": 8.4,
+                "strength": "火锅心智与底料口味优势、礼赠属性强",
+                "weakness": "价格高、日常复购弱、包装成本高"
+              },
+              {
+                "brand": "统一开小灶",
+                "positioning": "传统食品巨头的自热矩阵",
+                "priceBand": "18-30元",
+                "strength": "供应链与线下分销强、品质稳定",
+                "weakness": "内容营销偏弱、年轻化表达不足"
+              },
+              {
+                "brand": "小龙坎",
+                "positioning": "区域火锅IP衍生自热锅",
+                "priceBand": "20-32元",
+                "share": 5.8,
+                "strength": "川味正宗认知、门店流量反哺",
+                "weakness": "SKU集中麻辣、健康化缺位"
+              },
+              {
+                "brand": "白象/区域白牌",
+                "positioning": "低价走量型白牌",
+                "priceBand": "9.9-15元",
+                "share": 22.4,
+                "strength": "极致低价、拼多多与直播渠道爆发",
+                "weakness": "品质不稳、无品牌溢价、食品安全舆情风险"
+              },
+              {
+                "brand": "叮咚/盒马自有",
+                "positioning": "即时零售自有品牌自热锅",
+                "priceBand": "16-26元",
+                "share": 4.1,
+                "strength": "履约快、生鲜食材新鲜度背书",
+                "weakness": "区域覆盖有限、SKU少"
+              }
+            ],
+            "personas": [
+              {
+                "name": "宿舍夜宵党",
+                "age": "18-24岁",
+                "gender": "女性偏多",
+                "scenario": "宿舍深夜追剧、短剧宵夜、考试周加餐",
+                "spendingPower": "月生活费1500-2500元，单次10-20元",
+                "coreNeeds": [
+                  "室内安全无异味加热",
+                  "分量刚好不浪费",
+                  "口味重、出片好看"
+                ],
+                "quote": "宿舍不能用锅，自热锅就是我的深夜食堂"
+              },
+              {
+                "name": "独居轻食青年",
+                "age": "25-32岁",
+                "gender": "均衡",
+                "scenario": "下班独居晚餐、加班办公餐",
+                "spendingPower": "月收入8000-15000元，单次20-30元",
+                "coreNeeds": [
+                  "低油低卡可调",
+                  "真肉高蛋白",
+                  "8分钟快速出餐"
+                ],
+                "quote": "一个人也要吃好，但不想吃完满嘴油"
+              },
+              {
+                "name": "露营户外玩家",
+                "age": "25-38岁",
+                "gender": "男性偏多",
+                "scenario": "露营、自驾、钓鱼、徒步补给",
+                "spendingPower": "单次30-45元，装备消费意愿高",
+                "coreNeeds": [
+                  "免明火抗风加热",
+                  "便携可折叠包装",
+                  "垃圾可收纳"
+                ],
+                "quote": "山里没火也能吃口热的，这才是刚需"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "借势热榜美食词做口味首发，如『辣皮子牛肋排自热锅』挑战赛；短剧植入宵夜场景",
+                "playStyle": "达人试吃+口味投票UGC+直播间整箱囤货机制，绑定冬季囤货节点",
+                "difficulty": "中",
+                "note": "热榜美食与短剧话题热度高，需快速跟进抢时效窗口"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "低卡轻食火锅测评、独居一人食vlog、露营开箱",
+                "playStyle": "素人铺量+成分/热量对比笔记，建立『轻负担火锅』心智",
+                "difficulty": "中",
+                "note": "健康化内容转化率高，需真实热量标注支撑可信度"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "国潮礼盒与地域风味系列，节庆送礼场景",
+                "playStyle": "超级品牌日+礼盒组合装，旗舰店视觉强化国潮设计",
+                "difficulty": "高",
+                "note": "头部品牌集中，新品牌需差异化口味切入"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "真肉克重与料包实拍对比，主打品质与安全",
+                "playStyle": "详情页透明化配料表、PLUS会员囤货装、次日达卖点",
+                "difficulty": "中",
+                "note": "比价与品质敏感用户集中，需强化参数化表达"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "极致性价比整箱装、白牌平替测评",
+                "playStyle": "百亿补贴+拼团囤货，主图突出盒数与单价",
+                "difficulty": "低",
+                "note": "白牌份额高、价格战激烈，适合走量清库存"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "辣皮子牛肋排地域风味首发",
+                "trendSignal": "抖音热榜美食词『辣皮子牛肋排香迷糊了』热度8607419，为榜单唯一美食词条",
+                "demandGap": "品类口味高度集中于麻辣牛油，地域新风味供给稀缺",
+                "feasibility": "底料供应链成熟，2-3个月可完成口味开发与小批量测试",
+                "score": 88,
+                "rationale": "真实热榜信号+口味同质化痛点双重驱动，传播与转化链路短",
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第19位词条热度与品类口味集中度数据交叉推断"
+              },
+              {
+                "rank": 2,
+                "title": "可调油量轻负担火锅",
+                "trendSignal": "健康化搜索『低卡轻食火锅』同比增长29.6%",
+                "demandGap": "重油重口导致口干与负罪感，现有减油方案牺牲风味",
+                "feasibility": "双包底料工艺简单，可与营养师联名背书",
+                "score": 82,
+                "rationale": "击中油腻痛点且价格带20-29元增长最快，空白格机会分85",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "gapMatrix中20-29元×地域风味与清淡健康格均呈高增长低竞争"
+              },
+              {
+                "rank": 3,
+                "title": "宿舍安全无味加热方案",
+                "trendSignal": "加热包异味与安全担忧痛点强度82、满意度仅38",
+                "demandGap": "室内与宿舍场景缺少真正无味防烫的加热结构",
+                "feasibility": "需加热包供应商协同研发，周期约4-6个月",
+                "score": 79,
+                "rationale": "痛点缺口44为全品类最高，宿舍人群规模大且复购稳定",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "品类结构性客诉与18-24岁宿舍人群画像交叉推断"
+              },
+              {
+                "rank": 4,
+                "title": "国潮礼盒节庆线",
+                "trendSignal": "抖音热榜国潮审美与礼赠内容热度超900万级，礼盒便携格40元以上增长33.6%",
+                "demandGap": "自热锅礼盒化程度低，缺乏社交货币属性",
+                "feasibility": "包装设计驱动，轻资产快速上线",
+                "score": 75,
+                "rationale": "高价格带礼盒格竞争中等且增长最快，节庆窗口明确",
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第8位景德镇与第17位穿搭词条反映国潮礼赠审美外溢"
+              },
+              {
+                "rank": 5,
+                "title": "加量真肉饱腹装",
+                "trendSignal": "大块真肉料足搜索占比9.8%、同比21.4%",
+                "demandGap": "分量不足与料包缩水是男性与夜宵场景核心不满",
+                "feasibility": "食材成本可控，通过主食+菜品双层结构提升饱腹感",
+                "score": 73,
+                "rationale": "击中分量与真肉双痛点，可在20-29元带形成差异化",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "分量不足痛点强度76与真肉搜索增长数据交叉推断"
+              },
+              {
+                "rank": 6,
+                "title": "露营便携折叠餐盒",
+                "trendSignal": "露营户外火锅搜索同比11.2%，包装垃圾痛点强度58",
+                "demandGap": "户外场景缺少可折叠、固液分离的清洁方案",
+                "feasibility": "结构设计+模具投入，周期约5个月",
+                "score": 66,
+                "rationale": "场景稳定但增速趋缓，作为差异化补充而非主攻",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "户外场景常态化与包装痛点数据交叉推断"
+              }
+            ],
+            "_collection": {
+              "successCount": 4,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无联想词"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-11-18 16:44:20）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "被反爬拦截（页面过短）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-11-18T08:45:23.748Z",
+              "elapsedMs": 3380
+            }
           }
         }
       ]
