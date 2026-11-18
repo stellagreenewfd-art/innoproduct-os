@@ -6,7 +6,7 @@
       "username": "qaq",
       "company": "创品智造",
       "industry": "电商",
-      "password": "scrypt$16384$8$1$emNRudYOO7xFkgXNrJjcaQ==$7tIxBD/6dSu4w58AxvK8FUvzhXxP/MFzgawfKssO9yqOwGusAcJmIP3/aNBO8LcpZ1or8arnBMefr8QG9av5lA==",
+      "password": "scrypt$16384$8$1$adoqh+sgopo2aFYZ5HYONQ==$trT6wRWrqhNbUEyb9MVOXgvwM70/pEifqslLK2WhKPI9h1Bb6bMv5TVPpDlgZhW3xz4z1fxEAlMb13XOWCAl0w==",
       "createdAt": "2026-07-24T02:21:52.652Z",
       "lastLogin": "2026-08-04T06:01:57.342Z",
       "recordCount": 1,
@@ -240,6 +240,23 @@
         {
           "token": "41cf72a07083b59b036eadf904318abaf8af8192b1eff5a1c3bb257e06915ff1",
           "createdAt": "2026-11-18T08:44:13.129Z"
+        }
+      ]
+    },
+    {
+      "id": "1b4b8b55-55d3-449b-bdc0-b646776c83a3",
+      "phone": "18612969842",
+      "username": "于尧",
+      "company": "海底捞",
+      "industry": "火锅",
+      "password": "scrypt$16384$8$1$zL6r3KaZlGCwy4CfYRB+Vg==$PgrN5AjXUp2jU39Tx8/79kThZBj4DBl36w5ZbFYgUql2Dh8jrRuS1UWYP4z522oAMdKLWNFQvRumzIi/mhvSlA==",
+      "createdAt": "2026-11-18T09:34:11.817Z",
+      "lastLogin": "2026-11-18T09:34:11.817Z",
+      "recordCount": 0,
+      "_tokens": [
+        {
+          "token": "5b2a8de34913549951883e0c223ddffa126fb2e66c73041466f8ce59d0f81653",
+          "createdAt": "2026-11-18T09:34:11.817Z"
         }
       ]
     }
