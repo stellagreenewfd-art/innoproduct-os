@@ -6,7 +6,7 @@
       "username": "qaq",
       "company": "创品智造",
       "industry": "电商",
-      "password": "scrypt$16384$8$1$NygFm/0bzx6s3R9nYvcBUw==$72crtdCJsUlJGdyomXkkG9CD3VxVEK5SY44lt96+6Fr4JjHlVl/hxO1akKsDTDYEPPK1RRl3zLSjN2Ez+foM7w==",
+      "password": "scrypt$16384$8$1$emNRudYOO7xFkgXNrJjcaQ==$7tIxBD/6dSu4w58AxvK8FUvzhXxP/MFzgawfKssO9yqOwGusAcJmIP3/aNBO8LcpZ1or8arnBMefr8QG9av5lA==",
       "createdAt": "2026-07-24T02:21:52.652Z",
       "lastLogin": "2026-08-04T06:01:57.342Z",
       "recordCount": 1,
@@ -206,6 +206,23 @@
         {
           "token": "7c7235ad8bf944f085872a5256d24487238898c96ccaaee0053a5f430ac5a1ed",
           "createdAt": "2026-08-05T07:11:11.110Z"
+        }
+      ]
+    },
+    {
+      "id": "06270f5f-3c52-40b1-b04b-4e3a7f86714d",
+      "phone": "18519096198",
+      "username": "aaa",
+      "company": "1",
+      "industry": "1",
+      "password": "scrypt$16384$8$1$bF7m27BMqiJbOUBuLNzEdQ==$SX/3/T/ihm5XgBySfxTELT57yCSoefRPCUkt7mvjYbPLEPbp+0rgiFRhk0HbcbqCij+zY/q7k+hqZg/QGRTehw==",
+      "createdAt": "2026-11-18T08:26:28.129Z",
+      "lastLogin": "2026-11-18T08:26:28.129Z",
+      "recordCount": 0,
+      "_tokens": [
+        {
+          "token": "38fa0b83c61a985df68d7449d7b53f7ebbadc7c08cf2cc1b3680fd333c2d97cb",
+          "createdAt": "2026-11-18T08:26:28.129Z"
         }
       ]
     }
