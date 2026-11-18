@@ -225,6 +225,23 @@
           "createdAt": "2026-11-18T08:26:28.129Z"
         }
       ]
+    },
+    {
+      "id": "859cc190-6e54-4323-8214-8828d3df323f",
+      "phone": "15382357107",
+      "username": "DuWei",
+      "company": "HDL",
+      "industry": "冻品生鲜",
+      "password": "scrypt$16384$8$1$N3vxvY3NxUXY64lilyZJLw==$nhIsn2KClGFwkxUyZf/SZIchFQXEprvM9FFvKuN0CZBlAJwOL49Za77+o0KQExMGbzyxiV6tK7Se0md3WJLlRw==",
+      "createdAt": "2026-11-18T08:44:13.128Z",
+      "lastLogin": "2026-11-18T08:44:13.128Z",
+      "recordCount": 0,
+      "_tokens": [
+        {
+          "token": "41cf72a07083b59b036eadf904318abaf8af8192b1eff5a1c3bb257e06915ff1",
+          "createdAt": "2026-11-18T08:44:13.129Z"
+        }
+      ]
     }
   ],
   "records": [
