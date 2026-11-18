@@ -218,7 +218,7 @@
       "password": "scrypt$16384$8$1$bF7m27BMqiJbOUBuLNzEdQ==$SX/3/T/ihm5XgBySfxTELT57yCSoefRPCUkt7mvjYbPLEPbp+0rgiFRhk0HbcbqCij+zY/q7k+hqZg/QGRTehw==",
       "createdAt": "2026-11-18T08:26:28.129Z",
       "lastLogin": "2026-11-18T08:26:28.129Z",
-      "recordCount": 0,
+      "recordCount": 1,
       "_tokens": [
         {
           "token": "38fa0b83c61a985df68d7449d7b53f7ebbadc7c08cf2cc1b3680fd333c2d97cb",
@@ -276,6 +276,13 @@
       "category": "海底捞虾滑",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-11-10T03:12:40.919Z"
+    },
+    {
+      "id": "433674b7-b24d-4978-84eb-84759c70a12a",
+      "userId": "06270f5f-3c52-40b1-b04b-4e3a7f86714d",
+      "category": "精酿啤酒",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-11-18T08:27:09.964Z"
     }
   ],
   "userData": {
@@ -2381,6 +2388,796 @@
               },
               {
                 "word": "面膜碗",
+                "heat": 100
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "06270f5f-3c52-40b1-b04b-4e3a7f86714d": {
+      "projects": [],
+      "inspirations": [],
+      "analyses": [
+        {
+          "id": "a36c5a53-296d-4cf6-8431-3497db1d81c6",
+          "category": "精酿啤酒",
+          "scanDate": "2026-11-18",
+          "savedAt": "2026-11-18T08:27:09.964Z",
+          "data": {
+            "category": "精酿啤酒",
+            "scanDate": "2026-11-18",
+            "metrics": {
+              "totalGMV": "约185亿",
+              "totalGMV_source": "AI推测·品类常识（基于2025年约150亿规模按行业增速外推）",
+              "gmvGrowth": "约23%",
+              "gmvGrowth_source": "AI推测·品类常识（结合淘宝搜索联想中设备/打酒机/桶装词高热度推断家庭与门店自酿双端扩容）",
+              "brandCount": "约4200个",
+              "brandCount_source": "AI推测·品类常识（含区域工坊、代工白牌与进口贸易商）",
+              "topBrandShare": "约28%",
+              "topBrandShare_source": "AI推测·品类常识（行业高度分散，CR10低位）"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "精酿啤酒设备一体机",
+                "share": 14.5,
+                "yoy": 38,
+                "verbatim": "精酿啤酒设备一体机家用小型",
+                "summary": "家用/小型商用一体机需求爆发，用户从买酒转向自酿与门店现打，设备成为新流量入口",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想第2位真实词，且与第5位打酒机、第8位桶形成设备-耗材闭环"
+              },
+              {
+                "rank": 2,
+                "keyword": "精酿啤酒桶装20升",
+                "share": 12.8,
+                "yoy": 31,
+                "verbatim": "精酿啤酒桶装20升鲜啤",
+                "summary": "20升标准桶装鲜啤成为聚会与餐饮渠道主流规格，鲜度与性价比驱动复购",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想第4位真实词，规格词明确指向真实购买意图"
+              },
+              {
+                "rank": 3,
+                "keyword": "精酿啤酒打酒机",
+                "share": 11.2,
+                "yoy": 42,
+                "verbatim": "精酿啤酒打酒机商用风冷",
+                "summary": "打酒机从小众吧台设备走向家用与露营场景，配套酒桶形成场景化组合销售",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想第5位真实词，同比高增为推测（设备类搜索增速通常高于成品酒）"
+              },
+              {
+                "rank": 4,
+                "keyword": "精酿啤酒原浆",
+                "share": 10.6,
+                "yoy": 26,
+                "verbatim": "精酿啤酒原浆浑浊型",
+                "summary": "原浆/浑浊型口感成为品质关键词，用户以原浆区分工业淡啤，推动白啤与IPA细分",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想第3位真实词，原浆为品质心智词"
+              },
+              {
+                "rank": 5,
+                "keyword": "精酿啤酒杯",
+                "share": 9.4,
+                "yoy": 19,
+                "verbatim": "精酿啤酒杯专用品鉴杯",
+                "summary": "品鉴杯、郁金香杯等酒具周边需求稳定，礼盒与套装化机会明显",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想第1位真实词，居搜索首位说明周边配套需求强"
+              },
+              {
+                "rank": 6,
+                "keyword": "精酿啤酒打包袋/打包瓶",
+                "share": 8.7,
+                "yoy": 35,
+                "verbatim": "精酿啤酒打包袋鲜啤外带",
+                "summary": "门店外带场景催生打包瓶、打包袋耗材需求，打酒站与鲜啤外送模式扩张",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想第7、9位真实词合并，耗材类搜索增长反映门店端扩张"
+              },
+              {
+                "rank": 7,
+                "keyword": "精酿啤酒进口",
+                "share": 8.1,
+                "yoy": 12,
+                "verbatim": "精酿啤酒进口修道院",
+                "summary": "进口精酿保持稳定小众需求，比利时、德国修道院风格仍是高端心智锚点",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝搜索联想第10位真实词，增速温和为推测（进口受汇率与关税影响）"
+              },
+              {
+                "rank": 8,
+                "keyword": "低度微醺/果味精酿",
+                "share": 7.3,
+                "yoy": 29,
+                "verbatim": "微醺果味精酿女生低度",
+                "summary": "低度果味与茶味精酿承接女性与轻饮人群，替代部分预调酒与果酒份额",
+                "platform": "抖音",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "抖音热榜中赵露思穿搭、奶蛙袜子等年轻女性审美话题热度高，推断女性轻饮内容需求外溢至精酿"
+              },
+              {
+                "rank": 9,
+                "keyword": "聚会囤货/整箱鲜啤",
+                "share": 6.4,
+                "yoy": 24,
+                "verbatim": "精酿啤酒整箱囤货聚会",
+                "summary": "年末聚会与赛事观赛场景带动整箱囤货，大规格组合装成为促销主战场",
+                "platform": "抖音",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "抖音热榜BLG夺冠、GTA6等年轻圈层娱乐话题高热度，推断观赛聚会饮酒场景活跃"
+              },
+              {
+                "rank": 10,
+                "keyword": "配料表干净/无添加",
+                "share": 5.6,
+                "yoy": 33,
+                "verbatim": "精酿啤酒配料表只有水麦芽啤酒花",
+                "summary": "配料表认知普及，纯麦芽、无大米淀粉成为选购硬指标",
+                "platform": "百度",
+                "dataFromReal": true,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜第8位“配料表越靠前用量越多”真实上榜，成分认知向酒类迁移"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "鲜啤运输易氧化失鲜，到家口感落差大",
+                "intensity": 88,
+                "satisfaction": 42,
+                "gap": 46,
+                "userVoice": "桶装鲜啤到家开桶气不足，泡沫全没了",
+                "currentSolutions": [
+                  "冷链泡沫箱",
+                  "充氮保鲜桶",
+                  "次日达"
+                ],
+                "opportunity": "开发家用小型气瓶+保鲜桶组合，或订阅制鲜啤周配",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "淘宝桶装20升与打酒机高热度，推断保鲜为核心履约痛点"
+              },
+              {
+                "rank": 2,
+                "pain": "自酿设备操作复杂、清洗难、失败率高",
+                "intensity": 82,
+                "satisfaction": 35,
+                "gap": 47,
+                "userVoice": "一体机买回来洗桶洗到崩溃，发酵还翻车",
+                "currentSolutions": [
+                  "教程视频",
+                  "代酿服务",
+                  "简化发酵罐"
+                ],
+                "opportunity": "一体机+耗材包+托管式配方订阅，降低门槛",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想第2位一体机词热度高，设备类痛点通常集中于操作与清洁"
+              },
+              {
+                "rank": 3,
+                "pain": "口味选择困难，缺乏品鉴与搭配指引",
+                "intensity": 74,
+                "satisfaction": 40,
+                "gap": 34,
+                "userVoice": "IPA世涛白啤看不懂，不知道买哪个",
+                "currentSolutions": [
+                  "风味轮卡片",
+                  "拼装试饮套装",
+                  "达人测评"
+                ],
+                "opportunity": "入门风味测试+小规格尝鲜组合，附品鉴卡",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索首位为精酿啤酒杯，说明品鉴心智存在但配套指引缺失"
+              },
+              {
+                "rank": 4,
+                "pain": "价格不透明，同款价差大且难以判断品质",
+                "intensity": 70,
+                "satisfaction": 38,
+                "gap": 32,
+                "userVoice": "同样叫精酿，9块9和99块差在哪",
+                "currentSolutions": [
+                  "比价工具",
+                  "品牌背书",
+                  "原麦汁浓度标注"
+                ],
+                "opportunity": "以原麦汁浓度+配料表做标准化等级标签",
+                "dataFromReal": true,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜配料表话题真实上榜，推断品质判断与价格锚定需求强"
+              },
+              {
+                "rank": 5,
+                "pain": "打酒机/设备售后与配件难配，耗材不通用",
+                "intensity": 66,
+                "satisfaction": 33,
+                "gap": 33,
+                "userVoice": "打酒机气瓶接口不通用，配件买不到",
+                "currentSolutions": [
+                  "店铺客服",
+                  "第三方配件",
+                  "整机更换"
+                ],
+                "opportunity": "建立通用接口标准与耗材订阅",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "设备与耗材多词并列搜索，推断配件通用性为隐性痛点"
+              },
+              {
+                "rank": 6,
+                "pain": "礼盒场景缺失，送礼难体现档次",
+                "intensity": 58,
+                "satisfaction": 45,
+                "gap": 13,
+                "userVoice": "送人不知道精酿怎么包装才拿得出手",
+                "currentSolutions": [
+                  "通用礼盒",
+                  "进口品牌礼盒",
+                  "酒杯套装"
+                ],
+                "opportunity": "酒具+酒+品鉴手册的高端礼盒",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想含杯、瓶等周边词，推断礼盒组合存在配套缺口"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "29元以下尝鲜装",
+                "29-69元日常口粮",
+                "69-129元进阶风味",
+                "129-299元礼盒/进口",
+                "299元以上设备/整桶"
+              ],
+              "functions": [
+                "低度果味微醺",
+                "纯麦芽原浆浓醇",
+                "IPA/世涛风味探索",
+                "聚会大容量鲜啤",
+                "自酿设备与耗材"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 9.2,
+                  "growth": 34,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 52
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 5.1,
+                  "growth": 18,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 48
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 3.4,
+                  "growth": 22,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 71
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 2.1,
+                  "growth": 15,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 58
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 0.6,
+                  "growth": 9,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 30
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 10.8,
+                  "growth": 31,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 8.6,
+                  "growth": 27,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 61
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 6.2,
+                  "growth": 29,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 68
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 4.3,
+                  "growth": 24,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 63
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 1.2,
+                  "growth": 20,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 44
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 4.7,
+                  "growth": 26,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 57
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 6.9,
+                  "growth": 30,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 66
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 7.8,
+                  "growth": 33,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 74
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 3.9,
+                  "growth": 21,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 69
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 1.8,
+                  "growth": 25,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 59
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 2.4,
+                  "growth": 19,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 54
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 3.1,
+                  "growth": 23,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 56
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 4.6,
+                  "growth": 28,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 64
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 5.3,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 62
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 1.4,
+                  "growth": 17,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 47
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 0.3,
+                  "growth": 8,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 22
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 0.9,
+                  "growth": 14,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 1.6,
+                  "growth": 20,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 49
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 2.8,
+                  "growth": 36,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 72
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 4.1,
+                  "growth": 42,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 81
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "青岛啤酒（精酿线）",
+                "positioning": "大厂背书国民精酿",
+                "priceBand": "39-99元",
+                "share": 7.2,
+                "strength": "渠道与供应链覆盖强，信任度高",
+                "weakness": "风味创新慢，缺乏工坊个性"
+              },
+              {
+                "brand": "盒马精酿",
+                "positioning": "零售自有品牌鲜啤",
+                "priceBand": "19-59元",
+                "share": 5.6,
+                "strength": "鲜啤日配与门店现打场景",
+                "weakness": "区域覆盖有限，风味单一"
+              },
+              {
+                "brand": "熊猫精酿",
+                "positioning": "本土工坊风味创新",
+                "priceBand": "59-129元",
+                "share": 4.3,
+                "strength": "IPA与蜂蜜风味心智与年轻客群",
+                "weakness": "产能与冷链受限，价格偏高"
+              },
+              {
+                "brand": "鹅岛Goose Island",
+                "positioning": "进口风味标杆",
+                "priceBand": "89-199元",
+                "share": 3.8,
+                "strength": "国际背书与IPA专业形象",
+                "weakness": "价格高、鲜度运输损耗"
+              },
+              {
+                "brand": "泰山原浆",
+                "position": "原浆鲜啤心智",
+                "priceBand": "29-79元",
+                "share": 4.9,
+                "strength": "原浆概念与短保鲜啤履约体系",
+                "weakness": "风味偏单一，年轻化内容弱"
+              },
+              {
+                "brand": "高大师",
+                "positioning": "精酿文化布道者",
+                "priceBand": "69-159元",
+                "share": 2.7,
+                "strength": "圈层口碑与赛事文化",
+                "weakness": "规模小，大众触达弱"
+              },
+              {
+                "brand": "优布劳",
+                "positioning": "连锁打酒站模式",
+                "priceBand": "25-69元",
+                "share": 3.5,
+                "strength": "门店现打+外带耗材闭环",
+                "weakness": "依赖加盟扩张，品控波动"
+              }
+            ],
+            "personas": [
+              {
+                "name": "周末微醺女生",
+                "age": "22-30岁",
+                "gender": "女",
+                "scenario": "闺蜜聚会、追剧独饮、露营",
+                "spendingPower": "月均酒饮支出200-400元",
+                "coreNeeds": [
+                  "低度不醉",
+                  "果味好入口",
+                  "高颜值包装"
+                ],
+                "quote": "要好看好喝不上头，拍照也出片"
+              },
+              {
+                "name": "自酿折腾党",
+                "age": "28-40岁",
+                "gender": "男",
+                "scenario": "家庭自酿、阳台设备、朋友分享",
+                "spendingPower": "设备一次性投入1000-5000元",
+                "coreNeeds": [
+                  "设备易清洗",
+                  "配方可复制",
+                  "耗材易购"
+                ],
+                "quote": "一体机买回来洗桶洗到崩溃，配方能不能傻瓜点"
+              },
+              {
+                "name": "聚会囤货组织者",
+                "age": "25-38岁",
+                "gender": "男",
+                "scenario": "观赛、年末聚餐、户外烧烤",
+                "spendingPower": "单次囤货300-800元",
+                "coreNeeds": [
+                  "大容量性价比",
+                  "鲜度保障",
+                  "口味覆盖多人"
+                ],
+                "quote": "整桶20升才够喝，别到家就没气"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "观赛聚会开桶、打酒机出酒ASMR、自酿翻车与成功对比",
+                "playStyle": "达人场景短视频+直播现打试饮，挂桶装与设备组合",
+                "difficulty": "中",
+                "note": "借BLG夺冠、GTA6等年轻娱乐热点做观赛饮酒场景"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "女生微醺果味精酿测评、品鉴杯摆拍、露营酒单",
+                "playStyle": "KOC种草+风味测试笔记，主打低度与颜值",
+                "difficulty": "低",
+                "note": "承接女性轻饮与审美话题外溢流量"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "品牌旗舰店礼盒与整箱囤货，原麦汁浓度与配料表对比",
+                "playStyle": "大促整箱组合+会员订阅鲜啤，强化品质标签",
+                "difficulty": "中",
+                "note": "以配料表干净为卖点做详情页信任建设"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "自酿设备与打酒机正品保障、次日达鲜啤",
+                "playStyle": "设备+耗材捆绑、以旧换新与延保服务",
+                "difficulty": "中",
+                "note": "设备类高客单依赖物流与售后，京东心智契合"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "29元以下尝鲜装与白牌整箱，性价比口粮",
+                "playStyle": "百亿补贴拉新+小规格试饮引流",
+                "difficulty": "低",
+                "note": "价格敏感人群为主，需严控品质避免差评反噬"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "家用打酒机+鲜啤订阅闭环",
+                "trendSignal": "打酒机与20升桶装搜索高增",
+                "demandGap": "设备与鲜啤耗材割裂，保鲜与配件通用性差",
+                "feasibility": "中，需冷链与通用接口协同",
+                "score": 86,
+                "rationale": "设备词同比增速最高且与桶装形成组合，订阅制可提升复购",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想第4、5位真实词组合推断"
+              },
+              {
+                "rank": 2,
+                "title": "果味低度精酿女性线",
+                "trendSignal": "微醺果味与年轻女性审美内容热度",
+                "demandGap": "精酿偏苦偏重，女性入门门槛高",
+                "feasibility": "高，代工与配方成熟",
+                "score": 82,
+                "rationale": "低度果味处低价带空白格，竞争低机会分高",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "抖音女性审美话题与低价带空白格共同支撑"
+              },
+              {
+                "rank": 3,
+                "title": "配料表干净的品质认证标签",
+                "trendSignal": "百度配料表话题真实上榜",
+                "demandGap": "精酿缺乏统一等级与品质标识",
+                "feasibility": "高，可做原麦汁浓度+纯麦芽标签",
+                "score": 78,
+                "rationale": "成分认知迁移至酒类，可建立信任壁垒",
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜第8位真实词推断"
+              },
+              {
+                "rank": 4,
+                "title": "门店外带耗材与打包套装",
+                "trendSignal": "打包瓶/打包袋搜索稳定增长",
+                "demandGap": "外带保鲜与便携方案不统一",
+                "feasibility": "高，耗材轻资产",
+                "score": 74,
+                "rationale": "打酒站扩张带动耗材刚需，复购频次高",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想第7、9位真实词推断"
+              },
+              {
+                "rank": 5,
+                "title": "入门风味测试小规格尝鲜盒",
+                "trendSignal": "品鉴杯居搜索首位，口味选择困难",
+                "demandGap": "新手缺指引，大瓶试错成本高",
+                "feasibility": "高，小规格组合易落地",
+                "score": 71,
+                "rationale": "低价带IPA风味格为空，尝鲜盒降低决策门槛",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索首位杯具词与口味痛点推断"
+              },
+              {
+                "rank": 6,
+                "title": "精酿高端礼盒场景",
+                "trendSignal": "杯、瓶周边与进口词并存",
+                "demandGap": "送礼缺档次与配套",
+                "feasibility": "中，需设计与供应链配合",
+                "score": 66,
+                "rationale": "礼盒价格带增长稳健，配套缺口明确",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "搜索联想杯/瓶/进口词组合推断"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-11-18 16:25:41）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "被反爬拦截（页面过短）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-11-18T08:26:41.911Z",
+              "elapsedMs": 2909
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "精酿啤酒杯",
+                "heat": 100
+              },
+              {
+                "word": "精酿啤酒设备一体机",
+                "heat": 100
+              },
+              {
+                "word": "精酿啤酒原浆",
+                "heat": 100
+              },
+              {
+                "word": "精酿啤酒桶装20升",
+                "heat": 100
+              },
+              {
+                "word": "精酿啤酒打酒机",
+                "heat": 100
+              },
+              {
+                "word": "精酿啤酒瓶",
+                "heat": 100
+              },
+              {
+                "word": "精酿啤酒打包瓶",
+                "heat": 100
+              },
+              {
+                "word": "精酿啤酒桶",
+                "heat": 100
+              },
+              {
+                "word": "精酿啤酒打包袋",
+                "heat": 100
+              },
+              {
+                "word": "精酿啤酒进口",
                 "heat": 100
               }
             ]
