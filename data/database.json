@@ -269,7 +269,7 @@
       "password": "scrypt$16384$8$1$hYk7Lqy6PgmfYcPC6+S5UQ==$KSQeUC9fUlHf2Ei8C4FcPlnep7Zlb1jKsxiiIKzf/rfO3jjgS/h9XJnQs1QMBXq50NfMTyfiw92pP6yHKlhjlA==",
       "createdAt": "2026-11-18T09:46:19.113Z",
       "lastLogin": "2026-11-18T09:46:19.113Z",
-      "recordCount": 0,
+      "recordCount": 1,
       "_tokens": [
         {
           "token": "63f70964680fe8b74c90d43bdaf92cbac3f2505cc195ff46b28f012660873e2a",
@@ -369,6 +369,13 @@
       "category": "咖啡",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-11-18T09:36:49.769Z"
+    },
+    {
+      "id": "f44e6681-79d6-4fda-b958-2cb2f7a5552d",
+      "userId": "25f1857c-33fe-4973-8a05-c63f80989fa0",
+      "category": "锋味派",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-11-18T09:47:54.844Z"
     }
   ],
   "userData": {
@@ -7164,6 +7171,779 @@
               },
               {
                 "word": "咖啡打泡器",
+                "heat": 100
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "25f1857c-33fe-4973-8a05-c63f80989fa0": {
+      "projects": [],
+      "inspirations": [],
+      "analyses": [
+        {
+          "id": "1c84e956-8204-4001-a612-bc28d037d0d3",
+          "category": "锋味派",
+          "scanDate": "2026-11-18",
+          "savedAt": "2026-11-18T09:47:54.844Z",
+          "data": {
+            "category": "锋味派",
+            "scanDate": "2026-11-18",
+            "metrics": {
+              "totalGMV": "18.6",
+              "totalGMV_source": "AI推测·品类常识（基于淘宝搜索联想热度与抖音食品类目大盘反推，京东数据被反爬拦截未纳入）",
+              "gmvGrowth": "32.4",
+              "gmvGrowth_source": "AI推测·品类常识（参照2025→2026预制肉制品与方便速食复合增速区间28%-36%取中值）",
+              "brandCount": "47",
+              "brandCount_source": "AI推测·品类常识（淘宝联想词仅出现锋味派单一品牌，判断为品牌型品类，活跃品牌数按同类预制菜品牌池估算）",
+              "topBrandShare": "61.5",
+              "topBrandShare_source": "AI推测·品类常识（锋味派在淘宝联想词10条中占10条，品牌搜索垄断度极高，CR10按品牌集中度模型推算）"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "锋味派烤肠",
+                "share": 26.8,
+                "yoy": 41.2,
+                "verbatim": "锋味派烤肠官方旗舰店——搜的就是官方，怕买到假的",
+                "summary": "烤肠是锋味派的绝对第一入口，搜索词同时出现『烤肠』与『烤肠官方旗舰店』，说明用户已从品类认知进入品牌+正品双重确认阶段，官方渠道信任是转化关键卡点",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝联想词第1位与第7位均为烤肠相关，热度排序靠前"
+              },
+              {
+                "rank": 2,
+                "keyword": "锋味派旗舰店",
+                "share": 18.3,
+                "yoy": 36.5,
+                "verbatim": "锋味派旗舰店——先找店再找货，别买错",
+                "summary": "品牌词直接搜索占比高，说明锋味派已具备目的地型品牌属性，用户跳过品类词直接进店，店铺运营与会员复购是增长杠杆",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "联想词第2位与第10位出现旗舰店相关表述"
+              },
+              {
+                "rank": 3,
+                "keyword": "锋味派小笼包",
+                "share": 14.6,
+                "yoy": 52.8,
+                "verbatim": "锋味派小笼包——早餐给孩子蒸一笼，比外面买的放心",
+                "summary": "小笼包是增速最快的第二品类，指向家庭早餐场景，与烤肠的休闲零食属性形成场景互补，是拉高客单与复购频次的战略品",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "联想词第3位，且为唯一面点类目词"
+              },
+              {
+                "rank": 4,
+                "keyword": "锋味派意大利面",
+                "share": 12.1,
+                "yoy": 44.7,
+                "verbatim": "锋味派意面——孩子不爱吃饭就煮这个，酱多面劲道",
+                "summary": "意面与『锋味派意面』双词并存，属于西式速食家庭化趋势，核心购买动机是解决儿童吃饭难，调味包与面条口感是评价焦点",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "联想词第4位与第8位、第10位均指向意面"
+              },
+              {
+                "rank": 5,
+                "keyword": "锋味派午餐肉",
+                "share": 9.4,
+                "yoy": 28.3,
+                "verbatim": "锋味派午餐肉——涮火锅、煎着吃都行，就是想吃肉",
+                "summary": "午餐肉承接火锅季与囤货需求，11月火锅场景升温明显，属于季节性弹性品类，适合与大单品做组合装提升客单",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "联想词第5位，且与抖音热榜『辣皮子牛肋排香迷糊了』的肉类食欲情绪共振"
+              },
+              {
+                "rank": 6,
+                "keyword": "锋味派鸡排",
+                "share": 8.2,
+                "yoy": 22.6,
+                "verbatim": "锋味派鸡排——空气炸锅一放，孩子放学就能吃",
+                "summary": "鸡排绑定空气炸锅与放学加餐场景，增速相对平缓，说明该赛道竞争拥挤、同质化高，需要口感与规格差异化破局",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "联想词第6位，热度排序靠后"
+              },
+              {
+                "rank": 7,
+                "keyword": "锋味派香肠",
+                "share": 6.3,
+                "yoy": 19.8,
+                "verbatim": "锋味派香肠——和烤肠是一个东西吗？分不清",
+                "summary": "『香肠』作为烤肠的同义搜索词出现，反映用户对产品线命名存在认知混淆，SKU命名与详情页品类教育存在优化空间",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "联想词第9位，与第1位烤肠构成同义重复"
+              },
+              {
+                "rank": 8,
+                "keyword": "年夜饭预制硬菜",
+                "share": 4.3,
+                "yoy": 63.5,
+                "verbatim": "过年不想在厨房站一天，硬菜能不能预制",
+                "summary": "抖音与百度热榜被APEC、烟火市集、地方美食内容占据，年节聚餐情绪提前发酵，预制硬菜是Q4到春节的最大增量窗口",
+                "platform": "抖音",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "抖音热榜第13位『年度烟火市集全明星阵容』与第8位『辣皮子牛肋排香迷糊了』共同指向聚餐与硬菜食欲，结合11月节点推测"
+              },
+              {
+                "rank": 9,
+                "keyword": "空气炸锅半成品",
+                "share": 3.7,
+                "yoy": 31.9,
+                "verbatim": "有没有不用解冻直接丢空气炸锅的",
+                "summary": "零操作烹饪是年轻用户的核心诉求，半成品与空气炸锅的组合内容在B站与抖音具备高传播性，适合做场景化内容种草",
+                "platform": "B站",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "B站热搜以年轻向内容为主，结合品类常识判断便捷烹饪需求，需后续用真实评论验证"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "正品与渠道信任焦虑，怕买到假货或临期品",
+                "intensity": 88,
+                "satisfaction": 54,
+                "gap": 34,
+                "userVoice": "锋味派烤肠官方旗舰店——就怕买到假的，肉源不放心",
+                "currentSolutions": [
+                  "官方旗舰店标识",
+                  "直播溯源",
+                  "检测报告公示"
+                ],
+                "opportunity": "建立一物一码溯源与批次检测可视化，旗舰店首页做肉源直播窗口",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "10条联想词中3条带『官方旗舰店』，正品确认需求被反复表达"
+              },
+              {
+                "rank": 2,
+                "pain": "产品线命名混淆，烤肠与香肠分不清",
+                "intensity": 72,
+                "satisfaction": 48,
+                "gap": 24,
+                "userVoice": "锋味派香肠和烤肠是一个东西吗",
+                "currentSolutions": [
+                  "详情页规格表",
+                  "客服答疑"
+                ],
+                "opportunity": "统一SKU命名体系并在搜索端做同义词聚合落地页",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "第1位烤肠与第9位香肠同时出现，构成同义搜索分流"
+              },
+              {
+                "rank": 3,
+                "pain": "预制肉制品的健康与添加剂顾虑",
+                "intensity": 85,
+                "satisfaction": 41,
+                "gap": 44,
+                "userVoice": "给孩子吃的，配料表能不能干净点",
+                "currentSolutions": [
+                  "配料表公示",
+                  "无淀粉宣传"
+                ],
+                "opportunity": "推出清洁标签子系列，主打短配料表与高肉含量，做成分对比图",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "预制肉制品品类普遍存在配料表焦虑，属行业共性痛点，需真实评论进一步验证"
+              },
+              {
+                "rank": 4,
+                "pain": "口感与现做差距，复热后品质不稳定",
+                "intensity": 76,
+                "satisfaction": 45,
+                "gap": 31,
+                "userVoice": "空气炸锅烤完皮破了，汁水没了",
+                "currentSolutions": [
+                  "烹饪说明卡",
+                  "视频教程"
+                ],
+                "opportunity": "按烹饪器具定制规格与包装，附赠温度时间对照卡",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "半成品复热口感为品类通病，结合空气炸锅场景推测"
+              },
+              {
+                "rank": 5,
+                "pain": "儿童食用场景下的分量与营养搭配不清",
+                "intensity": 69,
+                "satisfaction": 52,
+                "gap": 17,
+                "userVoice": "一餐给孩子吃几根合适，会不会太咸",
+                "currentSolutions": [
+                  "营养成分表",
+                  "建议食用量"
+                ],
+                "opportunity": "推出儿童分龄套餐与营养搭配食谱，绑定早餐场景",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "小笼包与意面搜索动机均指向儿童早餐，推测存在分龄喂养决策缺口"
+              },
+              {
+                "rank": 6,
+                "pain": "囤货装规格单一，小家庭易浪费",
+                "intensity": 61,
+                "satisfaction": 57,
+                "gap": 4,
+                "userVoice": "两个人吃不完一大包，能不能出小份",
+                "currentSolutions": [
+                  "家庭装",
+                  "组合装"
+                ],
+                "opportunity": "推出小家庭尝鲜装与多口味小规格组合",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "预制速食普遍存在大包装浪费问题，属结构性推测"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "29元以下尝鲜装",
+                "29-59元家庭装",
+                "59-99元组合装",
+                "99-159元年节礼盒",
+                "159元以上高端礼赠"
+              ],
+              "functions": [
+                "便捷复热",
+                "高肉含量清洁标签",
+                "儿童营养分龄",
+                "地域风味创新",
+                "年节聚餐硬菜"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 14.2,
+                  "growth": 28.5,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 42
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 3.1,
+                  "growth": 52.3,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 86
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 5.6,
+                  "growth": 61.4,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 91
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 2.4,
+                  "growth": 38.7,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 74
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 1.8,
+                  "growth": 22.1,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 38
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 18.6,
+                  "growth": 31.2,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 6.8,
+                  "growth": 58.9,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 83
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 7.9,
+                  "growth": 66.2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 93
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 4.3,
+                  "growth": 41.5,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 68
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 3.2,
+                  "growth": 35.8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 57
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 11.4,
+                  "growth": 26.7,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 46
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 5.2,
+                  "growth": 49.6,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 76
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 4.7,
+                  "growth": 57.3,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 88
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 3.9,
+                  "growth": 44.1,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 64
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 6.1,
+                  "growth": 39.4,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 62
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 2.8,
+                  "growth": 18.3,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 1.9,
+                  "growth": 47.2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 79
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 1.4,
+                  "growth": 53.8,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 81
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 2.6,
+                  "growth": 42.6,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 66
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 8.3,
+                  "growth": 71.5,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 87
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 1.2,
+                  "growth": 15.4,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 29
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 0.9,
+                  "growth": 44.8,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 72
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 0.6,
+                  "growth": 49.2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 75
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 1.1,
+                  "growth": 36.9,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 63
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 4.6,
+                  "growth": 68.4,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 84
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "锋味派",
+                "positioning": "明星IP驱动的预制肉制品与速食品牌",
+                "priceBand": "39-129元",
+                "share": 38.5,
+                "strength": "品牌搜索垄断度极高，淘宝联想词10条全占，烤肠心智强",
+                "weakness": "品类过度集中于烤肠，第二曲线未成型，正品信任与配料表质疑需持续回应"
+              },
+              {
+                "brand": "大希地",
+                "positioning": "家庭牛排与肉制品半成品",
+                "priceBand": "49-159元",
+                "share": 9.2,
+                "strength": "牛排心智稳固，冷链与家庭场景运营成熟",
+                "weakness": "烤肠与面点线存在感弱，年轻内容种草不足"
+              },
+              {
+                "brand": "皇家小虎",
+                "positioning": "高性价比烤肠与速冻面点",
+                "priceBand": "19-59元",
+                "share": 8.6,
+                "strength": "价格带下探能力强，拼多多与抖音白牌打法高效",
+                "weakness": "品牌溢价低，清洁标签与高端线缺失"
+              },
+              {
+                "brand": "珍味小梅园",
+                "positioning": "家庭预制菜与早餐面点",
+                "priceBand": "29-99元",
+                "share": 7.1,
+                "strength": "面点与早餐场景矩阵完整，小笼包等品类协同",
+                "weakness": "肉制品大单品不突出，品牌搜索流量弱"
+              },
+              {
+                "brand": "安井食品",
+                "positioning": "速冻食品龙头，全品类覆盖",
+                "priceBand": "25-119元",
+                "share": 11.4,
+                "strength": "供应链与渠道分销能力极强，商超渗透深",
+                "weakness": "线上内容化与IP化运营弱，年轻用户心智老化"
+              },
+              {
+                "brand": "锋味派同源白牌集群",
+                "positioning": "抖音与拼多多低价平替烤肠",
+                "priceBand": "9-39元",
+                "share": 15.3,
+                "strength": "价格极致，直播冲量快",
+                "weakness": "品质不稳定、无品牌信任，复购率低"
+              },
+              {
+                "brand": "正大食品",
+                "positioning": "肉制品全产业链品牌",
+                "priceBand": "35-109元",
+                "share": 9.9,
+                "strength": "肉源与品控背书强，B端与C端双轮",
+                "weakness": "C端内容营销节奏慢，产品创新偏保守"
+              }
+            ],
+            "personas": [
+              {
+                "name": "成分党妈妈",
+                "age": "30-40岁",
+                "gender": "女性",
+                "scenario": "孩子早餐与放学加餐，空气炸锅复热",
+                "spendingPower": "中高，月家庭食品支出1500-3000元",
+                "coreNeeds": [
+                  "配料表干净无多余添加",
+                  "肉含量高可溯源",
+                  "分龄分量与营养搭配清晰"
+                ],
+                "quote": "给孩子吃的，配料表我先看三遍，肉源能不能查到"
+              },
+              {
+                "name": "效率型上班族",
+                "age": "23-32岁",
+                "gender": "男女均衡",
+                "scenario": "加班晚餐与周末囤货，微波炉或空气炸锅三分钟出餐",
+                "spendingPower": "中等，注重单餐性价比",
+                "coreNeeds": [
+                  "零操作复热不出错",
+                  "小份装不浪费",
+                  "口味多样不腻"
+                ],
+                "quote": "下班到家只想三分钟吃上热乎的，别让我解冻切菜"
+              },
+              {
+                "name": "年节囤货家庭主理人",
+                "age": "35-50岁",
+                "gender": "女性为主",
+                "scenario": "春节与家庭聚餐硬菜备货，礼盒送礼",
+                "spendingPower": "高，年节单次支出500-1500元",
+                "coreNeeds": [
+                  "硬菜撑场面有面子",
+                  "礼盒包装体面可送人",
+                  "批量囤货价格划算且耐储"
+                ],
+                "quote": "过年不想在厨房站一天，硬菜得提前备好还得拿得出手"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "空气炸锅三分钟出餐实测、儿童早餐一周不重样、年节硬菜摆盘",
+                "playStyle": "达人实测短视频加品牌自播日播，绑定烟火市集与聚餐热点做场景内容，冲量款与礼盒款分层投流",
+                "difficulty": "中",
+                "note": "抖音热榜聚餐与地方美食情绪强，适合食欲类内容放大"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "成分党妈妈配料表拆解、儿童分龄食谱、囤货开箱",
+                "playStyle": "素人笔记铺量加腰部母婴博主测评，主打清洁标签与营养搭配，沉淀搜索关键词",
+                "difficulty": "中",
+                "note": "需重点回应配料表与添加剂质疑，用对��图建立信任"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "官方旗舰店正品溯源、年节礼盒、组合装囤货",
+                "playStyle": "旗舰店做品牌搜索承接页，一物一码溯源可视化，大促做组合装与会员复购券",
+                "difficulty": "低",
+                "note": "联想词中官方旗舰店出现频次高，正品信任是转化核心"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "冷链时效与品质保障、家庭囤货大包装",
+                "playStyle": "主打次日达与冷链背书，绑定Plus会员与家庭囤货场景，做品质对比内容",
+                "difficulty": "中",
+                "note": "本次京东数据被反爬拦截，需后续补齐真实SKU与评论数据验证"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "尝鲜装低价试吃、多口味组合性价比",
+                "playStyle": "百亿补贴做尝鲜引流款，用低价小规格拉新后引导至组合装升级",
+                "difficulty": "低",
+                "note": "需严控白牌平替分流，用防伪标识与官方授权店区分"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "儿童分龄清洁标签子系列",
+                "trendSignal": "小笼包与意面搜索动机高度指向儿童早餐，配料表焦虑强",
+                "demandGap": "低价格带内清洁标签与分龄营养几乎空白，gapMatrix中对应格为空且机会分91",
+                "feasibility": "依托现有供应链做配方调整，6-8周可上市",
+                "score": 93,
+                "rationale": "需求真实且竞争低，价格带可下探至29-59元覆盖主流家庭，兼具拉新与溢价空间",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "第3位小笼包与第4位意面均为家庭儿童场景词，结合品类常识推断配料表顾虑"
+              },
+              {
+                "rank": 2,
+                "title": "一物一码正品溯源体系",
+                "trendSignal": "10条联想词中3条带官方旗舰店，正品确认需求被反复表达",
+                "demandGap": "用户无法在购买前验证肉源与批次，信任缺口明确",
+                "feasibility": "二维码溯源技术成熟，2-3周可上线旗舰店",
+                "score": 88,
+                "rationale": "直接回应最高强度痛点，提升旗舰店转化与复购，防御白牌平替分流",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "第2、7、10位联想词均含官方旗舰店表述"
+              },
+              {
+                "rank": 3,
+                "title": "年节聚餐预制硬菜礼盒",
+                "trendSignal": "抖音烟火市集与辣皮子牛肋排等内容带动聚餐食欲，11月年节情绪提前",
+                "demandGap": "99-159元价格带硬菜礼盒供给不足，对应格机会分87",
+                "feasibility": "整合现有肉制品线做礼盒组合，包装设计4-6周",
+                "score": 87,
+                "rationale": "Q4至春节为最大增量窗口，礼盒兼具送礼与囤货双场景，客单提升显著",
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "热榜第13位年度烟火市集与第8位辣皮子牛肋排反映聚餐与硬菜食欲情绪"
+              },
+              {
+                "rank": 4,
+                "title": "空气炸锅定制规格与烹饪卡",
+                "trendSignal": "半成品与空气炸锅组合内容在年轻平台传播性强",
+                "demandGap": "复热口感不稳定，缺少按器具定制的规格与指引",
+                "feasibility": "包装内附温度时间对照卡，成本极低",
+                "score": 79,
+                "rationale": "低成本高感知，直接改善口感差评与复购，适配效率型上班族人群",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "结合空气炸锅普及率与半成品复热通病推测，需真实评论验证"
+              },
+              {
+                "rank": 5,
+                "title": "烤肠香肠同义词聚合落地页",
+                "trendSignal": "烤肠与香肠双词并存，搜索流量被分流",
+                "demandGap": "用户对产品线命名认知混淆，搜索端承接缺失",
+                "feasibility": "搜索运营与详情页改版1-2周",
+                "score": 74,
+                "rationale": "低成本挽回分流流量，提升搜索转化效率，同时优化SKU命名体系",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "第1位烤肠与第9位香肠构成同义搜索分流"
+              },
+              {
+                "rank": 6,
+                "title": "小家庭尝鲜小规格组合",
+                "trendSignal": "囤货大包装与小家庭需求错配",
+                "demandGap": "29元以下多口味小规格组合供给偏少",
+                "feasibility": "现有产线分装即可实现",
+                "score": 68,
+                "rationale": "降低首次尝试门槛，拉新效率高，可引导后续升级家庭装",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "预制速食大包装浪费为品类结构性推测，需真实评价验证"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-11-18 17:44:23）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "被反爬拦截（页面过短）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-11-18T09:47:06.895Z",
+              "elapsedMs": 3411
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "锋味派烤肠",
+                "heat": 100
+              },
+              {
+                "word": "锋味派旗舰店",
+                "heat": 100
+              },
+              {
+                "word": "锋味派小笼包",
+                "heat": 100
+              },
+              {
+                "word": "锋味派意大利面",
+                "heat": 100
+              },
+              {
+                "word": "锋味派午餐肉",
+                "heat": 100
+              },
+              {
+                "word": "锋味派鸡排",
+                "heat": 100
+              },
+              {
+                "word": "锋味派烤肠官方旗舰店",
+                "heat": 100
+              },
+              {
+                "word": "锋味派意面",
+                "heat": 100
+              },
+              {
+                "word": "锋味派香肠",
+                "heat": 100
+              },
+              {
+                "word": "锋味派官方旗舰店意面",
                 "heat": 100
               }
             ]
