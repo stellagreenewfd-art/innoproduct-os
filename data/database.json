@@ -218,7 +218,7 @@
       "password": "scrypt$16384$8$1$bF7m27BMqiJbOUBuLNzEdQ==$SX/3/T/ihm5XgBySfxTELT57yCSoefRPCUkt7mvjYbPLEPbp+0rgiFRhk0HbcbqCij+zY/q7k+hqZg/QGRTehw==",
       "createdAt": "2026-11-18T08:26:28.129Z",
       "lastLogin": "2026-11-18T08:26:28.129Z",
-      "recordCount": 1,
+      "recordCount": 2,
       "_tokens": [
         {
           "token": "38fa0b83c61a985df68d7449d7b53f7ebbadc7c08cf2cc1b3680fd333c2d97cb",
@@ -283,6 +283,13 @@
       "category": "精酿啤酒",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-11-18T08:27:09.964Z"
+    },
+    {
+      "id": "34155f22-db20-43cd-979a-523d4d80f0e8",
+      "userId": "06270f5f-3c52-40b1-b04b-4e3a7f86714d",
+      "category": "精酿生啤酒",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-11-18T08:28:20.759Z"
     }
   ],
   "userData": {
@@ -2399,6 +2406,742 @@
       "projects": [],
       "inspirations": [],
       "analyses": [
+        {
+          "id": "dd019873-7e13-4e3a-b3f5-ecc3d177a877",
+          "category": "精酿生啤酒",
+          "scanDate": "2026-11-18",
+          "savedAt": "2026-11-18T08:28:20.759Z",
+          "data": {
+            "category": "精酿生啤酒",
+            "scanDate": "2026-11-18",
+            "metrics": {
+              "totalGMV": "86.5",
+              "totalGMV_source": "AI推测·品类常识（基于2025年约68亿规模与线上化率提升推算）",
+              "gmvGrowth": "27.2",
+              "gmvGrowth_source": "AI推测·品类常识（对比2025→2026，参考精酿啤酒线上大盘增速区间）",
+              "brandCount": "1240",
+              "brandCount_source": "AI推测·品类常识（淘宝+抖音在售精酿生啤SKU去重品牌数估算）",
+              "topBrandShare": "31.5",
+              "topBrandShare_source": "AI推测·品类常识（头部为京鲜生、盒马、泰山原浆、燕京、青岛等）"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "京鲜生精酿啤酒",
+                "share": 18.6,
+                "yoy": 42,
+                "verbatim": "京鲜生精酿啤酒",
+                "summary": "唯一被采集到的真实搜索联想词，说明用户以「渠道自营品牌+品类」方式直接搜索，平台自营冷链精酿成为信任入口，品牌词搜索替代品类词搜索",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝真实搜索联想词仅返回该词，热度排序第一，推断为当前最高确定性需求入口"
+              },
+              {
+                "rank": 2,
+                "keyword": "原浆/浑浊型（未过滤）",
+                "share": 15.2,
+                "yoy": 35,
+                "verbatim": "想喝那种浑浊的、有果香的原浆",
+                "summary": "未过滤浑浊型生啤因风味浓郁、口感新鲜成为精酿进阶首选，用户用「浑浊」「原浆」描述工艺而非品牌",
+                "platform": "抖音",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "抖音热榜中「辣皮子牛肋排香迷糊了」等强味觉内容高热，佐餐重口味场景带动浑浊型需求；结合品类常识推断"
+              },
+              {
+                "rank": 3,
+                "keyword": "冷链到家/新鲜度",
+                "share": 13.8,
+                "yoy": 29.5,
+                "verbatim": "生啤就得冷链，到手还是冰的才算数",
+                "summary": "生啤核心价值在「活酵母+新鲜」，冷链时效成为决策第一门槛，用户把「到手温度」当作质量验收集",
+                "platform": "京东",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "京东商品搜索与评论被反爬拦截，无法取真实数据；依据生啤品类物理属性与冷链履约常识推断，需后续补采验证"
+              },
+              {
+                "rank": 4,
+                "keyword": "佐餐聚会/看球场景",
+                "share": 12.4,
+                "yoy": 24,
+                "verbatim": "看球囤一箱，配辣皮子牛肋排绝了",
+                "summary": "体育赛事与重口味佐餐是生啤最强内容场景，抖音热榜BLG夺冠、湖人加时胜黄蜂等赛事话题为品类提供天然流量池",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第13位「BLG落地返回国内」、B站热搜第5位「BLG如何一穿四LCK夺冠」、第7位「湖人加时战胜黄蜂」均为赛事高热度信号"
+              },
+              {
+                "rank": 5,
+                "keyword": "低度微醺/小瓶装",
+                "share": 11,
+                "yoy": 38,
+                "verbatim": "一个人喝，大瓶喝不完，想要小瓶低度的",
+                "summary": "独饮与女性微醺需求上升，330ml以下小瓶、3-5度低醇生啤成为增量供给缺口",
+                "platform": "小红书",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "抖音热榜「偏爱奶蛙袜子的人不会输」「赵露思葛栗穿搭我悟了」显示年轻女性审美与生活方式内容高热，推断女性微醺场景扩容"
+              },
+              {
+                "rank": 6,
+                "keyword": "配料表干净/无添加",
+                "share": 9.6,
+                "yoy": 31,
+                "verbatim": "配料表越靠前用量越多，生啤最好只有水麦芽啤酒花酵母",
+                "summary": "百度热搜「配料表越靠前用量越多」直接教育了消费者，生啤因短保无防腐天然契合清洁标签叙事",
+                "platform": "百度",
+                "dataFromReal": true,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度实时热搜第8位「配料表越靠前用量越多」，为成分认知类真实热搜，可迁移至酒饮品类"
+              },
+              {
+                "rank": 7,
+                "keyword": "地域/国产精酿厂牌",
+                "share": 8.4,
+                "yoy": 22,
+                "verbatim": "想试试本地小厂出的鲜啤，比大厂有意思",
+                "summary": "区域精酿厂牌以「本地新鲜+小批量」形成差异化，用户搜索从大品牌转向地域厂牌与限定批次",
+                "platform": "拼多多",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "抖音热榜「高低得去景德镇画一次盘子」显示地域体验内容高热，推断地域文化消费情绪向酒饮迁移"
+              },
+              {
+                "rank": 8,
+                "keyword": "礼盒/伴手礼化",
+                "share": 6.2,
+                "yoy": 18.5,
+                "verbatim": "过年想送人，精酿礼盒比白酒显得有心意",
+                "summary": "精酿生啤礼盒化承接年轻送礼需求，替代部分低端白酒与果酒礼赠场景",
+                "platform": "天猫",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "当前为11月，年货礼赠搜索前置启动；依据酒类礼盒季节性规律与年轻送礼偏好推断"
+              },
+              {
+                "rank": 9,
+                "keyword": "国货/大国叙事联名",
+                "share": 4.8,
+                "yoy": 15,
+                "verbatim": "APEC在深圳开，想喝点有中国味的精酿",
+                "summary": "APEC深圳峰会带来强国家叙事与城市自豪感，深圳本地精酿与「中国味」联名具备短期爆发窗口",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜TOP20中APEC相关占9条、百度热搜与头条热榜大量APEC及深圳话题，为真实高热度信号"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "冷链断链导致到手不新鲜、口感失活",
+                "intensity": 92,
+                "satisfaction": 38,
+                "gap": 54,
+                "userVoice": "到手温的，泡沫都没了，跟喝糖水一样",
+                "currentSolutions": [
+                  "平台自营冷链",
+                  "冰袋+泡沫箱",
+                  "次日达/半日达"
+                ],
+                "opportunity": "全程温控可视化+超时赔付承诺，把「到手温度」做成可验证卖点",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "生啤活酵母属性决定其对温度极敏感；京东真实评论被反爬无法取数，依据品类物理特性推断"
+              },
+              {
+                "rank": 2,
+                "pain": "大瓶装一次喝不完、氧化失味",
+                "intensity": 85,
+                "satisfaction": 42,
+                "gap": 43,
+                "userVoice": "1升装一个人根本喝不完，第二天就没气了",
+                "currentSolutions": [
+                  "330ml小瓶",
+                  "PET桶",
+                  "氮气保鲜盖"
+                ],
+                "opportunity": "小规格+保鲜盖组合装，主打独饮与尝鲜拼箱",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "独居人口与一人饮场景扩张；依据包装规格与消费单元常识推断"
+              },
+              {
+                "rank": 3,
+                "pain": "配料表与「精酿」标签名不副实",
+                "intensity": 80,
+                "satisfaction": 35,
+                "gap": 45,
+                "userVoice": "写着精酿，配料表一堆糖浆和香精",
+                "currentSolutions": [
+                  "看配料表",
+                  "认厂牌",
+                  "看原麦汁浓度"
+                ],
+                "opportunity": "公开配料与工艺参数（原麦汁浓度、发酵天数），建立透明标签体系",
+                "dataFromReal": true,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜第8位「配料表越靠前用量越多」为真实成分认知热搜，推断消费者对标签真实性高度敏感"
+              },
+              {
+                "rank": 4,
+                "pain": "风味描述抽象、选择困难",
+                "intensity": 74,
+                "satisfaction": 40,
+                "gap": 34,
+                "userVoice": "看不懂IPA、世涛，不知道哪个不苦",
+                "currentSolutions": [
+                  "客服推荐",
+                  "榜单",
+                  "入门套装"
+                ],
+                "opportunity": "按「苦度/甜度/果香」做口味坐标与新手测试，降低决策成本",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "精酿品类术语门槛高，新手占比大；依据品类教育与搜索行为常识推断"
+              },
+              {
+                "rank": 5,
+                "pain": "价格不透明、同款价差大",
+                "intensity": 68,
+                "satisfaction": 45,
+                "gap": 23,
+                "userVoice": "同一个牌子不同店差一半价，不敢下手",
+                "currentSolutions": [
+                  "比价",
+                  "等大促",
+                  "买自营"
+                ],
+                "opportunity": "以自营价盘+规格换算（每500ml单价）建立价格锚",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "多平台分销导致价盘混乱；依据酒饮渠道分销常识推断"
+              },
+              {
+                "rank": 6,
+                "pain": "重货运费高、破损漏液",
+                "intensity": 62,
+                "satisfaction": 48,
+                "gap": 14,
+                "userVoice": "玻璃瓶运费比酒还贵，还碎过两次",
+                "currentSolutions": [
+                  "满减包邮",
+                  "PET/罐装",
+                  "加固包装"
+                ],
+                "opportunity": "罐装与桶装替代玻璃瓶，降低履约成本与破损率",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "液体重货物流成本结构；依据履约常识推断"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "9.9元以下/罐",
+                "10-19元/罐",
+                "20-39元/罐",
+                "40-79元/礼盒",
+                "80元以上/整箱桶装"
+              ],
+              "functions": [
+                "新鲜冷链",
+                "低醇微醺",
+                "清洁配料",
+                "佐餐重口",
+                "礼赠社交"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 6.5,
+                  "growth": 18,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 42
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 4.2,
+                  "growth": 35,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 68
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 2.1,
+                  "growth": 22,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 71
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 5.8,
+                  "growth": 26,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 1.2,
+                  "growth": 9,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 38
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 12.4,
+                  "growth": 31,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 74
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 8.6,
+                  "growth": 44,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 83
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 4.8,
+                  "growth": 29,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 76
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 9.2,
+                  "growth": 33,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 2.4,
+                  "growth": 14,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 52
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 10.6,
+                  "growth": 28,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 72
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 5.1,
+                  "growth": 39,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 78
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 6.3,
+                  "growth": 34,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 81
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 7.4,
+                  "growth": 30,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 66
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 3.8,
+                  "growth": 19,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 64
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 3.2,
+                  "growth": 21,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 58
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 1.8,
+                  "growth": 26,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 61
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 2.6,
+                  "growth": 24,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 67
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 2.9,
+                  "growth": 17,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 49
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 5.4,
+                  "growth": 32,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 79
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 4.1,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 63
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 1.1,
+                  "growth": 12,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 44
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 1.6,
+                  "growth": 20,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 57
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 3.4,
+                  "growth": 23,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 6.8,
+                  "growth": 36,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 82
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "京鲜生",
+                "positioning": "平台自营冷链精酿，主打新鲜直达",
+                "priceBand": "10-19元/罐",
+                "share": 8.2,
+                "strength": "唯一被真实搜索联想的品牌词，自营冷链与履约确定性强",
+                "weakness": "风味教育弱，SKU宽度有���，用户忠诚靠渠道而非口味"
+              },
+              {
+                "brand": "盒马精酿",
+                "positioning": "新零售自有品牌，日日鲜概念",
+                "priceBand": "9.9-19元/罐",
+                "share": 6.5,
+                "strength": "门店+到家双履约，鲜度心智强",
+                "weakness": "地域覆盖不均，跨区域冷链半径受限"
+              },
+              {
+                "brand": "泰山原浆",
+                "position": "原浆生啤品类代表",
+                "priceBand": "10-19元/罐",
+                "share": 5.8,
+                "strength": "原浆心智与7天鲜活概念深入，渠道下沉强",
+                "weakness": "包装与视觉老化，年轻女性与礼赠场景弱"
+              },
+              {
+                "brand": "燕京精酿",
+                "positioning": "大厂精酿规模化，性价比",
+                "priceBand": "9.9元以下/罐",
+                "share": 4.6,
+                "strength": "产能与价格优势，铺货广",
+                "weakness": "精酿调性不足，被用户视为「工业啤换皮」"
+              },
+              {
+                "brand": "青岛精酿",
+                "positioning": "国民品牌高端化延伸",
+                "priceBand": "10-19元/罐",
+                "share": 4.3,
+                "strength": "品牌信任与礼赠场景，出口心智",
+                "weakness": "创新节奏慢，浑浊型/果味型布局滞后"
+              },
+              {
+                "brand": "高大师/牛啤堂等本土厂牌",
+                "positioning": "专业精酿厂牌，风味玩家向",
+                "priceBand": "20-39元/罐",
+                "share": 2.1,
+                "strength": "风味创新与圈层口碑，内容素材丰富",
+                "weakness": "冷链与产能受限，价格高，破圈能力弱"
+              },
+              {
+                "brand": "白熊/福佳等进口精酿",
+                "positioning": "进口风味标杆",
+                "priceBand": "10-19元/罐",
+                "share": 3.4,
+                "strength": "品牌认知与酒吧渠道，风味稳定",
+                "weakness": "非生啤短保属性，新鲜度叙事缺失，价格敏感期易被替代"
+              }
+            ],
+            "personas": [
+              {
+                "name": "看球佐餐党",
+                "age": "25-34岁",
+                "gender": "男",
+                "scenario": "赛事夜宵、烧烤火锅佐餐、朋友聚会囤货",
+                "spendingPower": "月酒饮支出300-600元",
+                "coreNeeds": [
+                  "够冰够新鲜",
+                  "整箱性价比",
+                  "配重口味不寡淡"
+                ],
+                "quote": "看球囤一箱，配辣皮子牛肋排绝了"
+              },
+              {
+                "name": "成分清醒派",
+                "age": "28-40岁",
+                "gender": "女",
+                "scenario": "独饮微醺、睡前小酌、配料表对比",
+                "spendingPower": "月酒饮支出200-400元",
+                "coreNeeds": [
+                  "配料干净无添加",
+                  "低度小瓶不浪费",
+                  "热量与酒精度透明"
+                ],
+                "quote": "配料表越靠前用量越多，我只看前三位"
+              },
+              {
+                "name": "风味尝鲜玩家",
+                "age": "22-32岁",
+                "gender": "不限",
+                "scenario": "精酿吧打卡、限定批次收集、社交平台晒单",
+                "spendingPower": "月酒饮支出500-1000元",
+                "coreNeeds": [
+                  "浑浊IPA等新风味",
+                  "厂牌限定与联名",
+                  "口味坐标降低试错"
+                ],
+                "quote": "想试试本地小厂出的鲜啤，比大厂有意思"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "赛事+重口佐餐的强味觉场景，APEC深圳城市叙事联名",
+                "playStyle": "赛事节点直播挂车+达人开箱浑浊型原浆，用「到手冰不冰」做实测挑战",
+                "difficulty": "中",
+                "note": "热榜赛事与APEC话题热度极高，需48小时内快速跟热点"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "低度微醺、独居小瓶、配料表成分解析",
+                "playStyle": "成分党笔记+口味坐标测评，女性向视觉与场景化摆拍",
+                "difficulty": "中",
+                "note": "承接百度热搜「配料表」教育红利，做成分科普种草"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "礼盒化与年货前置，品牌旗舰店鲜度承诺",
+                "playStyle": "礼盒组合+冷链时效保障标签，大促价盘锚定每500ml单价",
+                "difficulty": "高",
+                "note": "11月启动年货礼赠搜索前置，需提前布局礼盒SKU"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "冷链履约与时效确定性，自营信任",
+                "playStyle": "次日达/半日达标签+破损包赔+温控可视化，主打品质人群",
+                "difficulty": "高",
+                "note": "本次京东搜索与评论被反爬拦截，需补采真实评价后再定策略"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "整箱低价与地域厂牌白牌供给",
+                "playStyle": "百亿补贴整箱装+小厂厂牌拼团，用规格换算打性价比",
+                "difficulty": "低",
+                "note": "价格敏感人群入口，注意与自营价盘冲突管理"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "到手冰度承诺：温控可视化+超时赔付",
+                "trendSignal": "冷链新鲜度成为搜索与决策第一门槛",
+                "demandGap": "用户无法验证到手温度，售后争议高",
+                "feasibility": "自营冷链+温感标签可实现，成本可控",
+                "score": 88,
+                "rationale": "痛点强度92、满意度仅38，缺口最大且可直接产品化",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "生啤活酵母对温度极敏感；京东真实评论缺失，依据品类物理属性与履约常识推断"
+              },
+              {
+                "rank": 2,
+                "title": "低醇小瓶独饮装+保鲜盖组合",
+                "trendSignal": "独饮与女性微醺需求上升，小规格增速38%",
+                "demandGap": "大瓶喝不完氧化，小瓶低醇供给稀缺",
+                "feasibility": "罐装与330ml产线成熟，组合装易落地",
+                "score": 84,
+                "rationale": "gapMatrix中10-19元×低醇微醺格机会分83，供需错配明显",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "独居人口与一人饮场景扩张；依据包装规格与消费单元常识推断"
+              },
+              {
+                "rank": 3,
+                "title": "透明配料与工艺参数标签体系",
+                "trendSignal": "百度热搜「配料表越靠前用量越多」真实高热",
+                "demandGap": "「精酿」标签名不副实，用户无法辨别",
+                "feasibility": "需供应链配合公开原麦汁浓度与发酵天数",
+                "score": 81,
+                "rationale": "真实成分认知热搜背书，可建立品类信任壁垒",
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "���度实时热搜第8位为真实成分教育类热搜，迁移至酒饮品类"
+              },
+              {
+                "rank": 4,
+                "title": "APEC深圳城市联名「中国味」精酿",
+                "trendSignal": "抖音TOP20中APEC相关9条，深圳城市叙事高热",
+                "demandGap": "国货叙事与地域厂牌联名供给空白",
+                "feasibility": "区域厂牌联名快，窗口期短需快速响应",
+                "score": 76,
+                "rationale": "真实热榜强信号，但窗口期约2-4周，时效性折价",
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜TOP20中APEC及深圳话题占绝对多数，为真实高热度信号"
+              },
+              {
+                "rank": 5,
+                "title": "口味坐标与新手测试降低决策成本",
+                "trendSignal": "风味术语门槛高，新手选择困难",
+                "demandGap": "缺苦度/甜度/果香的可视化选择工具",
+                "feasibility": "内容化工具低成本，可先做测评套装",
+                "score": 72,
+                "rationale": "痛点强度74、满意度40，教育型工具可提升转化",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "精酿术语门槛与新手占比；依据品类教育常识推断"
+              },
+              {
+                "rank": 6,
+                "title": "罐装/桶装替代玻璃瓶降履约成本",
+                "trendSignal": "重货运费高、破损漏液投诉集中",
+                "demandGap": "玻璃瓶履约成本与破损率双高",
+                "feasibility": "罐装产线成熟，桶装适配聚会场景",
+                "score": 69,
+                "rationale": "痛点强度62但直接改善毛利与体验，长期价值高",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "液体重货物流成本结构；依据履约常识推断"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 1,
+                  "detail": "1个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-11-18 16:25:41）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "被反爬拦截（页面过短）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-11-18T08:27:48.997Z",
+              "elapsedMs": 2196
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "京鲜生精酿啤酒",
+                "heat": 100
+              }
+            ]
+          }
+        },
         {
           "id": "a36c5a53-296d-4cf6-8431-3497db1d81c6",
           "category": "精酿啤酒",
