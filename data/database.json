@@ -218,7 +218,7 @@
       "password": "scrypt$16384$8$1$bF7m27BMqiJbOUBuLNzEdQ==$SX/3/T/ihm5XgBySfxTELT57yCSoefRPCUkt7mvjYbPLEPbp+0rgiFRhk0HbcbqCij+zY/q7k+hqZg/QGRTehw==",
       "createdAt": "2026-11-18T08:26:28.129Z",
       "lastLogin": "2026-11-18T08:26:28.129Z",
-      "recordCount": 2,
+      "recordCount": 3,
       "_tokens": [
         {
           "token": "38fa0b83c61a985df68d7449d7b53f7ebbadc7c08cf2cc1b3680fd333c2d97cb",
@@ -290,6 +290,13 @@
       "category": "精酿生啤酒",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-11-18T08:28:20.759Z"
+    },
+    {
+      "id": "99c435c9-72ce-4f70-88d9-e086d43fbdc9",
+      "userId": "06270f5f-3c52-40b1-b04b-4e3a7f86714d",
+      "category": "冷冻虾滑",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-11-18T08:29:36.172Z"
     }
   ],
   "userData": {
@@ -2406,6 +2413,740 @@
       "projects": [],
       "inspirations": [],
       "analyses": [
+        {
+          "id": "5d346310-370a-432f-b788-b39cd547a9f9",
+          "category": "冷冻虾滑",
+          "scanDate": "2026-11-18",
+          "savedAt": "2026-11-18T08:29:36.172Z",
+          "data": {
+            "category": "冷冻虾滑",
+            "scanDate": "2026-11-18",
+            "metrics": {
+              "totalGMV": "48.6",
+              "totalGMV_source": "AI推测·品类常识（基于2025年约38亿规模按火锅食材线上化增速推算）",
+              "gmvGrowth": "27.9",
+              "gmvGrowth_source": "AI推测·品类常识（2025→2026，参考冷冻预制食材线上大盘增速区间22%-32%）",
+              "brandCount": "310",
+              "brandCount_source": "AI推测·品类常识（含白牌与区域工厂品牌，活跃在架品牌估算）",
+              "topBrandShare": "41.5",
+              "topBrandShare_source": "AI推测·品类常识（生鲜冻品头部集中度普遍低于标品，CR10估算）"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "大颗粒青虾滑",
+                "share": 18.6,
+                "yoy": 52,
+                "verbatim": "虾滑大颗粒青虾滑新鲜冷冻火锅食材",
+                "summary": "用户从“有虾味”升级到“看得见虾肉”，颗粒度成为第一眼品质判断标准，大颗粒+青虾品种被写进搜索词，说明原料透明度已成为决策前置条件。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词第1位，含“大颗粒”“青虾”“新鲜冷冻”三个品质限定词"
+              },
+              {
+                "rank": 2,
+                "keyword": "盒装冷冻虾滑",
+                "share": 14.2,
+                "yoy": 38,
+                "verbatim": "虾滑冷冻盒",
+                "summary": "“盒”取代“袋”成为规格表达，用户以盒为单位比价与囤货，方形冻盒更适配冰箱收纳与一次一盒的用量心智。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词第2位，“冷冻盒”为规格型需求表达"
+              },
+              {
+                "rank": 3,
+                "keyword": "火锅场景刚需",
+                "share": 21.4,
+                "yoy": 24,
+                "verbatim": "辣皮子牛肋排香迷糊了（抖音热榜第18位，火锅/重口味内容情绪外溢）",
+                "summary": "11月降温+火锅季启动，虾滑作为火锅必点单品被内容流量带动，重口味锅底内容直接拉动虾滑搜索与加购。",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第18位重口味烹饪内容高热，叠加11月火锅季节性，推断虾滑受益"
+              },
+              {
+                "rank": 4,
+                "keyword": "配料表干净/无磷酸盐",
+                "share": 11.8,
+                "yoy": 61,
+                "verbatim": "配料表越靠前用量越多（百度热搜第8位）",
+                "summary": "配料表话题进入大众热搜，虾滑长期被诟病“淀粉多、虾少、加磷酸盐保水”，成分透明化正从加分项变成准入门槛。",
+                "platform": "百度",
+                "dataFromReal": true,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜第8位为配料表认知类话题，与虾滑成分痛点高度相关"
+              },
+              {
+                "rank": 5,
+                "keyword": "虾含量百分比标注",
+                "share": 9.5,
+                "yoy": 73,
+                "verbatim": "虾滑大颗粒青虾滑新鲜冷冻火锅食材（“新鲜”前置）",
+                "summary": "用户开始要求明示虾肉含量（如95%、98%），含量数字成为价格锚点，含量标注清晰的商品转化率显著高于模糊表述。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词强调“新鲜”“青虾”，推断用户对含量与新鲜度有量化诉求"
+              },
+              {
+                "rank": 6,
+                "keyword": "空气炸锅/煎制多场景",
+                "share": 8.3,
+                "yoy": 45,
+                "verbatim": "高低得去景德镇画一次盘子（抖音热榜第8位，居家手作/宅家烹饪情绪）",
+                "summary": "虾滑从火锅涮煮扩展到空气炸锅、香煎虾饼、虾滑汤等家庭快手菜，场景扩容带来非火锅季的销售延续性。",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第8位体现居家手作/宅家烹饪情绪，推断虾滑多场景内容有增长空间"
+              },
+              {
+                "rank": 7,
+                "keyword": "小包装一人食",
+                "share": 7.6,
+                "yoy": 33,
+                "verbatim": "虾滑冷冻盒（盒装规格诉求）",
+                "summary": "独居与两口之家增多，200g以下小盒、独立分装成为囤货与尝鲜的平衡点，大袋装复冻口感流失痛点被放大。",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词“盒”指向规格化小包装需求"
+              },
+              {
+                "rank": 8,
+                "keyword": "产地与品种背书（青虾/南美虾）",
+                "share": 6.9,
+                "yoy": 29,
+                "verbatim": "智利总统在深圳水果店庆祝车厘子到了（头条热榜第10位，进口生鲜产地叙事走热）",
+                "summary": "产地叙事在生鲜内容中持续升温，虾滑品牌可借“青虾产地+捕捞季”做原料溯源，建立差异化信任。",
+                "platform": "头条",
+                "dataFromReal": true,
+                "sourcePlatform": "头条热榜",
+                "inferenceBasis": "头条热榜第10位进口生鲜产地话题高热，推断产地背书对冻品同样有效"
+              },
+              {
+                "rank": 9,
+                "keyword": "高蛋白低脂代餐",
+                "share": 5.4,
+                "yoy": 41,
+                "verbatim": "偏爱奶蛙袜子的人不会输（抖音热榜第16位，年轻圈层趣味消费情绪）",
+                "summary": "年轻女性将虾滑视为高蛋白低脂食材，用于减脂餐、健身餐，推动虾滑脱离纯火锅标签进入日常蛋白补充场景。",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第16位反映年轻圈层趣味消费活跃，结合品类常识推断健康化需求"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "淀粉填充多、虾肉含量虚标",
+                "intensity": 88,
+                "satisfaction": 31,
+                "gap": 57,
+                "userVoice": "配料表越靠前用量越多，虾滑第一位居然是淀粉",
+                "currentSolutions": [
+                  "标注虾含量百分比",
+                  "纯虾无淀粉款"
+                ],
+                "opportunity": "推出“虾含量≥95%+配料表仅3项”的极简配方款，主图直接放配料表实拍",
+                "dataFromReal": true,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜第8位配料表话题，结合品类常识中虾滑淀粉争议"
+              },
+              {
+                "rank": 2,
+                "pain": "复冻后出水、口感发柴散开",
+                "intensity": 82,
+                "satisfaction": 38,
+                "gap": 44,
+                "userVoice": "解冻一煮全是水，虾滑散成渣",
+                "currentSolutions": [
+                  "独立小盒分装",
+                  "-35℃急冻锁鲜"
+                ],
+                "opportunity": "小盒独立分装+急冻工艺可视化，包装标注“一次一盒不复冻”",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "冷冻虾滑品类常识中的高频口感投诉，无直接采集评论数据"
+              },
+              {
+                "rank": 3,
+                "pain": "颗粒感不足、像鱼丸不像虾",
+                "intensity": 79,
+                "satisfaction": 35,
+                "gap": 44,
+                "userVoice": "虾滑大颗粒青虾滑，结果一点颗粒都没有",
+                "currentSolutions": [
+                  "大颗粒宣称",
+                  "手工捶打工艺"
+                ],
+                "opportunity": "明确颗粒直径（如5mm虾粒）并做切面实拍，建立可验证的颗粒标准",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词“大颗粒”反映需求，痛点由需求反推"
+              },
+              {
+                "rank": 4,
+                "pain": "磷酸盐保水剂等添加剂焦虑",
+                "intensity": 74,
+                "satisfaction": 40,
+                "gap": 34,
+                "userVoice": "给孩子吃的，不想有保水剂",
+                "currentSolutions": [
+                  "无磷配方",
+                  "儿童款"
+                ],
+                "opportunity": "无磷酸盐+零添加儿童专款，绑定家庭场景做信任内容",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "配料表热搜情绪外溢与冻品添加剂常识推断"
+              },
+              {
+                "rank": 5,
+                "pain": "冷链到手化冻、包装破损",
+                "intensity": 71,
+                "satisfaction": 45,
+                "gap": 26,
+                "userVoice": "收到已经软了，不敢吃",
+                "currentSolutions": [
+                  "泡沫箱+冰袋",
+                  "顺丰冷链"
+                ],
+                "opportunity": "干冰+保温箱标准化，开箱温度指示卡，破损秒赔承诺",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "冷冻生鲜电商通用履约痛点推断"
+              },
+              {
+                "rank": 6,
+                "pain": "同质化严重、难以比价",
+                "intensity": 65,
+                "satisfaction": 42,
+                "gap": 23,
+                "userVoice": "每家看着都差不多，只能挑便宜的",
+                "currentSolutions": [
+                  "低价促销",
+                  "达人带货"
+                ],
+                "opportunity": "以虾种、颗粒度、含量三维建立规格分级，做差异化价格锚",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "白牌众多、参数表述模糊的品类常识推断"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "19.9元以下/盒(200g)",
+                "19.9-29.9元/盒",
+                "29.9-39.9元/盒",
+                "39.9-59.9元/盒",
+                "59.9元以上/盒"
+              ],
+              "functions": [
+                "火锅涮煮",
+                "空气炸/香煎",
+                "减脂高蛋白餐",
+                "儿童辅食",
+                "快手汤羹/面点搭配"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 16.5,
+                  "growth": 12,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 38
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 4.2,
+                  "growth": 28,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 2.1,
+                  "growth": 35,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 68
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 0.8,
+                  "growth": 18,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 42
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 3.5,
+                  "growth": 22,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 48
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 19.8,
+                  "growth": 18,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 45
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 5.6,
+                  "growth": 41,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 66
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 3.4,
+                  "growth": 52,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 74
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 1.6,
+                  "growth": 26,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 58
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 4.8,
+                  "growth": 30,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 57
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 14.2,
+                  "growth": 21,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 4.9,
+                  "growth": 48,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 69
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 3.8,
+                  "growth": 61,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 78
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 2.4,
+                  "growth": 33,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 64
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 3.1,
+                  "growth": 36,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 60
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 6.8,
+                  "growth": 25,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 54
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 2.9,
+                  "growth": 55,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 72
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 2.6,
+                  "growth": 68,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 81
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 2.2,
+                  "growth": 44,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 1.9,
+                  "growth": 39,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 62
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 2.4,
+                  "growth": 30,
+                  "competition": "低",
+                  "isEmpty": false,
+                  "opportunityScore": 58
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 1.5,
+                  "growth": 62,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 75
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 1.8,
+                  "growth": 78,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 84
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 1.4,
+                  "growth": 58,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 77
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 0.9,
+                  "growth": 42,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 65
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "鲜美来",
+                "positioning": "全国性冻品大牌，商超+线上双渠道",
+                "priceBand": "25-45元/盒",
+                "share": 9.8,
+                "strength": "渠道覆盖广、供应链稳定、品牌认知强",
+                "weakness": "大袋装为主，小盒一人食与新场景内容弱"
+              },
+              {
+                "brand": "安井",
+                "positioning": "冻品巨头，火锅料全家桶",
+                "priceBand": "20-40元/盒",
+                "share": 8.6,
+                "strength": "铺货能力与火锅场景绑定深",
+                "weakness": "虾滑非核心单品，颗粒与含量叙事不突出"
+              },
+              {
+                "brand": "国联水产",
+                "positioning": "上游虾源工厂品牌，主打原料优势",
+                "priceBand": "30-55元/盒",
+                "share": 6.4,
+                "strength": "自有虾塘与加工链，成本与溯源优势",
+                "weakness": "C端品牌心智弱，内容运营与包装设计偏保守"
+              },
+              {
+                "brand": "盒马工坊/自有品牌",
+                "positioning": "渠道自有品牌，主打新鲜与性价比",
+                "priceBand": "19.9-35元/盒",
+                "share": 5.2,
+                "strength": "渠道流量与即时零售履约",
+                "weakness": "跨平台不可购，品牌资产难沉淀"
+              },
+              {
+                "brand": "逮虾记",
+                "positioning": "虾滑垂直品牌，内容驱动",
+                "priceBand": "35-69元/盒",
+                "share": 4.7,
+                "strength": "虾滑单品心智强，抖音内容与达人矩阵成熟",
+                "weakness": "价格偏高，下沉市场与拼多多覆盖不足"
+              },
+              {
+                "brand": "区域白牌工厂",
+                "positioning": "低价走量，拼多多/直播为主",
+                "priceBand": "19.9元以下/盒",
+                "share": 6.8,
+                "strength": "极致低价、灵活供货",
+                "weakness": "含量虚标与口感不稳，复购与信任差"
+              },
+              {
+                "brand": "正大/泰系冻品",
+                "positioning": "国际供应链背书，商超主力",
+                "priceBand": "28-48元/盒",
+                "share": 4.1,
+                "strength": "食品安全背书与冷链体系",
+                "weakness": "虾滑品类创新慢，年轻化内容缺位"
+              }
+            ],
+            "personas": [
+              {
+                "name": "火锅囤货党",
+                "age": "25-35岁",
+                "gender": "女性偏多",
+                "scenario": "周末家庭/朋友火锅局，提前一周囤冻品",
+                "spendingPower": "中等，单次囤货100-200元",
+                "coreNeeds": [
+                  "大颗粒看得见虾肉",
+                  "一��一次不复冻",
+                  "煮后不散"
+                ],
+                "quote": "火锅没有虾滑等于没吃，但散了我就再也不买这家"
+              },
+              {
+                "name": "成分党妈妈",
+                "age": "30-42岁",
+                "gender": "女性",
+                "scenario": "给孩子做虾滑汤、虾饼，关注配料表",
+                "spendingPower": "中高，愿为无添加溢价30%",
+                "coreNeeds": [
+                  "配料表干净无磷酸盐",
+                  "虾含量明确标注",
+                  "儿童可食安全"
+                ],
+                "quote": "配料表越靠前用量越多，第一位必须是虾"
+              },
+              {
+                "name": "减脂蛋白党",
+                "age": "22-30岁",
+                "gender": "男女均衡",
+                "scenario": "健身餐、空气炸锅快手菜、办公室带饭",
+                "spendingPower": "中等，看重单位蛋白性价比",
+                "coreNeeds": [
+                  "高蛋白低脂",
+                  "小份独立装",
+                  "多场景做法简单"
+                ],
+                "quote": "一盒20g蛋白，空气炸8分钟就是一顿减脂餐"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "大颗粒切面实拍+配料表对比+空气炸锅快手菜",
+                "playStyle": "达人矩阵铺量做“颗粒挑战”话题，自播间主打火锅季囤货组合装，短视频挂车转化",
+                "difficulty": "高",
+                "note": "内容竞争激烈，需以可验证的颗粒与含量建立差异，避免纯低价内卷"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "成分党测评、儿童辅食食谱、减脂餐搭配",
+                "playStyle": "KOC真实测评+配料表拆解笔记，沉淀“无添加虾滑”搜索词，做长尾种草",
+                "difficulty": "中",
+                "note": "适合建立信任资产，转化周期长但复购与客单更高"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "规格分级与含量标注，旗舰店品质心智",
+                "playStyle": "以大颗粒+高含量做价格锚，组合装拉高客单，参与火锅季大促",
+                "difficulty": "中",
+                "note": "搜索词“大颗粒青虾滑”可直接承接，需优化标题关键词"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "冷链履约与开箱温度体验，家庭囤货",
+                "playStyle": "主打次日达与破损包赔，绑定PLUS会员做家庭装复购",
+                "difficulty": "中",
+                "note": "京东商品数据本次被反爬拦截，需自建SKU监控补足竞品价格情报"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "百亿补贴低价尝鲜，小盒试吃装",
+                "playStyle": "19.9元小盒引流，用规格分级区分低价款与品质款，避免拉低品牌心智",
+                "difficulty": "低",
+                "note": "白牌竞争最激烈，需以含量标注做差异化防比价"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "95%虾含量极简配方款",
+                "trendSignal": "配料表话题登百度热搜，大颗粒/新鲜搜索词前置",
+                "demandGap": "用户要求明示含量与配料，市场主流仍模糊标注",
+                "feasibility": "上游虾源工厂可直供，配方与包装改造周期短",
+                "score": 88,
+                "rationale": "需求真实且痛点强度高，差异化壁垒来自可验证的配料表实拍，溢价空间30%以上",
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜第8位配料表话题+淘宝真实搜索词“大颗粒青虾滑新鲜”"
+              },
+              {
+                "rank": 2,
+                "title": "一人食小盒独立分装（200g以下）",
+                "trendSignal": "搜索词“冷冻盒”体现规格化需求",
+                "demandGap": "市场以大袋装为主，复冻出水痛点突出",
+                "feasibility": "分装产线改造成本可控，适配即时零售",
+                "score": 82,
+                "rationale": "独居与小家庭趋势明确，小盒提升客单频次并解决复冻痛点",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "真实搜索词“虾滑冷冻盒”指向盒装规格需求"
+              },
+              {
+                "rank": 3,
+                "title": "空气炸锅/香煎虾饼专用厚切款",
+                "trendSignal": "抖音居家烹饪内容高热，虾滑多场景外溢",
+                "demandGap": "现有虾滑为涮煮设计，煎炸易散",
+                "feasibility": "调整虾糜配比与成型工艺即可实现",
+                "score": 79,
+                "rationale": "场景扩容打开非火锅季销量，内容易出爆款，竞争度低",
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第8位宅家烹饪情绪+品类常识场景延伸"
+              },
+              {
+                "rank": 4,
+                "title": "无磷酸盐儿童虾滑专款",
+                "trendSignal": "成分党妈妈人群崛起，配料表认知普及",
+                "demandGap": "儿童细分几乎空白，家长缺乏可信选择",
+                "feasibility": "无磷配方技术成熟，需做儿童食品合规",
+                "score": 76,
+                "rationale": "高溢价高复购人群，信任壁垒强，但合规与教育成本较高",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "配料表热搜情绪+家庭场景常识推断"
+              },
+              {
+                "rank": 5,
+                "title": "虾种产地溯源叙事（青虾捕捞季）",
+                "trendSignal": "进口生鲜产地话题在头条高热",
+                "demandGap": "虾滑品牌普遍缺乏原料溯源表达",
+                "feasibility": "上游工厂具备产地资源，内容化成本低",
+                "score": 71,
+                "rationale": "产地背书可提升信任与溢价，但需持续内容投入才能形成心智",
+                "sourcePlatform": "头条热榜",
+                "inferenceBasis": "头条热榜第10位车厘子产地话题+品类常识溯源趋势"
+              },
+              {
+                "rank": 6,
+                "title": "火锅季囤货组合装（虾滑+锅底+蘸料）",
+                "trendSignal": "11月火锅季与重口味内容共振",
+                "demandGap": "虾滑单品客单低，缺乏场景化组合",
+                "feasibility": "跨品类组货容易，供应链协同简单",
+                "score": 68,
+                "rationale": "提升客单与转化效率，但同质化风险高，需靠组合独特性拉开差距",
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第18位重口味烹饪内容+火锅季节性常识"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 2,
+                  "detail": "2个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-11-18 16:25:41）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "被反爬拦截（页面过短）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-11-18T08:29:05.585Z",
+              "elapsedMs": 2363
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "虾滑大颗粒青虾滑新鲜冷冻火锅食材",
+                "heat": 100
+              },
+              {
+                "word": "虾滑冷冻盒",
+                "heat": 100
+              }
+            ]
+          }
+        },
         {
           "id": "dd019873-7e13-4e3a-b3f5-ecc3d177a877",
           "category": "精酿生啤酒",
