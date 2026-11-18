@@ -252,7 +252,7 @@
       "password": "scrypt$16384$8$1$zL6r3KaZlGCwy4CfYRB+Vg==$PgrN5AjXUp2jU39Tx8/79kThZBj4DBl36w5ZbFYgUql2Dh8jrRuS1UWYP4z522oAMdKLWNFQvRumzIi/mhvSlA==",
       "createdAt": "2026-11-18T09:34:11.817Z",
       "lastLogin": "2026-11-18T09:34:11.817Z",
-      "recordCount": 0,
+      "recordCount": 1,
       "_tokens": [
         {
           "token": "5b2a8de34913549951883e0c223ddffa126fb2e66c73041466f8ce59d0f81653",
@@ -345,6 +345,13 @@
       "category": "方便小火锅",
       "result": "趋势分析（真实源4/7）",
       "createdAt": "2026-11-18T08:45:55.805Z"
+    },
+    {
+      "id": "f1963418-c2fa-45c2-8e71-6510ade56cf7",
+      "userId": "1b4b8b55-55d3-449b-bdc0-b646776c83a3",
+      "category": "咖啡",
+      "result": "趋势分析（真实源5/7）",
+      "createdAt": "2026-11-18T09:36:49.769Z"
     }
   ],
   "userData": {
@@ -6345,6 +6352,804 @@
               "timestamp": "2026-11-18T08:45:23.748Z",
               "elapsedMs": 3380
             }
+          }
+        }
+      ]
+    },
+    "1b4b8b55-55d3-449b-bdc0-b646776c83a3": {
+      "projects": [],
+      "inspirations": [],
+      "analyses": [
+        {
+          "id": "e4317be1-820e-4315-96dd-de15eca433f2",
+          "category": "咖啡",
+          "scanDate": "2026-11-18",
+          "savedAt": "2026-11-18T09:36:49.769Z",
+          "data": {
+            "category": "咖啡",
+            "scanDate": "2026-11-18",
+            "metrics": {
+              "totalGMV": "2180",
+              "totalGMV_source": "AI推测·品类常识（基于2025年约1760亿规模按行业增速外推）",
+              "gmvGrowth": "23.8",
+              "gmvGrowth_source": "AI推测·品类常识（结合淘宝搜索联想中咖啡液/咖啡粉/咖啡机高频出现推断需求扩张）",
+              "brandCount": "4800",
+              "brandCount_source": "AI推测·品类常识（天猫+抖音在营咖啡相关品牌数估算）",
+              "topBrandShare": "41.5",
+              "topBrandShare_source": "AI推测·品类常识（瑞幸、雀巢、三顿半、隅田川、星巴克等CR10估算）"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "咖啡液",
+                "share": 18.6,
+                "yoy": 47.2,
+                "verbatim": "咖啡液哪个牌子好喝不酸，办公室直接兑牛奶",
+                "summary": "浓缩咖啡液成为增长最快的即饮形态，主打零糖零脂、冷萃工艺与便携条装，替代部分速溶与现制外带场景",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝联想词第4位出现咖啡液，且位列咖啡粉之前，反映搜索热度已超越传统速溶"
+              },
+              {
+                "rank": 2,
+                "keyword": "咖啡机",
+                "share": 15.3,
+                "yoy": 19.5,
+                "verbatim": "家用半自动咖啡机推荐，预算两千以内能拉花吗",
+                "summary": "家庭咖啡角持续渗透，半自动与胶囊机双线增长，用户从尝鲜转向追求萃取参数与奶泡质感",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝联想词第2位为咖啡机，紧随咖啡杯之后，属高意图购买词"
+              },
+              {
+                "rank": 3,
+                "keyword": "咖啡豆",
+                "share": 14.1,
+                "yoy": 16.8,
+                "verbatim": "手冲咖啡豆推荐，浅烘果酸明显的豆子",
+                "summary": "精品豆消费日常化，产地（埃塞、云南、哥伦比亚）与烘焙度成为核心决策维度，云南豆认知度显著提升",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "淘宝联想词第3位咖啡豆，与咖啡液共同构成两大核心原料搜索"
+              },
+              {
+                "rank": 4,
+                "keyword": "咖啡杯/随行杯",
+                "share": 11.7,
+                "yoy": 31.4,
+                "verbatim": "咖啡随行杯保温不漏水，能装下大杯冰美式",
+                "summary": "器具类需求被咖啡消费带动，随行杯、陶瓷杯、玻璃杯形成礼品化与颜值化双驱动",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "联想词第1位咖啡杯、第9位咖啡随行杯，器具词占据两席说明周边生态旺盛"
+              },
+              {
+                "rank": 5,
+                "keyword": "咖啡瑞幸",
+                "share": 9.8,
+                "yoy": 12.3,
+                "verbatim": "瑞幸同款��啡液在家复刻生椰拿铁",
+                "summary": "品牌词搜索体现现制咖啡品牌向零售产品延伸，用户主动寻找门店同款风味复刻方案",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "联想词第6位出现品牌词咖啡瑞幸，说明品牌心智已外溢至电商搜索"
+              },
+              {
+                "rank": 6,
+                "keyword": "咖啡打泡器",
+                "share": 6.4,
+                "yoy": 58.9,
+                "verbatim": "电动打泡器几十块的够用吗，打奶泡细腻吗",
+                "summary": "小家电配件爆发式增长，与家庭咖啡角、居家拿铁DIY场景强绑定，低价尝鲜属性明显",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "联想词第10位咖啡打泡器，属细分小件但增速最快的一类搜索"
+              },
+              {
+                "rank": 7,
+                "keyword": "咖啡糖/咖啡勺",
+                "share": 5.2,
+                "yoy": 8.6,
+                "verbatim": "咖啡糖块配美式好喝吗，咖啡勺长柄的",
+                "summary": "配套小件长尾需求稳定，客单低、复购弱，多作为凑单与礼赠组合出现",
+                "platform": "淘宝",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "联想词第7位咖啡糖、第8位咖啡勺，属典型长尾配套词"
+              },
+              {
+                "rank": 8,
+                "keyword": "秋冬热咖啡/烟火市集咖啡",
+                "share": 4.9,
+                "yoy": 26.7,
+                "verbatim": "冬天来一杯热拿铁，市集上的手冲咖啡摊好出片",
+                "summary": "抖音热榜出现年度烟火市集全明星阵容、北京银杏雨等秋冬生活场景，热饮与市集咖啡内容情绪走高",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第13位年度烟火市集、第5位北京银杏雨，均为秋冬户外与市集消费场景信号，与热咖啡内容强相关（推测关联）"
+              },
+              {
+                "rank": 9,
+                "keyword": "APEC/华强北咖啡社交",
+                "share": 3.6,
+                "yoy": 22.1,
+                "verbatim": "华强北外国人都在喝咖啡谈生意，深圳咖啡店爆满",
+                "summary": "抖音、百度、头条热榜被APEC与深圳华强北外国人扫货刷屏，商务社交与城市咖啡场景被强曝光，深圳本地咖啡消费话题受益",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜第6位华强北挤满了外国人、抖音热榜APEC系列霸榜，推断咖啡作为商务社交载体获得场景曝光（推测关联）"
+              },
+              {
+                "rank": 10,
+                "keyword": "低因/健康咖啡",
+                "share": 3.4,
+                "yoy": 41.5,
+                "verbatim": "晚上喝咖啡睡不着，有没有低因的，孕妇能喝吗",
+                "summary": "健康化诉求外溢至咖啡，低因、零糖、添加益生菌/胶原的功能咖啡开始起量，睡前与孕产人群是新增量",
+                "platform": "小红书",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "淘宝联想未直接出现但健康化是食品饮料共性趋势，结合咖啡液零糖卖点推断（推测）"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "咖啡液/速溶口感发酸发苦，与门店现制差距大",
+                "intensity": 86,
+                "satisfaction": 42,
+                "gap": 44,
+                "userVoice": "买回来兑水一股酸味，完全不是店里那个味",
+                "currentSolutions": [
+                  "冷萃浓缩液",
+                  "加奶掩盖",
+                  "选购深烘豆"
+                ],
+                "opportunity": "做风味标准化标注（酸度/醇厚度/推荐搭配），推出门店同款复刻套装",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "联想词咖啡液、咖啡瑞幸同款复刻需求并存，反映口感落差痛点"
+              },
+              {
+                "rank": 2,
+                "pain": "家用咖啡机清洗麻烦、上手门槛高",
+                "intensity": 81,
+                "satisfaction": 38,
+                "gap": 43,
+                "userVoice": "半自动买了三个月就吃灰，清洗太麻烦",
+                "currentSolutions": [
+                  "胶囊机",
+                  "全自动机",
+                  "送清洗片"
+                ],
+                "opportunity": "一键自清洁+新手引导配方卡，降低入门门槛",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "咖啡机为高意图搜索词，清洗与操作复杂度是家用机核心弃用原因（推测）"
+              },
+              {
+                "rank": 3,
+                "pain": "咖啡豆保鲜难，开封后风味快速流失",
+                "intensity": 74,
+                "satisfaction": 45,
+                "gap": 29,
+                "userVoice": "一袋豆子喝不完，两周就不香了",
+                "currentSolutions": [
+                  "单向排气阀袋",
+                  "小包装分装",
+                  "冷冻保存"
+                ],
+                "opportunity": "小规格分装+氮气锁鲜+烘焙日期可视化",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "咖啡豆搜索高频，保鲜是精品豆用户共性痛点（推测）"
+              },
+              {
+                "rank": 4,
+                "pain": "随行杯漏水、保温差、装不下大杯冰饮",
+                "intensity": 70,
+                "satisfaction": 50,
+                "gap": 20,
+                "userVoice": "放包里漏了一书包，冰美式两小时就温了",
+                "currentSolutions": [
+                  "密封圈款",
+                  "316不锈钢",
+                  "大容量杯"
+                ],
+                "opportunity": "大容量+强密封+保冷测试数据公示",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "咖啡随行杯为独立联想词，说明需求明确且存在改进空间"
+              },
+              {
+                "rank": 5,
+                "pain": "低价打泡器打不出细腻奶泡、易坏",
+                "intensity": 65,
+                "satisfaction": 41,
+                "gap": 24,
+                "userVoice": "几十块的打泡器打出来全是粗泡，还容易烧电机",
+                "currentSolutions": [
+                  "手动奶泡壶",
+                  "法压壶打泡",
+                  "升级电动款"
+                ],
+                "opportunity": "双档位+防烧保护+奶泡细腻度对比演示",
+                "dataFromReal": true,
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "咖啡打泡器搜索增速最快，低价段品质不稳是差评集中点（推测）"
+              },
+              {
+                "rank": 6,
+                "pain": "低因/健康咖啡选择少，口味妥协明显",
+                "intensity": 58,
+                "satisfaction": 33,
+                "gap": 25,
+                "userVoice": "想喝又怕失眠，低因的都不太好喝",
+                "currentSolutions": [
+                  "瑞士水处理低因豆",
+                  "减少饮用",
+                  "改喝茶"
+                ],
+                "opportunity": "低因+风味兼得的工艺叙事，切入孕产与晚间场景",
+                "dataFromReal": false,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "健康化趋势推断，低因产品供给不足属品类常识（推测）"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "0-30元（速溶/条装）",
+                "30-80元（挂耳/浓缩液）",
+                "80-200元（精品豆/礼盒）",
+                "200-800元（入门咖啡机/器具）",
+                "800-3000元（半自动/全自动机）"
+              ],
+              "functions": [
+                "便捷即饮",
+                "风味精品化",
+                "健康低因零糖",
+                "器具颜值礼赠",
+                "家庭咖啡角一体化"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 22.5,
+                  "growth": 14.2,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 35
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 4.1,
+                  "growth": 22.6,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 58
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 3.2,
+                  "growth": 38.4,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 82
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 1.8,
+                  "growth": 9.5,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 48
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 0.9,
+                  "growth": 11.3,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 40
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 16.8,
+                  "growth": 49.7,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 76
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 7.4,
+                  "growth": 28.3,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 68
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 2.6,
+                  "growth": 44.1,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 85
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 3.9,
+                  "growth": 35.2,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 62
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 1.1,
+                  "growth": 18.7,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 44
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 2.2,
+                  "growth": 12.4,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 39
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 11.6,
+                  "growth": 19.8,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 52
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 1.7,
+                  "growth": 31.6,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 66
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 5.3,
+                  "growth": 27.9,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 61
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 1.4,
+                  "growth": 15.6,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 43
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 0.8,
+                  "growth": 16.2,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 37
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 2.9,
+                  "growth": 24.5,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 0.6,
+                  "growth": 20.1,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 41
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 4.7,
+                  "growth": 33.8,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 64
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 6.2,
+                  "growth": 29.4,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 71
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 0.5,
+                  "growth": 10.8,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 33
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 1.3,
+                  "growth": 17.9,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 46
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 0.4,
+                  "growth": 14.5,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 36
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 2.1,
+                  "growth": 21.7,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 50
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 4.3,
+                  "growth": 26.8,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 59
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "瑞幸",
+                "positioning": "现制咖啡龙头向零售延伸，门店同款风味",
+                "priceBand": "30-80元",
+                "share": 11.2,
+                "strength": "门店心智强、联名营销与私域流量",
+                "weakness": "零售产品线口感稳定性争议，价格战稀释品牌溢价"
+              },
+              {
+                "brand": "雀巢",
+                "positioning": "速溶基本盘+胶囊机生态",
+                "priceBand": "0-80元",
+                "share": 9.6,
+                "strength": "渠道覆盖极广、供应链与品牌信任",
+                "weakness": "精品化与年轻化心智弱，被新锐挤压"
+              },
+              {
+                "brand": "三顿半",
+                "positioning": "精品速溶/超即溶开创者",
+                "priceBand": "80-200元",
+                "share": 7.1,
+                "strength": "设计美学与返航计划社群运营",
+                "weakness": "客单偏高、复购依赖促销，风味同质化"
+              },
+              {
+                "brand": "隅田川",
+                "positioning": "高性价比挂耳与浓缩液",
+                "priceBand": "30-80元",
+                "share": 6.4,
+                "strength": "电商运营效率高、价格带卡位精准",
+                "weakness": "品牌调性偏大众，高端线缺��"
+              },
+              {
+                "brand": "星巴克",
+                "positioning": "品牌授权零售+家用咖啡生态",
+                "priceBand": "80-3000元",
+                "share": 5.8,
+                "strength": "全球品牌力与礼赠属性",
+                "weakness": "价格高、本土化新品节奏慢"
+              },
+              {
+                "brand": "永璞",
+                "positioning": "浓缩液与联名IP咖啡",
+                "priceBand": "30-80元",
+                "share": 4.3,
+                "strength": "IP联名与内容营销能力强",
+                "weakness": "产品线分散，供应链依赖代工"
+              },
+              {
+                "brand": "德龙",
+                "positioning": "家用半自动/全自动咖啡机",
+                "priceBand": "800-3000元",
+                "share": 6.9,
+                "strength": "技术积累与高端心智",
+                "weakness": "售后与清洗体验痛点，价格门槛高"
+              },
+              {
+                "brand": "辛鹿/云南本土豆商",
+                "positioning": "产地直供精品豆",
+                "priceBand": "80-200元",
+                "share": 3.5,
+                "strength": "产地故事与性价比",
+                "weakness": "品牌力弱、保鲜与标准化能力不足"
+              }
+            ],
+            "personas": [
+              {
+                "name": "办公室咖啡续命党",
+                "age": "25-35岁",
+                "gender": "女",
+                "scenario": "工位上午后提神，兑水兑奶即饮",
+                "spendingPower": "中",
+                "coreNeeds": [
+                  "便捷快速",
+                  "零糖低卡",
+                  "口感接近门店"
+                ],
+                "quote": "三秒冲一杯，下午三点全靠它续命"
+              },
+              {
+                "name": "家庭咖啡角玩家",
+                "age": "28-40岁",
+                "gender": "男",
+                "scenario": "周末在家手冲/半自动拉花，招待朋友",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "萃取参数可控",
+                  "器具颜值",
+                  "清洗省心"
+                ],
+                "quote": "机器买了就得用出仪式感，拉花成功那刻值了"
+              },
+              {
+                "name": "健康低因敏感人群",
+                "age": "30-45岁",
+                "gender": "女",
+                "scenario": "晚间与孕产期想喝又怕失眠",
+                "spendingPower": "中高",
+                "coreNeeds": [
+                  "低因不失眠",
+                  "无添加零糖",
+                  "风味不妥协"
+                ],
+                "quote": "想喝又怕睡不着，有没有好喝的低因"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "秋冬热咖啡与市集咖啡场景、华强北商务咖啡社交热点借势",
+                "playStyle": "短视频场景种草+直播冲调演示，绑定APEC深圳城市话题做本地生活联动",
+                "difficulty": "中",
+                "note": "热榜被APEC与市集话题占据，咖啡需借场景而非硬广切入"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "家庭咖啡角改造、低因健康测评、随行杯颜值合集",
+                "playStyle": "KOC真实测评+配方教程，笔记挂商品卡转化",
+                "difficulty": "中",
+                "note": "健康化与器具颜值是笔记高互动选题"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "精品豆与咖啡机品牌旗舰阵地，礼盒与年货节蓄水",
+                "playStyle": "品牌旗舰+超级品类日，强调烘焙日期与保鲜可视化",
+                "difficulty": "高",
+                "note": "头部集中度高，新品牌需差异化价格带切入"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "咖啡机与器具的正品快送与售后保障",
+                "playStyle": "自营+以旧换新，突出清洗服务与延保",
+                "difficulty": "中",
+                "note": "京东搜索被反爬拦截，数据需后续补齐"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "低价尝鲜条装咖啡液与打泡器等小件",
+                "playStyle": "百亿补贴爆款冲量，白牌+工厂直供",
+                "difficulty": "低",
+                "note": "低价段品质不稳是差评主因，需强化品控叙事"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "健康功能咖啡液（低因/零糖/益生菌）",
+                "trendSignal": "咖啡液搜索占比18.6%且同比+47.2%，健康化诉求外溢",
+                "demandGap": "低因与功能化供给不足，口味妥协明显",
+                "feasibility": "代工成熟，工艺叙事可差异化",
+                "score": 88,
+                "rationale": "高增速+低竞争格位（0-30元×健康格机会分82），需求缺口明确",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "咖啡液为真实高频搜索词，健康功能为品类常识推断"
+              },
+              {
+                "rank": 2,
+                "title": "门店同款复刻套装（浓缩液+糖浆+配方卡）",
+                "trendSignal": "咖啡瑞幸品牌词进入联想前六，复刻需求真实存在",
+                "demandGap": "用户想在家复刻生椰拿铁但缺配方与原料组合",
+                "feasibility": "组合装易落地，联名风险需规避",
+                "score": 81,
+                "rationale": "品牌心智外溢+组合装提升客单，30-80元格机会分76",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "联想词咖啡瑞幸与咖啡液共同指向复刻场景（推测）"
+              },
+              {
+                "rank": 3,
+                "title": "新手友好自清洁家用咖啡机",
+                "trendSignal": "咖啡机搜索占比15.3%，清洗与门槛是核心弃用原因",
+                "demandGap": "入门机型缺乏一键自清洁与引导",
+                "feasibility": "需供应链与研发投入，周期较长",
+                "score": 74,
+                "rationale": "高意图搜索+明确痛点，但研发门槛与竞争强度拉低评分",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "咖啡机为真实搜索词，清洗痛点为推测共性"
+              },
+              {
+                "rank": 4,
+                "title": "大容量强密封保冷随行杯",
+                "trendSignal": "咖啡杯居联想首位、随行杯独立成词，同比+31.4%",
+                "demandGap": "漏水与保冷差是差评集中点",
+                "feasibility": "模具成熟，快速起量",
+                "score": 72,
+                "rationale": "器具生态旺盛，礼赠+自用双场景，30-80元格机会分62",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "咖啡杯与咖啡随行杯均为真实联想词"
+              },
+              {
+                "rank": 5,
+                "title": "小规格锁鲜精品豆订阅",
+                "trendSignal": "咖啡豆搜索占比14.1%，保鲜是精品豆痛点",
+                "demandGap": "大袋喝不完、风味流失快",
+                "feasibility": "订阅制+小包装分装可落地",
+                "score": 69,
+                "rationale": "精品化趋势明确，订阅提升复购，80-200元格机会分66",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "咖啡豆��真实搜索词，保鲜痛点为推测"
+              },
+              {
+                "rank": 6,
+                "title": "细腻奶泡双档打泡器",
+                "trendSignal": "咖啡打泡器同比+58.9%，增速最快",
+                "demandGap": "低价段奶泡粗糙、电机易烧",
+                "feasibility": "小件快迭代，成本可控",
+                "score": 66,
+                "rationale": "高增速细分件，品质升级空间大，0-30元格机会分48",
+                "sourcePlatform": "淘宝搜索联想",
+                "inferenceBasis": "咖啡打泡器为真实联想词，品质痛点为推测"
+              }
+            ],
+            "_collection": {
+              "successCount": 5,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "success",
+                  "count": 10,
+                  "detail": "10个真实搜索词（含热度）"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-11-18 17:34:23）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "被反爬拦截（页面过短）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-11-18T09:36:19.047Z",
+              "elapsedMs": 3323
+            },
+            "_taobaoSuggests": [
+              {
+                "word": "咖啡杯",
+                "heat": 100
+              },
+              {
+                "word": "咖啡机",
+                "heat": 100
+              },
+              {
+                "word": "咖啡豆",
+                "heat": 100
+              },
+              {
+                "word": "咖啡液",
+                "heat": 100
+              },
+              {
+                "word": "咖啡粉",
+                "heat": 100
+              },
+              {
+                "word": "咖啡瑞幸",
+                "heat": 100
+              },
+              {
+                "word": "咖啡糖",
+                "heat": 100
+              },
+              {
+                "word": "咖啡勺",
+                "heat": 100
+              },
+              {
+                "word": "咖啡随行杯",
+                "heat": 100
+              },
+              {
+                "word": "咖啡打泡器",
+                "heat": 100
+              }
+            ]
           }
         }
       ]
