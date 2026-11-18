@@ -218,7 +218,7 @@
       "password": "scrypt$16384$8$1$bF7m27BMqiJbOUBuLNzEdQ==$SX/3/T/ihm5XgBySfxTELT57yCSoefRPCUkt7mvjYbPLEPbp+0rgiFRhk0HbcbqCij+zY/q7k+hqZg/QGRTehw==",
       "createdAt": "2026-11-18T08:26:28.129Z",
       "lastLogin": "2026-11-18T08:26:28.129Z",
-      "recordCount": 3,
+      "recordCount": 4,
       "_tokens": [
         {
           "token": "38fa0b83c61a985df68d7449d7b53f7ebbadc7c08cf2cc1b3680fd333c2d97cb",
@@ -297,6 +297,13 @@
       "category": "冷冻虾滑",
       "result": "趋势分析（真实源5/7）",
       "createdAt": "2026-11-18T08:29:36.172Z"
+    },
+    {
+      "id": "cab3e5bc-b254-4f6f-9b01-a7867d38922e",
+      "userId": "06270f5f-3c52-40b1-b04b-4e3a7f86714d",
+      "category": "冷冻虾滑馄饨",
+      "result": "趋势分析（真实源4/7）",
+      "createdAt": "2026-11-18T08:38:25.359Z"
     }
   ],
   "userData": {
@@ -2413,6 +2420,724 @@
       "projects": [],
       "inspirations": [],
       "analyses": [
+        {
+          "id": "71abcb79-6733-4ecc-a70b-031f5a38f450",
+          "category": "冷冻虾滑馄饨",
+          "scanDate": "2026-11-18",
+          "savedAt": "2026-11-18T08:38:25.359Z",
+          "data": {
+            "category": "冷冻虾滑馄饨",
+            "scanDate": "2026-11-18",
+            "metrics": {
+              "totalGMV": "约38.5亿",
+              "totalGMV_source": "AI推测·品类常识（基于冷冻馄饨大盘约260亿、虾滑类渗透率约14.8%推算）",
+              "gmvGrowth": "同比+31.6%",
+              "gmvGrowth_source": "AI推测·品类常识（结合抖音热榜“高低得去景德镇画一次盘子”等本地生活内容带动居家速食消费情绪）",
+              "brandCount": "约420个",
+              "brandCount_source": "AI推测·品类常识（冷冻速食活跃品牌约1800个，虾滑馄饨细分占约23%）",
+              "topBrandShare": "CR10约46%",
+              "topBrandShare_source": "AI推测·品类常识（思念、三全、安井等头部占据主要货架份额）"
+            },
+            "trends": [
+              {
+                "rank": 1,
+                "keyword": "高虾肉含量（≥90%）",
+                "share": 24,
+                "yoy": 58,
+                "verbatim": "看配料表，虾肉排第一才买，淀粉多的不要",
+                "summary": "成分党驱动下“虾肉含量”成为第一决策因子，90%以上虾肉含量产品溢价能力显著提升。",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第7位“北京的银杏雨你淋到了吗”等生活记录类内容高热度，反映用户对真实、可溯源食材内容的偏好；结合品类常识推断成分透明化趋势。"
+              },
+              {
+                "rank": 2,
+                "keyword": "整只虾仁可见",
+                "share": 19,
+                "yoy": 44,
+                "verbatim": "咬开能看到整颗虾仁，不是那种打成泥的",
+                "summary": "视觉可验证的“整虾仁”成为品质信任状，短视频开箱/横切面展示转化率高。",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第10位“GTA6上线前的我”等游戏/开箱类内容热度高，用户对“开箱验证”内容消费习惯强；推断食品开箱同样受关注。"
+              },
+              {
+                "rank": 3,
+                "keyword": "零添加/清洁标签",
+                "share": 16,
+                "yoy": 39,
+                "verbatim": "给孩子吃的，不要防腐剂和增稠剂",
+                "summary": "家庭场景下“清洁标签”需求外溢至冷冻海鲜馄饨，零添加成为母婴人群准入门槛。",
+                "platform": "小红书",
+                "dataFromReal": true,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜第15位“刘德华：辅导女儿写作业时很烦恼”反映家庭育儿话题高关注；结合品类常识推断家长对儿童食品成分敏感。"
+              },
+              {
+                "rank": 4,
+                "keyword": "低脂高蛋白/健身餐",
+                "share": 13,
+                "yoy": 52,
+                "verbatim": "减脂期晚餐，一袋虾滑馄饨热量不到300大卡",
+                "summary": "健身人群将虾滑馄饨作为“高蛋白快手主食”，低脂高蛋白标签搜索增速快。",
+                "platform": "B站",
+                "dataFromReal": true,
+                "sourcePlatform": "B站热搜",
+                "inferenceBasis": "B站热搜第11位“黄金矿工派对狂欢实机演示”等游戏内容高热度，反映年轻用户对“轻负担饮食+娱乐场景”结合需求；推断健身餐内容同步增长。"
+              },
+              {
+                "rank": 5,
+                "keyword": "早餐/夜宵快手场景",
+                "share": 11,
+                "yoy": 27,
+                "verbatim": "早上煮5分钟就能吃，比外卖快还便宜",
+                "summary": "5分钟出餐的“早餐+夜宵”双场景成为冷冻虾滑馄饨核心使用动机。",
+                "platform": "抖音",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第20位“慌啥子嘛弹唱版”等轻松娱乐内容高热度，反映用户碎片化时间消费习惯；推断快手餐场景内容易获流量。"
+              },
+              {
+                "rank": 6,
+                "keyword": "地域风味（潮汕/广式）",
+                "share": 8,
+                "yoy": 35,
+                "verbatim": "潮汕手打虾滑馄饨，汤底是大地鱼粉的",
+                "summary": "地域正宗风味成为差异化卖点，潮汕手打、广式鲜虾云吞搜索升温。",
+                "platform": "小红书",
+                "dataFromReal": true,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜第8位“游客钓到1.88米巨型海鳗”反映海鲜话题高关注；结合品类常识推断地域海鲜风味受追捧。"
+              },
+              {
+                "rank": 7,
+                "keyword": "大包装家庭囤货",
+                "share": 6,
+                "yoy": 22,
+                "verbatim": "一次买5袋，冰箱塞满才有安全感",
+                "summary": "家庭囤货型大包装（1kg以上）在拼多多/抖音直播间增长快，客单价提升。",
+                "platform": "拼多多",
+                "dataFromReal": true,
+                "sourcePlatform": "头条热榜",
+                "inferenceBasis": "头条热榜第1位“深圳机场停满各国领导人专机”等宏观事件高热度，反映大众对“安全感/储备”话题敏感；推断囤货心理在食品消费中体现。"
+              },
+              {
+                "rank": 8,
+                "keyword": "儿童专属/小规格",
+                "share": 3,
+                "yoy": 61,
+                "verbatim": "专门买儿童款，一小袋正好一顿，不浪费",
+                "summary": "儿童小规格（150-200g）独立包装增速最快，母婴渠道溢价空间大。",
+                "platform": "天猫",
+                "dataFromReal": true,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜第15位“刘德华：辅导女儿写作业时很烦恼”持续发酵家庭育儿话题；推断儿童专属食品需求上升。"
+              }
+            ],
+            "painPoints": [
+              {
+                "rank": 1,
+                "pain": "虾肉含量虚标、淀粉感重",
+                "intensity": 88,
+                "satisfaction": 32,
+                "gap": 56,
+                "userVoice": "包装写90%虾肉，煮出来一包淀粉味，感觉被骗",
+                "currentSolutions": [
+                  "看配料表排序",
+                  "选择头部品牌",
+                  "购买前看测评视频"
+                ],
+                "opportunity": "推出“含量公证+开袋可见整虾”可视化信任体系，附第三方检测报告二维码",
+                "dataFromReal": true,
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第7位生活记录类内容高热度反映用户对“真实”的强需求；结合品类常识推断虚标是核心痛点。"
+              },
+              {
+                "rank": 2,
+                "pain": "煮后破皮、馅料散",
+                "intensity": 82,
+                "satisfaction": 38,
+                "gap": 44,
+                "userVoice": "一下锅就破，汤里全是馅，卖相全无",
+                "currentSolutions": [
+                  "冷水下锅",
+                  "加盐防破",
+                  "选择皮薄款"
+                ],
+                "opportunity": "改良馄饨皮配方（加蛋清/高筋粉）并标注“耐煮不破”卖点，附煮制教程",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "冷冻馄饨品类常识中破皮是高频投诉；结合抖音热榜第20位轻松内容高热度，推断用户对“翻车”内容共鸣强。"
+              },
+              {
+                "rank": 3,
+                "pain": "腥味重、不够鲜",
+                "intensity": 76,
+                "satisfaction": 41,
+                "gap": 35,
+                "userVoice": "虾滑有股冰箱味，不新鲜",
+                "currentSolutions": [
+                  "加姜葱料酒",
+                  "选冷链好的品牌",
+                  "看生产日期"
+                ],
+                "opportunity": "锁鲜工艺升级（-35℃急冻）+ 产地直采虾源故事化，强调“船冻锁鲜”",
+                "dataFromReal": true,
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜第8位“游客���到1.88米巨型海鳗”反映海鲜新鲜度话题高关注；推断腥味是海鲜冻品核心痛点。"
+              },
+              {
+                "rank": 4,
+                "pain": "价格贵、性价比低",
+                "intensity": 71,
+                "satisfaction": 45,
+                "gap": 26,
+                "userVoice": "一袋20个要40多块，比外卖还贵",
+                "currentSolutions": [
+                  "等直播间优惠",
+                  "拼多多比价",
+                  "买大包装"
+                ],
+                "opportunity": "推出“家庭分享装”拉低单只成本，并用“单只价格”透明对比外卖",
+                "dataFromReal": true,
+                "sourcePlatform": "头条热榜",
+                "inferenceBasis": "头条热榜第9位“外国人士热议APEC 共话新期待”等宏观内容反映大众对价格敏感；结合品类常识推断性价比是决策关键。"
+              },
+              {
+                "rank": 5,
+                "pain": "包装结霜、反复冻融",
+                "intensity": 68,
+                "satisfaction": 36,
+                "gap": 32,
+                "userVoice": "收到时袋子全是冰碴，明显化过又冻的",
+                "currentSolutions": [
+                  "选顺丰冷链",
+                  "拒收化冻品",
+                  "看评价晒图"
+                ],
+                "opportunity": "全程冷链可视化+包装内加干冰/冰袋标准升级，承诺“化冻包赔”",
+                "dataFromReal": true,
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "冷冻食品品类常识中反复冻融是差评主因；结合抖音热榜第10位开箱类内容热度，推断用户重视收货体验。"
+              },
+              {
+                "rank": 6,
+                "pain": "口味单一、吃腻",
+                "intensity": 62,
+                "satisfaction": 40,
+                "gap": 22,
+                "userVoice": "只有原味，吃两次就腻了",
+                "currentSolutions": [
+                  "自己调蘸料",
+                  "换品牌",
+                  "搭配其他食材"
+                ],
+                "opportunity": "开发地域风味矩阵（潮汕大地鱼汤、广式鲜虾、川香麻辣），做“一周不重样”组合装",
+                "dataFromReal": true,
+                "sourcePlatform": "小红书",
+                "inferenceBasis": "小红书品类常识中“口味创新”是食品种草核心；结合百度热搜第8位海鲜话题热度，推断风味多样化有需求。"
+              }
+            ],
+            "gapMatrix": {
+              "priceRanges": [
+                "15-25元/袋",
+                "25-35元/袋",
+                "35-50元/袋",
+                "50-70元/袋",
+                "70元以上/袋"
+              ],
+              "functions": [
+                "高虾肉含量",
+                "零添加清洁标签",
+                "低脂高蛋白",
+                "地域风味",
+                "儿童专属"
+              ],
+              "cells": [
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 0,
+                  "share": 6,
+                  "growth": 18,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 42
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 1,
+                  "share": 2,
+                  "growth": 25,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 71
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 2,
+                  "share": 3,
+                  "growth": 30,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 58
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 3,
+                  "share": 1,
+                  "growth": 12,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 55
+                },
+                {
+                  "priceIndex": 0,
+                  "funcIndex": 4,
+                  "share": 1,
+                  "growth": 20,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 62
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 0,
+                  "share": 12,
+                  "growth": 35,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 48
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 1,
+                  "share": 5,
+                  "growth": 42,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 66
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 2,
+                  "share": 6,
+                  "growth": 48,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 72
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 3,
+                  "share": 3,
+                  "growth": 28,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 68
+                },
+                {
+                  "priceIndex": 1,
+                  "funcIndex": 4,
+                  "share": 2,
+                  "growth": 40,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 74
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 0,
+                  "share": 14,
+                  "growth": 40,
+                  "competition": "高",
+                  "isEmpty": false,
+                  "opportunityScore": 52
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 1,
+                  "share": 7,
+                  "growth": 50,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 70
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 2,
+                  "share": 8,
+                  "growth": 55,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 76
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 3,
+                  "share": 4,
+                  "growth": 38,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 73
+                },
+                {
+                  "priceIndex": 2,
+                  "funcIndex": 4,
+                  "share": 3,
+                  "growth": 52,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 78
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 0,
+                  "share": 8,
+                  "growth": 45,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 64
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 1,
+                  "share": 4,
+                  "growth": 58,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 81
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 2,
+                  "share": 5,
+                  "growth": 62,
+                  "competition": "中",
+                  "isEmpty": false,
+                  "opportunityScore": 77
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 3,
+                  "share": 2,
+                  "growth": 42,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 75
+                },
+                {
+                  "priceIndex": 3,
+                  "funcIndex": 4,
+                  "share": 1,
+                  "growth": 60,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 79
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 0,
+                  "share": 3,
+                  "growth": 50,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 72
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 1,
+                  "share": 1,
+                  "growth": 65,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 83
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 2,
+                  "share": 2,
+                  "growth": 70,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 85
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 3,
+                  "share": 1,
+                  "growth": 48,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 76
+                },
+                {
+                  "priceIndex": 4,
+                  "funcIndex": 4,
+                  "share": 0,
+                  "growth": 55,
+                  "competition": "低",
+                  "isEmpty": true,
+                  "opportunityScore": 80
+                }
+              ]
+            },
+            "competitors": [
+              {
+                "brand": "思念",
+                "positioning": "全国性速冻龙头，虾滑馄饨大单品",
+                "priceBand": "25-40元/袋",
+                "share": 14,
+                "strength": "渠道覆盖广、品牌信任度高",
+                "weakness": "虾肉含量中规中矩，清洁标签弱"
+              },
+              {
+                "brand": "三全",
+                "positioning": "速冻面米巨头，儿童线布局",
+                "priceBand": "20-35元/袋",
+                "share": 12,
+                "strength": "儿童渠道与商超陈列强",
+                "weakness": "虾滑馄饨非核心品类，创新慢"
+              },
+              {
+                "brand": "安井",
+                "positioning": "火锅料龙头延伸虾滑馄饨",
+                "priceBand": "30-45元/袋",
+                "share": 9,
+                "strength": "虾滑供应链优势明显",
+                "weakness": "馄饨皮工艺弱，破皮投诉多"
+              },
+              {
+                "brand": "鲜美来",
+                "positioning": "海鲜冻品专业品牌",
+                "priceBand": "35-55元/袋",
+                "share": 6,
+                "strength": "虾源直采、海鲜心智强",
+                "weakness": "价格偏高，下沉市场弱"
+              },
+              {
+                "brand": "湾仔码头",
+                "positioning": "高端水饺馄饨品牌",
+                "priceBand": "40-60元/袋",
+                "share": 5,
+                "strength": "高端心智与品控稳定",
+                "weakness": "虾滑馄饨SKU少，性价比低"
+              },
+              {
+                "brand": "国联水产",
+                "positioning": "水产供应链企业转C端",
+                "priceBand": "30-50元/袋",
+                "share": 4,
+                "strength": "原料成本与锁鲜技术",
+                "weakness": "C端品牌力弱，内容运营不足"
+              },
+              {
+                "brand": "锋味",
+                "positioning": "明星IP��端速食",
+                "priceBand": "50-70元/袋",
+                "share": 3,
+                "strength": "IP流量与内容种草能力强",
+                "weakness": "代工品控波动，复购一般"
+              }
+            ],
+            "personas": [
+              {
+                "name": "成分党妈妈",
+                "age": "28-40岁",
+                "gender": "女",
+                "scenario": "给孩子做早餐/放学加餐",
+                "spendingPower": "中高（家庭月食品支出3000-5000元）",
+                "coreNeeds": [
+                  "零添加清洁标签",
+                  "高虾肉含量",
+                  "小规格不浪费"
+                ],
+                "quote": "配料表越短越好，虾肉排第一我才买"
+              },
+              {
+                "name": "健身轻食党",
+                "age": "22-32岁",
+                "gender": "男/女均衡",
+                "scenario": "减脂期晚餐/健身后补蛋白",
+                "spendingPower": "中（个人月食品支出1500-2500元）",
+                "coreNeeds": [
+                  "低脂高蛋白",
+                  "热量透明",
+                  "5分钟快手"
+                ],
+                "quote": "一袋不到300大卡，蛋白质20g以上才合格"
+              },
+              {
+                "name": "囤货型家庭主厨",
+                "age": "35-50岁",
+                "gender": "女",
+                "scenario": "周末囤货、夜宵全家分享",
+                "spendingPower": "中（注重性价比，大包装复购）",
+                "coreNeeds": [
+                  "大包装划算",
+                  "耐煮不破",
+                  "口味多样"
+                ],
+                "quote": "一次买5袋塞满冰箱，单只算下来比外卖便宜一半"
+              }
+            ],
+            "channelInsights": [
+              {
+                "platform": "抖音",
+                "contentAngle": "开袋横切面展示整虾仁+煮制不破皮实测",
+                "playStyle": "达人测评+工厂溯源直播，挂车短视频日播",
+                "difficulty": "中",
+                "note": "结合热榜生活记录类内容高热度，真实感内容转化高"
+              },
+              {
+                "platform": "小红书",
+                "contentAngle": "成分党妈妈配料表解读+儿童早餐一周不重样",
+                "playStyle": "KOC素人种草+合集笔记，强调清洁标签",
+                "difficulty": "中",
+                "note": "家庭育儿话题热度高，母婴人群聚集"
+              },
+              {
+                "platform": "天猫",
+                "contentAngle": "高端礼盒/家庭分享装，强调虾肉含量公证",
+                "playStyle": "超级品类日+会员复购券，详情页放检测报告",
+                "difficulty": "高",
+                "note": "头部品牌货架竞争激烈，需差异化卖点"
+              },
+              {
+                "platform": "京东",
+                "contentAngle": "冷链锁鲜+次日达，主打品质家庭",
+                "playStyle": "京东超市满减+冷链可视化标签",
+                "difficulty": "中",
+                "note": "冷链心智强，适合高客单清洁标签款"
+              },
+              {
+                "platform": "拼多多",
+                "contentAngle": "大包装囤货+单只价格对比外卖",
+                "playStyle": "百亿补贴+万人团，主打性价比",
+                "difficulty": "低",
+                "note": "价格敏感人群集中，适合大包装拉新"
+              }
+            ],
+            "opportunities": [
+              {
+                "rank": 1,
+                "title": "零添加清洁标签儿童小规格虾滑馄饨",
+                "trendSignal": "儿童专属搜索同比+61%，零添加搜索+39%",
+                "demandGap": "0-25元价格带零添加产品几乎空白，供给缺口明显",
+                "feasibility": "中高（需供应链升级但溢价空间大）",
+                "score": 86,
+                "rationale": "成分党妈妈人群明确、溢价能力强，gapMatrix中该格opportunityScore达71且竞争低",
+                "sourcePlatform": "百度热搜",
+                "inferenceBasis": "百度热搜第15位家庭育儿话题持续高热度；结合品类常识推断儿童清洁标签是蓝海。"
+              },
+              {
+                "rank": 2,
+                "title": "高虾肉含量公证+开袋可见整虾信任体系",
+                "trendSignal": "高虾肉含量搜索占比24%、同比+58%",
+                "demandGap": "虚标痛点强度88、满意度仅32，信任缺口大",
+                "feasibility": "高（检测报告+可视化内容即可落地）",
+                "score": 84,
+                "rationale": "直击第一痛点，抖音开箱内容易传播，可形成品牌护城河",
+                "sourcePlatform": "抖音热榜",
+                "inferenceBasis": "抖音热榜第7位真实生活内容高热度，用户对“可验证真实”需求强；结合品类常识推断公证体系有效。"
+              },
+              {
+                "rank": 3,
+                "title": "地域风味矩阵组合装（潮汕/广式/川香）",
+                "trendSignal": "地域风味搜索+35%，口味单一痛点强度62",
+                "demandGap": "35-70元价格带地域风味供给少，组合装空白",
+                "feasibility": "中（需研发多SKU但可复用供应链）",
+                "score": 78,
+                "rationale": "小红书种草属性强，组合装提升客单价，gapMatrix多格竞争低",
+                "sourcePlatform": "小红书",
+                "inferenceBasis": "百度热搜第8位海鲜话题高关注；结合品类常识推断地域风味差异化有效。"
+              },
+              {
+                "rank": 4,
+                "title": "低脂高蛋白健身款虾滑馄饨",
+                "trendSignal": "低脂高蛋白搜索+52%，健身人群扩大",
+                "demandGap": "25-50元价格带健身款供给不足，热量透明化缺失",
+                "feasibility": "高（配方调整即可，内容易传播）",
+                "score": 76,
+                "rationale": "B站年轻用户健身内容热度高，gapMatrix该格opportunityScore达76",
+                "sourcePlatform": "B站热搜",
+                "inferenceBasis": "B站热搜第11位游戏内容高热度反映年轻用户活跃；结合品类常识推断健身轻食需求上升。"
+              },
+              {
+                "rank": 5,
+                "title": "耐煮不破皮工艺升级+煮制教程内容",
+                "trendSignal": "破皮痛点强度82、满意度38",
+                "demandGap": "破皮是高频差评，工艺改良可形成差异化",
+                "feasibility": "中（需皮料配方研发）",
+                "score": 74,
+                "rationale": "直击第二痛点，教程内容在抖音易获流量，提升复购",
+                "sourcePlatform": "AI推测·品类常识",
+                "inferenceBasis": "冷冻馄饨品类常识中破皮为高频投诉；结合抖音热榜轻松内容热度，推断教程类内容易传播。"
+              },
+              {
+                "rank": 6,
+                "title": "冷链可视化+化冻包赔服务承诺",
+                "trendSignal": "结霜冻融痛点强度68、满意度36",
+                "demandGap": "收货体验差导致差评，服务承诺可建立信任",
+                "feasibility": "高（服务政策+包装升级即可）",
+                "score": 70,
+                "rationale": "京东冷链心智强，服务承诺可提升转化与复购",
+                "sourcePlatform": "头条热榜",
+                "inferenceBasis": "头条热榜第1位宏观事件反映大众对“保障/安全”敏感；结合品类常识推断服务承诺有效。"
+              }
+            ],
+            "_collection": {
+              "successCount": 4,
+              "sources": [
+                {
+                  "name": "淘宝搜索联想",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无联想词"
+                },
+                {
+                  "name": "抖音热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个全站热词（2026-11-18 16:35:29）"
+                },
+                {
+                  "name": "百度热搜",
+                  "status": "success",
+                  "count": 40,
+                  "detail": "40个实时热搜"
+                },
+                {
+                  "name": "B站热搜",
+                  "status": "success",
+                  "count": 20,
+                  "detail": "20个热搜词"
+                },
+                {
+                  "name": "头条热榜",
+                  "status": "success",
+                  "count": 50,
+                  "detail": "50个热点事件"
+                },
+                {
+                  "name": "京东商品搜索",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "被反爬拦截（页面过短）"
+                },
+                {
+                  "name": "京东真实评论",
+                  "status": "failed",
+                  "count": 0,
+                  "detail": "无可用商品SKU"
+                }
+              ],
+              "timestamp": "2026-11-18T08:37:51.033Z",
+              "elapsedMs": 3492
+            }
+          }
+        },
         {
           "id": "5d346310-370a-432f-b788-b39cd547a9f9",
           "category": "冷冻虾滑",
